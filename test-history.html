@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Test History</title>
+</head>
+<body>
+  <h1>Add Test History to localStorage</h1>
+  <button onclick="addHistory()">Add Test History</button>
+  <button onclick="clearHistory()">Clear History</button>
+  <p id="status"></p>
+
+  <script>
+    function addHistory() {
+      const testHistory = [
+        {
+          id: '1',
+          username: 'TestUser',
+          subject: 'math',
+          date: new Date().toISOString(),
+          score: 8,
+          totalQuestions: 10,
+          correctAnswers: 8,
+          incorrectAnswers: 2,
+          timeSpent: 120
+        }
+      ];
+      localStorage.setItem('quizHistory', JSON.stringify(testHistory));
+      document.getElementById('status').textContent = 'History added! Refresh the quiz page.';
+    }
+
+    function clearHistory() {
+      localStorage.removeItem('quizHistory');
+      document.getElementById('status').textContent = 'History cleared!';
+    }
+  </script>
+</body>
+</html>
+
