@@ -43,7 +43,8 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
   const isMobile = useIsMobile();
   const [username, setUsername] = useState('');
   const [selectedTypes, setSelectedTypes] = useState<string[]>(MATH_QUESTION_TYPES); // Pre-select all types
-  const [difficulty, setDifficulty] = useState<'easy' | 'medium' | 'hard'>('easy');
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [difficulty, _setDifficulty] = useState<'easy' | 'medium' | 'hard'>('easy');
   const [numberOfQuestions, setNumberOfQuestions] = useState(10);
   const [timerPerQuestion, setTimerPerQuestion] = useState(20);
   const [answerFormat, setAnswerFormat] = useState<AnswerFormat>(AnswerFormat.INPUT);

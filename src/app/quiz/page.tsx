@@ -103,7 +103,7 @@ export default function QuizPage() {
 
         if (timeRemaining <= hintThreshold && !showHint && currentQuestion) {
             // Auto-show hint when threshold is reached
-            const hintText = (currentQuestion as any).hint || `💡 Hint: The answer is related to ${currentQuestion.question}`;
+            const hintText = ('hint' in currentQuestion && typeof currentQuestion.hint === 'string' && currentQuestion.hint) || `💡 Hint: The answer is related to ${currentQuestion.question}`;
             setHintContent(hintText);
             setShowHint(true);
         }
@@ -216,8 +216,8 @@ export default function QuizPage() {
         if (!currentQuestion) return;
 
         // Check if question has a direct hint property (Math, Science, etc.)
-        if ((currentQuestion as any).hint) {
-            setHintContent((currentQuestion as any).hint);
+        if ('hint' in currentQuestion && typeof currentQuestion.hint === 'string') {
+            setHintContent(currentQuestion.hint);
             setShowHint(true);
             return;
         }

@@ -2,7 +2,6 @@
 
 import React from 'react';
 import type { Question } from '../../store/quiz-store';
-import { Subject } from '../../types/quiz';
 import { MultipleChoiceOptions } from './MultipleChoiceOptions';
 import AnswerInput from './AnswerInput';
 import { useIsMobile } from '../../utils/responsive';
