@@ -45,8 +45,8 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
   const [selectedTypes, setSelectedTypes] = useState<string[]>(MATH_QUESTION_TYPES); // Pre-select all types
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [difficulty, _setDifficulty] = useState<'easy' | 'medium' | 'hard'>('easy');
-  const [numberOfQuestions, setNumberOfQuestions] = useState(10);
-  const [timerPerQuestion, setTimerPerQuestion] = useState(20);
+  const [numberOfQuestions, setNumberOfQuestions] = useState(30);
+  const [timerPerQuestion, setTimerPerQuestion] = useState(60);
   const [answerFormat, setAnswerFormat] = useState<AnswerFormat>(AnswerFormat.INPUT);
   const [hasHistory, setHasHistory] = useState(false);
   const [yearLevel, setYearLevel] = useState<'primary' | 'secondary' | 'high'>('primary');
@@ -419,7 +419,7 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                   <input
                     type="number"
                     value={timerPerQuestion}
-                    onChange={(e) => setTimerPerQuestion(parseInt(e.target.value) || 20)}
+                    onChange={(e) => setTimerPerQuestion(parseInt(e.target.value))}
                     min="5"
                     max="120"
                     className="w-full p-3 rounded-lg bg-slate-700/50 text-white border border-slate-600 focus:border-blue-500 focus:outline-none"

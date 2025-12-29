@@ -1,4 +1,5 @@
-import mathData from '../configs/math.json';
+// No static import - data will be passed as parameter
+let cachedMathData: MathQuestionTemplate[] | null = null;
 
 export interface MathQuestionTemplate {
   question: string;
@@ -18,6 +19,26 @@ export interface GeneratedMathQuestion {
   hint: string;
   type: string;
   variables: Record<string, number>;
+}
+
+/**
+ * Set the math data to be used for question generation
+ * This should be called with the fetched math.json data
+ */
+export function setMathData(data: MathQuestionTemplate[]): void {
+  cachedMathData = data;
+}
+
+/**
+ * Get the cached math data
+ * @internal
+ */
+export function getMathData(): MathQuestionTemplate[] {
+  if (!cachedMathData) {
+    console.warn('Math data not loaded yet. Using empty array.');
+    return [];
+  }
+  return cachedMathData;
 }
 
 /**
@@ -167,10 +188,10 @@ export function generateMathQuestion(
 }
 
 /**
- * Get all math question templates from JSON
+ * Get all math question templates from cached data
  */
 export function getMathTemplates(): MathQuestionTemplate[] {
-  return mathData as MathQuestionTemplate[];
+  return getMathData();
 }
 
 /**

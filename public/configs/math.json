@@ -1838,5 +1838,2965 @@
     "level": "junior",
     "hint": "Multiply the length and the width to find the area.",
     "type": "geometry"
+  },
+  {
+    "question": "What is the name of a polygon that has exactly five sides?",
+    "formula": "Pentagon",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The prefix 'penta-' means five.",
+    "type": "geometry"
+  },
+  {
+    "question": "An angle that measures exactly 90 degrees is called a ____ angle.",
+    "formula": "Right",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of the corner of a square.",
+    "type": "geometry"
+  },
+  {
+    "question": "If an angle is greater than 90 degrees but less than 180 degrees, what type of angle is it?",
+    "formula": "Obtuse",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is wider than a right angle.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many degrees are in a straight line?",
+    "formula": "180",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is exactly two right angles put together.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a triangle where all three sides are the same length?",
+    "formula": "Equilateral",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "'Equi-' means equal, and '-lateral' means sides.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the sum of the interior angles of any triangle?",
+    "formula": "180",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "No matter the shape of the triangle, the three corners always add up to this.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many vertices (corners) does a hexagon have?",
+    "formula": "6",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A polygon has the same number of vertices as it has sides.",
+    "type": "geometry"
+  },
+  {
+    "question": "Lines that are always the same distance apart and never touch are called ____ lines.",
+    "formula": "Parallel",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of train tracks.",
+    "type": "geometry"
+  },
+  {
+    "question": "A polygon with eight sides is known as an ____.",
+    "formula": "Octagon",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Like an octopus has eight legs.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call an angle that is less than 90 degrees?",
+    "formula": "Acute",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of something 'small' and 'cute'.",
+    "type": "geometry"
+  },
+  {
+    "question": "A quadrilateral with two pairs of parallel sides is called a ____.",
+    "formula": "Parallelogram",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The name comes from the word 'parallel'.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many sides does a decagon have?",
+    "formula": "10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of a 'decade', which is 10 years.",
+    "type": "geometry"
+  },
+  {
+    "question": "A triangle with at least two equal sides is called an ____ triangle.",
+    "formula": "Isosceles",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Two sides are the same, and two angles are the same.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the term for the distance around the outside of a circle?",
+    "formula": "Circumference",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is like the perimeter, but specifically for circles.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the sum of the interior angles of a quadrilateral?",
+    "formula": "360",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "A quadrilateral can be split into two triangles.",
+    "type": "geometry"
+  },
+  {
+    "question": "A 3D shape where every point on the surface is the same distance from the center is a ____.",
+    "formula": "Sphere",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of a basketball.",
+    "type": "geometry"
+  },
+  {
+    "question": "Two lines that meet at a 90-degree angle are said to be ____ to each other.",
+    "formula": "Perpendicular",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "They form a perfect 'T' or 'L' shape.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a 3D shape with six square faces?",
+    "formula": "Cube",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Like a dice.",
+    "type": "geometry"
+  },
+  {
+    "question": "A polygon where all sides and all angles are equal is called a ____ polygon.",
+    "formula": "Regular",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "A square is an example of this type of quadrilateral.",
+    "type": "geometry"
+  },
+  {
+    "question": "The point where two lines meet to form an angle is called the ____.",
+    "formula": "Vertex",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The plural of this word is 'vertices'.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many sides does a heptagon have?",
+    "formula": "7",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is also sometimes called a septagon.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a triangle that has one 90-degree angle?",
+    "formula": "Right-angled triangle",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "One of its corners is a right angle.",
+    "type": "geometry"
+  },
+  {
+    "question": "A line segment connecting the center of a circle to any point on its edge is the ____.",
+    "formula": "Radius",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is half the length of the diameter.",
+    "type": "geometry"
+  },
+  {
+    "question": "A quadrilateral with exactly one pair of parallel sides is a ____.",
+    "formula": "Trapezium",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "In the US, it is called a trapezoid.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many faces does a triangular-based pyramid have?",
+    "formula": "4",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "One base plus three triangular sides.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a four-sided shape with four equal sides but no right angles?",
+    "formula": "Rhombus",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Think of a diamond shape.",
+    "type": "geometry"
+  },
+  {
+    "question": "An angle that is greater than 180 degrees but less than 360 degrees is a ____ angle.",
+    "formula": "Reflex",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It 'flexes' backwards.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many sides does a nonagon have?",
+    "formula": "9",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "The name starts with 'n', like the number nine.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the total number of degrees in a full circle?",
+    "formula": "360",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "If you spin all the way around, you've turned this many degrees.",
+    "type": "geometry"
+  },
+  {
+    "question": "Two angles that add up to 90 degrees are called ____ angles.",
+    "formula": "Complementary",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Not to be confused with supplementary.",
+    "type": "geometry"
+  },
+  {
+    "question": "Two angles that add up to 180 degrees are called ____ angles.",
+    "formula": "Supplementary",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "They form a straight line together.",
+    "type": "geometry"
+  },
+  {
+    "question": "A solid object with two identical circular ends and one curved side is a ____.",
+    "formula": "Cylinder",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of a soup can.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a triangle where all sides are different lengths?",
+    "formula": "Scalene",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "No sides are equal, and no angles are equal.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many edges does a cube have?",
+    "formula": "12",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Count the lines where the faces meet.",
+    "type": "geometry"
+  },
+  {
+    "question": "A line that passes through the center of a circle and touches both sides is the ____.",
+    "formula": "Diameter",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is twice the length of the radius.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a polygon with twelve sides?",
+    "formula": "Dodecagon",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "'Do-' means two and '-deca' means ten.",
+    "type": "geometry"
+  },
+  {
+    "question": "A flat surface of a 3D shape is called a ____.",
+    "formula": "Face",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A cube has six of these.",
+    "type": "geometry"
+  },
+  {
+    "question": "What shape is the base of a cone?",
+    "formula": "Circle",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of an ice cream cone.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many degrees are in each angle of an equilateral triangle?",
+    "formula": "60",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "180 divided by 3.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a quadrilateral with four right angles and four equal sides?",
+    "formula": "Square",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is the most 'regular' four-sided shape.",
+    "type": "geometry"
+  },
+  {
+    "question": "The 'height' of a 3D shape is often referred to as its ____.",
+    "formula": "Depth or Altitude",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It measures how tall the object is from its base.",
+    "type": "geometry"
+  },
+  {
+    "question": "A shape that is exactly the same size and shape as another is said to be ____.",
+    "formula": "Congruent",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "They are identical in every way.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a part of the circumference of a circle?",
+    "formula": "Arc",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Like the shape of a bow.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many pairs of parallel sides does a rectangle have?",
+    "formula": "2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Opposite sides are parallel.",
+    "type": "geometry"
+  },
+  {
+    "question": "A three-sided polygon is a ____.",
+    "formula": "Triangle",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "'Tri-' means three.",
+    "type": "geometry"
+  },
+  {
+    "question": "If you look at a 3D shape from the top, the drawing you make is called a ____ view.",
+    "formula": "Plan",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Architects use these for floor layouts.",
+    "type": "geometry"
+  },
+  {
+    "question": "A pyramid with a square base has how many vertices?",
+    "formula": "5",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Four on the base and one at the top.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name for a corner of a 3D shape?",
+    "formula": "Vertex",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is where the edges meet.",
+    "type": "geometry"
+  },
+  {
+    "question": "A rectangle with all four sides equal is a ____.",
+    "formula": "Square",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "All squares are rectangles, but not all rectangles are squares.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call an angle that is exactly 180 degrees?",
+    "formula": "Straight angle",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It looks like a straight line.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many sides does a quadrilateral have?",
+    "formula": "4",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The prefix 'quad-' means four.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a polygon with 6 sides?",
+    "formula": "Hexagon",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of the 'x' in 'six' and 'hex'.",
+    "type": "geometry"
+  },
+  {
+    "question": "True or False: A circle is considered a polygon.",
+    "formula": "False",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Polygons must be made of straight line segments.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the term for two angles that share a common side and a common vertex?",
+    "formula": "Adjacent angles",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "'Adjacent' means next to each other.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a 3D shape that looks like a ball?",
+    "formula": "Sphere",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is perfectly round in three dimensions.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many degrees are in a right angle?",
+    "formula": "90",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It forms a perfect square corner.",
+    "type": "geometry"
+  },
+  {
+    "question": "An angle that is exactly 180 degrees is called a ____ angle.",
+    "formula": "Straight",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It looks exactly like a flat line.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a triangle that has one angle greater than 90 degrees?",
+    "formula": "Obtuse triangle",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "If one angle is obtuse, the whole triangle is named after it.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many vertices does a pentagon have?",
+    "formula": "5",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The number of corners is always equal to the number of sides in a polygon.",
+    "type": "geometry"
+  },
+  {
+    "question": "A 3D shape with a circular base that tapers to a single point is called a ____.",
+    "formula": "Cone",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of a party hat or an ice cream holder.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a line segment that connects two non-adjacent vertices of a polygon?",
+    "formula": "Diagonal",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It goes through the middle of the shape rather than along the edge.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a polygon with 10 sides?",
+    "formula": "Decagon",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Think of a 'decade'.",
+    "type": "geometry"
+  },
+  {
+    "question": "Which type of triangle has three equal sides and three equal angles?",
+    "formula": "Equilateral",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "'Equi-' means equal.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name for the 'point' at the top of a pyramid or cone?",
+    "formula": "Apex",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It is the highest vertex.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many faces does a cube have?",
+    "formula": "6",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of a standard six-sided die.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the term for a 2D shape that can be folded to create a 3D object?",
+    "formula": "Net",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is a flat pattern for a solid.",
+    "type": "geometry"
+  },
+  {
+    "question": "If two lines intersect and form four right angles, the lines are ____.",
+    "formula": "Perpendicular",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "They meet at exactly 90 degrees.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a quadrilateral with only one pair of parallel sides?",
+    "formula": "Trapezoid",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Also known as a trapezium in some regions.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many degrees are in a full rotation?",
+    "formula": "360",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of a full circle.",
+    "type": "geometry"
+  },
+  {
+    "question": "A polygon with all sides of equal length is called a ____ polygon.",
+    "formula": "Equilateral",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It doesn't necessarily mean the angles are equal (like a rhombus).",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a triangle with no equal sides and no equal angles?",
+    "formula": "Scalene",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Everything about this triangle is different.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of the 3D shape with two parallel circular bases and a curved surface?",
+    "formula": "Cylinder",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of a soda can.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many sides does a heptagon have?",
+    "formula": "7",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It is also sometimes called a septagon.",
+    "type": "geometry"
+  },
+  {
+    "question": "An angle that is greater than 180 degrees but less than 360 degrees is called a ____ angle.",
+    "formula": "Reflex",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It 'flexes' past a straight line.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a quadrilateral where all four sides are equal, but the angles are not necessarily 90 degrees?",
+    "formula": "Rhombus",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Think of a diamond shape.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many edges does a triangular prism have?",
+    "formula": "9",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "3 on each triangle end and 3 connecting them.",
+    "type": "geometry"
+  },
+  {
+    "question": "The sum of the interior angles of a triangle is always ____ degrees.",
+    "formula": "180",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "If you tear the corners off and line them up, they make a straight line.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the term for the distance from the center of a circle to its edge?",
+    "formula": "Radius",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is exactly half of the diameter.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a polygon with 9 sides?",
+    "formula": "Nonagon",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "The name starts with 'n', like the number nine.",
+    "type": "geometry"
+  },
+  {
+    "question": "True or False: A square is also a type of rectangle.",
+    "formula": "True",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "A rectangle is a quadrilateral with 4 right angles; a square fits this rule.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a 3D shape with a polygon base and triangular faces that meet at a point?",
+    "formula": "Pyramid",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of the famous monuments in Egypt.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many degrees are in each interior angle of a square?",
+    "formula": "90",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Squares are made of 4 right angles.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the term for angles that add up to exactly 180 degrees?",
+    "formula": "Supplementary",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Together they form a straight angle.",
+    "type": "geometry"
+  },
+  {
+    "question": "A line that touches a circle at exactly one point is called a ____.",
+    "formula": "Tangent",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It just 'grazes' the outside edge.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many pairs of parallel sides does a regular hexagon have?",
+    "formula": "3",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Each side has an opposite side that is parallel to it.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a polygon with 8 sides?",
+    "formula": "Octagon",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of an octopus.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the term for a part of the outside edge (circumference) of a circle?",
+    "formula": "Arc",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is a curved segment.",
+    "type": "geometry"
+  },
+  {
+    "question": "A quadrilateral with two pairs of parallel sides is called a ____.",
+    "formula": "Parallelogram",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Rectangles, squares, and rhombuses are all types of this.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many degrees are in each angle of an equilateral triangle?",
+    "formula": "60",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "180 divided by 3.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a 12-sided polygon?",
+    "formula": "Dodecagon",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Think of 2 (do) + 10 (deca).",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call a shape where all sides and all angles are equal?",
+    "formula": "Regular",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "A 'regular' triangle is an equilateral triangle.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many vertices does a cube have?",
+    "formula": "8",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "4 on the top and 4 on the bottom.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the term for angles that add up to exactly 90 degrees?",
+    "formula": "Complementary",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Together they form a right angle.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name for the distance all the way around the outside of a circle?",
+    "formula": "Circumference",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is the circle's version of perimeter.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many right angles are in a standard rectangle?",
+    "formula": "4",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Every interior angle of a rectangle is the same size.",
+    "type": "geometry"
+  },
+  {
+    "question": "What do you call an angle that is less than 90 degrees?",
+    "formula": "Acute",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think: 'A cute little angle'.",
+    "type": "geometry"
+  },
+  {
+    "question": "A triangle with at least two equal sides is called an ____ triangle.",
+    "formula": "Isosceles",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It has two 'eyes' (angles) that are the same.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many edges does a sphere have?",
+    "formula": "0",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Edges are where two flat faces meet.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is the name of a 3D shape with 6 rectangular faces?",
+    "formula": "Rectangular prism",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Also known as a cuboid.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many degrees are in the sum of the interior angles of a quadrilateral?",
+    "formula": "360",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is like putting two triangles together (180 + 180).",
+    "type": "geometry"
+  },
+  {
+    "question": "If you have {{x}} red balloons and {{y}} blue balloons, how many balloons do you have in total?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the two numbers of balloons together.",
+    "type": "basicth"
+  },
+  {
+    "question": "A toy costs ${{x}}. If you pay with a ${{y}} bill, how much change should you get back?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the cost from the money you handed to the cashier.",
+    "type": "currency"
+  },
+  {
+    "question": "If a pack of stickers has {{x}} stickers, how many stickers are in {{y}} packs?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the stickers in one pack by the number of packs.",
+    "type": "basicth"
+  },
+  {
+    "question": "Breakfast starts at {{x}} o'clock. If it takes {{y}} hour to eat, what time will it be when you finish?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the eating time to the start time.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} birds on a tree. If {{y}} birds fly away, how many birds are left on the tree?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the birds that left from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "An apple costs ${{x}}. How much will it cost to buy {{y}} apples?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the price of one apple by the number of apples.",
+    "type": "currency"
+  },
+  {
+    "question": "If you have {{x}} cookies and you share them equally with {{y}} friends, how many cookies does each person get?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Divide the total cookies by the number of friends.",
+    "type": "basicth"
+  },
+  {
+    "question": "A movie is {{x}} hours long. If it starts at 1 o'clock, what time does it end?",
+    "formula": "1 + {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the duration to the starting hour.",
+    "type": "time"
+  },
+  {
+    "question": "You have ${{x}} in your piggy bank. You save another ${{y}}. How much money do you have now?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add your old savings and your new savings together.",
+    "type": "currency"
+  },
+  {
+    "question": "A bus has {{x}} seats. If {{y}} seats are empty, how many people are sitting on the bus?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the empty seats from the total number of seats.",
+    "type": "basicth"
+  },
+  {
+    "question": "If a lunch box costs ${{x}} and a water bottle costs ${{y}}, what is the total price?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the prices of the two items.",
+    "type": "currency"
+  },
+  {
+    "question": "There are {{x}} days in a week. How many days are in {{y}} weeks?",
+    "formula": "7 * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of weeks by 7.",
+    "type": "time"
+  },
+  {
+    "question": "If you read {{x}} pages of a book every day, how many pages will you read in {{y}} days?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the pages per day by the number of days.",
+    "type": "basicth"
+  },
+  {
+    "question": "You bought a candy for ${{x}} and a juice for ${{y}}. You have ${{z}}. How much money is left?",
+    "formula": "{{z}} - ({{x}} + {{y}})",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Add the costs together first, then subtract from your total money.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock shows 4 o'clock. How many hours until it is {{x}} o'clock?",
+    "formula": "{{x}} - 4",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the current hour from the future hour.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} pencils and you lose {{y}} of them, how many pencils do you still have?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Take away the number of lost pencils from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "A pizza has {{x}} slices. If {{y}} children share it equally, how many slices does each child get?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Divide the total slices by the number of children.",
+    "type": "basicth"
+  },
+  {
+    "question": "An eraser costs ${{x}}. If you buy {{y}} erasers, how much change do you get from ${{z}}?",
+    "formula": "{{z}} - ({{x}} * {{y}})",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Find the total cost of the erasers first, then subtract from your money.",
+    "type": "currency"
+  },
+  {
+    "question": "If school starts at 8 AM and ends at {{x}} PM, how many hours are you at school?",
+    "formula": "({{x}} + 12) - 8",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Convert the PM time to a 24-hour format by adding 12, then subtract the start time.",
+    "type": "time"
+  },
+  {
+    "question": "A farmer has {{x}} cows and {{y}} chickens. How many animals does he have in total?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the number of cows and chickens together.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have {{x}} boxes and each box has {{y}} toy cars, how many toy cars do you have?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of boxes by the number of cars in each.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}}. You spend ${{y}} on a gift. How much money do you have left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the spent amount from your original amount.",
+    "type": "currency"
+  },
+  {
+    "question": "How many months are in {{x}} years?",
+    "formula": "12 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of years by 12.",
+    "type": "time"
+  },
+  {
+    "question": "If a team scores {{x}} points in the first half and {{y}} points in the second half, what is the total score?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the points from both halves together.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have {{x}} candies and you give half to your friend, how many candies do you have left?",
+    "formula": "{{x}} / 2",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Divide your total number of candies by 2.",
+    "type": "basicth"
+  },
+  {
+    "question": "A pen costs ${{x}} and a notebook costs ${{y}}. If you buy both, how much do you spend?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the price of the pen and the notebook together.",
+    "type": "currency"
+  },
+  {
+    "question": "If it is 10:00 AM now, what time was it {{x}} hours ago?",
+    "formula": "10 - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the hours from the current time.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} students in a class. If {{y}} are boys, how many are girls?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the number of boys from the total number of students.",
+    "type": "basicth"
+  },
+  {
+    "question": "If a bicycle has 2 wheels, how many wheels do {{x}} bicycles have?",
+    "formula": "2 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of bicycles by 2.",
+    "type": "basicth"
+  },
+  {
+    "question": "You save ${{x}} every week. How much money will you have after {{y}} weeks?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply your weekly savings by the number of weeks.",
+    "type": "currency"
+  },
+  {
+    "question": "A cake takes {{x}} minutes to bake. If you put it in the oven at 3:00, what time (in minutes past 3:00) will it be ready?",
+    "formula": "{{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "The time past 3:00 is the same as the baking time.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} marble jars and each jar has {{y}} marbles, how many marbles are there?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of jars by the marbles in each jar.",
+    "type": "basicth"
+  },
+  {
+    "question": "A ticket costs ${{x}}. If you buy {{y}} tickets, how much do you pay in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the price per ticket by the number of tickets.",
+    "type": "currency"
+  },
+  {
+    "question": "If you are {{x}} years old now, how old will you be in {{y}} years?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the future years to your current age.",
+    "type": "time"
+  },
+  {
+    "question": "A box of crayons has {{x}} colors. If you give away {{y}} colors, how many are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the colors you gave away from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have {{x}} pairs of shoes, how many individual shoes do you have?",
+    "formula": "{{x}} * 2",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Each pair has 2 shoes. Multiply the number of pairs by 2.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}}. You want to buy a game that costs ${{y}}. How much more money do you need?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the money you have from the total price of the game.",
+    "type": "currency"
+  },
+  {
+    "question": "A teacher has {{x}} markers. She gives {{y}} markers to each of her 3 students. How many markers did she give in total?",
+    "formula": "{{y}} * 3",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Multiply the number of markers per student by the 3 students.",
+    "type": "basicth"
+  },
+  {
+    "question": "If a show is {{x}} minutes long, how many minutes are left after you watch {{y}} minutes?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the minutes you watched from the total length of the show.",
+    "type": "time"
+  },
+  {
+    "question": "If you buy {{x}} packs of gum and each pack costs ${{y}}, how much do you spend?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of packs by the price of each pack.",
+    "type": "currency"
+  },
+  {
+    "question": "There are {{x}} flowers in a garden. If you pick {{y}} of them, how many are left in the garden?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the flowers you picked from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have {{x}} dollars and your mom gives you {{y}} more, and then you spend ${{z}}, how much do you have left?",
+    "formula": "({{x}} + {{y}}) - {{z}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Add the money you received first, then subtract the money you spent.",
+    "type": "currency"
+  },
+  {
+    "question": "How many hours are in {{x}} days?",
+    "formula": "24 * {{x}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Multiply the number of days by 24.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} apples and you put them into {{y}} bags with the same number in each, how many apples are in each bag?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Divide the total number of apples by the number of bags.",
+    "type": "basicth"
+  },
+  {
+    "question": "A sandwich costs ${{x}}. If you buy {{y}} sandwiches, what is the total cost?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the price of one sandwich by the number of sandwiches.",
+    "type": "currency"
+  },
+  {
+    "question": "If it is 12:00 PM (noon) and the sun sets in {{x}} hours, what time will the sun set?",
+    "formula": "{{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "The time in the evening will be the number of hours after 12:00.",
+    "type": "time"
+  },
+  {
+    "question": "A bus makes {{x}} stops. At each stop, {{y}} people get on. How many people got on the bus in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of stops by the number of people per stop.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have ${{x}} and you want to buy 2 toys that cost ${{y}} each, do you have enough money? (Find the cost of 2 toys)",
+    "formula": "{{y}} * 2",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Multiply the price of one toy by 2.",
+    "type": "currency"
+  },
+  {
+    "question": "There are {{x}} fish in a tank. If you add {{y}} more fish, how many fish are there in total?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the number of original fish to the number of new fish.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you sleep from 8:00 PM until {{x}}:00 AM, how many hours did you sleep?",
+    "formula": "(12 - 8) + {{x}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Count the hours from 8:00 to 12:00 (midnight), then add the hours after midnight.",
+    "type": "time"
+  },
+  {
+    "question": "A box holds {{x}} cupcakes. If you buy {{y}} boxes, how many cupcakes do you have for the party?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of boxes by the cupcakes in each box.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}} and you find ${{y}} on the sidewalk. How much money do you have now?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the money you had to the money you found.",
+    "type": "currency"
+  },
+  {
+    "question": "School lunch costs ${{x}}. If you buy lunch for {{y}} days, how much money do you spend?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the daily cost by the number of days.",
+    "type": "currency"
+  },
+  {
+    "question": "If you start playing a game at {{x}}:00 and stop at {{y}}:00, how many hours did you play?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the start time from the end time.",
+    "type": "time"
+  },
+  {
+    "question": "A hen lays {{x}} eggs every day. How many eggs will she lay in {{y}} days?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the eggs per day by the total days.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have {{x}} pages left in your book. If you read {{y}} pages tonight, how many are left to read tomorrow?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Take away the pages you read from the total left.",
+    "type": "basicth"
+  },
+  {
+    "question": "A movie ticket is ${{x}}. If you have ${{y}}, how many tickets can you buy?",
+    "formula": "floor({{y}} / {{x}})",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Divide your money by the cost of one ticket.",
+    "type": "currency"
+  },
+  {
+    "question": "If it takes {{x}} minutes to walk to the park and {{y}} minutes to walk back, how many minutes is the whole trip?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the time going there and the time coming back.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} kids in the playground. {{y}} more kids join them. How many kids are playing now?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the new kids to the group that was already there.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have {{x}} pieces of gum. If you give {{y}} pieces to each of your 2 friends, how many do you give away in total?",
+    "formula": "{{y}} * 2",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the gum per friend by the 2 friends.",
+    "type": "basicth"
+  },
+  {
+    "question": "An ice cream scoop costs ${{x}}. If you want {{y}} scoops, how much will it cost?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the price of one scoop by the number of scoops.",
+    "type": "currency"
+  },
+  {
+    "question": "If you wake up at {{x}}:00 AM and go to bed at {{y}}:00 PM, how many hours are you awake?",
+    "formula": "({{y}} + 12) - {{x}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Change the PM time to 24-hour time by adding 12, then subtract your wake-up time.",
+    "type": "time"
+  },
+  {
+    "question": "A squirrel has {{x}} acorns. He hides {{y}} acorns but a bird takes {{z}} of them. How many does he have left?",
+    "formula": "{{x}} - {{y}} - {{z}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Subtract the hidden ones and then subtract the ones the bird took.",
+    "type": "basicth"
+  },
+  {
+    "question": "If 1 dollar is equal to 4 quarters, how many quarters are in ${{x}}?",
+    "formula": "{{x}} * 4",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Multiply the number of dollars by 4.",
+    "type": "currency"
+  },
+  {
+    "question": "There are {{x}} months in a year. How many months are in {{y}} years?",
+    "formula": "12 * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the years by 12.",
+    "type": "time"
+  },
+  {
+    "question": "You have {{x}} balloons. If {{y}} balloons pop, how many are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the popped balloons from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "A box of cereal costs ${{x}}. If you buy 3 boxes, what is the total cost?",
+    "formula": "{{x}} * 3",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the price of one box by 3.",
+    "type": "currency"
+  },
+  {
+    "question": "If you spend {{x}} minutes on homework and {{y}} minutes reading, how much time did you spend learning today?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the homework time and the reading time.",
+    "type": "time"
+  },
+  {
+    "question": "A car has 4 tires. How many tires are on {{x}} cars?",
+    "formula": "4 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of cars by 4.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}}. You buy a comic for ${{y}} and a snack for ${{z}}. How much is left?",
+    "formula": "{{x}} - ({{y}} + {{z}})",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Add the prices of the comic and snack, then subtract that from your money.",
+    "type": "currency"
+  },
+  {
+    "question": "If you are in school for {{x}} hours a day, how many hours are you in school over {{y}} days?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the hours per day by the number of days.",
+    "type": "time"
+  },
+  {
+    "question": "A baker has {{x}} trays. Each tray has {{y}} muffins. How many muffins in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply trays by muffins per tray.",
+    "type": "basicth"
+  },
+  {
+    "question": "You earned ${{x}} for raking leaves and ${{y}} for washing the car. How much did you earn in total?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add both amounts of money together.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock shows 2:30. What time will it be in {{x}} hours?",
+    "formula": "2 + {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the hours to the current hour (2). The minutes stay the same.",
+    "type": "time"
+  },
+  {
+    "question": "A class has {{x}} students. {{y}} students are absent. How many students are at school?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the absent students from the total students.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you double the number {{x}}, what is the answer?",
+    "formula": "{{x}} * 2",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number by 2.",
+    "type": "basicth"
+  },
+  {
+    "question": "A toy robot costs ${{x}}. If you have ${{y}}, how much more money do you need to buy it?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract what you have from the total price.",
+    "type": "currency"
+  },
+  {
+    "question": "How many days are in {{x}} weeks?",
+    "formula": "{{x}} * 7",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "There are 7 days in 1 week, so multiply by 7.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} stickers and you put {{y}} on each page of your notebook, how many pages can you fill?",
+    "formula": "floor({{x}} / {{y}})",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Divide the total stickers by the number per page.",
+    "type": "basicth"
+  },
+  {
+    "question": "A lemonade costs ${{x}}. You buy 2 lemonades. How much change do you get from ${{y}}?",
+    "formula": "{{y}} - ({{x}} * 2)",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Multiply the price by 2, then subtract that from your money.",
+    "type": "currency"
+  },
+  {
+    "question": "If you start your nap at 1:00 and sleep for {{x}} minutes, how many minutes past 1:00 is it when you wake up?",
+    "formula": "{{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "The answer is just the number of minutes you slept.",
+    "type": "time"
+  },
+  {
+    "question": "A bus makes {{x}} stops. At each stop, {{y}} people get off. How many people got off in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the stops by the people getting off.",
+    "type": "basicth"
+  },
+  {
+    "question": "A notebook is ${{x}}. If you buy {{y}} notebooks, what is the total price?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply price per notebook by the amount you buy.",
+    "type": "currency"
+  },
+  {
+    "question": "There are {{x}} candies in a jar. You eat {{y}} candies. Then your mom adds {{z}} more. How many now?",
+    "formula": "({{x}} - {{y}}) + {{z}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Subtract the ones you ate, then add the new ones.",
+    "type": "basicth"
+  },
+  {
+    "question": "If a show starts at 7:00 and is {{x}} minutes long, what time (in minutes past 7:00) does it end?",
+    "formula": "{{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "The minutes past the hour will be the length of the show.",
+    "type": "time"
+  },
+  {
+    "question": "If you have 10 fingers, how many fingers do {{x}} people have in total?",
+    "formula": "10 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply 10 by the number of people.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}}. You want to buy a football for ${{y}}. How much more do you need?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract your money from the cost of the ball.",
+    "type": "currency"
+  },
+  {
+    "question": "If you practice piano for {{x}} minutes in the morning and {{y}} minutes at night, how many minutes total?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the morning minutes and the night minutes together.",
+    "type": "time"
+  },
+  {
+    "question": "A spider has 8 legs. How many legs do {{x}} spiders have?",
+    "formula": "8 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of spiders by 8.",
+    "type": "basicth"
+  },
+  {
+    "question": "You buy a snack for ${{x}}. You pay with a ${{y}} bill. How much change do you get?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the cost of the snack from your money.",
+    "type": "currency"
+  },
+  {
+    "question": "If a game has {{x}} levels and you have finished {{y}} levels, how many levels are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "primary": "primary",
+    "hint": "Subtract the levels you finished from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "How many hours are in 2 days?",
+    "formula": "48",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "There are 24 hours in one day. 24 + 24 = 48.",
+    "type": "time"
+  },
+  {
+    "question": "If you save 5 dollars every week, how much do you have after {{x}} weeks?",
+    "formula": "5 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the 5 dollars by the number of weeks.",
+    "type": "currency"
+  },
+  {
+    "question": "A team has {{x}} players. If there are {{y}} teams, how many players are there altogether?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply players per team by the number of teams.",
+    "type": "basicth"
+  },
+  {
+    "question": "A movie starts at 4:00. It is 2 hours long. What time does it end?",
+    "formula": "6",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add 2 hours to 4:00.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} apples and you give {{y}} to your teacher, how many are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the apples you gave away.",
+    "type": "basicth"
+  },
+  {
+    "question": "A pen costs ${{x}}. How many pens can you buy with ${{y}}?",
+    "formula": "floor({{y}} / {{x}})",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Divide your money by the cost of one pen.",
+    "type": "currency"
+  },
+  {
+    "question": "If you read for {{x}} minutes every day, how many minutes do you read in a 7-day week?",
+    "formula": "{{x}} * 7",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the minutes per day by 7.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} cupcakes. If {{y}} people eat one each, how many are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the number of people from the total cupcakes.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have 3 piggy banks. Each has ${{x}}. How much money total?",
+    "formula": "3 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the money in one bank by 3.",
+    "type": "currency"
+  },
+  {
+    "question": "A box of markers has {{x}} colors. If you buy {{y}} boxes, how many markers do you have in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of markers in one box by the number of boxes.",
+    "type": "basicth"
+  },
+  {
+    "question": "A pack of juice boxes costs ${{x}}. If you pay with a ${{y}} bill, how much change will you get?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the cost from the money you gave.",
+    "type": "currency"
+  },
+  {
+    "question": "If a cartoon starts at {{x}}:00 and is {{y}} hours long, what time does it finish?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the hours of the cartoon to the start time.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} students in the gym. If {{y}} students leave to go to class, how many are still in the gym?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Take away the students who left from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have {{x}} toy cars and your brother gives you {{y}} more, how many do you have now?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the two amounts of cars together.",
+    "type": "basicth"
+  },
+  {
+    "question": "An eraser costs ${{x}}. How much will it cost to buy {{y}} erasers?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the price of one eraser by the number you want to buy.",
+    "type": "currency"
+  },
+  {
+    "question": "If you have {{x}} sweets and share them equally among {{y}} people, how many does each person get?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Divide the total sweets by the number of people sharing.",
+    "type": "basicth"
+  },
+  {
+    "question": "School starts at 9:00 AM. If you arrive at {{x}}:00 AM, how many hours early are you?",
+    "formula": "9 - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract your arrival time from the start time.",
+    "type": "time"
+  },
+  {
+    "question": "You have ${{x}}. A bag of chips costs ${{y}}. How much money will you have left after buying the chips?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the cost of the chips from your total money.",
+    "type": "currency"
+  },
+  {
+    "question": "A sunflower has {{x}} petals. If {{y}} petals fall off, how many petals are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the fallen petals from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "If one pencil costs ${{x}}, how much do {{y}} pencils cost?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the cost of one pencil by the number of pencils.",
+    "type": "currency"
+  },
+  {
+    "question": "A week is 7 days long. How many days are in {{x}} weeks?",
+    "formula": "7 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply 7 by the number of weeks.",
+    "type": "time"
+  },
+  {
+    "question": "If you read {{x}} pages of your book in the morning and {{y}} pages at night, how many pages did you read today?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the morning pages and the night pages together.",
+    "type": "basicth"
+  },
+  {
+    "question": "You buy a comic book for ${{x}} and a sticker for ${{y}}. What is the total cost?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the price of the book and the sticker together.",
+    "type": "currency"
+  },
+  {
+    "question": "If a timer is set for {{x}} minutes and {{y}} minutes have passed, how many minutes are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the time passed from the total time.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} slices of bread in a loaf. If you use {{y}} slices for sandwiches, how many are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the used slices from the total slices.",
+    "type": "basicth"
+  },
+  {
+    "question": "If a team has {{x}} players, how many players are there on {{y}} teams?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of players by the number of teams.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}} and you want to buy a game for ${{y}}. How much more money do you need?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the money you have from the price of the game.",
+    "type": "currency"
+  },
+  {
+    "question": "If you sleep for {{x}} hours every night, how many hours do you sleep in 2 nights?",
+    "formula": "{{x}} * 2",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Double the amount of sleep for one night.",
+    "type": "time"
+  },
+  {
+    "question": "A farmer has {{x}} apple trees. Each tree has {{y}} apples. How many apples are there in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of trees by the number of apples on each tree.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have {{x}} crayons and you give {{y}} to your friend, how many crayons do you have left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the crayons you gave away from your total.",
+    "type": "basicth"
+  },
+  {
+    "question": "A ticket to the zoo costs ${{x}}. How much will it cost for a group of {{y}} people?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the ticket price by the number of people.",
+    "type": "currency"
+  },
+  {
+    "question": "If you spend {{x}} minutes cleaning your room and {{y}} minutes helping in the garden, how many minutes did you work?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the two work times together.",
+    "type": "time"
+  },
+  {
+    "question": "A bus can carry {{x}} people. If there are 3 buses, how many people can be carried in total?",
+    "formula": "{{x}} * 3",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the capacity of one bus by 3.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have {{x}} coins and you lose {{y}} coins, how many do you have now?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the lost coins from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "A candy bar costs ${{x}}. You have ${{y}}. How many candy bars can you buy?",
+    "formula": "floor({{y}} / {{x}})",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Divide your total money by the cost of one candy bar.",
+    "type": "currency"
+  },
+  {
+    "question": "If it is {{x}}:00 PM now, what time will it be in 3 hours?",
+    "formula": "{{x}} + 3",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add 3 hours to the current time.",
+    "type": "time"
+  },
+  {
+    "question": "A teacher has {{x}} stickers. She gives {{y}} stickers to each student. If she has 5 students, how many stickers did she give away?",
+    "formula": "{{y}} * 5",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Multiply the stickers given to one student by the number of students.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you have 4 pockets and each pocket has {{x}} marbles, how many marbles do you have?",
+    "formula": "4 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of pockets by the marbles in each.",
+    "type": "basicth"
+  },
+  {
+    "question": "You buy a notebook for ${{x}} and pay with a ${{y}} bill. How much change do you receive?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the cost from the money you paid.",
+    "type": "currency"
+  },
+  {
+    "question": "If a song is 3 minutes long, how many minutes will it take to listen to {{x}} songs?",
+    "formula": "3 * {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the length of one song by the number of songs.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} eggs in a carton. If you use {{y}} eggs to bake a cake, how many are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the eggs used from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you save ${{x}} every month, how much will you have saved after {{y}} months?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply your monthly savings by the number of months.",
+    "type": "currency"
+  },
+  {
+    "question": "A basketball game has 4 quarters. If each quarter is {{x}} minutes long, how long is the whole game?",
+    "formula": "{{x}} * 4",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the length of one quarter by 4.",
+    "type": "time"
+  },
+  {
+    "question": "A pizza is cut into {{x}} slices. If {{y}} people eat one slice each, how many slices are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the number of slices eaten from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have {{x}} baseball cards. You give {{y}} to your friend and {{z}} to your brother. How many do you have left?",
+    "formula": "{{x}} - {{y}} - {{z}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Subtract the cards given to your friend, then subtract the cards given to your brother.",
+    "type": "basicth"
+  },
+  {
+    "question": "If a cupcake costs ${{x}}, how much do 10 cupcakes cost?",
+    "formula": "{{x}} * 10",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the price of one cupcake by 10.",
+    "type": "currency"
+  },
+  {
+    "question": "If you start homework at 4:00 PM and finish at {{x}}:00 PM, how many hours did you spend on it?",
+    "formula": "{{x}} - 4",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the start time from the end time.",
+    "type": "time"
+  },
+  {
+    "question": "There are 5 birds on a fence. If each bird has 2 wings, how many wings are there in total?",
+    "formula": "5 * 2",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of birds by the number of wings each bird has.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}} and buy a lunch for ${{y}}. Your dad gives you another ${{z}}. How much do you have now?",
+    "formula": "({{x}} - {{y}}) + {{z}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Subtract the cost of lunch from your money, then add the money your dad gave you.",
+    "type": "currency"
+  },
+  {
+    "question": "If you read for {{x}} minutes and then play outside for {{y}} minutes, how many minutes did you spend doing these activities?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the reading time and the playing time together.",
+    "type": "time"
+  },
+  {
+    "question": "A gardener plants {{x}} rows of flowers. Each row has {{y}} flowers. How many flowers are planted?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of rows by the flowers in each row.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have 12 colored pencils. If you lose {{x}} of them, how many are left?",
+    "formula": "12 - {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Subtract the number of lost pencils from 12.",
+    "type": "basicth"
+  },
+  {
+    "question": "A movie starts at 6:00. It lasts for {{x}} hours. What time does it end?",
+    "formula": "6 + {{x}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the movie's duration to the start hour.",
+    "type": "time"
+  },
+  {
+    "question": "You have ${{x}}. You buy a toy for ${{y}}. Can you buy another toy for the same price? (Calculate cost of 2 toys)",
+    "formula": "{{y}} * 2",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Multiply the price of the toy by 2 to see the total cost for two.",
+    "type": "currency"
+  },
+  {
+    "question": "If you have {{x}} groups of {{y}} apples, how many apples do you have in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of groups by the number of apples in each group.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you spend ${{x}} on Monday and ${{y}} on Tuesday, how much did you spend in total?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Add the amounts spent on both days together.",
+    "type": "currency"
+  },
+  {
+    "question": "How many months are in {{x}} years?",
+    "formula": "{{x}} * 12",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Multiply the number of years by 12.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} sweets and you eat half of them, how many sweets are left?",
+    "formula": "{{x}} / 2",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Divide the total number of sweets by 2.",
+    "type": "basicth"
+  },
+  {
+    "question": "You pay ${{x}} for a book and receive ${{y}} in change. How much money did you give the cashier?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Add the price of the book to the change you received.",
+    "type": "currency"
+  },
+  {
+    "question": "A box of {{x}} chocolates is shared between 4 friends. If each friend eats {{y}} chocolates, how many chocolates are left in the box?",
+    "formula": "{{x}} - (4 * {{y}})",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply the number of friends by the chocolates each ate, then subtract from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}}. You buy 3 toys that cost ${{y}} each and 2 books that cost ${{z}} each. How much money do you have left?",
+    "formula": "{{x}} - ((3 * {{y}}) + (2 * {{z}}))",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find the total cost of toys and books first, then subtract from your starting money.",
+    "type": "currency"
+  },
+  {
+    "question": "A train journey takes {{x}} minutes. If the train left at 10:45 AM, how many minutes past 11:00 AM does it arrive?",
+    "formula": "{{x}} - 15",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It takes 15 minutes to reach 11:00. Subtract those 15 minutes from the total journey time.",
+    "type": "time"
+  },
+  {
+    "question": "A farmer has {{x}} rows of apple trees with {{y}} trees in each row. If 15 trees die, how many trees are left?",
+    "formula": "({{x}} * {{y}}) - 15",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply rows by trees per row, then subtract the trees that died.",
+    "type": "basicth"
+  },
+  {
+    "question": "You save ${{x}} every month for half a year (6 months). Then you spend ${{y}}. How much do you have left?",
+    "formula": "({{x}} * 6) - {{y}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply your monthly savings by 6, then subtract your spending.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock shows 2:50. If a movie is {{x}} minutes long, how many minutes past 4:00 will it end?",
+    "formula": "{{x}} - 70",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It takes 70 minutes to get from 2:50 to 4:00. Subtract 70 from the total movie length.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} students. They are split into {{y}} equal groups. If 3 students from each group go home, how many students are left in total?",
+    "formula": "({{x}} / {{y}} - 3) * {{y}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find how many were in each group first, subtract 3, then multiply by the number of groups.",
+    "type": "basicth"
+  },
+  {
+    "question": "A ticket costs ${{x}}. A group of 10 people has ${{y}}. How much more money do they need so everyone can have a ticket?",
+    "formula": "({{x}} * 10) - {{y}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Calculate the total cost for 10 people, then subtract the money they already have.",
+    "type": "currency"
+  },
+  {
+    "question": "You start reading at 3:45 PM and finish at {{x}}:15 PM. How many minutes did you read?",
+    "formula": "(({{x}} - 3) * 60) - 30",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Calculate the full hours and adjust for the minutes before and after the hour mark.",
+    "type": "time"
+  },
+  {
+    "question": "A baker makes {{x}} muffins. He puts them into boxes of 6. If he has 4 muffins left over, how many full boxes did he fill?",
+    "formula": "({{x}} - 4) / 6",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Subtract the leftover muffins first, then divide the rest by 6.",
+    "type": "basicth"
+  },
+  {
+    "question": "If 4 notebooks cost ${{x}}, how much would 12 notebooks cost?",
+    "formula": "({{x}} / 4) * 12",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find the price of one notebook first, then multiply by 12.",
+    "type": "currency"
+  },
+  {
+    "question": "A battery lasts for {{x}} hours. If you use it for 45 minutes every day for 4 days, how many minutes of battery life are left?",
+    "formula": "({{x}} * 60) - (45 * 4)",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Convert the total hours to minutes first, then subtract the total minutes used.",
+    "type": "time"
+  },
+  {
+    "question": "You have {{x}} marbles. Your friend has double that amount. How many marbles do you both have together?",
+    "formula": "{{x}} + ({{x}} * 2)",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Calculate your friend's marbles first, then add them to your own.",
+    "type": "basicth"
+  },
+  {
+    "question": "A video game usually costs ${{x}}. It is on sale for ${{y}} less. If you buy 2 copies at the sale price, what is the total?",
+    "formula": "({{x}} - {{y}}) * 2",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Subtract the discount from the original price, then multiply by 2.",
+    "type": "currency"
+  },
+  {
+    "question": "Lunch is 50 minutes long. It ends at 1:15 PM. At what time (minutes past 12:00) did it start?",
+    "formula": "25",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Go back 15 minutes to 1:00, then go back the remaining 35 minutes into the previous hour.",
+    "type": "time"
+  },
+  {
+    "question": "A school bus has {{x}} rows. Each row can sit 4 children. If the bus is full except for 5 empty seats, how many children are on the bus?",
+    "formula": "({{x}} * 4) - 5",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply the rows by seats, then subtract the empty ones.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you buy 5 apples for ${{x}} and 5 oranges for ${{y}}, what is the total cost for 1 apple and 1 orange?",
+    "formula": "({{x}} / 5) + ({{y}} / 5)",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find the price of one of each fruit, then add them together.",
+    "type": "currency"
+  },
+  {
+    "question": "How many minutes are there in {{x}} hours and 150 seconds? (Round down to whole minutes)",
+    "formula": "({{x}} * 60) + 2",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Convert hours to minutes, and find how many whole minutes are in 150 seconds.",
+    "type": "time"
+  },
+  {
+    "question": "A sticker book has {{x}} pages. Each page holds {{y}} stickers. If you have already filled 3 pages, how many more stickers do you need to fill the whole book?",
+    "formula": "({{x}} - 3) * {{y}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Subtract the filled pages from the total pages, then multiply by stickers per page.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have two ${{x}} bills and three ${{y}} bills. How much more do you need to buy a ${{z}} bike?",
+    "formula": "{{z}} - ((2 * {{x}}) + (3 * {{y}}))",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add up all your bills first, then subtract that from the price of the bike.",
+    "type": "currency"
+  },
+  {
+    "question": "If a stopwatch shows {{x}} minutes and 80 seconds, how many total seconds is that?",
+    "formula": "({{x}} * 60) + 80",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply the minutes by 60 and add the extra seconds.",
+    "type": "time"
+  },
+  {
+    "question": "A builder needs {{x}} bricks. He has 5 packs of {{y}} bricks. How many more bricks does he need?",
+    "formula": "{{x}} - (5 * {{y}})",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply the packs he has by the number of bricks in each, then subtract from the total needed.",
+    "type": "basicth"
+  },
+  {
+    "question": "A shop sells pens for ${{x}} and erasers for ${{y}}. If you buy {{z}} of each, how much do you spend in total?",
+    "formula": "({{x}} + {{y}}) * {{z}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add the price of one pen and one eraser, then multiply by the quantity.",
+    "type": "currency"
+  },
+  {
+    "question": "If you sleep from 9:30 PM until 6:15 AM, how many minutes did you sleep?",
+    "formula": "525",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Count the hours and minutes from 9:30 to midnight, then add the time from midnight to 6:15.",
+    "type": "time"
+  },
+  {
+    "question": "There are {{x}} boxes with {{y}} pencils each. If you distribute them equally to {{z}} students, how many pencils does each student get?",
+    "formula": "({{x}} * {{y}}) / {{z}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find the total pencils first, then divide by the number of students.",
+    "type": "basicth"
+  },
+  {
+    "question": "A pizza costs ${{x}}. If 4 friends share the cost but one friend has a ${{y}} discount voucher, how much does each friend pay if they split the remaining cost?",
+    "formula": "({{x}} - {{y}}) / 4",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Subtract the voucher value from the total price, then divide the rest by 4.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock is 10 minutes fast. If it shows 12:05, what was the actual time 20 minutes ago?",
+    "formula": "11:35",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Subtract 10 minutes to find the real time (11:55), then subtract 20 more minutes.",
+    "type": "time"
+  },
+  {
+    "question": "A box of {{x}} tiles is used to cover a floor. If {{y}} tiles were broken and {{z}} tiles were left over, how many tiles were actually used?",
+    "formula": "{{x}} - {{y}} - {{z}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Subtract both the broken tiles and the leftover tiles from the total.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}}. You spend half of it on a shirt and ${{y}} on a hat. How much is left?",
+    "formula": "({{x}} / 2) - {{y}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find half of your money first, then subtract the cost of the hat.",
+    "type": "currency"
+  },
+  {
+    "question": "If a bell rings every {{x}} minutes, how many times will it ring in 2 hours? (Don't count the first ring)",
+    "formula": "120 / {{x}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Convert 2 hours to 120 minutes, then divide by the bell interval.",
+    "type": "time"
+  },
+  {
+    "question": "A shelf can hold {{x}} books. You have 3 shelves. If you have {{y}} books, how many more books do you need to fill all the shelves?",
+    "formula": "(3 * {{x}}) - {{y}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find the total capacity of all shelves, then subtract your current books.",
+    "type": "basicth"
+  },
+  {
+    "question": "Three apples cost ${{x}}. How much would 15 apples cost?",
+    "formula": "({{x}} / 3) * 15",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find the price of one apple, then multiply by 15.",
+    "type": "currency"
+  },
+  {
+    "question": "You exercise for {{x}} minutes a day. How many hours do you exercise in 10 days?",
+    "formula": "({{x}} * 10) / 60",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Find the total minutes for 10 days, then divide by 60 to get hours.",
+    "type": "time"
+  },
+  {
+    "question": "A crate of oranges has {{x}} rows with 8 oranges in each. If you give away 2 full rows, how many oranges are left?",
+    "formula": "({{x}} - 2) * 8",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Subtract the rows given away from the total rows, then multiply by 8.",
+    "type": "basicth"
+  },
+  {
+    "question": "A toy car costs ${{x}} and a doll costs ${{y}}. If you have ${{z}}, can you buy two of each? (Calculate total cost for 2 of each)",
+    "formula": "2 * ({{x}} + {{y}})",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add the price of one car and one doll, then multiply by 2.",
+    "type": "currency"
+  },
+  {
+    "question": "If a plane flies for {{x}} minutes and lands at 3:10 PM, at what time did it take off? (Calculate minutes past 1:00 PM)",
+    "formula": "130 - {{x}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "3:10 PM is 130 minutes past 1:00 PM. Subtract the flight time from 130.",
+    "type": "time"
+  },
+  {
+    "question": "You have {{x}} pages to write. You write {{y}} pages every hour. After 3 hours, how many pages are left?",
+    "formula": "{{x}} - (3 * {{y}})",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply your hourly speed by 3, then subtract from the total pages.",
+    "type": "basicth"
+  },
+  {
+    "question": "A sandwich costs ${{x}} and a drink costs ${{y}}. If you buy 4 sandwiches and 4 drinks, what is the total?",
+    "formula": "4 * ({{x}} + {{y}})",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add the cost of one sandwich and one drink, then multiply by 4.",
+    "type": "currency"
+  },
+  {
+    "question": "How many seconds are in {{x}} minutes and {{y}} minutes?",
+    "formula": "({{x}} + {{y}}) * 60",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add the minutes together first, then multiply by 60.",
+    "type": "time"
+  },
+  {
+    "question": "A garden has {{x}} red flowers and {{y}} yellow flowers. If you pick half of the red flowers and all of the yellow ones, how many did you pick?",
+    "formula": "({{x}} / 2) + {{y}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Divide the red flowers by 2 and add the total yellow flowers.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you buy a book for ${{x}} and the tax is ${{y}}, how much change do you get from ${{z}}?",
+    "formula": "{{z}} - ({{x}} + {{y}})",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add the book price and tax together, then subtract from your money.",
+    "type": "currency"
+  },
+  {
+    "question": "A movie starts at 7:15 and is {{x}} minutes long. If there is a 10-minute break in the middle, at what time (minutes past 9:00) does it end?",
+    "formula": "({{x}} + 10) - 105",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add the movie length and the break time, then see how many minutes go past 9:00.",
+    "type": "time"
+  },
+  {
+    "question": "A bag has {{x}} blue marbles and {{y}} green marbles. If you lose 4 of each color, how many marbles are left in total?",
+    "formula": "({{x}} + {{y}}) - 8",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add the total marbles and subtract 8 (since 4 + 4 = 8).",
+    "type": "basicth"
+  },
+  {
+    "question": "A lunch deal costs ${{x}}. If you buy 3 deals and pay with a ${{y}} bill, how much change do you get?",
+    "formula": "{{y}} - (3 * {{x}})",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply the deal price by 3, then subtract from the bill you gave.",
+    "type": "currency"
+  },
+  {
+    "question": "If you walk {{x}} minutes to school and {{y}} minutes back every day, how many minutes do you walk in a 5-day school week?",
+    "formula": "({{x}} + {{y}}) * 5",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Add the two walk times together, then multiply by 5 days.",
+    "type": "time"
+  },
+  {
+    "question": "A container holds {{x}} liters. You pour in 4 jugs of {{y}} liters each. How many liters more can the container hold?",
+    "formula": "{{x}} - (4 * {{y}})",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply the jugs by their size, then subtract from the total capacity.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have ${{x}}. You spend ${{y}} on Monday and ${{z}} on Tuesday. How much is left?",
+    "formula": "{{x}} - {{y}} - {{z}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Subtract the Monday spending and then the Tuesday spending.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock shows 3:40. If it takes {{x}} minutes to bake a cake, at what time (minutes past 5:00) will it be done?",
+    "formula": "{{x}} - 80",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It takes 80 minutes to get from 3:40 to 5:00. Subtract 80 from the baking time.",
+    "type": "time"
+  },
+  {
+    "question": "A classroom has {{x}} desks. If {{y}} rows of 4 desks are moved out, how many desks are left?",
+    "formula": "{{x}} - ({{y}} * 4)",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply the rows by 4, then subtract from the total desks.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you earn ${{x}} for every room you clean, how much do you earn if you clean {{y}} rooms and find a ${{z}} coin on the floor?",
+    "formula": "({{x}} * {{y}}) + {{z}}",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Multiply your earnings per room by the number of rooms, then add the extra coin.",
+    "type": "currency"
+  },
+  {
+    "question": "A shop increases the price of a ${{x}} jacket by 20%, then later offers a ${{y}} discount. What is the final price?",
+    "formula": "({{x}} * 1.20) - {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate 120% of the original price first, then subtract the fixed discount.",
+    "type": "currency"
+  },
+  {
+    "question": "A pool is being filled at a rate of {{x}} liters per minute. If the pool already has {{y}} liters and its total capacity is {{z}} liters, how many minutes will it take to fill completely?",
+    "formula": "({{z}} - {{y}}) / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the current water from the total capacity, then divide by the fill rate.",
+    "type": "basicth"
+  },
+  {
+    "question": "If a train travels at {{x}} km/h, how many minutes does it take to cover a distance of {{y}} km?",
+    "formula": "({{y}} / {{x}}) * 60",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide distance by speed to get hours, then multiply by 60 to convert to minutes.",
+    "type": "time"
+  },
+  {
+    "question": "A smartphone costs ${{x}} including a 15% sales tax. What was the price of the phone before tax? (Round to 2 decimal places)",
+    "formula": "{{x}} / 1.15",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "The total is 115% of the original price. Divide the total by 1.15.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock loses {{x}} seconds every 3 hours. How many total minutes will it have lost after {{y}} days?",
+    "formula": "({{x}} * (({{y}} * 24) / 3)) / 60",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find how many 3-hour blocks are in the total days, multiply by the loss, then convert seconds to minutes.",
+    "type": "time"
+  },
+  {
+    "question": "If {{x}} workers can finish a task in {{y}} hours, how many hours would it take {{z}} workers to finish the same task?",
+    "formula": "({{x}} * {{y}}) / {{z}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "First find the total 'man-hours' (workers x hours), then divide by the new number of workers.",
+    "type": "basicth"
+  },
+  {
+    "question": "You invest ${{x}} at a simple interest rate of {{y}}% per year. How much total money will you have after 3 years?",
+    "formula": "{{x}} + ({{x}} * ({{y}} / 100) * 3)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the interest for one year, multiply by 3, and add it to the starting amount.",
+    "type": "currency"
+  },
+  {
+    "question": "A cyclist travels for {{x}} minutes at 12 km/h and then for {{y}} minutes at 18 km/h. What is the total distance traveled in km?",
+    "formula": "(12 * ({{x}} / 60)) + (18 * ({{y}} / 60))",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert minutes to hours for both segments, then multiply by the respective speeds.",
+    "type": "basicth"
+  },
+  {
+    "question": "A tank can be emptied by a pump in {{x}} hours. If the pump starts at 8:45 AM, at what time will the tank be exactly 25% empty?",
+    "formula": "({{x}} * 0.25) * 60",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find 25% of the total hours, convert to minutes, and add to the start time.",
+    "type": "time"
+  },
+  {
+    "question": "A group of {{x}} people share a bill of ${{y}}. If they decide to add a 15% tip and split the total equally, how much does each person pay?",
+    "formula": "({{y}} * 1.15) / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the bill by 1.15 to include the tip, then divide by the number of people.",
+    "type": "currency"
+  },
+  {
+    "question": "The ratio of boys to girls in a school is 3:{{x}}. If there are {{y}} girls, what is the total number of students?",
+    "formula": "({{y}} / {{x}} * 3) + {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the value of one 'part' of the ratio by dividing girls by x, then calculate the boys and add them together.",
+    "type": "basicth"
+  },
+  {
+    "question": "If you double a number {{x}} and subtract {{y}}, the result is 50. What is the value of {{x}}?",
+    "formula": "(50 + {{y}}) / 2",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Reverse the operations: add y to 50, then divide by 2.",
+    "type": "basicth"
+  },
+  {
+    "question": "A light flashes every {{x}} seconds and another flashes every {{y}} seconds. If they flash together now, how many seconds until they flash together again?",
+    "formula": "lcm({{x}}, {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the Least Common Multiple (LCM) of the two numbers.",
+    "type": "time"
+  },
+  {
+    "question": "A shopkeeper buys {{x}} items for a total of ${{y}}. He sells them all for a profit of 25%. What is the selling price of a single item?",
+    "formula": "({{y}} * 1.25) / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the total selling price by adding 25% profit, then divide by the number of items.",
+    "type": "currency"
+  },
+  {
+    "question": "A machine produces {{x}} parts every 40 minutes. How many parts will it produce in a {{y}}-hour shift?",
+    "formula": "({{y}} * 60 / 40) * {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Determine how many 40-minute blocks are in the total shift time.",
+    "type": "basicth"
+  },
+  {
+    "question": "You have a budget of ${{x}}. After spending 40% on rent and ${{y}} on groceries, how much money do you have left?",
+    "formula": "{{x}} - ({{x}} * 0.40) - {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract 40% of the budget first, then subtract the grocery cost.",
+    "type": "currency"
+  },
+  {
+    "question": "A runner completes a lap in {{x}} seconds. If they maintain this pace, how many full laps can they complete in {{y}} minutes?",
+    "formula": "floor(({{y}} * 60) / {{x}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert the total minutes to seconds, then divide by the time per lap.",
+    "type": "time"
+  },
+  {
+    "question": "If the sum of three consecutive integers is {{x}}, what is the largest of the three integers?",
+    "formula": "({{x}} / 3) + 1",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the sum by 3 to find the middle integer, then add 1.",
+    "type": "basicth"
+  },
+  {
+    "question": "A laptop is discounted by {{x}}% from its original price of ${{y}}. During a clearance sale, the discounted price is reduced by another 10%. What is the final price?",
+    "formula": "({{y}} * (1 - {{x}}/100)) * 0.90",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Apply the first discount, then take 90% of that new value.",
+    "type": "currency"
+  },
+  {
+    "question": "An airplane is flying at {{x}} km/h. If the destination is {{y}} km away and the plane has already been flying for 1.5 hours, how many minutes are remaining in the flight?",
+    "formula": "(({{y}} / {{x}}) - 1.5) * 60",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the total flight time, subtract the elapsed time, and convert the remainder to minutes.",
+    "type": "time"
+  },
+  {
+    "question": "Which math operation is used to find the 'total' or 'sum' of two numbers?",
+    "formula": "Addition",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "You use the plus (+) sign for this.",
+    "type": "basic"
+  },
+  {
+    "question": "What is the name of a shape with three sides and three corners?",
+    "formula": "Triangle",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Think of a slice of pizza.",
+    "type": "basic"
+  },
+  {
+    "question": "If you want to find the difference between two numbers, which operation do you use?",
+    "formula": "Subtraction",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "You use the minus (-) sign for this.",
+    "type": "basic"
+  },
+  {
+    "question": "What do you call a shape that is perfectly round like a coin?",
+    "formula": "Circle",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It has no straight sides and no corners.",
+    "type": "basic"
+  },
+  {
+    "question": "Which tool would you use to measure how long your pencil is?",
+    "formula": "Ruler",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is a straight tool with numbers in inches or centimeters.",
+    "type": "basic"
+  },
+  {
+    "question": "A shape with four equal sides and four square corners is called a ____.",
+    "formula": "Square",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "All of its sides are the exact same length.",
+    "type": "basic"
+  },
+  {
+    "question": "What math operation is basically 'repeated addition'?",
+    "formula": "Multiplication",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "You use the times (x) sign for this.",
+    "type": "basic"
+  },
+  {
+    "question": "Which unit would you use to measure the weight of a heavy dog: grams or kilograms?",
+    "formula": "Kilograms",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "This unit is used for heavier objects.",
+    "type": "basic"
+  },
+  {
+    "question": "What is the name of a 3D shape that looks like a ball?",
+    "formula": "Sphere",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Think of a basketball or a globe.",
+    "type": "basic"
+  },
+  {
+    "question": "If you split a cookie into two equal parts, what is each part called?",
+    "formula": "Half",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is 1 out of 2 equal pieces.",
+    "type": "basic"
+  },
+  {
+    "question": "Which operation is used to 'share' a number into equal groups?",
+    "formula": "Division",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "You use the division (÷) sign for this.",
+    "type": "basic"
+  },
+  {
+    "question": "What do you call a shape with four sides where the opposite sides are equal, like a door?",
+    "formula": "Rectangle",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It looks like a stretched-out square.",
+    "type": "basic"
+  },
+  {
+    "question": "What unit do we use to measure how much liquid is in a water bottle: liters or meters?",
+    "formula": "Liters",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "This unit is used for liquids.",
+    "type": "basic"
+  },
+  {
+    "question": "A 3D shape that looks like a soda can is called a ____.",
+    "formula": "Cylinder",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "It has two circular flat ends and one curved side.",
+    "type": "basic"
+  },
+  {
+    "question": "What do we call the answer to an addition problem?",
+    "formula": "Sum",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "It starts with the letter 'S'.",
+    "type": "basic"
+  },
+  {
+    "question": "How many sides does a pentagon have?",
+    "formula": "5",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Think of the famous building in the USA.",
+    "type": "basic"
+  },
+  {
+    "question": "Which is longer: one centimeter or one meter?",
+    "formula": "Meter",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "You use this unit to measure the length of a room.",
+    "type": "basic"
+  },
+  {
+    "question": "What is a solid 3D shape with six square faces called?",
+    "formula": "Cube",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Think of an ice cube or a die.",
+    "type": "basic"
+  },
+  {
+    "question": "What do you call the answer to a subtraction problem?",
+    "formula": "Difference",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It tells you how much one number 'differs' from another.",
+    "type": "basic"
+  },
+  {
+    "question": "How many minutes are in one hour?",
+    "formula": "60",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is the same as the number of seconds in a minute.",
+    "type": "basic"
+  },
+  {
+    "question": "What shape has six sides?",
+    "formula": "Hexagon",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Think of a honeycomb cell.",
+    "type": "basic"
+  },
+  {
+    "question": "What do we call a number that is exactly one more than 9?",
+    "formula": "10",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is the first two-digit number.",
+    "type": "basic"
+  },
+  {
+    "question": "Which hand on a clock tells the hours: the short hand or the long hand?",
+    "formula": "Short hand",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "The long hand moves faster and tells the minutes.",
+    "type": "basic"
+  },
+  {
+    "question": "A shape that looks like a party hat is called a ____.",
+    "formula": "Cone",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It has a circular base and a pointy top.",
+    "type": "basic"
+  },
+  {
+    "question": "What do you call the result of multiplying two numbers?",
+    "formula": "Product",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It starts with the letter 'P'.",
+    "type": "basic"
+  },
+  {
+    "question": "How many sides does an octagon have?",
+    "formula": "8",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Think of a stop sign.",
+    "type": "basic"
+  },
+  {
+    "question": "Is a 'dozen' equal to 10 or 12?",
+    "formula": "12",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "People usually buy eggs in this amount.",
+    "type": "basic"
+  },
+  {
+    "question": "What is the name for a 3D shape that looks like a cereal box?",
+    "formula": "Rectangular Prism",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It has six faces that are mostly rectangles.",
+    "type": "basic"
+  },
+  {
+    "question": "What math word means 'to take away'?",
+    "formula": "Subtract",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is the opposite of 'add'.",
+    "type": "basic"
+  },
+  {
+    "question": "What do we use to measure the temperature of the air?",
+    "formula": "Thermometer",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "It tells us if it is hot or cold outside.",
+    "type": "basic"
+  },
+  {
+    "question": "What is a flat surface of a 3D shape called?",
+    "formula": "Face",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "A cube has six of these.",
+    "type": "basic"
+  },
+  {
+    "question": "If a number cannot be split into two equal whole groups, is it Even or Odd?",
+    "formula": "Odd",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Examples are 1, 3, 5, 7, and 9.",
+    "type": "basic"
+  },
+  {
+    "question": "How many days are in a week?",
+    "formula": "7",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It starts with Monday and ends with Sunday.",
+    "type": "basic"
+  },
+  {
+    "question": "What do you call the 'pointy' part of a shape where two sides meet?",
+    "formula": "Corner",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "In geometry, this is also called a 'vertex'.",
+    "type": "basic"
+  },
+  {
+    "question": "Which symbol do we use to show that two amounts are the same?",
+    "formula": "Equal sign",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It looks like two flat lines (=).",
+    "type": "basic"
+  },
+  {
+    "question": "How many months are in a year?",
+    "formula": "12",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It starts with January and ends with December.",
+    "type": "basic"
+  },
+  {
+    "question": "What is a quadrilateral?",
+    "formula": "A shape with four sides",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "'Quad' means four.",
+    "type": "basic"
+  },
+  {
+    "question": "What is the name for the number '0' in math?",
+    "formula": "Zero",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It means 'nothing' or 'none'.",
+    "type": "basic"
+  },
+  {
+    "question": "Which is heavier: a gram or a kilogram?",
+    "formula": "Kilogram",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "One of these equals 1,000 of the other.",
+    "type": "basic"
+  },
+  {
+    "question": "A shape that looks like a diamond is called a ____.",
+    "formula": "Rhombus",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It has four equal sides but is usually tilted.",
+    "type": "basic"
+  },
+  {
+    "question": "What do you call a number that is one less than 1?",
+    "formula": "0",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It represents an empty set.",
+    "type": "basic"
+  },
+  {
+    "question": "What tool do you use to tell the time?",
+    "formula": "Clock",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It can be digital or have hands.",
+    "type": "basic"
+  },
+  {
+    "question": "A triangle with a square corner is called a ____ triangle.",
+    "formula": "Right",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "The corner measures exactly 90 degrees.",
+    "type": "basic"
+  },
+  {
+    "question": "What do you call it when you 'guess' a math answer that is close to the real one?",
+    "formula": "Estimate",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It starts with the letter 'E'.",
+    "type": "basic"
+  },
+  {
+    "question": "How many years are in a century?",
+    "formula": "100",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "The word 'cent' often means 100.",
+    "type": "basic"
+  },
+  {
+    "question": "What do we call a 3D shape that looks like a tent with a triangular base?",
+    "formula": "Pyramid",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Think of the ancient structures in Egypt.",
+    "type": "basic"
+  },
+  {
+    "question": "What math word means 'the same as'?",
+    "formula": "Equal",
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It starts with the letter 'E'.",
+    "type": "basic"
+  },
+  {
+    "question": "Which unit is used for measuring very short things: millimeters or kilometers?",
+    "formula": "Millimeters",
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "These are the tiny lines on a ruler.",
+    "type": "basic"
+  },
+  {
+    "question": "What do you call a line that goes straight from left to right?",
+    "formula": "Horizontal",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "Think of the 'horizon' where the sun sets.",
+    "type": "basic"
+  },
+  {
+    "question": "What is the name for a line that goes straight up and down?",
+    "formula": "Vertical",
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It is the opposite of horizontal.",
+    "type": "basic"
   }
 ]

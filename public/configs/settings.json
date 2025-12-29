@@ -17,6 +17,7 @@
         "hint": {
             "enable_primary_level": true,
             "enable_junior_level": true,
+            "enable_senior_level": false,
             "show_time": 20
         }
     },
