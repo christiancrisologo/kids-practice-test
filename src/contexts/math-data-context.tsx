@@ -54,7 +54,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
         await new Promise(resolve => setTimeout(resolve, delay));
 
         setProgress(10);
-        const settingsResponse = await fetch('/configs/settings.json');
+        const settingsResponse = await fetch('configs/settings.json');
 
         if (!settingsResponse.ok) {
           throw new Error('Failed to load settings');
@@ -88,7 +88,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
 
         // STAGE 3: Load question data JSON (50-80%)
         setProgress(55);
-        const questionDataUrl = `/configs/${quizDataType}.json`;
+        const questionDataUrl = `configs/${quizDataType}.json`;
         const questionResponse = await fetch(questionDataUrl);
 
         if (!questionResponse.ok) {
