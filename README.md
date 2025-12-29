@@ -266,7 +266,7 @@ kids-practice-test/
 ## Customization
 
 ### Adding New Challenges
-Edit `src/configs/settings.json` and add a new challenge to the `challenges` array:
+Edit `public/configs/settings.json` (or `src/configs/settings.json`) and add a new challenge to the `challenges` array:
 
 ```json
 {
@@ -290,12 +290,58 @@ Edit `src/configs/settings.json` and add a new challenge to the `challenges` arr
 ```
 
 ### Modifying Year Levels
-Update the `yearLevel` array in `src/configs/settings.json` to customize difficulty, question counts, and categories for each school level.
+Update the `yearLevel` array in `public/configs/settings.json` to customize difficulty, question counts, and categories for each school level.
+
+### Adding New Question Sets
+1. Create a new JSON file in `public/configs/` (e.g., `science.json`)
+2. Follow the same format as `math.json`:
+   ```json
+   [
+     {
+       "question": "Your question here",
+       "formula": "answer or formula",
+       "difficulty": "easy|medium|hard",
+       "level": "primary|junior|senior",
+       "hint": "Helpful hint",
+       "type": "category"
+     }
+   ]
+   ```
+3. Load it via query parameter: `http://localhost:3000/?quiz-data=science`
+4. Or set it as default in `settings.json` → `system.quiz-data`
+
+### Adding Math Questions
+Edit `public/configs/math.json` to add new questions:
+
+**Dynamic questions with variables:**
+```json
+{
+  "question": "If you have {{x}} apples and buy {{y}} more, how many do you have?",
+  "formula": "{{x}} + {{y}}",
+  "difficulty": "easy",
+  "level": "primary",
+  "hint": "Add the two numbers together",
+  "type": "basic"
+}
+```
+
+**Factual questions without variables:**
+```json
+{
+  "question": "How many sides does a hexagon have?",
+  "formula": "6",
+  "difficulty": "easy",
+  "level": "junior",
+  "hint": "Think of a six-sided shape",
+  "type": "geometry"
+}
+```
 
 ### Customizing UI
 - Edit components in `src/components/` for UI changes
 - Modify Tailwind classes for styling adjustments
 - Update animations in `src/utils/enhanced-animations.ts`
+- Customize preloader messages in `src/components/ui/Preloader.tsx`
 
 ## Features in Development
 
