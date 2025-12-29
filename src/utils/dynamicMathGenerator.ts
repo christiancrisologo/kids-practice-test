@@ -11,7 +11,7 @@ export interface MathQuestionTemplate {
 
 export interface GeneratedMathQuestion {
   question: string;
-  answer: number;
+  answer: number | string; // Support both numeric and text answers
   formula: string;
   difficulty: string;
   level: string;
@@ -124,19 +124,36 @@ export function generateMathQuestion(
 ): GeneratedMathQuestion {
   // Extract variables from question and formula
   const variables = extractVariables(template.question + template.formula);
-  
+
+  // Check if this is a non-variable question (no {{x}} placeholders)
+  const hasVariables = variables.length > 0;
+
+  if (!hasVariables) {
+    // No variables - use formula directly as the answer
+    return {
+      question: template.question,
+      answer: template.formula, // Use formula as-is (could be text or number)
+      formula: template.formula,
+      difficulty: template.difficulty,
+      level: template.level,
+      hint: template.hint,
+      type: template.type,
+      variables: {}
+    };
+  }
+
   // Generate random values for variables
   const values = generateVariableValues(variables, template.difficulty);
-  
+
   // Replace variables in question
   const question = replaceVariables(template.question, values);
-  
+
   // Calculate answer using formula
   const answer = evaluateFormula(template.formula, values);
-  
+
   // Replace variables in hint
   const hint = replaceVariables(template.hint, values);
-  
+
   return {
     question,
     answer,

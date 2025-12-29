@@ -1,0 +1,1842 @@
+[
+  {
+    "question": "A {{x}} kg bag of sugar is divided into {{y}} g portions. How many portions can be made?",
+    "formula": "{{x}} * 1000 / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "divide the total weight by the weight of each portion",
+    "type": "basic"
+  },
+  {
+    "question": "A car travels {{x}} km in {{y}} hours. What is its average speed?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "divide the distance by the time",
+    "type": "basic"
+  },
+  {
+    "question": "If a train travels at a speed of {{x}} km/h, how long will it take to travel {{y}} km?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "divide the distance by the speed",
+    "type": "basic"
+  },
+  {
+    "question": "A {{x}} kg bag of flour is divided into {{y}} g portions. How many portions can be made?",
+    "formula": "({{x}} * 1000) / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert kilograms to grams first by multiplying by 1000.",
+    "type": "conversion"
+  },
+  {
+    "question": "A rectangle has a length of {{x}} cm and a width of {{y}} cm. What is its area in square centimeters?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Area of a rectangle is length multiplied by width.",
+    "type": "geometry"
+  },
+  {
+    "question": "If a shirt costs ${{x}} and is on sale for {{y}}% off, what is the discount amount in dollars?",
+    "formula": "{{x}} * ({{y}} / 100)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "To find the discount, multiply the original price by the percentage (as a decimal).",
+    "type": "currency"
+  },
+  {
+    "question": "A car travels at a constant speed of {{x}} km/h. How many kilometers will it travel in {{y}} minutes?",
+    "formula": "{{x}} * ({{y}} / 60)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert minutes to hours by dividing by 60 before multiplying by speed.",
+    "type": "conversion"
+  },
+  {
+    "question": "A cylindrical tank holds {{x}} liters of water. If {{y}} ml is leaked every hour, how many hours until the tank is empty?",
+    "formula": "({{x}} * 1000) / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert liters to milliliters (1L = 1000ml) then divide by the leak rate.",
+    "type": "conversion"
+  },
+  {
+    "question": "A triangle has a base of {{x}} cm and a height of {{y}} cm. What is its area?",
+    "formula": "0.5 * {{x}} * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "The formula for the area of a triangle is half of base times height.",
+    "type": "geometry"
+  },
+  {
+    "question": "If {{x}} notebooks cost ${{y}}, what is the cost of one notebook?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total cost by the number of items.",
+    "type": "currency"
+  },
+  {
+    "question": "A marathon is 42 km. If a runner has finished {{x}}% of the race, how many kilometers are left?",
+    "formula": "42 * (1 - ({{x}} / 100))",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the remaining percentage (100 - x) and multiply it by the total distance.",
+    "type": "conversion"
+  },
+  {
+    "question": "The temperature was {{x}}°C in the morning and rose by {{y}}°C by noon. What is the new temperature?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Simply add the increase to the starting temperature.",
+    "type": "basic"
+  },
+  {
+    "question": "A box contains {{x}} red marbles and {{y}} blue marbles. What is the probability of picking a red marble?",
+    "formula": "{{x}} / ({{x}} + {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the number of red marbles by the total number of marbles.",
+    "type": "basic"
+  },
+  {
+    "question": "A square garden has a perimeter of {{x}} meters. What is the length of one side?",
+    "formula": "{{x}} / 4",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "A square has four equal sides; divide the perimeter by 4.",
+    "type": "geometry"
+  },
+  {
+    "question": "A recipe requires {{x}} cups of sugar to make {{y}} cookies. How many cups are needed for 1 cookie?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total amount of sugar by the number of cookies.",
+    "type": "basic"
+  },
+  {
+    "question": "An athlete runs {{x}} meters in {{y}} seconds. What is their average speed in meters per second?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Speed is calculated as distance divided by time.",
+    "type": "basic"
+  },
+  {
+    "question": "If a dozen eggs cost ${{x}}, how much do {{y}} eggs cost?",
+    "formula": "({{x}} / 12) * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the price of one egg first, then multiply by y.",
+    "type": "currency"
+  },
+  {
+    "question": "The ratio of boys to girls in a class is {{x}}:{{y}}. If there are {{z}} boys, how many girls are there?",
+    "formula": "({{z}} / {{x}}) * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the number of boys by their ratio part, then multiply by the girls' ratio part.",
+    "type": "basic"
+  },
+  {
+    "question": "A phone's battery drops by {{x}}% every hour. If it is currently at {{y}}%, what will it be in 2 hours?",
+    "formula": "{{y}} - ({{x}} * 2)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the hourly drop by 2 and subtract from the current percentage.",
+    "type": "basic"
+  },
+  {
+    "question": "A map has a scale of 1:{{x}}. If two cities are {{y}} cm apart on the map, what is the actual distance in cm?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the map distance by the scale factor.",
+    "type": "conversion"
+  },
+  {
+    "question": "What is the volume of a cube with a side length of {{x}} cm?",
+    "formula": "{{x}} ** 3",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Volume of a cube is side length cubed (side * side * side).",
+    "type": "geometry"
+  },
+  {
+    "question": "If you save ${{x}} every week, how many weeks will it take to save ${{y}}?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the target amount by the weekly savings.",
+    "type": "currency"
+  },
+  {
+    "question": "A fruit bowl has {{x}} apples and {{y}} oranges. What percentage of the fruit are apples?",
+    "formula": "({{x}} / ({{x}} + {{y}})) * 100",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the number of apples by the total count and multiply by 100.",
+    "type": "basic"
+  },
+  {
+    "question": "Calculate the simple interest on a principal of ${{x}} at {{y}}% interest rate for 1 year.",
+    "formula": "{{x}} * ({{y}} / 100)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Interest = Principal * Rate * Time.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock shows {{x}}:00. What is the smaller angle between the hour and minute hands?",
+    "formula": "{{x}} * 30",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Each hour on a clock represents 30 degrees (360/12).",
+    "type": "geometry"
+  },
+  {
+    "question": "A fence is {{x}} meters long. If posts are placed every {{y}} meters (including both ends), how many posts are needed?",
+    "formula": "({{x}} / {{y}}) + 1",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the length by the interval and add one for the starting post.",
+    "type": "basic"
+  },
+  {
+    "question": "An elevator can carry a maximum of {{x}} kg. If the average person weighs {{y}} kg, how many people can it safely hold?",
+    "formula": "floor({{x}} / {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the capacity by average weight and round down to the nearest whole number.",
+    "type": "basic"
+  },
+  {
+    "question": "If {{x}} + {{y}} = 100 and {{x}} is 45, what is the value of {{y}}?",
+    "formula": "100 - {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the known value from the total.",
+    "type": "basic"
+  },
+  {
+    "question": "A movie is {{x}} minutes long. If it starts at 2:00 PM, at what time does it end in minutes past 2:00?",
+    "formula": "{{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "The end time in minutes is simply the duration added to the start.",
+    "type": "time"
+  },
+  {
+    "question": "A bookstore buys a book for ${{x}} and sells it for ${{y}}. What is the profit?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Profit is the selling price minus the cost price.",
+    "type": "currency"
+  },
+  {
+    "question": "A cyclist travels {{x}} meters in one minute. How many kilometers do they travel in 60 minutes?",
+    "formula": "({{x}} * 60) / 1000",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate total meters in an hour, then divide by 1000 to get kilometers.",
+    "type": "conversion"
+  },
+  {
+    "question": "A pizza is cut into {{x}} slices. If you eat {{y}} slices, what fraction of the pizza is left?",
+    "formula": "({{x}} - {{y}}) / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the slices eaten from the total and put it over the total slices.",
+    "type": "basic"
+  },
+  {
+    "question": "A pool is being filled at {{x}} liters per minute. How many liters will be in the pool after {{y}} hours?",
+    "formula": "{{x}} * 60 * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the rate per minute by 60 to get the rate per hour, then multiply by hours.",
+    "type": "basic"
+  },
+  {
+    "question": "A train departs at {{x}}:00 and arrives at {{y}}:00. How long was the journey in hours?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the departure time from the arrival time.",
+    "type": "time"
+  },
+  {
+    "question": "A car travels {{x}} km in {{y}} hours. What is its average speed in km/h?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Speed is distance divided by time.",
+    "type": "basic"
+  },
+  {
+    "question": "A recipe requires {{x}} cups of flour for {{y}} servings. How many cups are needed for 1 serving?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total cups of flour by the number of servings.",
+    "type": "basic"
+  },
+  {
+    "question": "A car's fuel efficiency is {{x}} km per liter. How many liters are needed to travel {{y}} km?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the distance by the fuel efficiency.",
+    "type": "basic"
+  },
+  {
+    "question": "A car depreciates by {{x}}% every year. If it is currently worth ${{y}}, what will it be worth in 2 years?",
+    "formula": "{{y}} * (1 - ({{x}} / 100)) ** 2",
+    "difficulty": "hard",
+    "level": "senior-high",
+    "hint": "Calculate the depreciation rate, then apply it for each year.",
+    "type": "currency"
+  },
+  {
+    "question": "A person's height is {{x}} cm. What is their height in meters?",
+    "formula": "{{x}} / 100",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "There are 100 cm in a meter.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's weight is {{x}} kg. What is their weight in grams?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 1000 grams in a kilogram.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's age is {{x}} years. What is their age in months?",
+    "formula": "{{x}} * 12",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 12 months in a year.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's age is {{x}} years. What is their age in days?",
+    "formula": "{{x}} * 365",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 365 days in a year.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's age is {{x}} years. What is their age in hours?",
+    "formula": "{{x}} * 365 * 24",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 365 days in a year and 24 hours in a day.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's age is {{x}} years. What is their age in minutes?",
+    "formula": "{{x}} * 365 * 24 * 60",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "There are 365 days in a year, 24 hours in a day, and 60 minutes in an hour.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's age is {{x}} years. What is their age in seconds?",
+    "formula": "{{x}} * 365 * 24 * 60 * 60",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "There are 365 days in a year, 24 hours in a day, 60 minutes in an hour, and 60 seconds in a minute.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's height is {{x}} meters. What is their height in centimeters?",
+    "formula": "{{x}} * 100",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 100 centimeters in a meter.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's height is {{x}} meters. What is their height in millimeters?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 1000 millimeters in a meter.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's weight is {{x}} kilograms. What is their weight in grams?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 1000 grams in a kilogram.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's weight is {{x}} kilograms. What is their weight in milligrams?",
+    "formula": "{{x}} * 1000000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 1000000 milligrams in a kilogram.",
+    "type": "conversion"
+  },
+  {
+    "question": "A person's age is {{x}} years. What is their age in months?",
+    "formula": "{{x}} * 12",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 12 months in a year.",
+    "type": "conversion"
+  },
+  {
+    "question": "A runner completes a {{x}} km race. How many meters did they run?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "There are 1000 meters in a single kilometer.",
+    "type": "conversion"
+  },
+  {
+    "question": "A rectangular playground has a length of {{x}} m and a width of {{y}} m. What is the total distance around the edge?",
+    "formula": "2 * ({{x}} + {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Add the length and width together, then double the result to find the perimeter.",
+    "type": "geometry"
+  },
+  {
+    "question": "If one toy costs ${{x}}, how much change will you get from a ${{y}} bill?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the price of the item from the amount of money handed over.",
+    "type": "currency"
+  },
+  {
+    "question": "A movie starts at 3:00 PM and lasts for {{x}} minutes. How many minutes after 4:00 PM does it end?",
+    "formula": "{{x}} - 60",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract one hour (60 minutes) from the total duration to see the overflow past the next hour.",
+    "type": "time"
+  },
+  {
+    "question": "A box contains {{x}} packs of pencils, and each pack has {{y}} pencils. How many pencils are there in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Use multiplication to find the total number of items in equal groups.",
+    "type": "basic"
+  },
+  {
+    "question": "A square tile has a side length of {{x}} cm. What is its area in square centimeters?",
+    "formula": "{{x}} * {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "The area of a square is calculated by multiplying the side length by itself.",
+    "type": "geometry"
+  },
+  {
+    "question": "You have ${{x}} and want to buy notebooks that cost ${{y}} each. How many full notebooks can you buy?",
+    "formula": "floor({{x}} / {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide your total money by the price per item and ignore the remainder.",
+    "type": "currency"
+  },
+  {
+    "question": "A water tank holds {{x}} liters. If {{y}} liters are poured out, what percentage of the original volume is left?",
+    "formula": "(({{x}} - {{y}}) / {{x}}) * 100",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the remaining amount first, then divide by the total and multiply by 100.",
+    "type": "basic"
+  },
+  {
+    "question": "If a train travels {{x}} km in {{y}} hours at a constant speed, how far does it travel in 1 hour?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total distance by the total time taken.",
+    "type": "basic"
+  },
+  {
+    "question": "A piece of ribbon is {{x}} meters long. If it is cut into {{y}} equal pieces, how many centimeters long is each piece?",
+    "formula": "({{x}} * 100) / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert the total length to centimeters (x 100) before dividing by the number of pieces.",
+    "type": "conversion"
+  },
+  {
+    "question": "A clock shows the time is {{x}}:15. How many minutes are left until it reaches {{y}}:00?",
+    "formula": "(({{y}} - {{x}} - 1) * 60) + 45",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the full hours remaining and add the 45 minutes needed to complete the current hour.",
+    "type": "time"
+  },
+  {
+    "question": "A book has {{x}} pages. If you read {{y}} pages every day, how many days will it take to finish the book?",
+    "formula": "ceil({{x}} / {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total pages by daily progress and round up if there is a remainder.",
+    "type": "basic"
+  },
+  {
+    "question": "The temperature is {{x}} degrees Celsius. If it drops by {{y}} degrees, what is the new temperature?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the decrease from the starting value.",
+    "type": "basic"
+  },
+  {
+    "question": "A bottle contains {{x}} ml of juice. How many liters is this?",
+    "formula": "{{x}} / 1000",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "To convert milliliters to liters, divide by 1000.",
+    "type": "conversion"
+  },
+  {
+    "question": "An equilateral triangle has a perimeter of {{x}} cm. What is the length of one side?",
+    "formula": "{{x}} / 3",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "An equilateral triangle has three sides of equal length.",
+    "type": "geometry"
+  },
+  {
+    "question": "A worker earns ${{x}} per hour. If they work for {{y}} hours and {{z}} minutes, how much do they earn?",
+    "formula": "{{x}} * ({{y}} + ({{z}} / 60))",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert the minutes into a fraction of an hour by dividing by 60 before multiplying by the rate.",
+    "type": "currency"
+  },
+  {
+    "question": "A car fuel tank is {{x}}% full. If the total capacity is {{y}} liters, how many liters are currently in the tank?",
+    "formula": "{{y}} * ({{x}} / 100)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the total capacity by the percentage (divided by 100).",
+    "type": "basic"
+  },
+  {
+    "question": "How many seconds are there in {{x}} minutes and {{y}} seconds?",
+    "formula": "({{x}} * 60) + {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the minutes by 60 and add the remaining seconds.",
+    "type": "time"
+  },
+  {
+    "question": "A bag of rice weighs {{x}} kg. If {{y}} grams are used, how many grams of rice are left in the bag?",
+    "formula": "({{x}} * 1000) - {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert the kilograms to grams first so both numbers are in the same unit.",
+    "type": "conversion"
+  },
+  {
+    "question": "What is the area of a right-angled triangle with a base of {{x}} cm and a height of {{y}} cm?",
+    "formula": "0.5 * {{x}} * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "The area is half of the base multiplied by the height.",
+    "type": "geometry"
+  },
+  {
+    "question": "If {{x}} identical pens cost a total of ${{y}}, what is the cost of {{z}} pens?",
+    "formula": "({{y}} / {{x}}) * {{z}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the unit price of one pen first, then multiply by the desired quantity.",
+    "type": "currency"
+  },
+  {
+    "question": "A fence is being built around a square field with a side of {{x}} meters. If the wire costs ${{y}} per meter, what is the total cost?",
+    "formula": "(4 * {{x}}) * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the perimeter of the square first, then multiply by the price per meter.",
+    "type": "currency"
+  },
+  {
+    "question": "A plane flies at {{x}} km/h. How many kilometers will it cover in {{y}} hours?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Distance is equal to speed multiplied by time.",
+    "type": "basic"
+  },
+  {
+    "question": "You buy an item for ${{x}} and sell it for ${{y}}. What is your percentage profit?",
+    "formula": "(({{y}} - {{x}}) / {{x}}) * 100",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the profit amount, divide it by the original cost, and multiply by 100.",
+    "type": "currency"
+  },
+  {
+    "question": "A rectangular box has a length of {{x}} cm, a width of {{y}} cm, and a height of {{z}} cm. What is its volume?",
+    "formula": "{{x}} * {{y}} * {{z}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the length, width, and height together.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many days are in {{x}} weeks and {{y}} days?",
+    "formula": "({{x}} * 7) + {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "There are 7 days in a week.",
+    "type": "time"
+  },
+  {
+    "question": "A group of {{x}} friends shares a bill of ${{y}} equally. How much does each person pay?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total amount by the number of people.",
+    "type": "currency"
+  },
+  {
+    "question": "A map scale is 1 cm = {{x}} km. If the distance between two towns on the map is {{y}} cm, what is the actual distance?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the map measurement by the scale value.",
+    "type": "conversion"
+  },
+  {
+    "question": "If {{x}} + 2{{y}} = {{z}} and {{y}} = 5, what is the value of {{x}}?",
+    "formula": "{{z}} - (2 * 5)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Substitute the value of y into the equation and solve for x.",
+    "type": "basic"
+  },
+  {
+    "question": "A circular garden has a radius of {{x}} meters. What is the diameter?",
+    "formula": "{{x}} * 2",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "The diameter is twice the length of the radius.",
+    "type": "geometry"
+  },
+  {
+    "question": "If you have {{x}} apples and your friend gives you {{y}} more, how many apples do you have in total?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the two numbers together.",
+    "type": "basic"
+  },
+  {
+    "question": "A person is {{x}} years old. How many years until they turn {{y}}?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the current age from the target age.",
+    "type": "time"
+  },
+  {
+    "question": "How many centimeters are in {{x}} meters?",
+    "formula": "{{x}} * 100",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply by 100 because there are 100 cm in 1 meter.",
+    "type": "conversion"
+  },
+  {
+    "question": "A chocolate bar costs ${{x}}. How much do {{y}} bars cost?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the price of one bar by the quantity.",
+    "type": "currency"
+  },
+  {
+    "question": "A square has a side of {{x}} cm. What is its perimeter?",
+    "formula": "{{x}} * 4",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A square has four equal sides. Multiply the side length by 4.",
+    "type": "geometry"
+  },
+  {
+    "question": "What is {{x}} divided by {{y}}?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the first number by the second.",
+    "type": "basic"
+  },
+  {
+    "question": "How many minutes are in {{x}} hours?",
+    "formula": "{{x}} * 60",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of hours by 60.",
+    "type": "time"
+  },
+  {
+    "question": "If you buy a toy for ${{x}} and pay with a ${{y}} note, how much change do you get?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the cost from the money you gave.",
+    "type": "currency"
+  },
+  {
+    "question": "A book has {{x}} pages. You read {{y}} pages. How many pages are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the pages read from the total.",
+    "type": "basic"
+  },
+  {
+    "question": "How many grams are in {{x}} kilograms?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 1000 grams in 1 kilogram.",
+    "type": "conversion"
+  },
+  {
+    "question": "A rectangle has a length of {{x}} and a width of {{y}}. What is the area?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply length times width.",
+    "type": "geometry"
+  },
+  {
+    "question": "If {{x}} students are in each class and there are {{y}} classes, how many students are there in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of students by the number of classes.",
+    "type": "basic"
+  },
+  {
+    "question": "A movie ends at {{x}} o'clock. If it was {{y}} hours long, what time did it start?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the duration from the end time.",
+    "type": "time"
+  },
+  {
+    "question": "How many legs do {{x}} dogs have?",
+    "formula": "{{x}} * 4",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Each dog has 4 legs.",
+    "type": "basic"
+  },
+  {
+    "question": "A pen costs ${{x}}. How many pens can you buy with ${{y}}?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total money by the cost of one pen.",
+    "type": "currency"
+  },
+  {
+    "question": "What is the sum of {{x}}, {{y}}, and {{z}}?",
+    "formula": "{{x}} + {{y}} + {{z}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add all three numbers together.",
+    "type": "basic"
+  },
+  {
+    "question": "A triangle has three sides of {{x}} cm each. What is the perimeter?",
+    "formula": "{{x}} * 3",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the side length by 3.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many days are in {{x}} weeks?",
+    "formula": "{{x}} * 7",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 7 days in a week.",
+    "type": "time"
+  },
+  {
+    "question": "Convert {{x}} liters to milliliters.",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply by 1000.",
+    "type": "conversion"
+  },
+  {
+    "question": "If you double the number {{x}}, what do you get?",
+    "formula": "{{x}} * 2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number by 2.",
+    "type": "basic"
+  },
+  {
+    "question": "A ticket costs ${{x}}. If {{y}} people buy tickets, what is the total sales?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the ticket price by the number of people.",
+    "type": "currency"
+  },
+  {
+    "question": "A person's age is {{x}} years. What was their age {{y}} years ago?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the years from the current age.",
+    "type": "time"
+  },
+  {
+    "question": "A box holds {{x}} eggs. How many boxes do you need for {{y}} eggs?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total eggs by the box capacity.",
+    "type": "basic"
+  },
+  {
+    "question": "What is the value of {{x}} tens?",
+    "formula": "{{x}} * 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number by 10.",
+    "type": "basic"
+  },
+  {
+    "question": "A rope is {{x}} cm long. How many millimeters is that?",
+    "formula": "{{x}} * 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 10 millimeters in 1 centimeter.",
+    "type": "conversion"
+  },
+  {
+    "question": "An item costs ${{x}} and the tax is ${{y}}. What is the total price?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the tax to the item cost.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock shows 12:00. What time will it be in {{x}} hours?",
+    "formula": "{{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the hours to the starting time.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} candies and share them equally between {{y}} friends, how many does each get?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total candies by the number of friends.",
+    "type": "basic"
+  },
+  {
+    "question": "How many sides do {{x}} pentagons have in total?",
+    "formula": "{{x}} * 5",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A pentagon has 5 sides.",
+    "type": "geometry"
+  },
+  {
+    "question": "Convert {{x}} kilometers to meters.",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply by 1000.",
+    "type": "conversion"
+  },
+  {
+    "question": "If you save ${{x}} every day for {{y}} days, how much money do you have?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply daily savings by the number of days.",
+    "type": "currency"
+  },
+  {
+    "question": "What is half of {{x}}?",
+    "formula": "{{x}} / 2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the number by 2.",
+    "type": "basic"
+  },
+  {
+    "question": "How many months are in {{x}} years?",
+    "formula": "{{x}} * 12",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the years by 12.",
+    "type": "time"
+  },
+  {
+    "question": "What is {{x}} minus {{y}}?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Perform simple subtraction.",
+    "type": "basic"
+  },
+  {
+    "question": "A rectangle has a perimeter of {{x}}. If all sides are equal (a square), what is one side?",
+    "formula": "{{x}} / 4",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the perimeter by 4.",
+    "type": "geometry"
+  },
+  {
+    "question": "You have {{x}} marbles and lose {{y}}. How many are left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the lost marbles from the total.",
+    "type": "basic"
+  },
+  {
+    "question": "How many hours are in {{x}} days?",
+    "formula": "{{x}} * 24",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 24 hours in one day.",
+    "type": "time"
+  },
+  {
+    "question": "A notebook costs ${{x}} and a pen costs ${{y}}. What is the total?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the prices together.",
+    "type": "currency"
+  },
+  {
+    "question": "How many centimeters is {{x}} millimeters?",
+    "formula": "{{x}} / 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide by 10.",
+    "type": "conversion"
+  },
+  {
+    "question": "If a car has {{x}} wheels, how many wheels do {{y}} cars have?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply wheels per car by the number of cars.",
+    "type": "basic"
+  },
+  {
+    "question": "What is {{x}} + {{y}} + 10?",
+    "formula": "{{x}} + {{y}} + 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the two variables and then add 10.",
+    "type": "basic"
+  },
+  {
+    "question": "How many minutes are in {{x}} seconds?",
+    "formula": "{{x}} / 60",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the number of seconds by 60.",
+    "type": "time"
+  },
+  {
+    "question": "An eraser costs ${{x}}. If you buy {{y}}, how much do you spend?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the price by the quantity.",
+    "type": "currency"
+  },
+  {
+    "question": "How many vertices does a triangle have?",
+    "formula": "3",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Count the corners of a triangle.",
+    "type": "geometry"
+  },
+  {
+    "question": "A pizza is cut into {{x}} slices. You eat half. How many are left?",
+    "formula": "{{x}} / 2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total slices by 2.",
+    "type": "basic"
+  },
+  {
+    "question": "If you are at meter {{x}} on a track and run {{y}} more meters, where are you?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the distances together.",
+    "type": "conversion"
+  },
+  {
+    "question": "A week has 7 days. How many days are in {{x}} weeks?",
+    "formula": "{{x}} * 7",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply by 7.",
+    "type": "time"
+  },
+  {
+    "question": "Subtract {{y}} from {{x}}.",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Take the second number away from the first.",
+    "type": "basic"
+  },
+  {
+    "question": "A toy costs ${{x}}. You have ${{y}}. How much more do you need?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract what you have from the cost.",
+    "type": "currency"
+  },
+  {
+    "question": "What is {{x}} times 10?",
+    "formula": "{{x}} * 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number by 10.",
+    "type": "basic"
+  },
+  {
+    "question": "If a farmer has {{x}} rows of corn and each row has {{y}} plants, how many corn plants are there in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of rows by the plants per row.",
+    "type": "basic"
+  },
+  {
+    "question": "A ruler is {{x}} cm long. How many millimeters is that?",
+    "formula": "{{x}} * 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 10 millimeters in every 1 centimeter.",
+    "type": "conversion"
+  },
+  {
+    "question": "An ice cream cone costs ${{x}}. If you buy {{y}} cones, what is the total cost?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the price of one cone by the number of cones.",
+    "type": "currency"
+  },
+  {
+    "question": "A square has a side length of {{x}} meters. What is the total length of its boundary?",
+    "formula": "{{x}} * 4",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A square has four equal sides; multiply the side length by 4.",
+    "type": "geometry"
+  },
+  {
+    "question": "If it is {{x}}:00 now, what time will it be in {{y}} hours?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the number of hours to the current time.",
+    "type": "time"
+  },
+  {
+    "question": "You have {{x}} marbles and you give {{y}} to your brother. How many do you have left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the marbles given away from the starting amount.",
+    "type": "basic"
+  },
+  {
+    "question": "How many legs do {{x}} spiders have?",
+    "formula": "{{x}} * 8",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Each spider has 8 legs.",
+    "type": "basic"
+  },
+  {
+    "question": "Convert {{x}} meters into centimeters.",
+    "formula": "{{x}} * 100",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 100 centimeters in 1 meter.",
+    "type": "conversion"
+  },
+  {
+    "question": "A toy car costs ${{x}}. How much change will you get from ${{y}}?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the cost of the toy from the amount you paid.",
+    "type": "currency"
+  },
+  {
+    "question": "A triangle has three sides. If each side is {{x}} cm long, what is the perimeter?",
+    "formula": "{{x}} * 3",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the three sides together or multiply one side by 3.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many minutes are in {{x}} hours?",
+    "formula": "{{x}} * 60",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of hours by 60.",
+    "type": "time"
+  },
+  {
+    "question": "What is the total of {{x}}, {{y}}, and {{z}}?",
+    "formula": "{{x}} + {{y}} + {{z}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add all three numbers together.",
+    "type": "basic"
+  },
+  {
+    "question": "A bag of flour weighs {{x}} kg. How many grams is this?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 1000 grams in 1 kilogram.",
+    "type": "conversion"
+  },
+  {
+    "question": "If {{x}} pens cost ${{y}}, how much does 1 pen cost?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total cost by the number of pens.",
+    "type": "currency"
+  },
+  {
+    "question": "A rectangle has a length of {{x}} cm and a width of {{y}} cm. What is its area?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the length by the width.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many days are in {{x}} weeks?",
+    "formula": "{{x}} * 7",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of weeks by 7.",
+    "type": "time"
+  },
+  {
+    "question": "If you share {{x}} cookies equally among {{y}} people, how many does each person get?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total number of cookies by the number of people.",
+    "type": "basic"
+  },
+  {
+    "question": "A bottle contains {{x}} liters of water. How many milliliters is that?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of liters by 1000.",
+    "type": "conversion"
+  },
+  {
+    "question": "A cinema ticket is ${{x}} and popcorn is ${{y}}. What is the total price?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the price of the ticket and the popcorn together.",
+    "type": "currency"
+  },
+  {
+    "question": "A cube has all sides equal to {{x}} cm. What is the sum of the lengths of all 12 edges?",
+    "formula": "{{x}} * 12",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A cube has 12 edges; multiply the length of one side by 12.",
+    "type": "geometry"
+  },
+  {
+    "question": "If a bus departs at {{x}}:00 and the trip takes {{y}} hours, what time does it arrive?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the travel time to the departure time.",
+    "type": "time"
+  },
+  {
+    "question": "What is {{x}} multiplied by 10?",
+    "formula": "{{x}} * 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number by 10.",
+    "type": "basic"
+  },
+  {
+    "question": "Convert {{x}} kilograms into grams.",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the kilograms by 1000.",
+    "type": "conversion"
+  },
+  {
+    "question": "If you buy {{x}} apples for ${{y}}, how much does each apple cost?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total cost by the number of apples.",
+    "type": "currency"
+  },
+  {
+    "question": "How many sides do {{x}} triangles have in total?",
+    "formula": "{{x}} * 3",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Each triangle has 3 sides.",
+    "type": "geometry"
+  },
+  {
+    "question": "If a person sleeps for {{x}} hours a day, how many hours do they sleep in {{y}} days?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the hours of sleep by the number of days.",
+    "type": "time"
+  },
+  {
+    "question": "Subtract {{y}} from {{x}}.",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Perform the subtraction to find the difference.",
+    "type": "basic"
+  },
+  {
+    "question": "How many centimeters are in {{x}} millimeters?",
+    "formula": "{{x}} / 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the number of millimeters by 10.",
+    "type": "conversion"
+  },
+  {
+    "question": "You have ${{x}} and spend ${{y}}. How much money is left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the spent amount from your total money.",
+    "type": "currency"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length {{x}} and width {{y}}?",
+    "formula": "2 * ({{x}} + {{y}})",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add length and width together, then multiply by 2.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many seconds are in {{x}} minutes?",
+    "formula": "{{x}} * 60",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of minutes by 60.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} groups of {{y}} students, how many students are there altogether?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of groups by the number of students per group.",
+    "type": "basic"
+  },
+  {
+    "question": "Convert {{x}} kilometers into meters.",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 1000 meters in a kilometer.",
+    "type": "conversion"
+  },
+  {
+    "question": "A notebook costs ${{x}}. How much do {{y}} notebooks cost?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the unit price by the quantity.",
+    "type": "currency"
+  },
+  {
+    "question": "What is the area of a square with side {{x}}?",
+    "formula": "{{x}} * {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the side length by itself.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many months are in {{x}} years?",
+    "formula": "{{x}} * 12",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of years by 12.",
+    "type": "time"
+  },
+  {
+    "question": "Divide {{x}} by {{y}}.",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Find how many times the second number fits into the first.",
+    "type": "basic"
+  },
+  {
+    "question": "How many meters are in {{x}} centimeters?",
+    "formula": "{{x}} / 100",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the centimeters by 100.",
+    "type": "conversion"
+  },
+  {
+    "question": "If a candy bar costs ${{x}}, how many can you buy with ${{y}}?",
+    "formula": "floor({{y}} / {{x}})",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide your total money by the cost of one bar.",
+    "type": "currency"
+  },
+  {
+    "question": "How many corners (vertices) does a cube have?",
+    "formula": "8",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Count the corners of a 3D box.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many hours are in {{x}} days?",
+    "formula": "{{x}} * 24",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of days by 24.",
+    "type": "time"
+  },
+  {
+    "question": "Add {{x}} and {{y}} together.",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Find the sum of the two numbers.",
+    "type": "basic"
+  },
+  {
+    "question": "How many milliliters are in {{x}} liters?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply by 1000 to convert liters to ml.",
+    "type": "conversion"
+  },
+  {
+    "question": "If you save ${{x}} every month, how much will you have after {{y}} months?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the monthly savings by the number of months.",
+    "type": "currency"
+  },
+  {
+    "question": "How many sides are on {{x}} squares?",
+    "formula": "{{x}} * 4",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Each square has 4 sides.",
+    "type": "geometry"
+  },
+  {
+    "question": "If a movie starts at 2:00 and is {{x}} hours long, what time does it finish?",
+    "formula": "2 + {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the duration to the start time.",
+    "type": "time"
+  },
+  {
+    "question": "Double the number {{x}}.",
+    "formula": "{{x}} * 2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number by 2.",
+    "type": "basic"
+  },
+  {
+    "question": "A string is {{x}} meters long. How many centimeters is it?",
+    "formula": "{{x}} * 100",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the meters by 100.",
+    "type": "conversion"
+  },
+  {
+    "question": "If you have ${{x}} and a book costs ${{y}}, how much more money do you need?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the money you have from the total price of the book.",
+    "type": "currency"
+  },
+  {
+    "question": "What is the total number of sides on {{x}} pentagons?",
+    "formula": "{{x}} * 5",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A pentagon has 5 sides.",
+    "type": "geometry"
+  },
+  {
+    "question": "A library has {{x}} shelves with {{y}} books on each shelf. How many books are there in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of shelves by the number of books per shelf.",
+    "type": "basic"
+  },
+  {
+    "question": "An athlete drinks {{x}} ml of water every kilometer. If they run {{y}} km, how many milliliters do they drink?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the amount per km by the total kilometers run.",
+    "type": "conversion"
+  },
+  {
+    "question": "A pack of {{x}} trading cards costs ${{y}}. What is the cost of one card?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total price by the number of cards in the pack.",
+    "type": "currency"
+  },
+  {
+    "question": "Find the area of a rectangle that is {{x}} cm long and {{y}} cm wide.",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Area is found by multiplying length by width.",
+    "type": "geometry"
+  },
+  {
+    "question": "If a train leaves at {{x}}:30 and the journey takes 45 minutes, how many minutes past the next hour does it arrive?",
+    "formula": "({{x}} * 60 + 30 + 45) % 60",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Add 45 minutes to the start time and see how many minutes go into the next hour.",
+    "type": "time"
+  },
+  {
+    "question": "A baker makes {{x}} cookies. If they sell {{y}}% of them, how many cookies are sold?",
+    "formula": "{{x}} * ({{y}} / 100)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the total cookies by the percentage written as a decimal.",
+    "type": "basic"
+  },
+  {
+    "question": "How many centimeters are in {{x}} meters and {{y}} centimeters?",
+    "formula": "({{x}} * 100) + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Convert meters to cm first (x 100) then add the extra cm.",
+    "type": "conversion"
+  },
+  {
+    "question": "If {{x}} identical apples weigh a total of {{y}} grams, what is the weight of one apple?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total weight by the number of items.",
+    "type": "basic"
+  },
+  {
+    "question": "A pair of shoes is priced at ${{x}}. If there is a ${{y}} discount, what is the new price?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the discount from the original price.",
+    "type": "currency"
+  },
+  {
+    "question": "What is the perimeter of a regular hexagon where each side is {{x}} cm?",
+    "formula": "{{x}} * 6",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "A hexagon has 6 sides. Multiply the side length by 6.",
+    "type": "geometry"
+  },
+  {
+    "question": "A stopwatch shows {{x}} seconds. How many minutes and seconds is this? (Calculate total minutes only)",
+    "formula": "floor({{x}} / 60)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide by 60 to find how many whole minutes fit into the seconds.",
+    "type": "time"
+  },
+  {
+    "question": "If a car travels {{x}} miles on {{y}} gallons of gas, how many miles does it travel per gallon?",
+    "formula": "{{x}} / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total miles by the total gallons used.",
+    "type": "basic"
+  },
+  {
+    "question": "Convert {{x}} grams into kilograms.",
+    "formula": "{{x}} / 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the number of grams by 1000.",
+    "type": "conversion"
+  },
+  {
+    "question": "A restaurant bill is ${{x}}. If you want to leave a ${{y}} tip, what is the total amount you pay?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the tip amount to the original bill.",
+    "type": "currency"
+  },
+  {
+    "question": "A rectangular box has a base area of {{x}} square cm and a height of {{y}} cm. What is its volume?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Volume is calculated by multiplying the base area by the height.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many hours are in {{x}} days and {{y}} hours?",
+    "formula": "({{x}} * 24) + {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the days by 24 and add the remaining hours.",
+    "type": "time"
+  },
+  {
+    "question": "A school has {{x}} boys and {{y}} girls. What is the total number of students?",
+    "formula": "{{x}} + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the number of boys and girls together.",
+    "type": "basic"
+  },
+  {
+    "question": "A piece of wood is {{x}} meters long. If you cut off {{y}} cm, how many cm are left?",
+    "formula": "({{x}} * 100) - {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert the meters to cm (x 100) before subtracting.",
+    "type": "conversion"
+  },
+  {
+    "question": "If you buy {{x}} stamps for ${{y}}, how much do {{z}} stamps cost?",
+    "formula": "({{y}} / {{x}}) * {{z}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the price of one stamp first, then multiply by z.",
+    "type": "currency"
+  },
+  {
+    "question": "An isosceles triangle has two sides of {{x}} cm and one side of {{y}} cm. What is the perimeter?",
+    "formula": "(2 * {{x}}) + {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Add the lengths of all three sides together.",
+    "type": "geometry"
+  },
+  {
+    "question": "A lesson lasts for {{x}} minutes. If it starts at 9:00 AM, at what time does it end in minutes past 9:00?",
+    "formula": "{{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The end time in minutes is equal to the duration of the lesson.",
+    "type": "time"
+  },
+  {
+    "question": "If {{x}} multiplied by {{y}} is {{z}}, what is {{z}} divided by {{x}}?",
+    "formula": "{{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Division is the inverse of multiplication.",
+    "type": "basic"
+  },
+  {
+    "question": "How many milliliters are in {{x}} liters and {{y}} ml?",
+    "formula": "({{x}} * 1000) + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Convert the liters to ml (x 1000) and add the remaining ml.",
+    "type": "conversion"
+  },
+  {
+    "question": "A worker earns ${{x}} per day. How much do they earn in a 5-day work week?",
+    "formula": "{{x}} * 5",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the daily earnings by 5.",
+    "type": "currency"
+  },
+  {
+    "question": "What is the area of a square garden with a perimeter of {{x}} meters?",
+    "formula": "({{x}} / 4) * ({{x}} / 4)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the side length first (Perimeter / 4), then multiply the side by itself for the area.",
+    "type": "geometry"
+  },
+  {
+    "question": "If a timer counts down from {{x}} minutes and has {{y}} seconds left, how many total seconds are left?",
+    "formula": "{{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The question asks for the seconds already given.",
+    "type": "time"
+  },
+  {
+    "question": "A bus can hold {{x}} passengers. If there are {{y}} buses, how many passengers can be carried in total?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the capacity of one bus by the number of buses.",
+    "type": "basic"
+  },
+  {
+    "question": "Convert {{x}} kilometers and {{y}} meters into total meters.",
+    "formula": "({{x}} * 1000) + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 1000 meters in a kilometer.",
+    "type": "conversion"
+  },
+  {
+    "question": "A video game costs ${{x}}. You have saved ${{y}}. How much more do you need?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract your savings from the price of the game.",
+    "type": "currency"
+  },
+  {
+    "question": "A triangle has angles of {{x}} degrees and {{y}} degrees. What is the third angle?",
+    "formula": "180 - ({{x}} + {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "The sum of angles in any triangle is always 180 degrees.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many full weeks are in {{x}} days?",
+    "formula": "floor({{x}} / 7)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total days by 7 and ignore the remainder.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} cupcakes and eat {{y}} of them, what percentage have you eaten?",
+    "formula": "({{y}} / {{x}}) * 100",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the amount eaten by the total and multiply by 100.",
+    "type": "basic"
+  },
+  {
+    "question": "How many millimeters are in {{x}} meters?",
+    "formula": "{{x}} * 1000",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "There are 1000 millimeters in 1 meter.",
+    "type": "conversion"
+  },
+  {
+    "question": "A group of {{x}} people splits a ${{y}} prize. How much does each person get?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the prize money by the number of people.",
+    "type": "currency"
+  },
+  {
+    "question": "A circle has a diameter of {{x}} cm. What is its radius?",
+    "formula": "{{x}} / 2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The radius is exactly half of the diameter.",
+    "type": "geometry"
+  },
+  {
+    "question": "A clock loses {{x}} minutes every day. How many minutes does it lose in a week?",
+    "formula": "{{x}} * 7",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the daily loss by 7 days.",
+    "type": "time"
+  },
+  {
+    "question": "What is the result of {{x}} plus {{y}} minus {{z}}?",
+    "formula": "{{x}} + {{y}} - {{z}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Follow the operations from left to right.",
+    "type": "basic"
+  },
+  {
+    "question": "A container holds {{x}} liters. If you fill it with {{y}} ml of water, how much space is left in ml?",
+    "formula": "({{x}} * 1000) - {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert liters to ml (x 1000) before subtracting the water added.",
+    "type": "conversion"
+  },
+  {
+    "question": "A bag of candy costs ${{x}}. If you buy {{y}} bags, how much change do you get from ${{z}}?",
+    "formula": "{{z}} - ({{x}} * {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the total cost first, then subtract it from the money you have.",
+    "type": "currency"
+  },
+  {
+    "question": "How many faces does a cube have?",
+    "formula": "6",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of a standard six-sided die.",
+    "type": "geometry"
+  },
+  {
+    "question": "How many minutes are in {{x}} hours and {{y}} minutes?",
+    "formula": "({{x}} * 60) + {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply hours by 60 and add the extra minutes.",
+    "type": "time"
+  },
+  {
+    "question": "If you multiply a number {{x}} by itself, what is the result?",
+    "formula": "{{x}} * {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "This is also called 'squaring' the number.",
+    "type": "basic"
+  },
+  {
+    "question": "Convert {{x}} centimeters to millimeters.",
+    "formula": "{{x}} * 10",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply by 10.",
+    "type": "conversion"
+  },
+  {
+    "question": "A shirt is on sale for half price. If the original price was ${{x}}, what is the sale price?",
+    "formula": "{{x}} / 2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the original price by 2.",
+    "type": "currency"
+  },
+  {
+    "question": "What is the perimeter of a triangle with sides {{x}} cm, {{y}} cm, and {{z}} cm?",
+    "formula": "{{x}} + {{y}} + {{z}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add all three side lengths together.",
+    "type": "geometry"
+  },
+  {
+    "question": "A train travels for {{x}} hours and {{y}} minutes. How many total minutes is the trip?",
+    "formula": "({{x}} * 60) + {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert the hours to minutes and add the remaining minutes.",
+    "type": "time"
+  },
+  {
+    "question": "If you have {{x}} groups of {{y}} apples, and you give away {{z}} apples, how many are left?",
+    "formula": "({{x}} * {{y}}) - {{z}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply to find the total apples first, then subtract the amount given away.",
+    "type": "basic"
+  },
+  {
+    "question": "How many kilograms are in {{x}} grams?",
+    "formula": "{{x}} / 1000",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide by 1000.",
+    "type": "conversion"
+  },
+  {
+    "question": "If you save ${{x}} a week, how much will you have in {{y}} weeks?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the weekly savings by the number of weeks.",
+    "type": "currency"
+  },
+  {
+    "question": "A rectangular room is {{x}} meters by {{y}} meters. How many square meters of carpet are needed?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the length and the width to find the area.",
+    "type": "geometry"
+  }
+]

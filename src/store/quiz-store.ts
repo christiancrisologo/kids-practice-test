@@ -217,7 +217,22 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       if (currentQuestion) {
         // For input type, compare string; for multiple-choice, compare index
         if (state.settings.questionType === 'input') {
-          isCorrect = typeof answer === 'string' && answer.trim().toLowerCase() === currentQuestion.answer.trim().toLowerCase();
+          // Normalize both answers for comparison (trim and lowercase)
+          const userAnswerNormalized = answer.trim().toLowerCase();
+          const correctAnswerNormalized = currentQuestion.answer.trim().toLowerCase();
+
+          // Try numeric comparison first (for math questions)
+          const userNum = parseFloat(userAnswerNormalized);
+          const correctNum = parseFloat(correctAnswerNormalized);
+
+          if (!isNaN(userNum) && !isNaN(correctNum)) {
+            // Both are numbers - compare numerically with small tolerance for floating point
+            isCorrect = Math.abs(userNum - correctNum) < 0.01;
+          } else {
+            // Text comparison - case insensitive
+            isCorrect = userAnswerNormalized === correctAnswerNormalized;
+          }
+
           currentQuestion.userAnswer = answer;
         } else if (state.settings.questionType === 'multiple-choice' && currentQuestion.options) {
           const idx = typeof answer === 'number' ? answer : parseInt(answer as string);

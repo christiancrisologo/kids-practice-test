@@ -5,6 +5,8 @@ import "../styles/mobile.css";
 import "../styles/themes.css";
 import { ThemeProvider } from "../contexts/theme-context";
 import { SystemSettingsProvider } from "../contexts/system-settings-context";
+import { QuizDataProvider } from "../contexts/math-data-context";
+import { AppLoader } from "../components/ui/AppLoader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,7 +46,11 @@ export default function RootLayout({
       >
         <ThemeProvider defaultTheme="system">
           <SystemSettingsProvider>
-            {children}
+            <QuizDataProvider>
+              <AppLoader>
+                {children}
+              </AppLoader>
+            </QuizDataProvider>
           </SystemSettingsProvider>
         </ThemeProvider>
       </body>
