@@ -3,6 +3,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import type { AppSettings } from '@/types/settings';
 import { setMathData, type MathQuestionTemplate } from '@/utils/dynamicMathGenerator';
+import { setAppSettings } from '@/utils/settingsManager';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type QuestionDataArray = any[];
@@ -76,7 +77,10 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           );
         }
 
+        // Set as the source of truth for all settings
+        setAppSettings(settingsData);
         setSettings(settingsData);
+        console.log('[Settings] Loaded and set as source of truth for app configuration');
 
         setProgress(30);
         await new Promise(resolve => setTimeout(resolve, delay));
@@ -167,7 +171,10 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
       try {
         const cachedSettings = sessionStorage.getItem('quizSettings');
         if (cachedSettings) {
-          setSettings(JSON.parse(cachedSettings));
+          const parsedSettings = JSON.parse(cachedSettings);
+          setSettings(parsedSettings);
+          // Also set as source of truth in settings manager
+          setAppSettings(parsedSettings);
         }
 
         // Also restore math data if it was cached

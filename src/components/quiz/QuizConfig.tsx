@@ -5,7 +5,7 @@ import { Subject, AnswerFormat } from '../../types/quiz';
 import { MobileButton } from '../ui/MobileButton';
 import { useIsMobile } from '../../utils/responsive';
 import { getQuizDataSource } from '../../utils/systemConfig';
-import settings from '../../configs/settings.json';
+import { getChallengeModes } from '../../utils/settingsManager';
 
 interface QuizConfigProps {
   subject?: Subject; // Optional subject from route parameter
@@ -36,9 +36,6 @@ interface QuizConfigProps {
 // Math question types from math.json
 const MATH_QUESTION_TYPES = ['basic', 'conversion', 'currency', 'geometry', 'time'];
 
-// Load challenges from settings.json
-const CHALLENGES = settings.challenges;
-
 export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConfigProps) {
   const isMobile = useIsMobile();
   const [username, setUsername] = useState('');
@@ -55,8 +52,22 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
   // Challenge mode state
   const [selectedChallenge, setSelectedChallenge] = useState<string>('No Challenge');
 
+  // Get challenges from settings manager (fetched source of truth)
+  const CHALLENGES = getChallengeModes();
+
   // Challenge settings (default to "No Challenge" settings)
-  const defaultChallengeSettings = CHALLENGES[0].settings;
+  const defaultChallengeSettings = CHALLENGES[0]?.settings || {
+    timerEnabled: true,
+    questionsEnabled: true,
+    minCorrectAnswers: 0,
+    maxCorrectAnswers: 10,
+    correctAnswersEnabled: false,
+    minIncorrectAnswers: 0,
+    maxIncorrectAnswers: 10,
+    incorrectAnswersEnabled: false,
+    overallTimerEnabled: false,
+    overallTimerDuration: 0
+  };
   const [timerEnabled, setTimerEnabled] = useState(defaultChallengeSettings.timerEnabled);
   const [questionsEnabled, setQuestionsEnabled] = useState(defaultChallengeSettings.questionsEnabled);
   const [minCorrectAnswers, setMinCorrectAnswers] = useState(defaultChallengeSettings.minCorrectAnswers);

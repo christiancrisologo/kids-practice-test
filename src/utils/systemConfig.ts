@@ -1,4 +1,4 @@
-import settingsData from '../configs/settings.json';
+import { getSystemConfig } from './settingsManager';
 
 export interface SystemConfig {
   theme: {
@@ -17,63 +17,68 @@ export interface SystemConfig {
   'quiz-data': 'math' | 'english' | 'science';
 }
 
-// Load system configuration from settings.json
-export const systemConfig: SystemConfig = settingsData.system as SystemConfig;
-
 /**
  * Check if Supabase is enabled in the system configuration
  */
 export function isSupabaseEnabled(): boolean {
-  return systemConfig.supabase.enabled;
+  const config = getSystemConfig();
+  return config.supabase.enabled;
 }
 
 /**
  * Check if we should use localStorage
  */
 export function shouldUseLocalStorage(): boolean {
-  return systemConfig.storage.useLocalStorage || !isSupabaseEnabled();
+  const config = getSystemConfig();
+  return config.storage.useLocalStorage || !isSupabaseEnabled();
 }
 
 /**
  * Check if we should sync with Supabase when online
  */
 export function shouldSyncOnline(): boolean {
-  return isSupabaseEnabled() && systemConfig.supabase.syncOnline;
+  const config = getSystemConfig();
+  return isSupabaseEnabled() && config.supabase.syncOnline;
 }
 
 /**
  * Check if we should fallback to localStorage when Supabase fails
  */
 export function shouldFallbackToLocalStorage(): boolean {
-  return systemConfig.supabase.fallbackToLocalStorage;
+  const config = getSystemConfig();
+  return config.supabase.fallbackToLocalStorage;
 }
 
 /**
  * Get the default theme
  */
 export function getDefaultTheme(): 'light' | 'dark' {
-  return systemConfig.theme.default;
+  const config = getSystemConfig();
+  return config.theme.default;
 }
 
 /**
  * Check if user can change theme preference
  */
 export function canChangeTheme(): boolean {
-  return systemConfig.theme.allowUserPreference;
+  const config = getSystemConfig();
+  return config.theme.allowUserPreference;
 }
 
 /**
  * Get max history records to store
  */
 export function getMaxHistoryRecords(): number {
-  return systemConfig.storage.maxHistoryRecords;
+  const config = getSystemConfig();
+  return config.storage.maxHistoryRecords;
 }
 
 /**
  * Get the quiz data source
  */
 export function getQuizDataSource(): 'math' | 'english' | 'science' {
-  return systemConfig['quiz-data'];
+  const config = getSystemConfig();
+  return config['quiz-data'] as 'math' | 'english' | 'science';
 }
 
 /**
