@@ -14,6 +14,12 @@
             "maxHistoryRecords": 100
         },
         "quiz-data": "math"
+    ,
+    "hint": {
+        "enable_primary_level": true,
+        "enable_junior_level": true,
+        "show_time": 20
+    }
     },
     "challenges": [
         {

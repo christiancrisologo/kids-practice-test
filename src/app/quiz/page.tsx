@@ -10,11 +10,13 @@ import { animationClasses } from '../../utils/enhanced-animations';
 import { useQuestionTransition, getBlockingOverlayClasses } from '../../utils/question-transitions';
 import { getChallengeMode } from '../../utils/challengeModes';
 import HeaderContent from '../../components/quiz/HeaderContent';
+import { useQuizData } from '../../contexts/math-data-context';
 
 export default function QuizPage() {
     const router = useRouter();
     const isMobile = useIsMobile();
     const { settings: systemSettings } = useSystemSettings();
+    const { settings: globalSettings } = useQuizData();
     const {
         settings,
         questions,
@@ -91,6 +93,38 @@ export default function QuizPage() {
         setHintContent('');
         setFlashResult(null);
     }, [currentQuestionIndex]);
+
+    // Show hint automatically based on system `hint` config for the current level
+    useEffect(() => {
+        if (!currentQuestion) return;
+
+        try {
+            const hintCfg = (globalSettings && (globalSettings as any).hint) || null;
+            if (!hintCfg) return;
+
+            const level = settings.yearLevel; // 'primary' | 'secondary' | 'high'
+            const enabledForPrimary = !!hintCfg.enable_primary_level && level === 'primary';
+            const enabledForJunior = !!hintCfg.enable_junior_level && level === 'secondary';
+            const isEnabled = enabledForPrimary || enabledForJunior;
+            if (!isEnabled) return;
+
+            const showTime = typeof hintCfg.show_time === 'number' ? hintCfg.show_time : 20;
+
+            const hintText = ('hint' in currentQuestion && typeof currentQuestion.hint === 'string' && currentQuestion.hint) || `💡 Hint: Think about the question.`;
+            setHintContent(hintText);
+            setShowHint(true);
+
+            // If show_time is less than timer per question, auto-hide after show_time seconds
+            if (showTime > 0 && showTime < (settings.timerPerQuestion || 0)) {
+                const timer = setTimeout(() => setShowHint(false), showTime * 1000);
+                return () => clearTimeout(timer);
+            }
+            // If show_time >= timerPerQuestion, keep it displayed permanently for that question
+        } catch (e) {
+            // ignore errors reading config
+            return;
+        }
+    }, [currentQuestionIndex, currentQuestion, globalSettings, settings.yearLevel, settings.timerPerQuestion]);
     // Flash result state
     const [flashResult, setFlashResult] = useState<null | 'correct' | 'incorrect'>(null);
 
