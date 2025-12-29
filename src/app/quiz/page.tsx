@@ -10,11 +10,19 @@ import { animationClasses } from '../../utils/enhanced-animations';
 import { useQuestionTransition, getBlockingOverlayClasses } from '../../utils/question-transitions';
 import { getChallengeMode } from '../../utils/challengeModes';
 import HeaderContent from '../../components/quiz/HeaderContent';
+import { useQuizData } from '../../contexts/math-data-context';
+import {
+    isHintEnabledForLevel,
+    isHintButtonVisible,
+    getHintAutoShowDelay,
+    type YearLevel
+} from '../../types/settings';
 
 export default function QuizPage() {
     const router = useRouter();
     const isMobile = useIsMobile();
     const { settings: systemSettings } = useSystemSettings();
+    const { settings: globalSettings } = useQuizData();
     const {
         settings,
         questions,
@@ -91,23 +99,45 @@ export default function QuizPage() {
         setHintContent('');
         setFlashResult(null);
     }, [currentQuestionIndex]);
+
     // Flash result state
     const [flashResult, setFlashResult] = useState<null | 'correct' | 'incorrect'>(null);
 
-    // Show hint after 25% of time remaining or 10 seconds (whichever is less)
+    // Auto-show hint based on configuration
     useEffect(() => {
-        if (!isQuizActive || !settings.timerEnabled || showCountdown) return;
+        if (!currentQuestion || !globalSettings?.system?.hint || showCountdown) return;
 
-        const totalTime = settings.timerPerQuestion;
-        const hintThreshold = totalTime <= 40 ? Math.floor(totalTime * 0.75) : totalTime - 10;
+        const hintSettings = globalSettings.system.hint;
 
-        if (timeRemaining <= hintThreshold && !showHint && currentQuestion) {
-            // Auto-show hint when threshold is reached
-            const hintText = ('hint' in currentQuestion && typeof currentQuestion.hint === 'string' && currentQuestion.hint) || `💡 Hint: The answer is related to ${currentQuestion.question}`;
-            setHintContent(hintText);
-            setShowHint(true);
+        // Map yearLevel to YearLevel type
+        let yearLevel: YearLevel;
+        if (settings.yearLevel === 'primary') {
+            yearLevel = 'primary';
+        } else if (settings.yearLevel === 'secondary') {
+            yearLevel = 'junior';
+        } else {
+            yearLevel = 'senior';
         }
-    }, [timeRemaining, isQuizActive, settings.timerEnabled, settings.timerPerQuestion, showCountdown, showHint, currentQuestion]);
+
+        // Check if hint is enabled for this level
+        const isEnabled = isHintEnabledForLevel(hintSettings, yearLevel);
+        if (!isEnabled) return;
+
+        // Get hint text
+        const hintText = ('hint' in currentQuestion && typeof currentQuestion.hint === 'string' && currentQuestion.hint)
+            || `💡 Hint: Think carefully about the question.`;
+        setHintContent(hintText);
+
+        // Calculate delay for auto-showing hint
+        const delay = getHintAutoShowDelay(hintSettings, settings.timerPerQuestion);
+
+        // Auto-show hint after delay
+        const timer = setTimeout(() => {
+            setShowHint(true);
+        }, delay);
+
+        return () => clearTimeout(timer);
+    }, [currentQuestionIndex, currentQuestion, globalSettings, settings.yearLevel, settings.timerPerQuestion, showCountdown]);
 
     // Timer logic - pause during countdown and animations, and check if timer is enabled
     useEffect(() => {
@@ -385,10 +415,17 @@ export default function QuizPage() {
 
                                 {/* Action buttons */}
                                 <div className="flex justify-center gap-4 mb-4">
-                                    {/* Only show hint button for primary school level and when hint is not already displayed */}
-                                    {settings.yearLevel === 'primary' && !showHint && (
-                                        <button onClick={handleHint} className="px-4 py-2 rounded bg-yellow-200 dark:bg-yellow-700 text-yellow-900 dark:text-yellow-100 font-bold">💡 Hint</button>
-                                    )}
+                                    {/* Hint button visibility based on year level - always visible for primary, hidden for junior and senior */}
+                                    {(() => {
+                                        const yearLevel: YearLevel = settings.yearLevel === 'primary' ? 'primary'
+                                            : settings.yearLevel === 'secondary' ? 'junior'
+                                                : 'senior';
+                                        const shouldShowButton = isHintButtonVisible(yearLevel);
+
+                                        return shouldShowButton && !showHint && (
+                                            <button onClick={handleHint} className="px-4 py-2 rounded bg-yellow-200 dark:bg-yellow-700 text-yellow-900 dark:text-yellow-100 font-bold">💡 Hint</button>
+                                        );
+                                    })()}
                                 </div>
 
                                 {showHint && (

@@ -1,4 +1,4 @@
-import gamesConfig from '../configs/settings.json';
+import { getChallengeModes as getChallengeModesFromSettings, getChallengeMode as getChallengeModeFromSettings } from './settingsManager';
 import type { QuizSettings } from '../store/quiz-store';
 
 export interface ChallengeMode {
@@ -24,15 +24,14 @@ export interface ChallengeMode {
  * Get all available challenge modes from the configuration
  */
 export function getChallengeModes(): ChallengeMode[] {
-  return gamesConfig.challenges as ChallengeMode[];
+  return getChallengeModesFromSettings() as ChallengeMode[];
 }
 
 /**
  * Get a specific challenge mode by name
  */
 export function getChallengeMode(name: string): ChallengeMode | undefined {
-  const challenges = getChallengeModes();
-  return challenges.find(challenge => challenge.name === name);
+  return getChallengeModeFromSettings(name) as ChallengeMode | undefined;
 }
 
 /**

@@ -1,9 +1,10 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import type { AppSettings } from '@/types/settings';
+import { setMathData, type MathQuestionTemplate } from '@/utils/dynamicMathGenerator';
+import { setAppSettings } from '@/utils/settingsManager';
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type SettingsData = Record<string, any>;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type QuestionDataArray = any[];
 
@@ -12,7 +13,7 @@ interface QuizDataContextType {
   progress: number;
   error: string | null;
   isReady: boolean;
-  settings: SettingsData | null;
+  settings: AppSettings | null;
   questionData: QuestionDataArray | null;
 }
 
@@ -36,7 +37,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [isReady, setIsReady] = useState(false);
-  const [settings, setSettings] = useState<SettingsData | null>(null);
+  const [settings, setSettings] = useState<AppSettings | null>(null);
   const [questionData, setQuestionData] = useState<QuestionDataArray | null>(null);
 
   useEffect(() => {
@@ -57,14 +58,29 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
         const settingsResponse = await fetch('configs/settings.json');
 
         if (!settingsResponse.ok) {
-          throw new Error('Failed to load settings');
+          throw new Error(
+            'CRITICAL ERROR: Failed to load settings.json. The application cannot run without this file. ' +
+            `Status: ${settingsResponse.status} ${settingsResponse.statusText}`
+          );
         }
 
         setProgress(20);
         await new Promise(resolve => setTimeout(resolve, delay));
 
-        const settingsData = await settingsResponse.json();
+        let settingsData: AppSettings;
+        try {
+          settingsData = await settingsResponse.json();
+        } catch (parseError) {
+          throw new Error(
+            'CRITICAL ERROR: settings.json is not valid JSON. Please check the file format. ' +
+            `Error: ${parseError instanceof Error ? parseError.message : 'Unknown error'}`
+          );
+        }
+
+        // Set as the source of truth for all settings
+        setAppSettings(settingsData);
         setSettings(settingsData);
+        console.log('[Settings] Loaded and set as source of truth for app configuration');
 
         setProgress(30);
         await new Promise(resolve => setTimeout(resolve, delay));
@@ -103,6 +119,16 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
 
         if (!Array.isArray(questionsData) || questionsData.length === 0) {
           throw new Error('Invalid question data');
+        }
+
+        // If this is math data, set it as the source of truth for math question generation
+        if (quizDataType === 'math') {
+          try {
+            setMathData(questionsData as MathQuestionTemplate[]);
+            console.log('[Math Data] Loaded and set as source of truth for question generation:', questionsData.length, 'templates');
+          } catch (error) {
+            console.error('[Math Data] Failed to set math data:', error);
+          }
         }
 
         setProgress(75);
@@ -145,7 +171,24 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
       try {
         const cachedSettings = sessionStorage.getItem('quizSettings');
         if (cachedSettings) {
-          setSettings(JSON.parse(cachedSettings));
+          const parsedSettings = JSON.parse(cachedSettings);
+          setSettings(parsedSettings);
+          // Also set as source of truth in settings manager
+          setAppSettings(parsedSettings);
+        }
+
+        // Also restore math data if it was cached
+        const quizDataType = sessionStorage.getItem('quizDataType');
+        if (quizDataType === 'math') {
+          // Re-fetch math data to set it in the generator
+          fetch('configs/math.json')
+            .then(res => res.json())
+            .then(data => {
+              setMathData(data as MathQuestionTemplate[]);
+              setQuestionData(data);
+              console.log('[Math Data] Restored from cache');
+            })
+            .catch(err => console.error('[Math Data] Failed to restore:', err));
         }
       } catch (e) {
         console.warn('Failed to load cached settings:', e);
