@@ -179,15 +179,72 @@ The app uses smart answer validation:
 - **Text answers**: Case-insensitive comparison (e.g., "Triangle" = "triangle")
 - **Automatic detection**: Tries numeric comparison first, falls back to text
 
+## Advanced Features
+
+### 🚀 Multi-Stage Preloader
+The app features a sophisticated preloader that provides a smooth loading experience:
+
+**Stage 1: Settings Loading (0-40%)**
+- Fetches `settings.json` from `/public/configs/`
+- Parses and validates configuration
+- Stores in context and sessionStorage
+
+**Stage 2: Question Data Loading (40-100%)**
+- Checks URL for `?quiz-data=<name>` query parameter
+- Falls back to `settings.json` → `system.quiz-data` if no parameter
+- Loads appropriate question JSON file
+- Validates and prepares question data
+
+**Features:**
+- Contextual loading messages based on progress
+- Beautiful gradient background with animations
+- Progress percentage display
+- Fun tips that change based on progress
+- Smart caching - skips animation on subsequent loads in same session
+
+### 🎯 Smart Answer Validation
+The quiz system uses intelligent answer validation:
+
+**Numeric Answers:**
+- Compares with 0.01 tolerance for floating-point precision
+- Handles decimals, fractions, and whole numbers
+- Example: `3`, `3.0`, `3.00` are all considered correct
+
+**Text Answers:**
+- Case-insensitive comparison
+- Trims whitespace automatically
+- Example: `triangle`, `Triangle`, `TRIANGLE` are all correct
+
+**Automatic Detection:**
+- Tries to parse as number first
+- Falls back to text comparison if not numeric
+- Works seamlessly with both question types
+
+### 📊 Dynamic Question Generation
+The math question generator supports two types of questions:
+
+**Variable Questions:**
+- Use placeholders like `{{x}}`, `{{y}}`, `{{z}}`
+- Generate random values based on difficulty
+- Calculate answers using formulas
+- Each attempt creates a unique question
+
+**Non-Variable Questions:**
+- Static questions with fixed answers
+- Perfect for testing facts and concepts
+- Formula is used directly as the answer
+- Ideal for geometry facts, number properties, etc.
+
 ## Tech Stack
 
 - **Framework**: Next.js 15.4.5 with Turbopack
 - **Language**: TypeScript
 - **UI**: React with Tailwind CSS
-- **State Management**: Zustand
-- **Storage**: LocalStorage with optional Supabase integration
+- **State Management**: Zustand + React Context
+- **Storage**: LocalStorage + SessionStorage with optional Supabase integration
 - **Animations**: Custom CSS animations with reduced motion support
 - **Icons & Emojis**: Native emoji support for cross-platform consistency
+- **Data Loading**: Multi-stage preloader with smart caching
 
 ## Getting Started
 
@@ -226,6 +283,101 @@ The app uses smart answer validation:
 npm run build
 npm start
 ```
+
+## Deployment
+
+### GitHub Pages Deployment
+
+The app is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+#### Initial Setup
+
+1. **Enable GitHub Pages in your repository**
+   - Go to your repository on GitHub
+   - Navigate to **Settings** → **Pages**
+   - Under **Source**, select **Deploy from a branch**
+   - Select branch: **gh-pages** and folder: **/ (root)**
+   - Click **Save**
+
+2. **Fix Environment Protection Rules (if you see the error)**
+
+   If you encounter this error:
+   ```
+   Branch "main" is not allowed to deploy to github-pages due to environment protection rules.
+   ```
+
+   **Option A: Remove Environment Protection (Recommended for personal projects)**
+   - The workflow has been updated to comment out the `environment: github-pages` line
+   - This allows deployment without environment protection rules
+   - Simply push your changes and the deployment should work
+
+   **Option B: Configure Environment Protection Rules**
+   - Go to **Settings** → **Environments** → **github-pages**
+   - Under **Deployment branches**, click **Add deployment branch rule**
+   - Add `main` as an allowed branch
+   - Click **Save protection rules**
+
+3. **Verify Workflow Permissions**
+   - Go to **Settings** → **Actions** → **General**
+   - Scroll to **Workflow permissions**
+   - Select **Read and write permissions**
+   - Check **Allow GitHub Actions to create and approve pull requests**
+   - Click **Save**
+
+4. **Trigger Deployment**
+   ```bash
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin main
+   ```
+
+5. **Monitor Deployment**
+   - Go to the **Actions** tab in your repository
+   - Watch the "Deploy Next.js to GitHub Pages" workflow
+   - Once complete, your site will be available at:
+     `https://<username>.github.io/<repository-name>/`
+
+#### Deployment Workflow
+
+The GitHub Actions workflow (`.github/workflows/deploy_gh_pages.yml`) automatically:
+1. Checks out the code
+2. Sets up Node.js 20
+3. Caches dependencies for faster builds
+4. Installs dependencies
+5. Builds the Next.js app with static export
+6. Deploys to the `gh-pages` branch
+
+#### Custom Domain (Optional)
+
+To use a custom domain:
+1. Add a `CNAME` file to the `public/` directory with your domain
+2. Configure DNS settings with your domain provider
+3. In GitHub: **Settings** → **Pages** → **Custom domain**
+4. Enter your domain and click **Save**
+
+### Vercel Deployment (Alternative)
+
+For easier deployment, you can use Vercel:
+
+1. **Install Vercel CLI**
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Deploy**
+   ```bash
+   vercel
+   ```
+
+3. **Follow the prompts** to link your project and deploy
+
+### Other Platforms
+
+The app can be deployed to any platform that supports Next.js:
+- **Netlify**: Connect your GitHub repo and deploy
+- **Railway**: One-click deployment from GitHub
+- **AWS Amplify**: Connect and deploy with CI/CD
+- **DigitalOcean App Platform**: Deploy from GitHub
 
 ## Project Structure
 
@@ -343,17 +495,92 @@ Edit `public/configs/math.json` to add new questions:
 - Update animations in `src/utils/enhanced-animations.ts`
 - Customize preloader messages in `src/components/ui/Preloader.tsx`
 
+## Recent Updates
+
+### Version 2.0 (December 2025)
+- ✅ **Multi-stage preloader** with progress tracking and contextual loading messages
+- ✅ **Dynamic question loading** via query parameters or settings configuration
+- ✅ **Smart answer validation** with case-insensitive text comparison and numeric tolerance
+- ✅ **2,500+ math questions** with both dynamic (variable) and factual (non-variable) questions
+- ✅ **SessionStorage caching** for faster subsequent page loads
+- ✅ **Enhanced question generator** supporting questions with and without variables
+
 ## Features in Development
 
-- [ ] Multi-subject support (Science, English)
+- [ ] Multi-subject support (Science, English) - **Infrastructure ready!**
 - [ ] User accounts and cloud sync
 - [ ] Leaderboards and competitions
 - [ ] Parent/teacher dashboard
-- [ ] Custom question creation
+- [ ] Custom question creation UI
+- [ ] Question difficulty auto-adjustment based on performance
+
+## Troubleshooting
+
+### Preloader Issues
+**Problem**: Preloader shows error or gets stuck
+- Check that `public/configs/settings.json` exists
+- Verify `public/configs/math.json` (or your quiz-data file) exists
+- Check browser console for error messages
+- Clear sessionStorage: `sessionStorage.clear()` in browser console
+
+**Problem**: Questions not loading
+- Verify the `quiz-data` parameter matches a file in `public/configs/`
+- Check that the JSON file is valid (use a JSON validator)
+- Ensure the file is in the correct format (array of question objects)
+
+### Answer Validation Issues
+**Problem**: Correct answers marked as wrong
+- Check for extra spaces in the answer
+- Verify the formula in the JSON is correct
+- For numeric answers, ensure the formula evaluates correctly
+- For text answers, check case sensitivity is working (should be case-insensitive)
+
+### Performance Issues
+**Problem**: Slow loading times
+- The first load will be slower as it fetches data
+- Subsequent loads use sessionStorage cache and should be instant
+- Large question files (>5MB) may take longer to load
+- Consider splitting into smaller subject-specific files
+
+### Deployment Issues
+
+**Problem**: "Branch 'main' is not allowed to deploy to github-pages"
+- **Solution 1**: The workflow has been updated to comment out the `environment: github-pages` line
+- **Solution 2**: Go to Settings → Environments → github-pages → Add `main` as deployment branch
+- **Solution 3**: Delete the `github-pages` environment if you don't need protection rules
+
+**Problem**: GitHub Actions workflow fails
+- Check **Settings** → **Actions** → **General** → **Workflow permissions**
+- Enable "Read and write permissions"
+- Enable "Allow GitHub Actions to create and approve pull requests"
+
+**Problem**: Deployment succeeds but site shows 404
+- Verify GitHub Pages is enabled: **Settings** → **Pages**
+- Check that source is set to **gh-pages** branch
+- Wait a few minutes for DNS propagation
+- Check the deployment URL: `https://<username>.github.io/<repository-name>/`
+
+**Problem**: Assets not loading (CSS/JS 404 errors)
+- Ensure `next.config.js` has correct `basePath` and `assetPrefix`
+- For GitHub Pages: `basePath: '/<repository-name>'`
+- Rebuild and redeploy after configuration changes
+
+**Problem**: Build fails during deployment
+- Check Node.js version (should be 18+)
+- Verify all dependencies are in `package.json`
+- Run `npm run build` locally to test
+- Check GitHub Actions logs for specific error messages
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+### Development Guidelines
+- Follow TypeScript best practices
+- Use ESLint and fix all warnings before committing
+- Test with both variable and non-variable questions
+- Ensure mobile responsiveness
+- Add comments for complex logic
 
 ## License
 

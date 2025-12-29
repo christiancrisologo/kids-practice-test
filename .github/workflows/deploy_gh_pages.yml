@@ -11,7 +11,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: github-pages  # 👈 CHANGE this to match your GitHub Environment name
+    # environment: github-pages  # Commented out - remove if you have environment protection rules configured
 
     steps:
       - name: Checkout repository
