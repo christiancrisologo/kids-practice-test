@@ -72,7 +72,17 @@ export class MathQuestionGenerator implements QuestionGenerator {
 
       // Add multiple choice options if needed
       if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
-        mathQuestion.options = this.generateOptions(generated.answer, 4);
+        // Convert answer to number if possible, otherwise use text-based options
+        const answerNum = typeof generated.answer === 'number'
+          ? generated.answer
+          : parseFloat(generated.answer);
+
+        if (!isNaN(answerNum)) {
+          mathQuestion.options = this.generateOptions(answerNum, 4);
+        } else {
+          // For text-based answers, create simple options with the correct answer
+          mathQuestion.options = this.generateTextOptions(generated.answer.toString(), 4);
+        }
       }
 
       questions.push(mathQuestion);
@@ -345,6 +355,32 @@ export class MathQuestionGenerator implements QuestionGenerator {
           options.add(wrongAnswer.toString());
         }
       }
+    }
+
+    return Array.from(options).sort(() => Math.random() - 0.5);
+  }
+
+  private generateTextOptions(correctAnswer: string, count: number): string[] {
+    // For text-based answers (like "3" for "How many vertices does a triangle have?")
+    // Generate plausible wrong answers
+    const options = new Set<string>([correctAnswer]);
+    const correctNum = parseFloat(correctAnswer);
+
+    // If the correct answer is a number, generate numeric options
+    if (!isNaN(correctNum)) {
+      while (options.size < count) {
+        const offset = this.randomInt(-5, 5);
+        if (offset !== 0) {
+          const wrongAnswer = correctNum + offset;
+          if (wrongAnswer > 0) {
+            options.add(wrongAnswer.toString());
+          }
+        }
+      }
+    } else {
+      // For non-numeric text answers, we'd need a more sophisticated approach
+      // For now, just return the correct answer (this case is rare)
+      return [correctAnswer];
     }
 
     return Array.from(options).sort(() => Math.random() - 0.5);
