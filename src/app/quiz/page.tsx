@@ -139,6 +139,41 @@ export default function QuizPage() {
         return () => clearTimeout(timer);
     }, [currentQuestionIndex, currentQuestion, globalSettings, settings.yearLevel, settings.timerPerQuestion, showCountdown]);
 
+    // Also show hint when the per-question timer reaches the configured show_time
+    useEffect(() => {
+        if (!currentQuestion || !globalSettings?.system?.hint || showCountdown) return;
+
+        const hintSettings = globalSettings.system.hint;
+
+        // Map yearLevel to YearLevel type
+        let yearLevel: YearLevel;
+        if (settings.yearLevel === 'primary') {
+            yearLevel = 'primary';
+        } else if (settings.yearLevel === 'secondary') {
+            yearLevel = 'junior';
+        } else {
+            yearLevel = 'senior';
+        }
+
+        // Only proceed if hints are enabled for this level
+        const isEnabled = isHintEnabledForLevel(hintSettings, yearLevel);
+        if (!isEnabled) return;
+
+        // Ensure a numeric show_time is present
+        const showTime = typeof hintSettings.show_time === 'number' ? hintSettings.show_time : null;
+        if (showTime === null) return;
+
+        // Only react when timer is enabled for questions
+        if (!settings.timerEnabled) return;
+
+        if (timeRemaining === showTime) {
+            const hintText = ('hint' in currentQuestion && typeof currentQuestion.hint === 'string' && currentQuestion.hint)
+                || `💡 Hint: Think carefully about the question.`;
+            setHintContent(hintText);
+            setShowHint(true);
+        }
+    }, [timeRemaining, currentQuestionIndex, currentQuestion, globalSettings, settings.yearLevel, settings.timerEnabled, showCountdown]);
+
     // Timer logic - pause during countdown and animations, and check if timer is enabled
     useEffect(() => {
         // Always include all dependencies, even if some are unused

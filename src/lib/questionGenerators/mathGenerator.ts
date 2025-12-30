@@ -46,10 +46,20 @@ export class MathQuestionGenerator implements QuestionGenerator {
     // If no templates match, use all templates
     const templates = filteredTemplates.length > 0 ? filteredTemplates : allTemplates;
 
+    // If multiple-choice is requested, prefer templates that contain variable placeholders (e.g., {{x}}, {{y}})
+    let candidateTemplates = templates;
+    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+      const varRegex = /\{\{\w+\}\}/;
+      const templatesWithVars = templates.filter(t => (t.formula && varRegex.test(t.formula)) || (t.question && varRegex.test(t.question)));
+      if (templatesWithVars.length > 0) {
+        candidateTemplates = templatesWithVars;
+      }
+    }
+
     // Generate questions
     for (let i = 0; i < count; i++) {
       // Pick a random template
-      const template = templates[Math.floor(Math.random() * templates.length)];
+      const template = candidateTemplates[Math.floor(Math.random() * candidateTemplates.length)];
 
       // Generate question from template
       const generated = generateMathQuestion(template);
@@ -61,7 +71,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
         questionType: this.mapTypeToQuestionType(generated.type),
         answerFormat,
         question: generated.question,
-        answer: generated.answer.toString(),
+        answer: typeof generated.answer === 'number' ? generated.answer.toFixed(2) : generated.answer.toString(),
         difficulty: difficulty as 'easy' | 'medium' | 'hard',
         hint: generated.hint,
         type: generated.type,
@@ -142,7 +152,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.ADDITION,
       answerFormat,
       question: `${a} + ${b} = ?`,
-      answer: answer.toString(),
+      answer: answer.toFixed(2),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [a, b],
       operator: '+'
@@ -170,7 +180,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.SUBTRACTION,
       answerFormat,
       question: `${a} - ${b} = ?`,
-      answer: answer.toString(),
+      answer: answer.toFixed(2),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [a, b],
       operator: '-'
@@ -198,7 +208,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.MULTIPLICATION,
       answerFormat,
       question: `${a} × ${b} = ?`,
-      answer: answer.toString(),
+      answer: answer.toFixed(2),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [a, b],
       operator: '×'
@@ -226,7 +236,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.DIVISION,
       answerFormat,
       question: `${dividend} ÷ ${divisor} = ?`,
-      answer: quotient.toString(),
+      answer: quotient.toFixed(2),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [dividend, divisor],
       operator: '÷'
@@ -283,7 +293,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.ALGEBRAIC,
       answerFormat,
       question: `If ${coefficient}x + ${constant} = ${result}, what is x?`,
-      answer: x.toString(),
+      answer: x.toFixed(2),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [coefficient, constant, result],
       operator: 'algebraic'
@@ -345,14 +355,14 @@ export class MathQuestionGenerator implements QuestionGenerator {
   }
 
   private generateOptions(correctAnswer: number, count: number): string[] {
-    const options = new Set<string>([correctAnswer.toString()]);
+    const options = new Set<string>([correctAnswer.toFixed(2)]);
 
     while (options.size < count) {
       const offset = this.randomInt(-10, 10);
       if (offset !== 0) {
         const wrongAnswer = correctAnswer + offset;
         if (wrongAnswer > 0) {
-          options.add(wrongAnswer.toString());
+          options.add(wrongAnswer.toFixed(2));
         }
       }
     }
@@ -363,27 +373,26 @@ export class MathQuestionGenerator implements QuestionGenerator {
   private generateTextOptions(correctAnswer: string, count: number): string[] {
     // For text-based answers (like "3" for "How many vertices does a triangle have?")
     // Generate plausible wrong answers
-    const options = new Set<string>([correctAnswer]);
+    const options = new Set<string>([]);
     const correctNum = parseFloat(correctAnswer);
 
-    // If the correct answer is a number, generate numeric options
+    // If the correct answer is a number, generate numeric options formatted to 2 decimals
     if (!isNaN(correctNum)) {
+      options.add(correctNum.toFixed(2));
       while (options.size < count) {
         const offset = this.randomInt(-5, 5);
         if (offset !== 0) {
           const wrongAnswer = correctNum + offset;
           if (wrongAnswer > 0) {
-            options.add(wrongAnswer.toString());
+            options.add(wrongAnswer.toFixed(2));
           }
         }
       }
-    } else {
-      // For non-numeric text answers, we'd need a more sophisticated approach
-      // For now, just return the correct answer (this case is rare)
-      return [correctAnswer];
+      return Array.from(options).sort(() => Math.random() - 0.5);
     }
 
-    return Array.from(options).sort(() => Math.random() - 0.5);
+    // For non-numeric text answers, return the correct answer only
+    return [correctAnswer];
   }
 
   private generateDecimalOptions(correctAnswer: number, count: number): string[] {

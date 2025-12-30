@@ -4798,5 +4798,613 @@
     "level": "primary",
     "hint": "It is the opposite of horizontal.",
     "type": "basic"
+  },
+  {
+    "question": "If one apple costs ${{x}}, how much do {{y}} apples cost?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the price of one item by the total number of items.",
+    "type": "currency"
+  },
+  {
+    "question": "A movie starts at {{x}}:00 and lasts for 2 hours. What time does it end?",
+    "formula": "{{x}} + 2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the duration to the start time.",
+    "type": "time"
+  },
+  {
+    "question": "You have ${{x}} and spend ${{y}}. How much money do you have left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the amount spent from the starting amount.",
+    "type": "currency"
+  },
+  {
+    "question": "How many minutes are in {{x}} hours?",
+    "formula": "{{x}} * 60",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 60 minutes in every 1 hour.",
+    "type": "time"
+  },
+  {
+    "question": "If you save ${{x}} every week, how much will you have after {{y}} weeks?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply your weekly savings by the number of weeks.",
+    "type": "currency"
+  },
+  {
+    "question": "You buy a toy for ${{x}} and pay with a ${{y}} bill. How much change should you get?",
+    "formula": "{{y}} - {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the cost of the toy from the money you gave the cashier.",
+    "type": "currency"
+  },
+  {
+    "question": "How many seconds are in {{x}} minutes?",
+    "formula": "{{x}} * 60",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of minutes by 60.",
+    "type": "time"
+  },
+  {
+    "question": "If a pack of {{x}} pens costs ${{y}}, what is the cost of one pen?",
+    "formula": "{{y}} / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total price by the number of pens in the pack.",
+    "type": "currency"
+  },
+  {
+    "question": "It is {{x}}:30 now. What time will it be in 30 minutes?",
+    "formula": "{{x}} + 1",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Adding 30 minutes to a half-hour mark brings you to the next full hour.",
+    "type": "time"
+  },
+  {
+    "question": "A shirt is on sale for half price. If the original price was ${{x}}, what is the sale price?",
+    "formula": "{{x}} / 2",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "To find half of a number, divide it by 2.",
+    "type": "currency"
+  },
+  {
+    "question": "How many hours are there in {{x}} days?",
+    "formula": "{{x}} * 24",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 24 hours in one full day.",
+    "type": "time"
+  },
+  {
+    "question": "You want to buy a game that costs ${{x}}. You have ${{y}}. How much more money do you need?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the money you have from the total price of the game.",
+    "type": "currency"
+  },
+  {
+    "question": "If a bell rings every {{x}} minutes, how many times will it ring in one hour?",
+    "formula": "60 / {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide 60 minutes by the time between each ring.",
+    "type": "time"
+  },
+  {
+    "question": "Four friends want to split a ${{x}} pizza bill equally. How much does each person pay?",
+    "formula": "{{x}} / 4",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total bill by the number of people sharing it.",
+    "type": "currency"
+  },
+  {
+    "question": "An alarm is set for 07:00. If you wake up at 06:{{x}}, how many minutes early are you?",
+    "formula": "60 - {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the minutes you woke up at from 60.",
+    "type": "time"
+  },
+  {
+    "question": "You find {{x}} nickels ($0.05). How much money do you have in total?",
+    "formula": "{{x}} * 0.05",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the number of coins by the value of one nickel.",
+    "type": "currency"
+  },
+  {
+    "question": "How many days are in {{x}} weeks?",
+    "formula": "{{x}} * 7",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 7 days in every week.",
+    "type": "time"
+  },
+  {
+    "question": "If you earn ${{x}} per hour and work for {{y}} hours, what is your total pay?",
+    "formula": "{{x}} * {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Multiply the hourly rate by the number of hours worked.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock shows 12:15. Where is the minute hand pointing?",
+    "formula": "3",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Each number on a clock face represents 5 minutes.",
+    "type": "time"
+  },
+  {
+    "question": "You have ${{x}}. You buy {{y}} items that cost $1 each. How much money is left?",
+    "formula": "{{x}} - {{y}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Subtract the total cost of the items from your starting money.",
+    "type": "currency"
+  },
+  {
+    "question": "If it is 2:00 PM, what time will it be in {{x}} hours?",
+    "formula": "2 + {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the number of hours to the current time.",
+    "type": "time"
+  },
+  {
+    "question": "A candy bar costs ${{x}}. How many can you buy with ${{y}}?",
+    "formula": "floor({{y}} / {{x}})",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide your total money by the price of one candy bar.",
+    "type": "currency"
+  },
+  {
+    "question": "How many months are in {{x}} years?",
+    "formula": "{{x}} * 12",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "There are 12 months in one year.",
+    "type": "time"
+  },
+  {
+    "question": "You have 3 five-dollar bills and {{x}} one-dollar bills. How much money do you have?",
+    "formula": "15 + {{x}}",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Add the value of the five-dollar bills to the value of the one-dollar bills.",
+    "type": "currency"
+  },
+  {
+    "question": "You buy a gadget for ${{x}}. You sell it for a 15% profit, but have to pay a ${{y}} shipping fee from the total. What is your final take-home amount?",
+    "formula": "({{x}} * 1.15) - {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "First calculate the selling price with the 15% profit, then subtract the fee.",
+    "type": "currency"
+  },
+  {
+    "question": "A timer is set for {{x}} minutes. If it has been running for {{y}} seconds, how many minutes are left? (Give your answer as a decimal or fraction)",
+    "formula": "{{x}} - ({{y}} / 60)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert the seconds passed into minutes before subtracting from the total.",
+    "type": "time"
+  },
+  {
+    "question": "If the sun rises at 0{{x}}:15 and sets at {{y}}:45, how many minutes of daylight are there?",
+    "formula": "(({{y}} - {{x}}) * 60) + 30",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the hours first, convert them to minutes, and add the extra minutes.",
+    "type": "time"
+  },
+  {
+    "question": "A bank account has ${{x}}. It earns {{y}}% simple interest per year. How much total money is in the account after 6 months?",
+    "formula": "{{x}} + ({{x}} * ({{y}}/100) * 0.5)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "6 months is 0.5 years. Calculate the interest and add it to the original amount.",
+    "type": "currency"
+  },
+  {
+    "question": "A train travels at a speed where it covers 1 km every {{x}} seconds. How many hours will it take to travel {{y}} km?",
+    "formula": "({{y}} * {{x}}) / 3600",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find total seconds first, then divide by 3600 to get hours.",
+    "type": "time"
+  },
+  {
+    "question": "You have ${{x}} in your wallet. You spend 40% on lunch and ${{y}} on a bus ticket. What percentage of your original money is left?",
+    "formula": "(({{x}} * 0.6 - {{y}}) / {{x}}) * 100",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the expenses first, then divide the remainder by the original total.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock shows 03:00. What is the smaller angle between the hour hand and the minute hand in degrees?",
+    "formula": "90",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Each hour mark on a clock represents 30 degrees (360/12).",
+    "type": "time"
+  },
+  {
+    "question": "If 3 pencils cost ${{x}}, how much do {{y}} pencils cost?",
+    "formula": "({{x}} / 3) * {{y}}",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Find the price of one pencil first.",
+    "type": "currency"
+  },
+  {
+    "question": "How many minutes are in {{x}}% of a day?",
+    "formula": "1440 * ({{x}} / 100)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "There are 1,440 minutes in a full 24-hour day.",
+    "type": "time"
+  },
+  {
+    "question": "You buy a shirt for ${{x}}. It was originally ${{y}}. What was the percentage discount?",
+    "formula": "(({{y}} - {{x}}) / {{y}}) * 100",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the dollar amount of the discount first.",
+    "type": "currency"
+  },
+  {
+    "question": "A stopwatch is at {{x}} minutes and 45 seconds. You want to run until it hits {{y}} minutes. How many more seconds do you need to run?",
+    "formula": "(({{y}} - {{x}}) * 60) - 45",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the total seconds for the target time and subtract the current seconds.",
+    "type": "time"
+  },
+  {
+    "question": "If you earn ${{x}} per year and save 1/{{y}} of it, how many months will it take to save ${{z}}?",
+    "formula": "{{z}} / (({{x}} / {{y}}) / 12)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find your monthly savings first.",
+    "type": "currency"
+  },
+  {
+    "question": "A set of 4 tires costs ${{x}}. If you buy them individually, they cost ${{y}} each. How much do you save by buying the set?",
+    "formula": "(4 * {{y}}) - {{x}}",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Multiply the individual price by 4 and compare it to the set price.",
+    "type": "currency"
+  },
+  {
+    "question": "If a tap drips {{x}} times per minute, and each drip is 0.5ml, how many hours will it take to fill a {{y}} liter container?",
+    "formula": "({{y}} * 1000) / ({{x}} * 0.5 * 60)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find how much liquid is collected in one hour first.",
+    "type": "time"
+  },
+  {
+    "question": "An item costs ${{x}} after a 20% discount. What was the original price of the item?",
+    "formula": "{{x}} / 0.8",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "The discounted price represents 80% of the original. Divide the price by 0.8.",
+    "type": "currency"
+  },
+  {
+    "question": "A train departs at 22:45 and arrives at 06:15 the next day. How many total minutes did the journey take?",
+    "formula": "450",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the time from 22:45 to midnight, then add the time from midnight to 06:15. Finally, convert it all to minutes.",
+    "type": "time"
+  },
+  {
+    "question": "If ${{x}} is equivalent to 120 Japanese Yen, how many dollars would you receive for 3000 Yen?",
+    "formula": "3000 / 120",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide the total Yen by the value of 1 dollar in Yen.",
+    "type": "currency"
+  },
+  {
+    "question": "A movie is 142 minutes long. If it ends at 15:10, at what time did it start?",
+    "formula": "12:48",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "142 minutes is 2 hours and 22 minutes. Count back 2 hours from 15:10, then count back 22 minutes.",
+    "type": "time"
+  },
+  {
+    "question": "If 5 kg of apples cost ${{x}}, how much do 8 kg of apples cost?",
+    "formula": "({{x}} / 5) * 8",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the price of 1 kg first, then multiply by 8.",
+    "type": "currency"
+  },
+  {
+    "question": "A light flashes every 12 seconds. How many times will it flash in a 10-minute period, including the first flash at 0 seconds?",
+    "formula": "(600 / 12) + 1",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert 10 minutes to seconds, divide by 12, and add 1 for the start.",
+    "type": "time"
+  },
+  {
+    "question": "A bank account earns 5% simple interest per year. If you deposit ${{x}}, how much interest will you have earned after 42 months?",
+    "formula": "{{x}} * 0.05 * 3.5",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert 42 months into years (3.5 years), then multiply by the interest rate and the principal.",
+    "type": "currency"
+  },
+  {
+    "question": "If it is 3:00 PM in New York and London is 5 hours ahead, what time is it in London in 24-hour format?",
+    "formula": "20:00",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert 3:00 PM to 15:00 and add 5 hours.",
+    "type": "time"
+  },
+  {
+    "question": "A shop offers a 'Buy 2 Get 1 Free' deal on items costing ${{x}} each. If you need 7 items, what is the total cost?",
+    "formula": "({{x}} * 5)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "For every 3 items, you only pay for 2. Calculate how many groups of 3 you have.",
+    "type": "currency"
+  },
+  {
+    "question": "You have ${{x}}. You spend 1/4 of it on a shirt and 1/5 of the remainder on a book. How much money do you have left?",
+    "formula": "({{x}} * 0.75) * 0.8",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the shirt cost first, then calculate 1/5 of what is left and subtract that too.",
+    "type": "currency"
+  },
+  {
+    "question": "If a tap drips once every 0.5 seconds, how many drips occur in one hour?",
+    "formula": "7200",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the number of drips per second by 60 for a minute, and by 60 again for an hour.",
+    "type": "time"
+  },
+  {
+    "question": "A car rental costs ${{x}} per day plus ${{y}} per mile. If you rent for 3 days and drive 150 miles, what is the total cost?",
+    "formula": "(3 * {{x}}) + (150 * {{y}})",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the daily fee and the mileage fee separately, then sum them.",
+    "type": "currency"
+  },
+  {
+    "question": "How many seconds are in 1.5 hours?",
+    "formula": "5400",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply 1.5 by 60 to get minutes, then by 60 again to get seconds.",
+    "type": "time"
+  },
+  {
+    "question": "Three friends share a prize of ${{x}}. Friend A gets half. Friend B gets 1/3. Friend C gets the rest. How much does Friend C receive?",
+    "formula": "{{x}} / 6",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract 1/2 and 1/3 from the whole to find Friend C's fraction.",
+    "type": "currency"
+  },
+  {
+    "question": "A worker is paid ${{x}} per hour for a 40-hour week. For overtime, they get 'time and a half' (1.5x). If they work 46 hours, what is their total pay?",
+    "formula": "(40 * {{x}}) + (6 * {{x}} * 1.5)",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the regular 40-hour pay and the 6-hour overtime pay separately.",
+    "type": "currency"
+  },
+  {
+    "question": "If the sun rises at 05:42 and sets at 18:15, how many minutes of daylight are there?",
+    "formula": "753",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the hours and minutes between sunrise and sunset, then convert to total minutes.",
+    "type": "time"
+  },
+  {
+    "question": "A bill is ${{x}}. A service charge of 12.5% is added. If four people share the total bill equally, how much does each pay?",
+    "formula": "({{x}} * 1.125) / 4",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply by 1.125 to get the total with service charge, then divide by 4.",
+    "type": "currency"
+  },
+  {
+    "question": "You buy 12 pens for ${{x}} and sell them for ${{y}} each. What is your total profit?",
+    "formula": "(12 * {{y}}) - {{x}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply the selling price by 12 and subtract the original cost.",
+    "type": "currency"
+  },
+  {
+    "question": "A person was born in 1988. In what year will they turn 65?",
+    "formula": "2053",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Add 65 to the birth year.",
+    "type": "time"
+  },
+  {
+    "question": "If 100 grams of chocolate cost ${{x}}, what is the cost of 1.5 kilograms?",
+    "formula": "{{x}} * 15",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "There are 15 sets of 100 grams in 1.5 kilograms.",
+    "type": "currency"
+  },
+  {
+    "question": "A shopkeeper marks up a ${{x}} product by 50%. Later, he puts it on sale with a 50% discount. What is the final price?",
+    "formula": "({{x}} * 1.5) * 0.5",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the mark-up first, then take 50% off that new higher price.",
+    "type": "currency"
+  },
+  {
+    "question": "How many days are in 3 years? (Assume no leap years)",
+    "formula": "1095",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Multiply 365 by 3.",
+    "type": "time"
+  },
+  {
+    "question": "A phone plan costs ${{x}} per month. If you switch to a plan that is 15% cheaper, how much money do you save over a full year?",
+    "formula": "({{x}} * 0.15) * 12",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the monthly savings first, then multiply by 12 months.",
+    "type": "currency"
+  },
+  {
+    "question": "You have 5 coins that total ${{x}}. If 4 of the coins are quarters ($0.25), what is the value of the 5th coin?",
+    "formula": "{{x}} - 1.00",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the value of the 4 quarters from the total.",
+    "type": "currency"
+  },
+  {
+    "question": "A toy costs ${{x}}. The price is increased by 10% and then decreased by ${{y}}. What is the final price?",
+    "formula": "({{x}} * 1.1) - {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Calculate the 10% increase first, then subtract the fixed dollar amount.",
+    "type": "currency"
+  },
+  {
+    "question": "A train passes a station every 40 minutes. If one passed at 09:15, when will the 4th train after that pass?",
+    "formula": "11:55",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply 40 minutes by 4, then add that total duration to 09:15.",
+    "type": "time"
+  },
+  {
+    "question": "A video is 2 hours and 5 minutes long. You watch it at 1.25x speed. How many minutes does it take to finish?",
+    "formula": "125 / 1.25 = 100",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert the total time to minutes, then divide by the speed factor.",
+    "type": "time"
+  },
+  {
+    "question": "A pizza is cut into 8 slices and costs ${{x}}. What is the cost per slice?",
+    "formula": "{{x}} / 8",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Divide the total price by the number of slices.",
+    "type": "currency"
+  },
+  {
+    "question": "The time now is 11:20. What was the time 85 minutes ago?",
+    "formula": "09:55",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "85 minutes is 1 hour and 25 minutes. Subtract 1 hour first, then the 25 minutes.",
+    "type": "time"
+  },
+  {
+    "question": "How many minutes are in one week?",
+    "formula": "10080",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Multiply 7 days by 24 hours, then by 60 minutes.",
+    "type": "time"
+  },
+  {
+    "question": "A book usually costs ${{x}}. If it is on sale for '3 for the price of 2', what is the average cost of one book during the sale?",
+    "formula": "(2 * {{x}}) / 3",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Find the total cost of 2 books and divide it by 3.",
+    "type": "currency"
+  },
+  {
+    "question": "A runner finishes a race in 48 minutes and 12 seconds. Their previous time was 50 minutes and 5 seconds. By how many seconds did they improve?",
+    "formula": "113",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Convert both times to total seconds and find the difference.",
+    "type": "time"
+  },
+  {
+    "question": "A vending machine only takes quarters ($0.25). If a snack costs ${{x}}, how many quarters do you need?",
+    "formula": "{{x}} / 0.25",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "There are 4 quarters in every dollar.",
+    "type": "currency"
+  },
+  {
+    "question": "You have ${{x}} in a savings account. Every month you deposit ${{y}}. After how many months will you have a total of ${{z}}?",
+    "formula": "({{z}} - {{x}}) / {{y}}",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Subtract the starting amount from the target, then divide by the monthly deposit.",
+    "type": "currency"
+  },
+  {
+    "question": "A clock's minute hand moves from the 2 to the 9. How many minutes have passed?",
+    "formula": "35",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Each number on a clock represents 5 minutes.",
+    "type": "time"
+  },
+  {
+    "question": "If you are paid ${{x}} for a 5-hour shift, what is your hourly rate?",
+    "formula": "{{x}} / 5",
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Divide the total pay by the number of hours.",
+    "type": "currency"
+  },
+  {
+    "question": "What is 15% of ${{x}}?",
+    "formula": "{{x}} * 0.15",
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Multiply the amount by 0.15.",
+    "type": "currency"
+  },
+  {
+    "question": "A battery lasts for 40 hours. If it is used for 2 hours and 30 minutes every day, how many days will it last?",
+    "formula": "16",
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Divide 40 by 2.5.",
+    "type": "time"
   }
 ]

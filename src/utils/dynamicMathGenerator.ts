@@ -126,8 +126,26 @@ function evaluateFormula(
 
   // Safely evaluate the mathematical expression
   try {
-    // Using Function constructor instead of eval for safer evaluation
-    const result = new Function(`return ${expression}`)();
+    // Support common math helpers in templates (e.g. floor(x), ceil(x), sqrt(x))
+    // by rewriting them to use Math.* or aliasing them in a function scope.
+    const replacements: Record<string, string> = {
+      '\\bfloor\\s*\\(': 'Math.floor(',
+      '\\bceil\\s*\\(': 'Math.ceil(',
+      '\\babs\\s*\\(': 'Math.abs(',
+      '\\bsqrt\\s*\\(': 'Math.sqrt(',
+      '\\bround\\s*\\(': 'Math.round(',
+      '\\bpow\\s*\\(': 'Math.pow(',
+      '\\bmin\\s*\\(': 'Math.min(',
+      '\\bmax\\s*\\(': 'Math.max('
+    };
+
+    let sanitized = expression;
+    Object.entries(replacements).forEach(([pattern, replacement]) => {
+      sanitized = sanitized.replace(new RegExp(pattern, 'g'), replacement);
+    });
+
+    // Using Function constructor instead of eval for evaluation
+    const result = new Function(`return (${sanitized})`)();
 
     // Round to 2 decimal places to avoid floating point issues
     return Math.round(result * 100) / 100;
