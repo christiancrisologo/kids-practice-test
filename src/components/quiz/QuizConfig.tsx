@@ -401,8 +401,11 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                 {questionsEnabled && (
                   <input
                     type="number"
-                    value={numberOfQuestions}
-                    onChange={(e) => setNumberOfQuestions(parseInt(e.target.value) || 10)}
+                    value={Number.isFinite(numberOfQuestions) ? numberOfQuestions : ''}
+                    onChange={(e) => {
+                      const v = parseInt(e.target.value, 10);
+                      setNumberOfQuestions(Number.isFinite(v) ? v : 10);
+                    }}
                     min="5"
                     max="50"
                     className="w-full p-3 rounded-lg bg-slate-700/50 text-white border border-slate-600 focus:border-blue-500 focus:outline-none"
@@ -429,8 +432,11 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                 {timerEnabled && (
                   <input
                     type="number"
-                    value={timerPerQuestion}
-                    onChange={(e) => setTimerPerQuestion(parseInt(e.target.value))}
+                    value={Number.isFinite(timerPerQuestion) ? timerPerQuestion : ''}
+                    onChange={(e) => {
+                      const v = parseInt(e.target.value, 10);
+                      setTimerPerQuestion(Number.isFinite(v) ? v : 60);
+                    }}
                     min="5"
                     max="120"
                     className="w-full p-3 rounded-lg bg-slate-700/50 text-white border border-slate-600 focus:border-blue-500 focus:outline-none"
