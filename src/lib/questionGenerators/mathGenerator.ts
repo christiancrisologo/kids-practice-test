@@ -113,8 +113,12 @@ export class MathQuestionGenerator implements QuestionGenerator {
       try {
         generated = generateMathQuestion(template);
       } catch (err) {
-        log('error', '[MathGen] generateMathQuestion failed for template', { templateType: template.type, error: err && err.message ? err.message : String(err) });
-        // Skip this template and continue without retrying the same index to avoid infinite loops
+        if (err instanceof Error) {
+          if (err.message.includes('Unexpected token')) {
+            log('error', '[MathGen] generateMathQuestion failed for template', { templateType: template.type, error: err.message });
+            continue;
+          }
+        }
         skips++;
         if (skips > Math.max(50, count * 5)) {
           log('error', '[MathGen] too many failed template generations, aborting early');
