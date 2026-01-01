@@ -39,7 +39,7 @@ function buildYearLevelPresets() {
           difficulty: preset.difficulty as Difficulty,
           numberOfQuestions: preset.numberOfQuestions || preset.settings?.numberOfQuestions || 10,
           timerPerQuestion: preset.timerPerQuestion || preset.settings?.timerPerQuestion || 20,
-          questionType: (preset.questionType || ['input']) as QuestionType[],
+          questionType: (preset.questionType || ['text']) as QuestionType[],
           categories: preset.categories || [],
           description: preset.description || '',
           timerEnabled: preset.timerEnabled ?? preset.settings?.timerEnabled ?? true,

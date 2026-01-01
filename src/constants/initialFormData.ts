@@ -6,7 +6,7 @@ export const initialFormData: QuizSettings = {
   difficulty: 'easy',
   numberOfQuestions: 5,
   timerPerQuestion: 10,
-  questionType: 'input',
+  questionType: 'text',
   categories: ['animals', 'actions', 'persons', 'places', 'science', 'technology', 'other', 'all'],
   timerEnabled: true,
   questionsEnabled: true,

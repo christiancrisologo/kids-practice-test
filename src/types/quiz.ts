@@ -37,8 +37,8 @@ export type SubjectQuestionType =
   | EnglishQuestionType;
 
 export enum AnswerFormat {
-  INPUT = 'input',
-  MULTIPLE_CHOICE = 'multiple-choice'
+  TEXT = 'text',
+  MCQ = 'mcq'
 }
 
 export interface BaseQuestion {
@@ -55,12 +55,12 @@ export interface BaseQuestion {
 }
 
 export interface MultipleChoiceQuestion extends BaseQuestion {
-  answerFormat: AnswerFormat.MULTIPLE_CHOICE;
+  answerFormat: AnswerFormat.MCQ;
   options: string[];
 }
 
 export interface InputQuestion extends BaseQuestion {
-  answerFormat: AnswerFormat.INPUT;
+  answerFormat: AnswerFormat.TEXT;
   placeholder?: string;
 }
 
@@ -116,6 +116,7 @@ export interface QuestionGeneratorOptions {
   difficulty: 'easy' | 'medium' | 'hard';
   questionType: SubjectQuestionType;
   answerFormat: AnswerFormat;
+  verbose?: boolean;
 }
 
 export interface QuestionGenerator {

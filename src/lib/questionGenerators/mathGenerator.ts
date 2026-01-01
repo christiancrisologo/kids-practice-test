@@ -34,35 +34,94 @@ export class MathQuestionGenerator implements QuestionGenerator {
   }
 
   private generateFromJSON(options: QuestionGeneratorOptions): Question[] {
-    const { count, difficulty, answerFormat } = options;
+    const { count, difficulty, answerFormat, verbose } = options;
+    const log = (level: 'debug'|'warn'|'error', ...args: any[]) => {
+      if (!verbose) return;
+      if (level === 'debug') console.debug(...args);
+      if (level === 'warn') console.warn(...args);
+      if (level === 'error') console.error(...args);
+    };
     const questions: Question[] = [];
 
     // Get all templates from JSON
     const allTemplates = getMathTemplates();
+    log('debug', '[MathGen] generateFromJSON start', { count, difficulty, answerFormat, totalTemplates: allTemplates.length });
 
     // Filter by difficulty
     const filteredTemplates = filterTemplates(difficulty);
 
-    // If no templates match, use all templates
-    const templates = filteredTemplates.length > 0 ? filteredTemplates : allTemplates;
+    // Further filter by answertype property in templates if present
+    const desiredAnswerType = answerFormat === AnswerFormat.MCQ ? 'mcq' : 'text';
+    // If any template has an explicit answertype field, respect it
+    const templatesWithAnswerType = filteredTemplates.filter(t => t && Object.prototype.hasOwnProperty.call(t, 'answertype'));
+    let templates = filteredTemplates;
+    log('debug', '[MathGen] filteredTemplates count', filteredTemplates.length, 'templatesWithAnswerType', templatesWithAnswerType.length, 'desiredAnswerType', desiredAnswerType);
+    if (templatesWithAnswerType.length > 0) {
+      templates = templatesWithAnswerType.filter(t => {
+        const at = (t as any).answertype;
+        if (Array.isArray(at)) return at.includes(desiredAnswerType);
+        if (typeof at === 'string') return at === desiredAnswerType;
+        return false;
+      });
+      log('debug', '[MathGen] templates after answertype filter', templates.length);
+    }
 
-    // If multiple-choice is requested, prefer templates that contain variable placeholders (e.g., {{x}}, {{y}})
+    // If no templates match, use all templates
+    // fallback to all templates if none matched after filtering
+    if (templates.length === 0) {
+      templates = filteredTemplates.length > 0 ? filteredTemplates : allTemplates;
+    }
+
+    // If mcq is requested, prefer templates that contain variable placeholders (e.g., {{x}}, {{y}})
     let candidateTemplates = templates;
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       const varRegex = /\{\{\w+\}\}/;
       const templatesWithVars = templates.filter(t => (t.formula && varRegex.test(t.formula)) || (t.question && varRegex.test(t.question)));
       if (templatesWithVars.length > 0) {
         candidateTemplates = templatesWithVars;
       }
+      log('debug', '[MathGen] templatesWithVars', templatesWithVars.length, 'candidateTemplates', candidateTemplates.length);
+    }
+
+    // Ensure we have at least one candidate template; fall back to broader sets if needed
+    if (!candidateTemplates || candidateTemplates.length === 0) {
+      log('warn', '[MathGen] No candidate templates after filtering; falling back to templates/allTemplates');
+      candidateTemplates = templates.length > 0 ? templates : allTemplates;
     }
 
     // Generate questions
+    let skips = 0;
     for (let i = 0; i < count; i++) {
       // Pick a random template
-      const template = candidateTemplates[Math.floor(Math.random() * candidateTemplates.length)];
+      let template = candidateTemplates[Math.floor(Math.random() * candidateTemplates.length)];
 
-      // Generate question from template
-      const generated = generateMathQuestion(template);
+      // If template is somehow undefined, fall back to a random template from allTemplates
+      if (!template) {
+        template = allTemplates.length > 0 ? allTemplates[Math.floor(Math.random() * allTemplates.length)] : undefined as any;
+      }
+
+      if (!template) {
+        // No templates available at all; stop generating further questions
+        log('error', '[MathGen] No templates available to generate question; breaking out');
+        break;
+      }
+
+      console.debug('[MathGen] using template', { type: template.type, formula: template.formula ? String(template.formula).slice(0, 60) : null });
+
+      // Generate question from template (guard against template evaluation errors)
+      let generated;
+      try {
+        generated = generateMathQuestion(template);
+      } catch (err) {
+        log('error', '[MathGen] generateMathQuestion failed for template', { templateType: template.type, error: err && err.message ? err.message : String(err) });
+        // Skip this template and continue without retrying the same index to avoid infinite loops
+        skips++;
+        if (skips > Math.max(50, count * 5)) {
+          log('error', '[MathGen] too many failed template generations, aborting early');
+          break;
+        }
+        continue;
+      }
 
       // Convert to MathQuestion format
       const mathQuestion: MathQuestion = {
@@ -81,7 +140,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       };
 
       // Add multiple choice options if needed
-      if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+      if (answerFormat === AnswerFormat.MCQ) {
         // Convert answer to number if possible, otherwise use text-based options
         const answerNum = typeof generated.answer === 'number'
           ? generated.answer
@@ -96,6 +155,19 @@ export class MathQuestionGenerator implements QuestionGenerator {
       }
 
       questions.push(mathQuestion);
+    }
+
+    // If for any reason we didn't generate enough questions (skipped bad templates),
+    // fill the remainder using the built-in single-question generators.
+    if (questions.length < count) {
+      log('warn', `[MathGen] generated ${questions.length}/${count} questions from templates - filling remainder with fallback generators`);
+      const mathTypes = Object.values(MathQuestionType) as MathQuestionType[];
+      while (questions.length < count) {
+        // pick a random math question type as fallback
+        const rndType = mathTypes[Math.floor(Math.random() * mathTypes.length)];
+        const fallback = this.generateSingleQuestion({ count: 1, difficulty, questionType: rndType as any, answerFormat });
+        questions.push(fallback);
+      }
     }
 
     return questions;
@@ -158,7 +230,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       operator: '+'
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       return {
         ...base,
         options: this.generateOptions(answer, 4)
@@ -186,7 +258,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       operator: '-'
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       return {
         ...base,
         options: this.generateOptions(answer, 4)
@@ -214,7 +286,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       operator: '×'
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       return {
         ...base,
         options: this.generateOptions(answer, 4)
@@ -242,7 +314,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       operator: '÷'
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       return {
         ...base,
         options: this.generateOptions(quotient, 4)
@@ -270,7 +342,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       operator: '/'
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       return {
         ...base,
         options: this.generateDecimalOptions(parseFloat(answer), 4)
@@ -299,7 +371,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       operator: 'algebraic'
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       return {
         ...base,
         options: this.generateOptions(x, 4)

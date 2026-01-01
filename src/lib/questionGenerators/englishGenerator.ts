@@ -118,7 +118,7 @@ export class EnglishQuestionGenerator implements QuestionGenerator {
       antonyms: word.antonyms
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       const wrongDefs = VOCABULARY
         .filter(w => w.word !== word.word)
         .map(w => w.definition)
@@ -145,7 +145,7 @@ export class EnglishQuestionGenerator implements QuestionGenerator {
       difficulty: difficulty as 'easy' | 'medium' | 'hard'
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       const options = [grammarQ.answer, ...grammarQ.wrongAnswers].sort(() => Math.random() - 0.5);
       return { ...base, options } as EnglishQuestion;
     }
@@ -170,7 +170,7 @@ export class EnglishQuestionGenerator implements QuestionGenerator {
       synonyms: word.synonyms
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       const wrongOptions = word.antonyms.slice(0, 2);
       const otherWords = VOCABULARY
         .filter(w => w.word !== word.word)
@@ -200,7 +200,7 @@ export class EnglishQuestionGenerator implements QuestionGenerator {
       antonyms: word.antonyms
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       const wrongOptions = word.synonyms.slice(0, 2);
       const otherWords = VOCABULARY
         .filter(w => w.word !== word.word)
@@ -236,7 +236,7 @@ export class EnglishQuestionGenerator implements QuestionGenerator {
       word: word.word
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE) {
+    if (answerFormat === AnswerFormat.MCQ) {
       const wrongWords = VOCABULARY
         .filter(w => w.word !== word.word)
         .map(w => w.word)
