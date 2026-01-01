@@ -34,18 +34,11 @@ export class MathQuestionGenerator implements QuestionGenerator {
   }
 
   private generateFromJSON(options: QuestionGeneratorOptions): Question[] {
-    const { count, difficulty, answerFormat, verbose } = options;
-    const log = (level: 'debug'|'warn'|'error', ...args: any[]) => {
-      if (!verbose) return;
-      if (level === 'debug') console.debug(...args);
-      if (level === 'warn') console.warn(...args);
-      if (level === 'error') console.error(...args);
-    };
+    const { count, difficulty, answerFormat } = options;
     const questions: Question[] = [];
 
     // Get all templates from JSON
     const allTemplates = getMathTemplates();
-    log('debug', '[MathGen] generateFromJSON start', { count, difficulty, answerFormat, totalTemplates: allTemplates.length });
 
     // Filter by difficulty
     const filteredTemplates = filterTemplates(difficulty);
@@ -55,7 +48,6 @@ export class MathQuestionGenerator implements QuestionGenerator {
     // If any template has an explicit answertype field, respect it
     const templatesWithAnswerType = filteredTemplates.filter(t => t && Object.prototype.hasOwnProperty.call(t, 'answertype'));
     let templates = filteredTemplates;
-    log('debug', '[MathGen] filteredTemplates count', filteredTemplates.length, 'templatesWithAnswerType', templatesWithAnswerType.length, 'desiredAnswerType', desiredAnswerType);
     if (templatesWithAnswerType.length > 0) {
       templates = templatesWithAnswerType.filter(t => {
         const at = (t as any).answertype;
@@ -63,7 +55,6 @@ export class MathQuestionGenerator implements QuestionGenerator {
         if (typeof at === 'string') return at === desiredAnswerType;
         return false;
       });
-      log('debug', '[MathGen] templates after answertype filter', templates.length);
     }
 
     // If no templates match, use all templates
@@ -80,12 +71,10 @@ export class MathQuestionGenerator implements QuestionGenerator {
       if (templatesWithVars.length > 0) {
         candidateTemplates = templatesWithVars;
       }
-      log('debug', '[MathGen] templatesWithVars', templatesWithVars.length, 'candidateTemplates', candidateTemplates.length);
     }
 
     // Ensure we have at least one candidate template; fall back to broader sets if needed
     if (!candidateTemplates || candidateTemplates.length === 0) {
-      log('warn', '[MathGen] No candidate templates after filtering; falling back to templates/allTemplates');
       candidateTemplates = templates.length > 0 ? templates : allTemplates;
     }
 
@@ -102,7 +91,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
 
       if (!template) {
         // No templates available at all; stop generating further questions
-        log('error', '[MathGen] No templates available to generate question; breaking out');
+        console.log('[MathGen] No templates available to generate question; breaking out');
         break;
       }
 
@@ -113,15 +102,15 @@ export class MathQuestionGenerator implements QuestionGenerator {
       try {
         generated = generateMathQuestion(template);
       } catch (err) {
+       
+        skips++;
         if (err instanceof Error) {
-          if (err.message.includes('Unexpected token')) {
-            log('error', '[MathGen] generateMathQuestion failed for template', { templateType: template.type, error: err.message });
-            continue;
+          if (err.message) {
+            console.log('[MathGen] generateMathQuestion failed for template', { templateType: template.type, error: err.message });
           }
         }
-        skips++;
         if (skips > Math.max(50, count * 5)) {
-          log('error', '[MathGen] too many failed template generations, aborting early');
+          console.log('[MathGen] too many failed template generations, aborting early');
           break;
         }
         continue;
@@ -164,7 +153,6 @@ export class MathQuestionGenerator implements QuestionGenerator {
     // If for any reason we didn't generate enough questions (skipped bad templates),
     // fill the remainder using the built-in single-question generators.
     if (questions.length < count) {
-      log('warn', `[MathGen] generated ${questions.length}/${count} questions from templates - filling remainder with fallback generators`);
       const mathTypes = Object.values(MathQuestionType) as MathQuestionType[];
       while (questions.length < count) {
         // pick a random math question type as fallback
@@ -433,11 +421,13 @@ export class MathQuestionGenerator implements QuestionGenerator {
   private generateOptions(correctAnswer: number, count: number): string[] {
     const options = new Set<string>([correctAnswer.toFixed(2)]);
 
+    console.log('[MathGen] generateOptions start', { correctAnswer, count, options });
+
     while (options.size < count) {
       const offset = this.randomInt(-10, 10);
       if (offset !== 0) {
         const wrongAnswer = correctAnswer + offset;
-        if (wrongAnswer > 0) {
+        if (wrongAnswer !== correctAnswer) {
           options.add(wrongAnswer.toFixed(2));
         }
       }
@@ -457,13 +447,17 @@ export class MathQuestionGenerator implements QuestionGenerator {
       options.add(correctNum.toFixed(2));
       while (options.size < count) {
         const offset = this.randomInt(-5, 5);
+        console.log('[MathGen] generateTextOptions offset', offset);
         if (offset !== 0) {
           const wrongAnswer = correctNum + offset;
+          console.log('[MathGen] generateTextOptions wrongAnswer', wrongAnswer);
           if (wrongAnswer > 0) {
             options.add(wrongAnswer.toFixed(2));
           }
         }
       }
+
+      console.log('[MathGen] generateTextOptions numeric options', Array.from(options));
       return Array.from(options).sort(() => Math.random() - 0.5);
     }
 

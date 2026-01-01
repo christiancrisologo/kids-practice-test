@@ -116,7 +116,6 @@ export interface QuestionGeneratorOptions {
   difficulty: 'easy' | 'medium' | 'hard';
   questionType: SubjectQuestionType;
   answerFormat: AnswerFormat;
-  verbose?: boolean;
 }
 
 export interface QuestionGenerator {

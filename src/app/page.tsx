@@ -37,19 +37,14 @@ export default function Home() {
     // Generate questions
     const generator = getQuestionGenerator(config.subject);
     const allQuestions: Question[] = [];
-
     const questionsPerType = Math.ceil(config.numberOfQuestions / config.questionTypes.length);
-
-    const enableVerbose = config.difficulty === 'hard' && config.answerFormat === AnswerFormat.MCQ;
-    if (enableVerbose) console.log('[Quiz] Verbose generator logging enabled for hard+MCQ');
 
     config.questionTypes.forEach(type => {
       const typeQuestions = generator.generate({
         count: questionsPerType,
         difficulty: config.difficulty,
         questionType: type as SubjectQuestionType,
-        answerFormat: config.answerFormat,
-        verbose: enableVerbose
+        answerFormat: config.answerFormat
       });
       allQuestions.push(...typeQuestions);
     });
