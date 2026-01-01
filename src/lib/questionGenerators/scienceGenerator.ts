@@ -119,7 +119,7 @@ export class ScienceQuestionGenerator implements QuestionGenerator {
       explanation: fact.explanation
     };
 
-    if (answerFormat === AnswerFormat.MULTIPLE_CHOICE && fact.wrongAnswers) {
+    if (answerFormat === AnswerFormat.MCQ && fact.wrongAnswers) {
       const options = [fact.answer, ...fact.wrongAnswers].sort(() => Math.random() - 0.5);
       return { ...base, options } as ScienceQuestion;
     }

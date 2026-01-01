@@ -11,7 +11,7 @@ interface QuizConfigType {
   subject: Subject;
   questionTypes: string[];
   answerFormat: AnswerFormat;
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: 'easy' | 'hard';
   numberOfQuestions: number;
   timerPerQuestion: number;
   yearLevel: 'primary' | 'secondary' | 'high';
@@ -40,12 +40,16 @@ export default function Home() {
 
     const questionsPerType = Math.ceil(config.numberOfQuestions / config.questionTypes.length);
 
+    const enableVerbose = config.difficulty === 'hard' && config.answerFormat === AnswerFormat.MCQ;
+    if (enableVerbose) console.log('[Quiz] Verbose generator logging enabled for hard+MCQ');
+
     config.questionTypes.forEach(type => {
       const typeQuestions = generator.generate({
         count: questionsPerType,
         difficulty: config.difficulty,
         questionType: type as SubjectQuestionType,
-        answerFormat: config.answerFormat
+        answerFormat: config.answerFormat,
+        verbose: enableVerbose
       });
       allQuestions.push(...typeQuestions);
     });
@@ -64,8 +68,8 @@ export default function Home() {
       subject: config.subject,
       subjectQuestionTypes: config.questionTypes as SubjectQuestionType[],
       answerFormat: config.answerFormat,
-      questionType: config.answerFormat === AnswerFormat.MULTIPLE_CHOICE ? 'multiple-choice' : 'input',
-      difficulty: config.difficulty === 'medium' ? 'easy' : (config.difficulty as 'easy' | 'hard'),
+      questionType: config.answerFormat === AnswerFormat.MCQ ? 'mcq' : 'text',
+      difficulty: config.difficulty as 'easy' | 'hard',
       numberOfQuestions: config.numberOfQuestions,
       timerPerQuestion: config.timerPerQuestion,
       yearLevel: config.yearLevel,

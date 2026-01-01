@@ -234,7 +234,7 @@ export default function QuizPage() {
     useEffect(() => {
         if (currentQuestion && isQuizActive) {
             setTimeout(() => {
-                if (settings.questionType === 'input') {
+                if (settings.questionType === 'text') {
 
                     if (inputRef.current) inputRef.current.focus();
                 }
@@ -251,7 +251,7 @@ export default function QuizPage() {
 
 
                 // Regular questions (integers, decimals)
-                canSubmit = settings.questionType === 'input'
+                canSubmit = settings.questionType === 'text'
                     ? userInput.trim().length > 0
                     : selectedOption !== null;
 
@@ -328,9 +328,9 @@ export default function QuizPage() {
         let isCorrect = false;
 
         let answer: string = '';
-        if (settings.questionType === 'input') {
+        if (settings.questionType === 'text') {
             answer = userInput;
-        } else if (settings.questionType === 'multiple-choice') {
+        } else if (settings.questionType === 'mcq') {
             answer = selectedOption !== null ? String(selectedOption) : '';
         }
 
@@ -372,7 +372,7 @@ export default function QuizPage() {
                 nextQuestion();
                 // Auto-focus after moving to next question
                 setTimeout(() => {
-                    if (settings.questionType === 'input') {
+                    if (settings.questionType === 'text') {
                         if (inputRef.current) inputRef.current.focus();
                     }
                 }, 100);
@@ -387,7 +387,7 @@ export default function QuizPage() {
             let canSubmit = false;
 
             // Regular questions (integers, decimals)
-            canSubmit = settings.questionType === 'input'
+            canSubmit = settings.questionType === 'text'
                 ? userInput.trim().length > 0
                 : selectedOption !== null;
 
@@ -469,7 +469,7 @@ export default function QuizPage() {
                             </div>
                             {/* Answer Input */}
                             <div className={`mb-8 ${getBlockingOverlayClasses(isUserInteractionBlocked)}`}>
-                                {settings.questionType === 'input' ? (
+                                {settings.questionType === 'text' ? (
                                     <div>
                                         {/** Question type input */}
                                         <input
@@ -501,7 +501,7 @@ export default function QuizPage() {
                             <div className="space-y-4">
                                 <button
                                     onClick={handleSubmitAnswer}
-                                    disabled={(settings.questionType === 'input'
+                                    disabled={(settings.questionType === 'text'
                                         ? !userInput.trim()
                                         : selectedOption === null)
                                     }

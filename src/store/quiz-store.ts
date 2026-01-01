@@ -6,7 +6,7 @@ import { Subject, SubjectQuestionType, AnswerFormat } from '../types/quiz';
 import { isSupabaseEnabled, shouldSyncOnline } from '../utils/systemConfig';
 
 export type Difficulty = 'easy' | 'hard';
-export type QuestionType = 'input' | 'multiple-choice';
+export type QuestionType = 'text' | 'mcq';
 export type Category = 'places' | 'animals' | 'persons' | 'science' | 'technology' | 'actions' | 'other' | 'all' ;
 export type Categories = Category[];
 export interface Question {
@@ -90,7 +90,7 @@ export const defaultSettings: QuizSettings = {
   difficulty: 'easy',
   numberOfQuestions: 10,
   timerPerQuestion: 20,
-  questionType: 'input',
+  questionType: 'text',
   categories: ['all'],
   timerEnabled: true,
   questionsEnabled: true,
@@ -215,8 +215,8 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       const currentQuestion = questions[currentIdx];
       let isCorrect = false;
       if (currentQuestion) {
-        // For input type, compare string; for multiple-choice, compare index
-        if (state.settings.questionType === 'input') {
+        // For input type, compare string; for mcq, compare index
+        if (state.settings.questionType === 'text') {
           // Normalize both answers for comparison (trim and lowercase)
           const userAnswerNormalized = answer.trim().toLowerCase();
           const correctAnswerNormalized = currentQuestion.answer.trim().toLowerCase();
@@ -234,7 +234,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
           }
 
           currentQuestion.userAnswer = answer;
-        } else if (state.settings.questionType === 'multiple-choice' && currentQuestion.options) {
+        } else if (state.settings.questionType === 'mcq' && currentQuestion.options) {
           const idx = typeof answer === 'number' ? answer : parseInt(answer as string);
           isCorrect = currentQuestion.options[idx] === currentQuestion.answer;
           currentQuestion.userAnswer = currentQuestion.options[idx];

@@ -14,7 +14,7 @@ interface QuizConfigProps {
     subject: Subject;
     questionTypes: string[];
     answerFormat: AnswerFormat;
-    difficulty: 'easy' | 'medium' | 'hard';
+    difficulty: 'easy' | 'hard';
     numberOfQuestions: number;
     timerPerQuestion: number;
     yearLevel: 'primary' | 'secondary' | 'high';
@@ -40,11 +40,10 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
   const isMobile = useIsMobile();
   const [username, setUsername] = useState('');
   const [selectedTypes, setSelectedTypes] = useState<string[]>(MATH_QUESTION_TYPES); // Pre-select all types
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [difficulty, _setDifficulty] = useState<'easy' | 'medium' | 'hard'>('easy');
+  const [difficulty, setDifficulty] = useState<'easy' | 'hard'>('easy');
   const [numberOfQuestions, setNumberOfQuestions] = useState(30);
   const [timerPerQuestion, setTimerPerQuestion] = useState(60);
-  const [answerFormat, setAnswerFormat] = useState<AnswerFormat>(AnswerFormat.INPUT);
+  const [answerFormat, setAnswerFormat] = useState<AnswerFormat>(AnswerFormat.TEXT);
   const [hasHistory, setHasHistory] = useState(false);
   const [yearLevel, setYearLevel] = useState<'primary' | 'secondary' | 'high'>('primary');
   const [showQuizSettings, setShowQuizSettings] = useState(false); // Hidden by default
@@ -290,8 +289,8 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
               </h3>
               <div className="grid grid-cols-2 gap-3">
                 <button
-                  onClick={() => setAnswerFormat(AnswerFormat.INPUT)}
-                  className={`p-5 rounded-xl border-2 transition-all ${answerFormat === AnswerFormat.INPUT
+                  onClick={() => setAnswerFormat(AnswerFormat.TEXT)}
+                  className={`p-5 rounded-xl border-2 transition-all ${answerFormat === AnswerFormat.TEXT
                     ? 'border-blue-500 bg-slate-700/60'
                     : 'border-slate-600/50 bg-slate-800/40'
                     }`}
@@ -301,8 +300,8 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                   <div className="text-xs text-gray-400">e.g., 4 + 3 = ?</div>
                 </button>
                 <button
-                  onClick={() => setAnswerFormat(AnswerFormat.MULTIPLE_CHOICE)}
-                  className={`p-5 rounded-xl border-2 transition-all ${answerFormat === AnswerFormat.MULTIPLE_CHOICE
+                  onClick={() => setAnswerFormat(AnswerFormat.MCQ)}
+                  className={`p-5 rounded-xl border-2 transition-all ${answerFormat === AnswerFormat.MCQ
                     ? 'border-blue-500 bg-slate-700/60'
                     : 'border-slate-600/50 bg-slate-800/40'
                     }`}
@@ -315,6 +314,36 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
               <p className="text-xs text-blue-400 mt-3 flex items-center gap-1">
                 💡 Your year level supports: Multiple Choice
               </p>
+            </div>
+
+            {/* Difficulty Selection */}
+            <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
+              <h3 className="text-white font-medium mb-4 flex items-center gap-2">🎚️ Difficulty</h3>
+              <div className="grid grid-cols-2 gap-3">
+                <button
+                  onClick={() => setDifficulty('easy')}
+                  className={`p-5 rounded-xl border-2 transition-all ${difficulty === 'easy'
+                    ? 'border-blue-500 bg-slate-700/60'
+                    : 'border-slate-600/50 bg-slate-800/40'
+                    }`}
+                >
+                  <div className="text-2xl mb-2">🟢</div>
+                  <div className="text-white font-semibold text-sm mb-1">Easy</div>
+                  <div className="text-xs text-gray-400">Simpler numbers and operations</div>
+                </button>
+                <button
+                  onClick={() => setDifficulty('hard')}
+                  className={`p-5 rounded-xl border-2 transition-all ${difficulty === 'hard'
+                    ? 'border-blue-500 bg-slate-700/60'
+                    : 'border-slate-600/50 bg-slate-800/40'
+                    }`}
+                >
+                  <div className="text-2xl mb-2">🔴</div>
+                  <div className="text-white font-semibold text-sm mb-1">Hard</div>
+                  <div className="text-xs text-gray-400">Bigger numbers and multi-step problems</div>
+                </button>
+              </div>
+              <p className="text-xs text-gray-400 mt-3">Selected: {difficulty.toUpperCase()}</p>
             </div>
 
             {/* Number Types (Question Types) */}

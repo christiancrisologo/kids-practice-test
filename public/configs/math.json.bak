@@ -2891,7 +2891,7 @@
   {
     "question": "A triangle with at least two equal sides is called an ____ triangle.",
     "formula": "Isosceles",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Two sides are the same, and two angles are the same.",
     "type": "geometry",
@@ -2902,7 +2902,7 @@
   {
     "question": "What is the term for the distance around the outside of a circle?",
     "formula": "Circumference",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It is like the perimeter, but specifically for circles.",
     "type": "geometry",
@@ -2913,7 +2913,7 @@
   {
     "question": "What is the sum of the interior angles of a quadrilateral?",
     "formula": "360",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "A quadrilateral can be split into two triangles.",
     "type": "geometry",
@@ -2935,7 +2935,7 @@
   {
     "question": "Two lines that meet at a 90-degree angle are said to be ____ to each other.",
     "formula": "Perpendicular",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "They form a perfect 'T' or 'L' shape.",
     "type": "geometry",
@@ -2957,7 +2957,7 @@
   {
     "question": "A polygon where all sides and all angles are equal is called a ____ polygon.",
     "formula": "Regular",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "A square is an example of this type of quadrilateral.",
     "type": "geometry",
@@ -2979,7 +2979,7 @@
   {
     "question": "How many sides does a heptagon have?",
     "formula": "7",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It is also sometimes called a septagon.",
     "type": "geometry",
@@ -3001,7 +3001,7 @@
   {
     "question": "A line segment connecting the center of a circle to any point on its edge is the ____.",
     "formula": "Radius",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It is half the length of the diameter.",
     "type": "geometry",
@@ -3012,7 +3012,7 @@
   {
     "question": "A quadrilateral with exactly one pair of parallel sides is a ____.",
     "formula": "Trapezium",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "In the US, it is called a trapezoid.",
     "type": "geometry",
@@ -3034,7 +3034,7 @@
   {
     "question": "What is the name of a four-sided shape with four equal sides but no right angles?",
     "formula": "Rhombus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Think of a diamond shape.",
     "type": "geometry",
@@ -3056,7 +3056,7 @@
   {
     "question": "How many sides does a nonagon have?",
     "formula": "9",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "The name starts with 'n', like the number nine.",
     "type": "geometry",
@@ -3111,7 +3111,7 @@
   {
     "question": "What is the name of a triangle where all sides are different lengths?",
     "formula": "Scalene",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "No sides are equal, and no angles are equal.",
     "type": "geometry",
@@ -3122,7 +3122,7 @@
   {
     "question": "How many edges does a cube have?",
     "formula": "12",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Count the lines where the faces meet.",
     "type": "geometry",
@@ -3133,7 +3133,7 @@
   {
     "question": "A line that passes through the center of a circle and touches both sides is the ____.",
     "formula": "Diameter",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It is twice the length of the radius.",
     "type": "geometry",
@@ -3177,7 +3177,7 @@
   {
     "question": "How many degrees are in each angle of an equilateral triangle?",
     "formula": "60",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "180 divided by 3.",
     "type": "geometry",
@@ -3199,7 +3199,7 @@
   {
     "question": "The 'height' of a 3D shape is often referred to as its ____.",
     "formula": "Depth or Altitude",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It measures how tall the object is from its base.",
     "type": "geometry",
@@ -3221,7 +3221,7 @@
   {
     "question": "What do you call a part of the circumference of a circle?",
     "formula": "Arc",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Like the shape of a bow.",
     "type": "geometry",
@@ -3254,7 +3254,7 @@
   {
     "question": "If you look at a 3D shape from the top, the drawing you make is called a ____ view.",
     "formula": "Plan",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Architects use these for floor layouts.",
     "type": "geometry",
@@ -3265,7 +3265,7 @@
   {
     "question": "A pyramid with a square base has how many vertices?",
     "formula": "5",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Four on the base and one at the top.",
     "type": "geometry",
@@ -3331,7 +3331,7 @@
   {
     "question": "True or False: A circle is considered a polygon.",
     "formula": "False",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Polygons must be made of straight line segments.",
     "type": "geometry",
@@ -3342,7 +3342,7 @@
   {
     "question": "What is the term for two angles that share a common side and a common vertex?",
     "formula": "Adjacent angles",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "'Adjacent' means next to each other.",
     "type": "geometry",
@@ -3386,7 +3386,7 @@
   {
     "question": "What is the name of a triangle that has one angle greater than 90 degrees?",
     "formula": "Obtuse triangle",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "If one angle is obtuse, the whole triangle is named after it.",
     "type": "geometry",
@@ -3419,7 +3419,7 @@
   {
     "question": "What do you call a line segment that connects two non-adjacent vertices of a polygon?",
     "formula": "Diagonal",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It goes through the middle of the shape rather than along the edge.",
     "type": "geometry",
@@ -3430,7 +3430,7 @@
   {
     "question": "What is the name of a polygon with 10 sides?",
     "formula": "Decagon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Think of a 'decade'.",
     "type": "geometry",
@@ -3474,7 +3474,7 @@
   {
     "question": "What is the term for a 2D shape that can be folded to create a 3D object?",
     "formula": "Net",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It is a flat pattern for a solid.",
     "type": "geometry",
@@ -3485,7 +3485,7 @@
   {
     "question": "If two lines intersect and form four right angles, the lines are ____.",
     "formula": "Perpendicular",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "They meet at exactly 90 degrees.",
     "type": "geometry",
@@ -3496,7 +3496,7 @@
   {
     "question": "What is the name of a quadrilateral with only one pair of parallel sides?",
     "formula": "Trapezoid",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Also known as a trapezium in some regions.",
     "type": "geometry",
@@ -3518,7 +3518,7 @@
   {
     "question": "A polygon with all sides of equal length is called a ____ polygon.",
     "formula": "Equilateral",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It doesn't necessarily mean the angles are equal (like a rhombus).",
     "type": "geometry",
@@ -3529,7 +3529,7 @@
   {
     "question": "What do you call a triangle with no equal sides and no equal angles?",
     "formula": "Scalene",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Everything about this triangle is different.",
     "type": "geometry",
@@ -3573,7 +3573,7 @@
   {
     "question": "What do you call a quadrilateral where all four sides are equal, but the angles are not necessarily 90 degrees?",
     "formula": "Rhombus",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Think of a diamond shape.",
     "type": "geometry",
@@ -3617,7 +3617,7 @@
   {
     "question": "What is the name of a polygon with 9 sides?",
     "formula": "Nonagon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "The name starts with 'n', like the number nine.",
     "type": "geometry",
@@ -3628,7 +3628,7 @@
   {
     "question": "True or False: A square is also a type of rectangle.",
     "formula": "True",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "A rectangle is a quadrilateral with 4 right angles; a square fits this rule.",
     "type": "geometry",
@@ -3683,7 +3683,7 @@
   {
     "question": "How many pairs of parallel sides does a regular hexagon have?",
     "formula": "3",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Each side has an opposite side that is parallel to it.",
     "type": "geometry",
@@ -3705,7 +3705,7 @@
   {
     "question": "What is the term for a part of the outside edge (circumference) of a circle?",
     "formula": "Arc",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It is a curved segment.",
     "type": "geometry",
@@ -3716,7 +3716,7 @@
   {
     "question": "A quadrilateral with two pairs of parallel sides is called a ____.",
     "formula": "Parallelogram",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Rectangles, squares, and rhombuses are all types of this.",
     "type": "geometry",
@@ -3749,7 +3749,7 @@
   {
     "question": "What do you call a shape where all sides and all angles are equal?",
     "formula": "Regular",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "A 'regular' triangle is an equilateral triangle.",
     "type": "geometry",
@@ -3760,7 +3760,7 @@
   {
     "question": "How many vertices does a cube have?",
     "formula": "8",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "4 on the top and 4 on the bottom.",
     "type": "geometry",
@@ -3815,7 +3815,7 @@
   {
     "question": "A triangle with at least two equal sides is called an ____ triangle.",
     "formula": "Isosceles",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It has two 'eyes' (angles) that are the same.",
     "type": "geometry",
@@ -3826,7 +3826,7 @@
   {
     "question": "How many edges does a sphere have?",
     "formula": "0",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Edges are where two flat faces meet.",
     "type": "geometry",
@@ -3848,7 +3848,7 @@
   {
     "question": "How many degrees are in the sum of the interior angles of a quadrilateral?",
     "formula": "360",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "It is like putting two triangles together (180 + 180).",
     "type": "geometry",
@@ -4015,7 +4015,7 @@
   {
     "question": "You bought a candy for ${{x}} and a juice for ${{y}}. You have ${{z}}. How much money is left?",
     "formula": "{{z}} - ({{x}} + {{y}})",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Add the costs together first, then subtract from your total money.",
     "type": "currency",
@@ -4063,7 +4063,7 @@
   {
     "question": "An eraser costs ${{x}}. If you buy {{y}} erasers, how much change do you get from ${{z}}?",
     "formula": "{{z}} - ({{x}} * {{y}})",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Find the total cost of the erasers first, then subtract from your money.",
     "type": "currency",
@@ -4075,7 +4075,7 @@
   {
     "question": "If school starts at 8 AM and ends at {{x}} PM, how many hours are you at school?",
     "formula": "({{x}} + 12) - 8",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Convert the PM time to a 24-hour format by adding 12, then subtract the start time.",
     "type": "time",
@@ -4303,7 +4303,7 @@
   {
     "question": "A teacher has {{x}} markers. She gives {{y}} markers to each of her 3 students. How many markers did she give in total?",
     "formula": "{{y}} * 3",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Multiply the number of markers per student by the 3 students.",
     "type": "basic",
@@ -4351,7 +4351,7 @@
   {
     "question": "If you have {{x}} dollars and your mom gives you {{y}} more, and then you spend ${{z}}, how much do you have left?",
     "formula": "({{x}} + {{y}}) - {{z}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Add the money you received first, then subtract the money you spent.",
     "type": "currency",
@@ -4363,7 +4363,7 @@
   {
     "question": "How many hours are in {{x}} days?",
     "formula": "24 * {{x}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Multiply the number of days by 24.",
     "type": "time",
@@ -4423,7 +4423,7 @@
   {
     "question": "If you have ${{x}} and you want to buy 2 toys that cost ${{y}} each, do you have enough money? (Find the cost of 2 toys)",
     "formula": "{{y}} * 2",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Multiply the price of one toy by 2.",
     "type": "currency",
@@ -4447,7 +4447,7 @@
   {
     "question": "If you sleep from 8:00 PM until {{x}}:00 AM, how many hours did you sleep?",
     "formula": "(12 - 8) + {{x}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Count the hours from 8:00 to 12:00 (midnight), then add the hours after midnight.",
     "type": "time",
@@ -4531,7 +4531,7 @@
   {
     "question": "A movie ticket is ${{x}}. If you have ${{y}}, how many tickets can you buy?",
     "formula": "floor({{y}} / {{x}})",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Divide your money by the cost of one ticket.",
     "type": "currency",
@@ -4591,7 +4591,7 @@
   {
     "question": "If you wake up at {{x}}:00 AM and go to bed at {{y}}:00 PM, how many hours are you awake?",
     "formula": "({{y}} + 12) - {{x}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Change the PM time to 24-hour time by adding 12, then subtract your wake-up time.",
     "type": "time",
@@ -4603,7 +4603,7 @@
   {
     "question": "A squirrel has {{x}} acorns. He hides {{y}} acorns but a bird takes {{z}} of them. How many does he have left?",
     "formula": "{{x}} - {{y}} - {{z}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Subtract the hidden ones and then subtract the ones the bird took.",
     "type": "basic",
@@ -4615,7 +4615,7 @@
   {
     "question": "If 1 dollar is equal to 4 quarters, how many quarters are in ${{x}}?",
     "formula": "{{x}} * 4",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Multiply the number of dollars by 4.",
     "type": "currency",
@@ -4687,7 +4687,7 @@
   {
     "question": "You have ${{x}}. You buy a comic for ${{y}} and a snack for ${{z}}. How much is left?",
     "formula": "{{x}} - ({{y}} + {{z}})",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Add the prices of the comic and snack, then subtract that from your money.",
     "type": "currency",
@@ -4795,7 +4795,7 @@
   {
     "question": "If you have {{x}} stickers and you put {{y}} on each page of your notebook, how many pages can you fill?",
     "formula": "floor({{x}} / {{y}})",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Divide the total stickers by the number per page.",
     "type": "basic",
@@ -4807,7 +4807,7 @@
   {
     "question": "A lemonade costs ${{x}}. You buy 2 lemonades. How much change do you get from ${{y}}?",
     "formula": "{{y}} - ({{x}} * 2)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Multiply the price by 2, then subtract that from your money.",
     "type": "currency",
@@ -4855,7 +4855,7 @@
   {
     "question": "There are {{x}} candies in a jar. You eat {{y}} candies. Then your mom adds {{z}} more. How many now?",
     "formula": "({{x}} - {{y}}) + {{z}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Subtract the ones you ate, then add the new ones.",
     "type": "basic",
@@ -5009,7 +5009,7 @@
   {
     "question": "A pen costs ${{x}}. How many pens can you buy with ${{y}}?",
     "formula": "floor({{y}} / {{x}})",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Divide your money by the cost of one pen.",
     "type": "currency",
@@ -5357,7 +5357,7 @@
   {
     "question": "A candy bar costs ${{x}}. You have ${{y}}. How many candy bars can you buy?",
     "formula": "floor({{y}} / {{x}})",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Divide your total money by the cost of one candy bar.",
     "type": "currency",
@@ -5381,7 +5381,7 @@
   {
     "question": "A teacher has {{x}} stickers. She gives {{y}} stickers to each student. If she has 5 students, how many stickers did she give away?",
     "formula": "{{y}} * 5",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Multiply the stickers given to one student by the number of students.",
     "type": "basic",
@@ -5477,7 +5477,7 @@
   {
     "question": "You have {{x}} baseball cards. You give {{y}} to your friend and {{z}} to your brother. How many do you have left?",
     "formula": "{{x}} - {{y}} - {{z}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Subtract the cards given to your friend, then subtract the cards given to your brother.",
     "type": "basic",
@@ -5524,7 +5524,7 @@
   {
     "question": "You have ${{x}} and buy a lunch for ${{y}}. Your dad gives you another ${{z}}. How much do you have now?",
     "formula": "({{x}} - {{y}}) + {{z}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Subtract the cost of lunch from your money, then add the money your dad gave you.",
     "type": "currency",
@@ -5584,7 +5584,7 @@
   {
     "question": "You have ${{x}}. You buy a toy for ${{y}}. Can you buy another toy for the same price? (Calculate cost of 2 toys)",
     "formula": "{{y}} * 2",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Multiply the price of the toy by 2 to see the total cost for two.",
     "type": "currency",
@@ -5644,7 +5644,7 @@
   {
     "question": "You pay ${{x}} for a book and receive ${{y}} in change. How much money did you give the cashier?",
     "formula": "{{x}} + {{y}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Add the price of the book to the change you received.",
     "type": "currency",
@@ -6547,7 +6547,7 @@
   {
     "question": "What math operation is basically 'repeated addition'?",
     "formula": "Multiplication",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "You use the times (x) sign for this.",
     "type": "basic",
@@ -6558,7 +6558,7 @@
   {
     "question": "Which unit would you use to measure the weight of a heavy dog: grams or kilograms?",
     "formula": "Kilograms",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "This unit is used for heavier objects.",
     "type": "basic",
@@ -6591,7 +6591,7 @@
   {
     "question": "Which operation is used to 'share' a number into equal groups?",
     "formula": "Division",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "You use the division (÷) sign for this.",
     "type": "basic",
@@ -6624,7 +6624,7 @@
   {
     "question": "A 3D shape that looks like a soda can is called a ____.",
     "formula": "Cylinder",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "It has two circular flat ends and one curved side.",
     "type": "basic",
@@ -6635,7 +6635,7 @@
   {
     "question": "What do we call the answer to an addition problem?",
     "formula": "Sum",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "It starts with the letter 'S'.",
     "type": "basic",
@@ -6646,7 +6646,7 @@
   {
     "question": "How many sides does a pentagon have?",
     "formula": "5",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Think of the famous building in the USA.",
     "type": "basic",
@@ -6701,7 +6701,7 @@
   {
     "question": "What shape has six sides?",
     "formula": "Hexagon",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Think of a honeycomb cell.",
     "type": "basic",
@@ -6756,7 +6756,7 @@
   {
     "question": "How many sides does an octagon have?",
     "formula": "8",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Think of a stop sign.",
     "type": "basic",
@@ -6800,7 +6800,7 @@
   {
     "question": "What do we use to measure the temperature of the air?",
     "formula": "Thermometer",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "It tells us if it is hot or cold outside.",
     "type": "basic",
@@ -6811,7 +6811,7 @@
   {
     "question": "What is a flat surface of a 3D shape called?",
     "formula": "Face",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "A cube has six of these.",
     "type": "basic",
@@ -6822,7 +6822,7 @@
   {
     "question": "If a number cannot be split into two equal whole groups, is it Even or Odd?",
     "formula": "Odd",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Examples are 1, 3, 5, 7, and 9.",
     "type": "basic",
@@ -6943,7 +6943,7 @@
   {
     "question": "A triangle with a square corner is called a ____ triangle.",
     "formula": "Right",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "The corner measures exactly 90 degrees.",
     "type": "basic",
@@ -6965,7 +6965,7 @@
   {
     "question": "How many years are in a century?",
     "formula": "100",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "The word 'cent' often means 100.",
     "type": "basic",
@@ -6976,7 +6976,7 @@
   {
     "question": "What do we call a 3D shape that looks like a tent with a triangular base?",
     "formula": "Pyramid",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "Think of the ancient structures in Egypt.",
     "type": "basic",
@@ -6998,7 +6998,7 @@
   {
     "question": "Which unit is used for measuring very short things: millimeters or kilometers?",
     "formula": "Millimeters",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "primary",
     "hint": "These are the tiny lines on a ruler.",
     "type": "basic",
@@ -7390,7 +7390,7 @@
   {
     "question": "A clock shows 03:00. What is the smaller angle between the hour hand and the minute hand in degrees?",
     "formula": "90",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Each hour mark on a clock represents 30 degrees (360/12).",
     "type": "time",
@@ -7401,7 +7401,7 @@
   {
     "question": "If 3 pencils cost ${{x}}, how much do {{y}} pencils cost?",
     "formula": "({{x}} / 3) * {{y}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Find the price of one pencil first.",
     "type": "currency",
@@ -7461,7 +7461,7 @@
   {
     "question": "A set of 4 tires costs ${{x}}. If you buy them individually, they cost ${{y}} each. How much do you save by buying the set?",
     "formula": "(4 * {{y}}) - {{x}}",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Multiply the individual price by 4 and compare it to the set price.",
     "type": "currency",
@@ -7693,7 +7693,7 @@
   {
     "question": "A person was born in 1988. In what year will they turn 65?",
     "formula": "2053",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Add 65 to the birth year.",
     "type": "time",
@@ -7728,7 +7728,7 @@
   {
     "question": "How many days are in 3 years? (Assume no leap years)",
     "formula": "1095",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Multiply 365 by 3.",
     "type": "time",
@@ -7797,7 +7797,7 @@
   {
     "question": "A pizza is cut into 8 slices and costs ${{x}}. What is the cost per slice?",
     "formula": "{{x}} / 8",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Divide the total price by the number of slices.",
     "type": "currency",
@@ -7854,7 +7854,7 @@
   {
     "question": "A vending machine only takes quarters ($0.25). If a snack costs ${{x}}, how many quarters do you need?",
     "formula": "{{x}} / 0.25",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "There are 4 quarters in every dollar.",
     "type": "currency",
@@ -7878,7 +7878,7 @@
   {
     "question": "A clock's minute hand moves from the 2 to the 9. How many minutes have passed?",
     "formula": "35",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Each number on a clock represents 5 minutes.",
     "type": "time",
@@ -7901,7 +7901,7 @@
   {
     "question": "What is 15% of ${{x}}?",
     "formula": "{{x}} * 0.15",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "level": "junior",
     "hint": "Multiply the amount by 0.15.",
     "type": "currency",
