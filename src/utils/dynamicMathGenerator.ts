@@ -164,6 +164,8 @@ export function generateMathQuestion(
   // Extract variables from question and formula
   const variables = extractVariables(template.question + template.formula);
 
+  console.log('[MathGen] variabls : ', { template, variables });
+
   // Check if this is a non-variable question (no {{x}} placeholders)
   const hasVariables = variables.length > 0;
 
@@ -184,14 +186,22 @@ export function generateMathQuestion(
   // Generate random values for variables
   const values = generateVariableValues(variables, template.difficulty);
 
+  console.log('[MathGen] values : ', values);
+
   // Replace variables in question
   const question = replaceVariables(template.question, values);
+
+  console.log('[MathGen] question : ', question);
 
   // Calculate answer using formula
   const answer = evaluateFormula(template.formula, values);
 
+  console.log('[MathGen] answer : ', answer);
+
   // Replace variables in hint
   const hint = replaceVariables(template.hint, values);
+
+  console.log('[MathGen] hint : ', hint);
 
   return {
     question,
