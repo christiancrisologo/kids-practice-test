@@ -27,7 +27,6 @@ export interface SystemSettings {
   theme: ThemeSettings;
   supabase: SupabaseSettings;
   storage: StorageSettings;
-  'quiz-data': string;
   hint: HintSettings;
 }
 
@@ -52,16 +51,54 @@ export interface Challenge {
   settings: ChallengeSettings;
 }
 
+export interface Topic {
+  name: string;
+  label: string;
+  description: string;
+}
+
+export interface SubjectConfig {
+  name: string;
+  label: string;
+  description: string;
+  topics: Topic[];
+}
+
 export interface YearLevelPreset {
   name: string;
+  label: string;
+  difficulty: string;
+  numberOfQuestions: number;
+  timerPerQuestion: number;
+  questionType: string[];
+  categories: string[];
   description: string;
-  settings: ChallengeSettings;
+  timerEnabled: boolean;
+  questionsEnabled: boolean;
+  minCorrectAnswers: number;
+  maxCorrectAnswers: number;
+  correctAnswersEnabled: boolean;
+  minIncorrectAnswers: number;
+  maxIncorrectAnswers: number;
+  incorrectAnswersEnabled: boolean;
+  overallTimerEnabled: boolean;
+  overallTimerDuration: number;
+  subjects: {
+    [key: string]: string[]; // subject name -> array of topic names
+  };
+}
+
+export interface ScienceSettings {
+  topics: string[];
+  answerTypes: string[];
 }
 
 export interface AppSettings {
   system: SystemSettings;
+  subjects: SubjectConfig[];
   challenges: Challenge[];
   yearLevel: YearLevelPreset[];
+  science?: ScienceSettings;
 }
 
 export type YearLevel = 'primary' | 'junior' | 'senior';

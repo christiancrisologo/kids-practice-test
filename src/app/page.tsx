@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { QuizConfig } from '../components/quiz/QuizConfig';
 import { useQuizStore } from '../store/quiz-store';
@@ -14,7 +15,7 @@ interface QuizConfigType {
   difficulty: 'easy' | 'hard';
   numberOfQuestions: number;
   timerPerQuestion: number;
-  yearLevel: 'primary' | 'secondary' | 'high';
+  yearLevel: 'primary' | 'junior-high' | 'senior-high';
   // Challenge settings
   timerEnabled: boolean;
   questionsEnabled: boolean;
@@ -31,7 +32,24 @@ interface QuizConfigType {
 
 export default function Home() {
   const router = useRouter();
-  const { updateSettings, setQuestions: setStoreQuestions } = useQuizStore();
+  const { setCurrentSubject, updateSettings, setQuestions: setStoreQuestions } = useQuizStore();
+
+  // Load subject from query parameter on initial mount (only on index page)
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const subjectParam = urlParams.get('subject');
+
+    let subject: Subject = Subject.MATH; // Default to math
+
+    if (subjectParam === 'science') {
+      subject = Subject.SCIENCE;
+    } else if (subjectParam === 'english') {
+      subject = Subject.ENGLISH;
+    }
+
+    // Store subject in Redux store
+    setCurrentSubject(subject);
+  }, [setCurrentSubject]); // Empty dependency array - only run on mount
 
   const handleConfigComplete = (config: QuizConfigType) => {
     // Generate questions
@@ -54,7 +72,7 @@ export default function Home() {
     const finalQuestions = shuffled.slice(0, config.numberOfQuestions);
 
     // Update store questions
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
     setStoreQuestions(finalQuestions as any);
 
     // Update store settings with username
@@ -82,7 +100,7 @@ export default function Home() {
       challengeMode: config.challengeMode
     });
 
-    // Navigate to quiz page
+    // Navigate to quiz page (subject is already in Redux store)
     router.push('/quiz');
   };
 

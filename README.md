@@ -100,20 +100,20 @@ The app is highly configurable through `public/configs/settings.json` (also avai
     "theme": { "default": "light", "allowUserPreference": true },
     "supabase": { "enabled": false, "syncOnline": true },
     "storage": { "useLocalStorage": true, "maxHistoryRecords": 100 },
-    "quiz-data": "math"
+    "subject": "math"
   }
 }
 ```
 
-**Note**: The `quiz-data` setting determines which question JSON file to load by default. You can override this with a query parameter:
+**Note**: The `subject` setting determines which question JSON file to load by default. You can override this with a query parameter:
 - Default: `http://localhost:3000/` (loads `math.json` from settings)
-- Override: `http://localhost:3000/?quiz-data=science` (loads `science.json`)
+- Override: `http://localhost:3000/?subject=science` (loads `science.json`)
 
 ### Dynamic Question Loading
 
 The app uses a multi-stage preloader that:
 1. **Loads settings.json first** (0-40% progress)
-2. **Checks for query parameter** `?quiz-data=<name>` in the URL
+2. **Checks for query parameter** `?subject=<name>` in the URL
 3. **Falls back to settings** if no query parameter is provided
 4. **Loads the appropriate question data** from `/public/configs/<name>.json` (40-100% progress)
 5. **Caches data in sessionStorage** for faster subsequent loads
@@ -190,8 +190,8 @@ The app features a sophisticated preloader that provides a smooth loading experi
 - Stores in context and sessionStorage
 
 **Stage 2: Question Data Loading (40-100%)**
-- Checks URL for `?quiz-data=<name>` query parameter
-- Falls back to `settings.json` → `system.quiz-data` if no parameter
+- Checks URL for `?subject=<name>` query parameter
+- Falls back to `settings.json` → `system.subject` if no parameter
 - Loads appropriate question JSON file
 - Validates and prepares question data
 
@@ -403,7 +403,7 @@ kids-practice-test/
 │   │   ├── settings.json      # App settings (source copy)
 │   │   └── math.json          # Math questions (source copy)
 │   ├── contexts/              # React contexts
-│   │   └── math-data-context.tsx  # Quiz data context with preloader logic
+│   │   └── quiz-data-context.tsx  # Quiz data context with preloader logic
 │   ├── lib/                   # Question generators
 │   │   └── questionGenerators/
 │   │       └── mathGenerator.ts   # Dynamic math question generator
@@ -459,8 +459,8 @@ Update the `yearLevel` array in `public/configs/settings.json` to customize diff
      }
    ]
    ```
-3. Load it via query parameter: `http://localhost:3000/?quiz-data=science`
-4. Or set it as default in `settings.json` → `system.quiz-data`
+3. Load it via query parameter: `http://localhost:3000/?subject=science`
+4. Or set it as default in `settings.json` → `system.subject`
 
 ### Adding Math Questions
 Edit `public/configs/math.json` to add new questions:
@@ -519,12 +519,12 @@ Edit `public/configs/math.json` to add new questions:
 ### Preloader Issues
 **Problem**: Preloader shows error or gets stuck
 - Check that `public/configs/settings.json` exists
-- Verify `public/configs/math.json` (or your quiz-data file) exists
+- Verify `public/configs/math.json` (or your subject file) exists
 - Check browser console for error messages
 - Clear sessionStorage: `sessionStorage.clear()` in browser console
 
 **Problem**: Questions not loading
-- Verify the `quiz-data` parameter matches a file in `public/configs/`
+- Verify the `subject` parameter matches a file in `public/configs/`
 - Check that the JSON file is valid (use a JSON validator)
 - Ensure the file is in the correct format (array of question objects)
 

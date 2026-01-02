@@ -10,7 +10,7 @@ import { animationClasses } from '../../utils/enhanced-animations';
 import { useQuestionTransition, getBlockingOverlayClasses } from '../../utils/question-transitions';
 import { getChallengeMode } from '../../utils/challengeModes';
 import HeaderContent from '../../components/quiz/HeaderContent';
-import { useQuizData } from '../../contexts/math-data-context';
+import { useQuizData } from '../../contexts/quiz-data-context';
 import {
     isHintEnabledForLevel,
     isHintButtonVisible,
@@ -113,7 +113,7 @@ export default function QuizPage() {
         let yearLevel: YearLevel;
         if (settings.yearLevel === 'primary') {
             yearLevel = 'primary';
-        } else if (settings.yearLevel === 'secondary') {
+        } else if (settings.yearLevel === 'junior-high') {
             yearLevel = 'junior';
         } else {
             yearLevel = 'senior';
@@ -149,7 +149,7 @@ export default function QuizPage() {
         let yearLevel: YearLevel;
         if (settings.yearLevel === 'primary') {
             yearLevel = 'primary';
-        } else if (settings.yearLevel === 'secondary') {
+        } else if (settings.yearLevel === 'junior-high') {
             yearLevel = 'junior';
         } else {
             yearLevel = 'senior';
@@ -216,13 +216,6 @@ export default function QuizPage() {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [overallTimeRemaining, isQuizActive, settings.overallTimerEnabled]);
 
-    // Redirect if no questions
-    useEffect(() => {
-        if (questions.length === 0) {
-            router.push('/');
-        }
-    }, [questions.length, router]);
-
     // Redirect to results when quiz is completed
     useEffect(() => {
         if (isQuizCompleted) {
@@ -287,24 +280,6 @@ export default function QuizPage() {
             return;
         }
 
-        // For spelling/English questions, build hint from available properties
-        const hintOptions = [];
-        if (currentQuestion.numLetters)
-            hintOptions.push(`The word has ${currentQuestion.numLetters} letters.`);
-        if (currentQuestion.category)
-            hintOptions.push(`It's categorized as ${currentQuestion.category}.`);
-        if (currentQuestion.synonyms && currentQuestion.synonyms.length)
-            hintOptions.push(`A synonym is ${currentQuestion.synonyms[0]}.`);
-        if (currentQuestion.antonyms && currentQuestion.antonyms.length)
-            hintOptions.push(`An antonym is ${currentQuestion.antonyms[0]}.`);
-
-        if (hintOptions.length === 0) {
-            // Generic hint if no specific hint available
-            setHintContent(`💡 Think carefully about the question!`);
-        } else {
-            const randomHint = hintOptions[Math.floor(Math.random() * hintOptions.length)];
-            setHintContent(randomHint);
-        }
         setShowHint(true);
     };
 
@@ -453,7 +428,7 @@ export default function QuizPage() {
                                     {/* Hint button visibility based on year level - always visible for primary, hidden for junior and senior */}
                                     {(() => {
                                         const yearLevel: YearLevel = settings.yearLevel === 'primary' ? 'primary'
-                                            : settings.yearLevel === 'secondary' ? 'junior'
+                                            : settings.yearLevel === 'junior-high' ? 'junior'
                                                 : 'senior';
                                         const shouldShowButton = isHintButtonVisible(yearLevel);
 

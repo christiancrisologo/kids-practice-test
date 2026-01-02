@@ -38,7 +38,7 @@ export interface QuizSettings {
   subject?: Subject;
   subjectQuestionTypes?: SubjectQuestionType[];
   answerFormat?: AnswerFormat;
-  yearLevel?: 'primary' | 'secondary' | 'high';
+  yearLevel?: 'primary' | 'junior-high' | 'senior-high';
   // Enhanced settings for game mechanics
   timerEnabled: boolean;
   questionsEnabled: boolean;
@@ -56,6 +56,7 @@ export interface QuizSettings {
 
 export interface QuizState {
   _gameRecordSaved?: boolean;
+  currentSubject: Subject; // Current subject loaded from query param on index page
   settings: QuizSettings;
   questions: Question[];
   currentQuestionIndex: number;
@@ -69,6 +70,7 @@ export interface QuizState {
   quizStartTime: number | null;
   overallTimeRemaining: number;
   overallTimerActive: boolean;
+  setCurrentSubject: (subject: Subject) => void;
   updateSettings: (settings: Partial<QuizSettings>) => void;
   setQuestions: (questions: Question[]) => void;
   startQuiz: () => void;
@@ -157,6 +159,7 @@ export async function saveGameToSupabase({ username, score, quizDuration, settin
 
 export const useQuizStore = create<QuizState>((set, get) => ({
   _gameRecordSaved: false,
+  currentSubject: Subject.MATH, // Default subject
   settings: defaultSettings,
   questions: [],
   currentQuestionIndex: 0,
@@ -170,6 +173,10 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   quizStartTime: null,
   overallTimeRemaining: defaultSettings.overallTimerDuration,
   overallTimerActive: false,
+
+  setCurrentSubject: (subject: Subject) => {
+    set({ currentSubject: subject });
+  },
 
   updateSettings: (newSettings: Partial<QuizSettings>) => {
     set((state) => ({

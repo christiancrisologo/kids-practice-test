@@ -322,7 +322,12 @@ export default function HistoryPage() {
                     <MobileButton
                         variant="primary"
                         size="lg"
-                        onClick={() => router.push('/')}
+                        onClick={() => {
+                            const quizDataType = sessionStorage.getItem('quizDataType');
+                            const url = quizDataType ? `/?subject=${quizDataType}` : '/';
+
+                            router.push(url);
+                        }}
                         icon="🏠"
                     >
                         Back to Home

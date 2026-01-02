@@ -104,14 +104,6 @@ export function getStorageSettings() {
 }
 
 /**
- * Get quiz data source
- */
-export function getQuizDataSource(): string {
-  const settings = getAppSettings();
-  return settings.system['quiz-data'] || 'math';
-}
-
-/**
  * Check if Supabase is enabled
  */
 export function isSupabaseEnabled(): boolean {

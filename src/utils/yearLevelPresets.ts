@@ -31,7 +31,7 @@ function buildYearLevelPresets() {
   const yearLevelData = getYearLevelPresetsFromSettings();
 
   if (yearLevelData) {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     (yearLevelData as any[]).forEach((preset: any) => {
       if (preset.name) {
         presets[preset.name] = {

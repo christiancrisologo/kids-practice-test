@@ -10,12 +10,14 @@ import { useSystemSettings } from '../../contexts/system-settings-context';
 import { animationClasses } from '../../utils/enhanced-animations';
 import { checkAchievements } from '../../utils/achievements';
 import { isChallengeCompleted, getChallengeCompletionMessage } from '../../utils/challengeModes';
+import { getQuestionGenerator } from '../../lib/questionGenerators';
+import { Question, AnswerFormat, SubjectQuestionType } from '../../types/quiz';
 
 export default function ResultsPage() {
     const router = useRouter();
     const isMobile = useIsMobile();
     const { settings: systemSettings } = useSystemSettings();
-    const { settings, questions, resetQuiz, bestStreak, saveGameResult, quizStartTime, isQuizCompleted } = useQuizStore();
+    const { settings, questions, resetQuiz, retryQuiz, bestStreak, saveGameResult, quizStartTime, isQuizCompleted } = useQuizStore();
     const [showConfetti, setShowConfetti] = useState(false);
     const [showBonusConfetti, setShowBonusConfetti] = useState(false);
 
@@ -99,13 +101,46 @@ export default function ResultsPage() {
     const gradeInfo = getGradeMessage(percentage);
 
     const handleRetryQuiz = () => {
-        resetQuiz();
+        // Regenerate questions with the same settings
+        if (!settings.subject || !settings.subjectQuestionTypes) {
+            // If settings are missing, go back to home
+            resetQuiz();
+            router.push('/');
+            return;
+        }
+
+        const generator = getQuestionGenerator(settings.subject);
+        const allQuestions: Question[] = [];
+        const questionsPerType = Math.ceil(settings.numberOfQuestions / settings.subjectQuestionTypes.length);
+
+        settings.subjectQuestionTypes.forEach(type => {
+            const typeQuestions = generator.generate({
+                count: questionsPerType,
+                difficulty: settings.difficulty,
+                questionType: type as SubjectQuestionType,
+                answerFormat: settings.answerFormat || AnswerFormat.MCQ
+            });
+            allQuestions.push(...typeQuestions);
+        });
+
+        // Shuffle and limit to requested number
+        const shuffled = allQuestions.sort(() => Math.random() - 0.5);
+        const finalQuestions = shuffled.slice(0, settings.numberOfQuestions);
+
+        // Use retryQuiz to reset progress but keep the new questions
+        retryQuiz(finalQuestions as any);
+
+        // Navigate to quiz page
         router.push('/quiz');
     };
 
     const handleNewQuiz = () => {
+        const quizDataType = sessionStorage.getItem('quizDataType');
+        const params = new URLSearchParams();
+        params.set('subject', quizDataType || 'math');
+
         resetQuiz();
-        router.push('/');
+        router.push(`?${params.toString()}`);
     };
 
     if (questions.length === 0) {
