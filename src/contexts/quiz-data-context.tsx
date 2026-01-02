@@ -120,7 +120,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
 
         // STAGE 3: Load question data JSON (50-80%)
         setMessage(`Loading ${quizDataType} questions...`);
-        const questionDataUrl = `/configs/${quizDataType}.json`;
+        const questionDataUrl = `configs/${quizDataType}.json`;
         const questionResponse = await fetch(questionDataUrl);
 
         if (!questionResponse.ok) {
