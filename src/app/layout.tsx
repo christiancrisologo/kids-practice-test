@@ -5,7 +5,7 @@ import "../styles/mobile.css";
 import "../styles/themes.css";
 import { ThemeProvider } from "../contexts/theme-context";
 import { SystemSettingsProvider } from "../contexts/system-settings-context";
-import { QuizDataProvider } from "../contexts/math-data-context";
+import { QuizDataProvider } from "../contexts/quiz-data-context";
 import { AppLoader } from "../components/ui/AppLoader";
 
 const geistSans = Geist({

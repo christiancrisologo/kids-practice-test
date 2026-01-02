@@ -13,7 +13,6 @@
             "useLocalStorage": true,
             "maxHistoryRecords": 100
         },
-        "quiz-data": "math",
         "hint": {
             "enable_primary_level": true,
             "enable_junior_level": true,
@@ -21,6 +20,104 @@
             "show_time": 20
         }
     },
+    "subjects": [
+        {
+            "name": "math",
+            "label": "Math Quiz Practice",
+            "description": "Math questions",
+            "topics": [
+                {
+                    "name": "basic",
+                    "label": "Basic Math",
+                    "description": "Basic math questions"
+                },
+                {
+                    "name": "conversion",
+                    "label": "Conversion",
+                    "description": "Conversion questions"
+                },
+                {
+                    "name": "currency",
+                    "label": "Currency",
+                    "description": "Currency questions"
+                },
+                {
+                    "name": "geometry",
+                    "label": "Geometry",
+                    "description": "Geometry questions"
+                },
+                {
+                    "name": "time",
+                    "label": "Time",
+                    "description": "Time questions"
+                }
+            ]
+        },
+        {
+            "name": "english",
+            "label": "English Quiz Practice",
+            "description": "English questions",
+            "topics": [
+                {
+                    "name": "vocabulary",
+                    "label": "Vocabulary",
+                    "description": "Vocabulary questions"
+                },
+                {
+                    "name": "grammar",
+                    "label": "Grammar",
+                    "description": "Grammar questions"
+                },
+                {
+                    "name": "synonyms",
+                    "label": "Synonyms",
+                    "description": "Synonyms questions"
+                },
+                {
+                    "name": "antonyms",
+                    "label": "Antonyms",
+                    "description": "Antonyms questions"
+                },
+                {
+                    "name": "sentence_completion",
+                    "label": "Sentence Completion",
+                    "description": "Sentence completion questions"
+                }
+            ]
+        },
+        {
+            "name": "science",
+            "label": "Science Quiz Practice",
+            "description": "Science questions",
+            "topics": [
+                {
+                    "name": "general",
+                    "label": "General Science",
+                    "description": "General science questions"
+                },
+                {
+                    "name": "biology",
+                    "label": "Biology",
+                    "description": "Biology questions"
+                },
+                {
+                    "name": "chemistry",
+                    "label": "Chemistry",
+                    "description": "Chemistry questions"
+                },
+                {
+                    "name": "physics",
+                    "label": "Physics",
+                    "description": "Physics questions"
+                },
+                {
+                    "name": "earth_space",
+                    "label": "Earth Science",
+                    "description": "Earth science questions"
+                }
+            ]
+        }
+    ],
     "challenges": [
         {
             "name": "No Challenge",
@@ -310,7 +407,12 @@
             "maxIncorrectAnswers": 3,
             "incorrectAnswersEnabled": false,
             "overallTimerEnabled": false,
-            "overallTimerDuration": 18000
+            "overallTimerDuration": 18000,
+            "subjects": {
+                "math": ["basic", "currency", "time"],
+                "english": ["vocabulary", "grammar"],
+                "science": ["general", "earth_space", "biology"]
+            }
         },
         {
             "name": "junior-high",
@@ -319,7 +421,6 @@
             "numberOfQuestions": 30,
             "timerPerQuestion": 60,
             "questionType": ["text", "mcq"],
-            "categories": ["actions", "places", "person", "science", "technology"],
             "description": "Intermediate practice test",
             "timerEnabled": true,
             "questionsEnabled": true,
@@ -330,7 +431,12 @@
             "maxIncorrectAnswers": 5,
             "incorrectAnswersEnabled": false,
             "overallTimerEnabled": false,
-            "overallTimerDuration": 30000
+            "overallTimerDuration": 30000,
+            "subjects": {
+                "math": ["basic", "conversion", "currency", "geometry", "time"],
+                "english": ["vocabulary", "grammar", "synonyms", "antonyms", "sentence_completion"],
+                "science": ["general", "biology", "chemistry", "physics", "earth_space"]
+            }
         },
         {
             "name": "senior-high",
@@ -339,7 +445,6 @@
             "numberOfQuestions": 40,
             "timerPerQuestion": 30,
             "questionType": ["text", "mcq"],
-            "categories": ["actions", "places", "person", "science", "technology"],
             "description": "Advanced practice test challenges",
             "timerEnabled": true,
             "questionsEnabled": true,
@@ -350,7 +455,12 @@
             "maxIncorrectAnswers": 8,
             "incorrectAnswersEnabled": false,
             "overallTimerEnabled": false,
-            "overallTimerDuration": 60000
+            "overallTimerDuration": 60000,
+            "subjects": {
+                "math": ["basic", "conversion", "currency", "geometry", "time"],
+                "english": ["vocabulary", "grammar", "synonyms", "antonyms", "sentence_completion"],
+                "science": ["general", "biology", "chemistry", "physics", "earth_space"]
+            }
         }
     ]
 }

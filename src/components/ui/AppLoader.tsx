@@ -1,7 +1,7 @@
 'use client';
 
 import React, { ReactNode } from 'react';
-import { useQuizData } from '../../contexts/math-data-context';
+import { useQuizData } from '../../contexts/quiz-data-context';
 import { Preloader } from './Preloader';
 
 interface AppLoaderProps {
@@ -9,7 +9,7 @@ interface AppLoaderProps {
 }
 
 export const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
-  const { isLoading, progress, error, isReady } = useQuizData();
+  const { isLoading, progress, error, isReady, message } = useQuizData();
 
   // Show error state
   if (error) {
@@ -32,7 +32,7 @@ export const AppLoader: React.FC<AppLoaderProps> = ({ children }) => {
 
   // Show preloader while loading
   if (isLoading || !isReady) {
-    return <Preloader progress={progress} message="Loading math questions..." />;
+    return <Preloader progress={progress} message={message} />;
   }
 
   // Show app content when ready

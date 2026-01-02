@@ -4,8 +4,9 @@ import { useState, useEffect } from 'react';
 import { Subject, AnswerFormat } from '../../types/quiz';
 import { MobileButton } from '../ui/MobileButton';
 import { useIsMobile } from '../../utils/responsive';
-import { getQuizDataSource } from '../../utils/systemConfig';
 import { getChallengeModes } from '../../utils/settingsManager';
+import { useQuizData } from '../../contexts/quiz-data-context';
+import { useQuizStore } from '../../store/quiz-store';
 
 interface QuizConfigProps {
   subject?: Subject; // Optional subject from route parameter
@@ -17,7 +18,7 @@ interface QuizConfigProps {
     difficulty: 'easy' | 'hard';
     numberOfQuestions: number;
     timerPerQuestion: number;
-    yearLevel: 'primary' | 'secondary' | 'high';
+    yearLevel: 'primary' | 'junior-high' | 'senior-high';
     // Challenge settings
     timerEnabled: boolean;
     questionsEnabled: boolean;
@@ -38,14 +39,62 @@ const MATH_QUESTION_TYPES = ['basic', 'conversion', 'currency', 'geometry', 'tim
 
 export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConfigProps) {
   const isMobile = useIsMobile();
+  const { settings: appSettings } = useQuizData();
+  const { currentSubject: subjectFromStore } = useQuizStore();
   const [username, setUsername] = useState('');
-  const [selectedTypes, setSelectedTypes] = useState<string[]>(MATH_QUESTION_TYPES); // Pre-select all types
+
+  // Get the subject name as string (e.g., 'math', 'science', 'english')
+  const subjectName = routeSubject || subjectFromStore;
+
+  // Get current subject configuration from settings
+  const getCurrentSubjectConfig = () => {
+    if (!appSettings?.subjects) return null;
+    return appSettings.subjects.find((s: any) => s.name === subjectName);
+  };
+
+  const currentSubjectConfig = getCurrentSubjectConfig();
+
+  // State declarations
   const [difficulty, setDifficulty] = useState<'easy' | 'hard'>('easy');
   const [numberOfQuestions, setNumberOfQuestions] = useState(30);
   const [timerPerQuestion, setTimerPerQuestion] = useState(60);
   const [answerFormat, setAnswerFormat] = useState<AnswerFormat>(AnswerFormat.TEXT);
   const [hasHistory, setHasHistory] = useState(false);
-  const [yearLevel, setYearLevel] = useState<'primary' | 'secondary' | 'high'>('primary');
+  const [yearLevel, setYearLevel] = useState<'primary' | 'junior-high' | 'senior-high'>('primary');
+
+  // Get available topics for the current year level and subject
+  const getAvailableTopics = () => {
+    if (!appSettings?.yearLevel || !currentSubjectConfig) {
+      return MATH_QUESTION_TYPES;
+    }
+
+    // Find the year level configuration
+    const yearLevelConfig = appSettings.yearLevel.find((yl: any) => yl.name === yearLevel);
+    if (!yearLevelConfig || !yearLevelConfig.subjects) {
+      // Fallback to all topics if year level not found
+      return currentSubjectConfig.topics || MATH_QUESTION_TYPES;
+    }
+
+    // Get allowed topics for this subject and year level
+    const allowedTopicNames = yearLevelConfig.subjects[subjectName] || [];
+
+    // Filter topics to only show those allowed for this year level
+    const allTopics = currentSubjectConfig.topics || [];
+    return allTopics.filter((topic: any) => allowedTopicNames.includes(topic.name));
+  };
+
+  const availableTopics = getAvailableTopics();
+  const [selectedTypes, setSelectedTypes] = useState<string[]>(
+    availableTopics.map((t: any) => t.name || t)
+  ); // Pre-select all available topics
+
+  // Update selected types when subject or year level changes
+  useEffect(() => {
+    const topics = getAvailableTopics();
+    const topicNames = topics.map((t: any) => t.name || t);
+    setSelectedTypes(topicNames);
+  }, [subjectName, yearLevel]);
+
   const [showQuizSettings, setShowQuizSettings] = useState(false); // Hidden by default
 
   // Challenge mode state
@@ -78,8 +127,8 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
   const [overallTimerEnabled, setOverallTimerEnabled] = useState(defaultChallengeSettings.overallTimerEnabled);
   const [overallTimerDuration, setOverallTimerDuration] = useState(defaultChallengeSettings.overallTimerDuration);
 
-  // Get subject from route parameter or system config
-  const subject = routeSubject || (getQuizDataSource() as Subject);
+  // Get subject from route parameter or Redux store
+  const subject = routeSubject || (subjectName as Subject);
 
   // Load username from localStorage on mount
   useEffect(() => {
@@ -181,7 +230,7 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
       <div className={`w-full ${isMobile ? 'max-w-2xl' : 'max-w-3xl'} bg-slate-800/90 rounded-3xl shadow-2xl p-8 space-y-5`}>
         {/* Header */}
         <div className="text-center mb-6">
-          <h1 className="text-5xl font-bold text-white">Kids Practice Test</h1>
+          <h1 className="text-5xl font-bold text-white">{currentSubjectConfig?.label || 'Kids Practice Test'}</h1>
         </div>
 
         {/* Username Input */}
@@ -209,42 +258,26 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
             🎓 Select Your Year Level
           </h3>
           <div className="grid grid-cols-3 gap-3">
-            <button
-              onClick={() => setYearLevel('primary')}
-              className={`p-5 rounded-xl border-2 transition-all ${yearLevel === 'primary'
-                ? 'border-blue-500 bg-slate-700/60'
-                : 'border-slate-600/50 bg-slate-800/40'
-                }`}
-            >
-              <div className="text-2xl mb-2">🔴</div>
-              <div className="text-white font-semibold text-sm mb-1">Primary School</div>
-              <div className="text-xs text-gray-400">Basic math for young learners</div>
-            </button>
-            <button
-              onClick={() => setYearLevel('secondary')}
-              className={`p-5 rounded-xl border-2 transition-all ${yearLevel === 'secondary'
-                ? 'border-blue-500 bg-slate-700/60'
-                : 'border-slate-600/50 bg-slate-800/40'
-                }`}
-            >
-              <div className="text-2xl mb-2">🎓</div>
-              <div className="text-white font-semibold text-sm mb-1">Junior High School</div>
-              <div className="text-xs text-gray-400">Intermediate math concepts</div>
-            </button>
-            <button
-              onClick={() => setYearLevel('high')}
-              className={`p-5 rounded-xl border-2 transition-all ${yearLevel === 'high'
-                ? 'border-blue-500 bg-slate-700/60'
-                : 'border-slate-600/50 bg-slate-800/40'
-                }`}
-            >
-              <div className="text-2xl mb-2">🎯</div>
-              <div className="text-white font-semibold text-sm mb-1">Senior High School</div>
-              <div className="text-xs text-gray-400">Advanced math challenges</div>
-            </button>
+            {appSettings?.yearLevel?.map((yl: any) => (
+              <button
+                key={yl.name}
+                onClick={() => setYearLevel(yl.name)}
+                className={`p-5 rounded-xl border-2 transition-all ${yearLevel === yl.name
+                  ? 'border-blue-500 bg-slate-700/60'
+                  : 'border-slate-600/50 bg-slate-800/40'
+                  }`}
+              >
+                <div className="text-2xl mb-2">
+                  {yl.label.includes('Primary') ? '🎒' :
+                    yl.label.includes('Junior') ? '📚' : '🎓'}
+                </div>
+                <div className="text-white font-semibold text-sm mb-1">{yl.label}</div>
+                <div className="text-xs text-gray-400">{yl.description}</div>
+              </button>
+            ))}
           </div>
           <p className="text-xs text-blue-400 mt-3 flex items-center gap-1">
-            ✨ Settings automatically applied for 🔴 Primary School!
+            ✨ Settings automatically applied based on year level!
           </p>
         </div>
 
@@ -296,8 +329,8 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                     }`}
                 >
                   <div className="text-2xl mb-2">📝</div>
-                  <div className="text-white font-semibold text-sm mb-1">Math Expression</div>
-                  <div className="text-xs text-gray-400">e.g., 4 + 3 = ?</div>
+                  <div className="text-white font-semibold text-sm mb-1">Text input</div>
+                  <div className="text-xs text-gray-400">Type in the answer</div>
                 </button>
                 <button
                   onClick={() => setAnswerFormat(AnswerFormat.MCQ)}
@@ -308,7 +341,7 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                 >
                   <div className="text-2xl mb-2">🎯</div>
                   <div className="text-white font-semibold text-sm mb-1">Multiple Choice</div>
-                  <div className="text-xs text-gray-400">3 options</div>
+                  <div className="text-xs text-gray-400">Select from the options</div>
                 </button>
               </div>
               <p className="text-xs text-blue-400 mt-3 flex items-center gap-1">
@@ -329,7 +362,7 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                 >
                   <div className="text-2xl mb-2">🟢</div>
                   <div className="text-white font-semibold text-sm mb-1">Easy</div>
-                  <div className="text-xs text-gray-400">Simpler numbers and operations</div>
+                  <div className="text-xs text-gray-400">Basic and common questions</div>
                 </button>
                 <button
                   onClick={() => setDifficulty('hard')}
@@ -340,62 +373,72 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                 >
                   <div className="text-2xl mb-2">🔴</div>
                   <div className="text-white font-semibold text-sm mb-1">Hard</div>
-                  <div className="text-xs text-gray-400">Bigger numbers and multi-step problems</div>
+                  <div className="text-xs text-gray-400">Complex and advance questions</div>
                 </button>
               </div>
               <p className="text-xs text-gray-400 mt-3">Selected: {difficulty.toUpperCase()}</p>
             </div>
 
-            {/* Number Types (Question Types) */}
+            {/* Topics (Question Types) */}
             <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
               <h3 className="text-white font-medium mb-4 flex items-center gap-2">
-                🔢 Number Types (Select Multiple)
+                {subjectName === 'science' ? '🔬 Topics (Select Multiple)' :
+                  subjectName === 'english' ? '📚 Topics (Select Multiple)' :
+                    '🔢 Number Types (Select Multiple)'}
               </h3>
               <div className="grid grid-cols-3 gap-3">
-                {['basic', 'conversion', 'currency'].map(type => (
-                  <button
-                    key={type}
-                    onClick={() => handleTypeToggle(type)}
-                    className={`p-4 rounded-xl border-2 transition-all ${selectedTypes.includes(type)
-                      ? 'border-blue-500 bg-slate-700/60'
-                      : 'border-slate-600/50 bg-slate-800/40'
-                      }`}
-                  >
-                    <div className="text-2xl mb-2">
-                      {type === 'basic' ? '🔢' : type === 'conversion' ? '🔶' : '💰'}
-                    </div>
-                    <div className="text-white font-semibold text-sm mb-1">{formatLabel(type)}</div>
-                    <div className="text-xs text-gray-400">
-                      {type === 'basic' ? 'Whole numbers (1, 2, 3...)' :
-                        type === 'conversion' ? 'Decimal numbers (1.5, 2.25...)' :
-                          'Money calculations ($1.50, $2.25...)'}
-                    </div>
-                  </button>
-                ))}
+                {availableTopics.map((topic: any) => {
+                  const topicName = topic.name || topic;
+                  const topicLabel = topic.label || formatLabel(topicName);
+                  const topicDescription = topic.description || '';
+
+                  // Get icon based on topic name
+                  const getTopicIcon = (name: string) => {
+                    const lowerName = name.toLowerCase();
+                    // Science icons
+                    if (lowerName === 'general') return '🔬';
+                    if (lowerName === 'biology') return '🧬';
+                    if (lowerName === 'chemistry') return '⚗️';
+                    if (lowerName === 'physics') return '⚛️';
+                    if (lowerName.includes('earth')) return '🌍';
+                    // Math icons
+                    if (lowerName === 'basic') return '🔢';
+                    if (lowerName === 'conversion') return '🔶';
+                    if (lowerName === 'currency') return '💰';
+                    if (lowerName === 'geometry') return '🔳';
+                    if (lowerName === 'time') return '⏰';
+                    // English icons
+                    if (lowerName === 'vocabulary') return '📖';
+                    if (lowerName === 'grammar') return '✍️';
+                    if (lowerName === 'synonyms') return '🔄';
+                    if (lowerName === 'antonyms') return '↔️';
+                    if (lowerName.includes('sentence')) return '📝';
+                    return '📚';
+                  };
+
+                  return (
+                    <button
+                      key={topicName}
+                      onClick={() => handleTypeToggle(topicName)}
+                      className={`p-4 rounded-xl border-2 transition-all ${selectedTypes.includes(topicName)
+                        ? 'border-blue-500 bg-slate-700/60'
+                        : 'border-slate-600/50 bg-slate-800/40'
+                        }`}
+                    >
+                      <div className="text-2xl mb-2">{getTopicIcon(topicName)}</div>
+                      <div className="text-white font-semibold text-sm mb-1">{topicLabel}</div>
+                      {topicDescription && (
+                        <div className="text-xs text-gray-400">{topicDescription}</div>
+                      )}
+                    </button>
+                  );
+                })}
               </div>
-              <div className="grid grid-cols-2 gap-3 mt-3">
-                {['geometry', 'time'].map(type => (
-                  <button
-                    key={type}
-                    onClick={() => handleTypeToggle(type)}
-                    className={`p-4 rounded-xl border-2 transition-all ${selectedTypes.includes(type)
-                      ? 'border-blue-500 bg-slate-700/60'
-                      : 'border-slate-600/50 bg-slate-800/40'
-                      }`}
-                  >
-                    <div className="text-2xl mb-2">
-                      {type === 'geometry' ? '🔳' : '⏰'}
-                    </div>
-                    <div className="text-white font-semibold text-sm mb-1">{formatLabel(type)}</div>
-                    <div className="text-xs text-gray-400">
-                      {type === 'geometry' ? 'Fraction numbers (1/2, 3/4...)' : 'Time calculations (1:30, 2:45...)'}
-                    </div>
-                  </button>
-                ))}
-              </div>
-              <p className="text-xs text-gray-400 mt-3">Selected: {selectedTypes.join(', ')}</p>
-              <p className="text-xs text-blue-400 mt-1 flex items-center gap-1">
-                💡 🔴 Primary School includes: Integers
+              <p className="text-xs text-gray-400 mt-3">
+                Selected: {selectedTypes.map(t => {
+                  const topic = availableTopics.find((at: any) => (at.name || at) === t);
+                  return (typeof topic === 'object' && topic?.label) ? topic.label : formatLabel(t);
+                }).join(', ')}
               </p>
             </div>
 

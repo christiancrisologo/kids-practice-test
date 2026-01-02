@@ -20,7 +20,7 @@ export enum ScienceQuestionType {
   BIOLOGY = 'biology',
   CHEMISTRY = 'chemistry',
   PHYSICS = 'physics',
-  EARTH_SCIENCE = 'earth_science'
+  EARTH_SPACE = 'earth_space'
 }
 
 export enum EnglishQuestionType {
@@ -82,7 +82,7 @@ export interface ScienceQuestion extends BaseQuestion {
   subject: Subject.SCIENCE;
   questionType: ScienceQuestionType;
   category?: string;
-  explanation?: string;
+  hint?: string;
 }
 
 export interface EnglishQuestion extends BaseQuestion {

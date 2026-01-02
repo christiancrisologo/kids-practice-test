@@ -14,7 +14,6 @@ export interface SystemConfig {
     useLocalStorage: boolean;
     maxHistoryRecords: number;
   };
-  'quiz-data': 'math' | 'english' | 'science';
 }
 
 /**
@@ -74,14 +73,6 @@ export function getMaxHistoryRecords(): number {
 }
 
 /**
- * Get the quiz data source
- */
-export function getQuizDataSource(): 'math' | 'english' | 'science' {
-  const config = getSystemConfig();
-  return config['quiz-data'] as 'math' | 'english' | 'science';
-}
-
-/**
  * Log system configuration status
  */
 export function logSystemConfig(): void {
@@ -91,8 +82,7 @@ export function logSystemConfig(): void {
     syncOnline: shouldSyncOnline(),
     fallbackToLocalStorage: shouldFallbackToLocalStorage(),
     defaultTheme: getDefaultTheme(),
-    maxHistoryRecords: getMaxHistoryRecords(),
-    quizDataSource: getQuizDataSource()
+    maxHistoryRecords: getMaxHistoryRecords()
   });
 }
 
