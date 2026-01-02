@@ -219,7 +219,7 @@ export default function QuizPage() {
     // Redirect to results when quiz is completed
     useEffect(() => {
         if (isQuizCompleted) {
-            router.push('/results');
+            router.push('results');
         }
     }, [isQuizCompleted, router]);
 

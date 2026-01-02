@@ -66,6 +66,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
     const loadQuizData = async () => {
       try {
         setIsLoading(true);
+        setIsReady(false);
         setProgress(0);
 
         // Add delay for development to see preloader
@@ -79,7 +80,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
         setMessage(`Loading settings data...`);
 
         setProgress(10);
-        const settingsResponse = await fetch('/configs/settings.json');
+        const settingsResponse = await fetch('configs/settings.json');
 
         if (!settingsResponse.ok) {
           throw new Error(
@@ -112,27 +113,22 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
         // STAGE 2: Determine which question data to load (40-50%)
         setProgress(40);
 
-        // Get subject from Redux store (set on index page load)
-        // Import useQuizStore dynamically to avoid circular dependencies
-        const { useQuizStore } = await import('../store/quiz-store');
-        const currentSubject = useQuizStore.getState().currentSubject;
-        // Convert Subject enum to string, default to 'math' if not set
-        const quizDataType = currentSubject || getQuizDataSource();
+        const quizDataType = getQuizDataSource();
 
         setProgress(50);
         await new Promise(resolve => setTimeout(resolve, delay));
 
         // STAGE 3: Load question data JSON (50-80%)
-        setProgress(55);
         setMessage(`Loading ${quizDataType} questions...`);
         const questionDataUrl = `/configs/${quizDataType}.json`;
         const questionResponse = await fetch(questionDataUrl);
 
         if (!questionResponse.ok) {
           throw new Error(`Failed to load ${quizDataType} questions`);
+
         }
 
-        setProgress(65);
+        setProgress(85);
         await new Promise(resolve => setTimeout(resolve, delay));
 
         const questionsData = await questionResponse.json();
@@ -159,11 +155,11 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           }
         }
 
-        setProgress(75);
+        setProgress(90);
         await new Promise(resolve => setTimeout(resolve, delay));
 
         // STAGE 4: Validate and prepare (80-100%)
-        setProgress(85);
+        setProgress(95);
 
         // Store in sessionStorage for faster subsequent loads
         try {
@@ -175,7 +171,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           console.warn('SessionStorage not available:', e);
         }
 
-        setProgress(95);
+        setProgress(99);
         await new Promise(resolve => setTimeout(resolve, delay));
 
         // Complete
@@ -184,54 +180,17 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
 
         setIsReady(true);
         setIsLoading(false);
+
       } catch (err) {
         console.error('Error loading quiz data:', err);
         setError(err instanceof Error ? err.message : 'Failed to load quiz data');
+        setIsReady(false);
         setIsLoading(false);
       }
     };
 
     loadQuizData();
 
-    // Skip loading animation if already loaded in this session
-    try {
-      const cachedSettings = sessionStorage.getItem('quizSettings');
-      if (cachedSettings) {
-        const parsedSettings = JSON.parse(cachedSettings);
-        setSettings(parsedSettings);
-        // Also set as source of truth in settings manager
-        setAppSettings(parsedSettings);
-      }
-
-      // Also restore question data if it was cached
-      const quizDataType = sessionStorage.getItem('quizDataType');
-      if (quizDataType === 'math') {
-        // Re-fetch math data to set it in the generator
-        fetch('/configs/math.json')
-          .then(res => res.json())
-          .then(data => {
-            setMathData(data as MathQuestionTemplate[]);
-            setQuestionData(data);
-            console.log('[Math Data] Restored from cache');
-          })
-          .catch(err => console.error('[Math Data] Failed to restore:', err));
-      } else if (quizDataType === 'science') {
-        // Re-fetch science data to set it in the generator
-        fetch('/configs/science.json')
-          .then(res => res.json())
-          .then(data => {
-            setScienceData(data as ScienceQuestionTemplate[]);
-            setQuestionData(data);
-            console.log('[Science Data] Restored from cache');
-          })
-          .catch(err => console.error('[Science Data] Failed to restore:', err));
-      }
-    } catch (e) {
-      console.warn('Failed to load cached settings:', e);
-    }
-    setProgress(100);
-    setIsReady(true);
-    setIsLoading(false);
 
   }, []);
 

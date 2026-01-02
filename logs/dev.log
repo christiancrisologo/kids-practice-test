@@ -1,0 +1,41 @@
+yarn run v1.22.19
+$ next dev --turbopack
+ ⚠ Warning: Found multiple lockfiles. Selecting /Users/ccrisologo/dev/yarn.lock.
+   Consider removing the lockfiles at:
+   * /Users/ccrisologo/dev/proj/kids-practice-test/package-lock.json
+
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.168:3000
+
+ ✓ Starting...
+ ✓ Ready in 1321ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.4s
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[System Config] Configuration loaded: {
+  supabaseEnabled: false,
+  useLocalStorage: true,
+  syncOnline: false,
+  fallbackToLocalStorage: true,
+  defaultTheme: 'light',
+  maxHistoryRecords: 100,
+  quizDataSource: 'math'
+}
+[Settings Manager] Settings not loaded yet, using default settings from src/configs
+[Supabase] Disabled in system configuration. Using localStorage-only mode.
+ GET / 200 in 3751ms
+ GET / 200 in 115ms
+ GET / 200 in 78ms
+ ✓ Compiled /favicon.ico in 290ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 611ms
+ GET / 200 in 72ms
+ GET / 200 in 277ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 279ms

@@ -131,7 +131,7 @@ export default function ResultsPage() {
         retryQuiz(finalQuestions as any);
 
         // Navigate to quiz page
-        router.push('/quiz');
+        router.push('quiz');
     };
 
     const handleNewQuiz = () => {
@@ -411,7 +411,7 @@ export default function ResultsPage() {
                             variant="secondary"
                             size="lg"
                             fullWidth
-                            onClick={() => router.push('/history')}
+                            onClick={() => router.push('history')}
                             icon="📊"
                         >
                             View History
