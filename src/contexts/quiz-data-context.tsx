@@ -189,8 +189,9 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
       }
     };
 
-    loadQuizData();
-
+    if (window.location.pathname === '/') {
+      loadQuizData();
+    }
 
   }, []);
 
