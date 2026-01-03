@@ -137,7 +137,7 @@ export default function ResultsPage() {
     const handleNewQuiz = () => {
         const quizDataType = sessionStorage.getItem('quizDataType');
         const params = new URLSearchParams();
-        params.set('subject', quizDataType || 'math');
+        params.set('/subject', quizDataType || 'math');
 
         resetQuiz();
         router.push(`?${params.toString()}`);
@@ -411,7 +411,7 @@ export default function ResultsPage() {
                             variant="secondary"
                             size="lg"
                             fullWidth
-                            onClick={() => router.push('history')}
+                            onClick={() => router.push('/history')}
                             icon="📊"
                         >
                             View History

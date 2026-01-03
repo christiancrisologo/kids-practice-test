@@ -112,8 +112,8 @@
                 },
                 {
                     "name": "earth_space",
-                    "label": "Earth Science",
-                    "description": "Earth science questions"
+                    "label": "Earth and Space Science",
+                    "description": "Earth and Space questions"
                 }
             ]
         }
@@ -396,7 +396,6 @@
             "numberOfQuestions": 20,
             "timerPerQuestion": 60,
             "questionType": ["mcq"],
-            "categories": ["animals","actions", "persons", "places", "other"],
             "description": "Basic practice test for young learners",
             "timerEnabled": true,
             "questionsEnabled": true,
