@@ -103,7 +103,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           setMessage('Loading settings data...');
           await new Promise(resolve => setTimeout(resolve, delay));
 
-          const settingsResponse = await fetch('/configs/settings.json');
+          const settingsResponse = await fetch('configs/settings.json');
 
           if (!settingsResponse.ok) {
             throw new Error(
@@ -165,7 +165,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           setMessage(`Loading ${quizDataType} questions...`);
           await new Promise(resolve => setTimeout(resolve, delay));
 
-          const questionDataUrl = `/configs/${quizDataType}.json`;
+          const questionDataUrl = `configs/${quizDataType}.json`;
           const questionResponse = await fetch(questionDataUrl);
 
           if (!questionResponse.ok) {
