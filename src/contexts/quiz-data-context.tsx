@@ -7,6 +7,7 @@ import { setScienceData, type ScienceQuestionTemplate } from '@/utils/dynamicSci
 import { setAppSettings } from '@/utils/settingsManager';
 import { useQuizDataCache, QuizDataType } from './quiz-data-cache-context';
 import { useAppSettingsCache } from './app-settings-cache-context';
+import { getConfigUrl } from '@/utils/basePath';
 
 
 type QuestionDataArray = any[];
@@ -103,7 +104,8 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           setMessage('Loading settings data...');
           await new Promise(resolve => setTimeout(resolve, delay));
 
-          const settingsResponse = await fetch('configs/settings.json');
+          const settingsUrl = getConfigUrl('configs/settings.json');
+          const settingsResponse = await fetch(settingsUrl);
 
           if (!settingsResponse.ok) {
             throw new Error(
@@ -165,7 +167,7 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           setMessage(`Loading ${quizDataType} questions...`);
           await new Promise(resolve => setTimeout(resolve, delay));
 
-          const questionDataUrl = `configs/${quizDataType}.json`;
+          const questionDataUrl = getConfigUrl(`configs/${quizDataType}.json`);
           const questionResponse = await fetch(questionDataUrl);
 
           if (!questionResponse.ok) {

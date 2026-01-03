@@ -101,7 +101,7 @@ export default function Home() {
     });
 
     // Navigate to quiz page (subject is already in Redux store)
-    router.push('quiz');
+    router.push('/quiz');
   };
 
   return <QuizConfig onConfigComplete={handleConfigComplete} />;
