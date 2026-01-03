@@ -5,6 +5,8 @@ import "../styles/mobile.css";
 import "../styles/themes.css";
 import { ThemeProvider } from "../contexts/theme-context";
 import { SystemSettingsProvider } from "../contexts/system-settings-context";
+import { QuizDataCacheProvider } from "../contexts/quiz-data-cache-context";
+import { AppSettingsCacheProvider } from "../contexts/app-settings-cache-context";
 import { QuizDataProvider } from "../contexts/quiz-data-context";
 import { AppLoader } from "../components/ui/AppLoader";
 
@@ -46,11 +48,15 @@ export default function RootLayout({
       >
         <ThemeProvider defaultTheme="system">
           <SystemSettingsProvider>
-            <QuizDataProvider>
-              <AppLoader>
-                {children}
-              </AppLoader>
-            </QuizDataProvider>
+            <QuizDataCacheProvider>
+              <AppSettingsCacheProvider>
+                <QuizDataProvider>
+                  <AppLoader>
+                    {children}
+                  </AppLoader>
+                </QuizDataProvider>
+              </AppSettingsCacheProvider>
+            </QuizDataCacheProvider>
           </SystemSettingsProvider>
         </ThemeProvider>
       </body>
