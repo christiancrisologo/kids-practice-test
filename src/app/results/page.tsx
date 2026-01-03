@@ -131,16 +131,16 @@ export default function ResultsPage() {
         retryQuiz(finalQuestions as any);
 
         // Navigate to quiz page
-        router.push('quiz');
+        router.push('/quiz');
     };
 
     const handleNewQuiz = () => {
         const quizDataType = sessionStorage.getItem('quizDataType');
         const params = new URLSearchParams();
-        params.set('/subject', quizDataType || 'math');
+        params.set('subject', quizDataType || 'math');
 
         resetQuiz();
-        router.push(`?${params.toString()}`);
+        router.push(`/?${params.toString()}`);
     };
 
     if (questions.length === 0) {

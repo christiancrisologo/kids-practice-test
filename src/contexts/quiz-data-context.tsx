@@ -7,6 +7,7 @@ import { setScienceData, type ScienceQuestionTemplate } from '@/utils/dynamicSci
 import { setAppSettings } from '@/utils/settingsManager';
 import { useQuizDataCache, QuizDataType } from './quiz-data-cache-context';
 import { useAppSettingsCache } from './app-settings-cache-context';
+import { getConfigUrl } from '@/utils/basePath';
 
 
 type QuestionDataArray = any[];
@@ -103,12 +104,14 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           setMessage('Loading settings data...');
           await new Promise(resolve => setTimeout(resolve, delay));
 
-          const settingsResponse = await fetch('configs/settings.json');
+          const settingsUrl = getConfigUrl('configs/settings.json');
+          console.log('[QuizData] Fetching settings from:', settingsUrl);
+          const settingsResponse = await fetch(settingsUrl);
 
           if (!settingsResponse.ok) {
             throw new Error(
               'CRITICAL ERROR: Failed to load settings.json. The application cannot run without this file. ' +
-              `Status: ${settingsResponse.status} ${settingsResponse.statusText}`
+              `Status: ${settingsResponse.status} ${settingsResponse.statusText}. URL: ${settingsUrl}`
             );
           }
 
@@ -165,11 +168,12 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           setMessage(`Loading ${quizDataType} questions...`);
           await new Promise(resolve => setTimeout(resolve, delay));
 
-          const questionDataUrl = `configs/${quizDataType}.json`;
+          const questionDataUrl = getConfigUrl(`configs/${quizDataType}.json`);
+          console.log(`[QuizData] Fetching ${quizDataType} questions from:`, questionDataUrl);
           const questionResponse = await fetch(questionDataUrl);
 
           if (!questionResponse.ok) {
-            throw new Error(`Failed to load ${quizDataType} questions`);
+            throw new Error(`Failed to load ${quizDataType} questions. URL: ${questionDataUrl}`);
           }
 
           setProgress(75);

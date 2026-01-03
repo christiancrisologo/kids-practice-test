@@ -324,7 +324,7 @@ export default function HistoryPage() {
                         size="lg"
                         onClick={() => {
                             const quizDataType = sessionStorage.getItem('quizDataType');
-                            const url = quizDataType ? `?subject=${quizDataType}` : '/';
+                            const url = quizDataType ? `/?subject=${quizDataType}` : '/';
 
                             router.push(url);
                         }}
