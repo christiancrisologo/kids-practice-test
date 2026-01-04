@@ -116,6 +116,18 @@
                     "description": "Earth and Space questions"
                 }
             ]
+        },
+        {
+            "name": "history",
+            "label": "History Quiz Practice",
+            "description": "History questions",
+            "topics": [
+                {
+                    "name": "general",
+                    "label": "General History",
+                    "description": "General history questions"
+                }
+            ]
         }
     ],
     "challenges": [
