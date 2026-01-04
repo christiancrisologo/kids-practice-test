@@ -3,7 +3,8 @@
 export enum Subject {
   MATH = 'math',
   SCIENCE = 'science',
-  ENGLISH = 'english'
+  ENGLISH = 'english',
+  HISTORY = 'history'
 }
 
 export enum MathQuestionType {
@@ -31,10 +32,19 @@ export enum EnglishQuestionType {
   SENTENCE_COMPLETION = 'sentence_completion'
 }
 
+export enum HistoryQuestionType {
+  GENERAL = 'general',
+  WORLD_HISTORY = 'world_history',
+  US_HISTORY = 'us_history',
+  ANCIENT_HISTORY = 'ancient_history',
+  MODERN_HISTORY = 'modern_history'
+}
+
 export type SubjectQuestionType =
   | MathQuestionType
   | ScienceQuestionType
-  | EnglishQuestionType;
+  | EnglishQuestionType
+  | HistoryQuestionType;
 
 export enum AnswerFormat {
   TEXT = 'text',
@@ -94,10 +104,18 @@ export interface EnglishQuestion extends BaseQuestion {
   antonyms?: string[];
 }
 
+export interface HistoryQuestion extends BaseQuestion {
+  subject: Subject.HISTORY;
+  questionType: HistoryQuestionType;
+  category?: string;
+  hint?: string;
+}
+
 export type Question =
   | MathQuestion
   | ScienceQuestion
   | EnglishQuestion
+  | HistoryQuestion
   | MultipleChoiceQuestion
   | InputQuestion;
 

@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import type { AppSettings } from '@/types/settings';
 import { setMathData, type MathQuestionTemplate } from '@/utils/dynamicMathGenerator';
-import { setScienceData, type ScienceQuestionTemplate } from '@/utils/dynamicScienceGenerator';
+import { setTemplateData, type QuestionTemplate } from '@/utils/templateLoader';
 import { setAppSettings } from '@/utils/settingsManager';
 import { useQuizDataCache, QuizDataType } from './quiz-data-cache-context';
 import { useAppSettingsCache } from './app-settings-cache-context';
@@ -203,12 +203,13 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           } catch (error) {
             console.error('[Math Data] Failed to set math data:', error);
           }
-        } else if (quizDataType === 'science') {
+        } else {
+          // For science, english, history - use the generic template loader
           try {
-            setScienceData(questionsData as ScienceQuestionTemplate[]);
-            console.log('[Science Data] Set as source of truth for question generation:', questionsData.length, 'templates');
+            setTemplateData(quizDataType, questionsData as QuestionTemplate[]);
+            console.log(`[${quizDataType} Data] Set as source of truth for question generation:`, questionsData.length, 'templates');
           } catch (error) {
-            console.error('[Science Data] Failed to set science data:', error);
+            console.error(`[${quizDataType} Data] Failed to set template data:`, error);
           }
         }
 
