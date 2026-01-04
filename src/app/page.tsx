@@ -31,12 +31,15 @@ export default function Home() {
     const subjectParam = urlParams.get('subject');
 
     if (subjectParam) {
-      // Has subject param - wait for data to load then redirect to /select
+      // Has subject param - store it and wait for data to load then redirect to /select
       setHasSubjectParam(true);
+
+      // Store subject in localStorage
+      localStorage.setItem('quizDataType', subjectParam);
 
       if (isReady) {
         console.log('[Home] Subject param detected and data ready, redirecting to /select');
-        router.push(`/select?subject=${subjectParam}`);
+        router.push('/select');
       }
     } else {
       // No subject param - show subject selection
@@ -60,8 +63,8 @@ export default function Home() {
       // Store subject in Redux
       setCurrentSubject(subjectName as any);
 
-      // Store subject in sessionStorage for quiz-data-context
-      sessionStorage.setItem('quizDataType', subjectName);
+      // Store subject in localStorage for quiz-data-context
+      localStorage.setItem('quizDataType', subjectName);
 
       // Load the subject's question data
       const questionDataUrl = getConfigUrl(`configs/${subjectName}.json`);
@@ -82,8 +85,8 @@ export default function Home() {
         setTemplateData(subjectName, questionData);
       }
 
-      // Navigate to select page with subject parameter
-      router.push(`/select?subject=${subjectName}`);
+      // Navigate to select page (subject is already in localStorage)
+      router.push('/select');
     } catch (error) {
       console.error(`[Home] Error loading ${subjectName}:`, error);
       alert(`Failed to load ${subjectName} questions. Please try again.`);

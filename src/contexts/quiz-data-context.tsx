@@ -40,19 +40,26 @@ interface QuizDataProviderProps {
 
 
 /**
- * Get the quiz data source from URL parameter, default to 'math'
- * Note: Subject is now determined by URL query parameter (?subject=math|science|english)
+ * Get the quiz data source from localStorage or URL parameter
+ * Priority: localStorage > URL parameter > empty string
  */
 export function getQuizDataSource(): string {
   if (typeof window !== 'undefined') {
+    // First check localStorage
+    const storedSubject = localStorage.getItem('quizDataType');
+    if (storedSubject) {
+      return storedSubject;
+    }
+
+    // Then check URL parameter
     const urlParams = new URLSearchParams(window.location.search);
     const subject = urlParams.get('subject');
-    if (subject === 'science' || subject === 'english') {
+    if (subject) {
       return subject;
     }
   }
 
-  return ''; // Default to math
+  return ''; // No subject selected
 }
 
 
@@ -228,13 +235,13 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
         setProgress(95);
         setMessage('Finalizing...');
 
-        // Store metadata in sessionStorage for tracking
+        // Store metadata in localStorage for tracking
         try {
-          sessionStorage.setItem('quizDataType', quizDataType);
-          sessionStorage.setItem('questionsCount', questionsData.length.toString());
-          sessionStorage.setItem('quizDataLoaded', 'true');
+          localStorage.setItem('quizDataType', quizDataType);
+          localStorage.setItem('questionsCount', questionsData.length.toString());
+          localStorage.setItem('quizDataLoaded', 'true');
         } catch (e) {
-          console.warn('SessionStorage not available:', e);
+          console.warn('localStorage not available:', e);
         }
 
         setProgress(99);

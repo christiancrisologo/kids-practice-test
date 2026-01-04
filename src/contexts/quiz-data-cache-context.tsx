@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
 // Types for quiz data
-export type QuizDataType = 'math' | 'science' | 'english';
+export type QuizDataType = 'math' | 'science' | 'english' | 'history';
 
 export interface CachedQuizData {
   data: any[];
@@ -15,6 +15,7 @@ export interface QuizDataCacheState {
   math: any[] | null;
   science: any[] | null;
   english: any[] | null;
+  history: any[] | null;
 }
 
 interface QuizDataCacheContextType {
@@ -39,13 +40,14 @@ export const QuizDataCacheProvider: React.FC<QuizDataCacheProviderProps> = ({ ch
     math: null,
     science: null,
     english: null,
+    history: null,
   });
 
   // Load from localStorage on mount
   useEffect(() => {
     const loadFromLocalStorage = () => {
-      const types: QuizDataType[] = ['math', 'science', 'english'];
-      const newCache: QuizDataCacheState = { math: null, science: null, english: null };
+      const types: QuizDataType[] = ['math', 'science', 'english', 'history'];
+      const newCache: QuizDataCacheState = { math: null, science: null, english: null, history: null };
 
       types.forEach(type => {
         try {
