@@ -58,10 +58,10 @@ export default function QuizPage() {
 
     const currentQuestion = questions[currentQuestionIndex];
 
-    // Redirect to home if no questions are available
+    // Redirect to select page if no questions are available
     useEffect(() => {
         if (questions.length === 0 && !isQuizActive && !isQuizCompleted) {
-            router.push('/');
+            router.push('/select');
         }
     }, [questions.length, isQuizActive, isQuizCompleted, router]);
 

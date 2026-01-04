@@ -30,34 +30,34 @@ interface AppSettingsCacheProviderProps {
 export const AppSettingsCacheProvider: React.FC<AppSettingsCacheProviderProps> = ({ children }) => {
   const [settings, setSettingsState] = useState<AppSettings | null>(null);
 
-  // Load from sessionStorage on mount
+  // Load from localStorage on mount
   useEffect(() => {
-    const loadFromSessionStorage = () => {
+    const loadFromLocalStorage = () => {
       try {
-        const cached = sessionStorage.getItem(STORAGE_KEY);
+        const cached = localStorage.getItem(STORAGE_KEY);
         if (cached) {
           const parsed: CachedAppSettings = JSON.parse(cached);
-          
+
           // Check if cache is still valid
           const isExpired = Date.now() - parsed.timestamp > CACHE_EXPIRY_MS;
           const isVersionMismatch = parsed.version !== CACHE_VERSION;
 
           if (!isExpired && !isVersionMismatch && parsed.settings) {
             setSettingsState(parsed.settings);
-            console.log('[AppSettingsCache] Loaded settings from sessionStorage');
+            console.log('[AppSettingsCache] Loaded settings from localStorage');
           } else {
             // Clear expired or invalid cache
-            sessionStorage.removeItem(STORAGE_KEY);
+            localStorage.removeItem(STORAGE_KEY);
             console.log('[AppSettingsCache] Cleared expired/invalid settings cache');
           }
         }
       } catch (error) {
-        console.error('[AppSettingsCache] Error loading settings from sessionStorage:', error);
-        sessionStorage.removeItem(STORAGE_KEY);
+        console.error('[AppSettingsCache] Error loading settings from localStorage:', error);
+        localStorage.removeItem(STORAGE_KEY);
       }
     };
 
-    loadFromSessionStorage();
+    loadFromLocalStorage();
   }, []);
 
   const getSettings = (): AppSettings | null => {
@@ -68,23 +68,23 @@ export const AppSettingsCacheProvider: React.FC<AppSettingsCacheProviderProps> =
     // Update state
     setSettingsState(newSettings);
 
-    // Save to sessionStorage
+    // Save to localStorage
     try {
       const cachedData: CachedAppSettings = {
         settings: newSettings,
         timestamp: Date.now(),
         version: CACHE_VERSION,
       };
-      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(cachedData));
-      console.log('[AppSettingsCache] Saved settings to sessionStorage');
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(cachedData));
+      console.log('[AppSettingsCache] Saved settings to localStorage');
     } catch (error) {
-      console.error('[AppSettingsCache] Error saving settings to sessionStorage:', error);
+      console.error('[AppSettingsCache] Error saving settings to localStorage:', error);
     }
   };
 
   const clearSettings = () => {
     setSettingsState(null);
-    sessionStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(STORAGE_KEY);
     console.log('[AppSettingsCache] Cleared settings cache');
   };
 

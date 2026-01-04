@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import type { AppSettings } from '@/types/settings';
 import { setMathData, type MathQuestionTemplate } from '@/utils/dynamicMathGenerator';
-import { setScienceData, type ScienceQuestionTemplate } from '@/utils/dynamicScienceGenerator';
+import { setTemplateData, type QuestionTemplate } from '@/utils/templateLoader';
 import { setAppSettings } from '@/utils/settingsManager';
 import { useQuizDataCache, QuizDataType } from './quiz-data-cache-context';
 import { useAppSettingsCache } from './app-settings-cache-context';
@@ -40,19 +40,26 @@ interface QuizDataProviderProps {
 
 
 /**
- * Get the quiz data source from URL parameter, default to 'math'
- * Note: Subject is now determined by URL query parameter (?subject=math|science|english)
+ * Get the quiz data source from localStorage or URL parameter
+ * Priority: localStorage > URL parameter > empty string
  */
 export function getQuizDataSource(): string {
   if (typeof window !== 'undefined') {
+    // First check localStorage
+    const storedSubject = localStorage.getItem('quizDataType');
+    if (storedSubject) {
+      return storedSubject;
+    }
+
+    // Then check URL parameter
     const urlParams = new URLSearchParams(window.location.search);
     const subject = urlParams.get('subject');
-    if (subject === 'science' || subject === 'english') {
+    if (subject) {
       return subject;
     }
   }
 
-  return 'math'; // Default to math
+  return ''; // No subject selected
 }
 
 
@@ -139,6 +146,15 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
         setAppSettings(settingsData);
         setSettings(settingsData);
 
+        const cachedQuestionData = quizDataCache.getQuizData(quizDataType);
+
+        // If no quiz data type, go to the subject selections screen
+        if (!cachedQuestionData && !quizDataType) {
+          setIsLoading(false);
+          setIsReady(true);
+          return;
+        }
+
         setProgress(40);
         await new Promise(resolve => setTimeout(resolve, delay));
 
@@ -152,7 +168,6 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
 
         // STAGE 3: Load question data JSON (50-90%)
         // Check if question data is cached
-        const cachedQuestionData = quizDataCache.getQuizData(quizDataType);
         let questionsData: any[];
 
         if (cachedQuestionData) {
@@ -203,12 +218,13 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
           } catch (error) {
             console.error('[Math Data] Failed to set math data:', error);
           }
-        } else if (quizDataType === 'science') {
+        } else {
+          // For science, english, history - use the generic template loader
           try {
-            setScienceData(questionsData as ScienceQuestionTemplate[]);
-            console.log('[Science Data] Set as source of truth for question generation:', questionsData.length, 'templates');
+            setTemplateData(quizDataType, questionsData as QuestionTemplate[]);
+            console.log(`[${quizDataType} Data] Set as source of truth for question generation:`, questionsData.length, 'templates');
           } catch (error) {
-            console.error('[Science Data] Failed to set science data:', error);
+            console.error(`[${quizDataType} Data] Failed to set template data:`, error);
           }
         }
 
@@ -219,13 +235,13 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
         setProgress(95);
         setMessage('Finalizing...');
 
-        // Store metadata in sessionStorage for tracking
+        // Store metadata in localStorage for tracking
         try {
-          sessionStorage.setItem('quizDataType', quizDataType);
-          sessionStorage.setItem('questionsCount', questionsData.length.toString());
-          sessionStorage.setItem('quizDataLoaded', 'true');
+          localStorage.setItem('quizDataType', quizDataType);
+          localStorage.setItem('questionsCount', questionsData.length.toString());
+          localStorage.setItem('quizDataLoaded', 'true');
         } catch (e) {
-          console.warn('SessionStorage not available:', e);
+          console.warn('localStorage not available:', e);
         }
 
         setProgress(99);

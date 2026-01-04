@@ -76,7 +76,7 @@ Choose from exciting challenge modes loaded from `settings.json`:
 - Touch-friendly controls
 - Confetti celebrations for achievements
 - Smooth transitions and hover effects
-- Smart caching with sessionStorage for faster subsequent loads
+- Smart caching with localStorage for faster subsequent loads
 
 ## How It Works
 
@@ -116,7 +116,7 @@ The app uses a multi-stage preloader that:
 2. **Checks for query parameter** `?subject=<name>` in the URL
 3. **Falls back to settings** if no query parameter is provided
 4. **Loads the appropriate question data** from `/public/configs/<name>.json` (40-100% progress)
-5. **Caches data in sessionStorage** for faster subsequent loads
+5. **Caches data in localStorage** for faster subsequent loads
 
 This allows you to:
 - Create multiple question sets (e.g., `math.json`, `science.json`, `english.json`)
@@ -187,7 +187,7 @@ The app features a sophisticated preloader that provides a smooth loading experi
 **Stage 1: Settings Loading (0-40%)**
 - Fetches `settings.json` from `/public/configs/`
 - Parses and validates configuration
-- Stores in context and sessionStorage
+- Stores in context and localStorage
 
 **Stage 2: Question Data Loading (40-100%)**
 - Checks URL for `?subject=<name>` query parameter
@@ -521,7 +521,7 @@ Edit `public/configs/math.json` to add new questions:
 - Check that `public/configs/settings.json` exists
 - Verify `public/configs/math.json` (or your subject file) exists
 - Check browser console for error messages
-- Clear sessionStorage: `sessionStorage.clear()` in browser console
+- Clear localStorage: `localStorage.clear()` in browser console
 
 **Problem**: Questions not loading
 - Verify the `subject` parameter matches a file in `public/configs/`
@@ -538,7 +538,7 @@ Edit `public/configs/math.json` to add new questions:
 ### Performance Issues
 **Problem**: Slow loading times
 - The first load will be slower as it fetches data
-- Subsequent loads use sessionStorage cache and should be instant
+- Subsequent loads use localStorage cache and should be instant
 - Large question files (>5MB) may take longer to load
 - Consider splitting into smaller subject-specific files
 
