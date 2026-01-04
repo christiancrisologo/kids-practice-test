@@ -1,108 +1,116 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { QuizConfig } from '../components/quiz/QuizConfig';
+import { SubjectSelection } from '../components/SubjectSelection';
 import { useQuizStore } from '../store/quiz-store';
-import { Subject, AnswerFormat, SubjectQuestionType, Question } from '../types/quiz';
-import { getQuestionGenerator } from '../lib/questionGenerators';
+import { useQuizData } from '../contexts/quiz-data-context';
+import { setTemplateData } from '../utils/templateLoader';
+import { setMathData } from '../utils/dynamicMathGenerator';
+import { getConfigUrl } from '../utils/basePath';
 
-interface QuizConfigType {
-  username: string;
-  subject: Subject;
-  questionTypes: string[];
-  answerFormat: AnswerFormat;
-  difficulty: 'easy' | 'hard';
-  numberOfQuestions: number;
-  timerPerQuestion: number;
-  yearLevel: 'primary' | 'junior-high' | 'senior-high';
-  // Challenge settings
-  timerEnabled: boolean;
-  questionsEnabled: boolean;
-  minCorrectAnswers: number;
-  maxCorrectAnswers: number;
-  correctAnswersEnabled: boolean;
-  minIncorrectAnswers: number;
-  maxIncorrectAnswers: number;
-  incorrectAnswersEnabled: boolean;
-  overallTimerEnabled: boolean;
-  overallTimerDuration: number;
-  challengeMode?: string;
+interface SubjectInfo {
+  name: string;
+  label: string;
+  description: string;
 }
 
 export default function Home() {
   const router = useRouter();
-  const { setCurrentSubject, updateSettings, setQuestions: setStoreQuestions } = useQuizStore();
+  const { setCurrentSubject } = useQuizStore();
+  const { isReady, settings } = useQuizData();
+  const [subjects, setSubjects] = useState<SubjectInfo[]>([]);
+  const [isLoadingSubject, setIsLoadingSubject] = useState(false);
+  const [hasSubjectParam, setHasSubjectParam] = useState(false);
 
-  // Load subject from query parameter on initial mount (only on index page)
+  // Check for subject query parameter and handle routing
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+
     const urlParams = new URLSearchParams(window.location.search);
     const subjectParam = urlParams.get('subject');
 
-    let subject: Subject = Subject.MATH; // Default to math
+    if (subjectParam) {
+      // Has subject param - wait for data to load then redirect to /select
+      setHasSubjectParam(true);
 
-    if (subjectParam === 'science') {
-      subject = Subject.SCIENCE;
-    } else if (subjectParam === 'english') {
-      subject = Subject.ENGLISH;
+      if (isReady) {
+        console.log('[Home] Subject param detected and data ready, redirecting to /select');
+        router.push(`/select?subject=${subjectParam}`);
+      }
+    } else {
+      // No subject param - show subject selection
+      setHasSubjectParam(false);
+
+      // Load subjects from settings when ready
+      if (isReady && settings) {
+        const subjectsFromSettings = settings.subjects || [];
+        setSubjects(subjectsFromSettings);
+      }
     }
+  }, [isReady, settings, router]);
 
-    // Store subject in Redux store
-    setCurrentSubject(subject);
-  }, [setCurrentSubject]); // Empty dependency array - only run on mount
+  // Handle subject selection
+  const handleSubjectSelect = async (subjectName: string) => {
+    setIsLoadingSubject(true);
 
-  const handleConfigComplete = (config: QuizConfigType) => {
-    // Generate questions
-    const generator = getQuestionGenerator(config.subject);
-    const allQuestions: Question[] = [];
-    const questionsPerType = Math.ceil(config.numberOfQuestions / config.questionTypes.length);
+    try {
+      console.log(`[Home] Loading ${subjectName} data...`);
 
-    config.questionTypes.forEach(type => {
-      const typeQuestions = generator.generate({
-        count: questionsPerType,
-        difficulty: config.difficulty,
-        questionType: type as SubjectQuestionType,
-        answerFormat: config.answerFormat
-      });
-      allQuestions.push(...typeQuestions);
-    });
+      // Store subject in Redux
+      setCurrentSubject(subjectName as any);
 
-    // Shuffle and limit to requested number
-    const shuffled = allQuestions.sort(() => Math.random() - 0.5);
-    const finalQuestions = shuffled.slice(0, config.numberOfQuestions);
+      // Store subject in sessionStorage for quiz-data-context
+      sessionStorage.setItem('quizDataType', subjectName);
 
-    // Update store questions
+      // Load the subject's question data
+      const questionDataUrl = getConfigUrl(`configs/${subjectName}.json`);
+      console.log(`[Home] Fetching from:`, questionDataUrl);
 
-    setStoreQuestions(finalQuestions as any);
+      const response = await fetch(questionDataUrl);
+      if (!response.ok) {
+        throw new Error(`Failed to load ${subjectName} questions`);
+      }
 
-    // Update store settings with username
-    updateSettings({
-      username: config.username,
-      subject: config.subject,
-      subjectQuestionTypes: config.questionTypes as SubjectQuestionType[],
-      answerFormat: config.answerFormat,
-      questionType: config.answerFormat === AnswerFormat.MCQ ? 'mcq' : 'text',
-      difficulty: config.difficulty as 'easy' | 'hard',
-      numberOfQuestions: config.numberOfQuestions,
-      timerPerQuestion: config.timerPerQuestion,
-      yearLevel: config.yearLevel,
-      // Challenge settings
-      timerEnabled: config.timerEnabled,
-      questionsEnabled: config.questionsEnabled,
-      minCorrectAnswers: config.minCorrectAnswers,
-      maxCorrectAnswers: config.maxCorrectAnswers,
-      correctAnswersEnabled: config.correctAnswersEnabled,
-      minIncorrectAnswers: config.minIncorrectAnswers,
-      maxIncorrectAnswers: config.maxIncorrectAnswers,
-      incorrectAnswersEnabled: config.incorrectAnswersEnabled,
-      overallTimerEnabled: config.overallTimerEnabled,
-      overallTimerDuration: config.overallTimerDuration,
-      challengeMode: config.challengeMode
-    });
+      const questionData = await response.json();
+      console.log(`[Home] Loaded ${questionData.length} ${subjectName} questions`);
 
-    // Navigate to quiz page (subject is already in Redux store)
-    router.push('/quiz');
+      // Set the data in the appropriate loader
+      if (subjectName === 'math') {
+        setMathData(questionData);
+      } else {
+        setTemplateData(subjectName, questionData);
+      }
+
+      // Navigate to select page with subject parameter
+      router.push(`/select?subject=${subjectName}`);
+    } catch (error) {
+      console.error(`[Home] Error loading ${subjectName}:`, error);
+      alert(`Failed to load ${subjectName} questions. Please try again.`);
+      setIsLoadingSubject(false);
+    }
   };
 
-  return <QuizConfig onConfigComplete={handleConfigComplete} />;
+  // Show loading while waiting for initial data or redirecting
+  if (!isReady || hasSubjectParam) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-4 border-purple-600 border-t-transparent mx-auto mb-4"></div>
+          <p className="text-lg text-gray-600 dark:text-gray-300">
+            {hasSubjectParam ? 'Loading quiz data...' : 'Initializing...'}
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  // Show subject selection
+  return (
+    <SubjectSelection
+      subjects={subjects}
+      onSubjectSelect={handleSubjectSelect}
+      isLoading={isLoadingSubject}
+    />
+  );
 }

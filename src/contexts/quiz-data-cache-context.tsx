@@ -41,41 +41,41 @@ export const QuizDataCacheProvider: React.FC<QuizDataCacheProviderProps> = ({ ch
     english: null,
   });
 
-  // Load from sessionStorage on mount
+  // Load from localStorage on mount
   useEffect(() => {
-    const loadFromSessionStorage = () => {
+    const loadFromLocalStorage = () => {
       const types: QuizDataType[] = ['math', 'science', 'english'];
       const newCache: QuizDataCacheState = { math: null, science: null, english: null };
 
       types.forEach(type => {
         try {
-          const cached = sessionStorage.getItem(`quizData_${type}`);
+          const cached = localStorage.getItem(`quizData_${type}`);
           if (cached) {
             const parsed: CachedQuizData = JSON.parse(cached);
-            
+
             // Check if cache is still valid
             const isExpired = Date.now() - parsed.timestamp > CACHE_EXPIRY_MS;
             const isVersionMismatch = parsed.version !== CACHE_VERSION;
 
             if (!isExpired && !isVersionMismatch && Array.isArray(parsed.data)) {
               newCache[type] = parsed.data;
-              console.log(`[QuizDataCache] Loaded ${type} from sessionStorage (${parsed.data.length} items)`);
+              console.log(`[QuizDataCache] Loaded ${type} from localStorage (${parsed.data.length} items)`);
             } else {
               // Clear expired or invalid cache
-              sessionStorage.removeItem(`quizData_${type}`);
+              localStorage.removeItem(`quizData_${type}`);
               console.log(`[QuizDataCache] Cleared expired/invalid ${type} cache`);
             }
           }
         } catch (error) {
-          console.error(`[QuizDataCache] Error loading ${type} from sessionStorage:`, error);
-          sessionStorage.removeItem(`quizData_${type}`);
+          console.error(`[QuizDataCache] Error loading ${type} from localStorage:`, error);
+          localStorage.removeItem(`quizData_${type}`);
         }
       });
 
       setCache(newCache);
     };
 
-    loadFromSessionStorage();
+    loadFromLocalStorage();
   }, []);
 
   const getQuizData = (type: QuizDataType): any[] | null => {
@@ -89,17 +89,17 @@ export const QuizDataCacheProvider: React.FC<QuizDataCacheProviderProps> = ({ ch
       [type]: data,
     }));
 
-    // Save to sessionStorage
+    // Save to localStorage
     try {
       const cachedData: CachedQuizData = {
         data,
         timestamp: Date.now(),
         version: CACHE_VERSION,
       };
-      sessionStorage.setItem(`quizData_${type}`, JSON.stringify(cachedData));
-      console.log(`[QuizDataCache] Saved ${type} to sessionStorage (${data.length} items)`);
+      localStorage.setItem(`quizData_${type}`, JSON.stringify(cachedData));
+      console.log(`[QuizDataCache] Saved ${type} to localStorage (${data.length} items)`);
     } catch (error) {
-      console.error(`[QuizDataCache] Error saving ${type} to sessionStorage:`, error);
+      console.error(`[QuizDataCache] Error saving ${type} to localStorage:`, error);
     }
   };
 
@@ -110,14 +110,15 @@ export const QuizDataCacheProvider: React.FC<QuizDataCacheProviderProps> = ({ ch
         ...prev,
         [type]: null,
       }));
-      sessionStorage.removeItem(`quizData_${type}`);
+      localStorage.removeItem(`quizData_${type}`);
       console.log(`[QuizDataCache] Cleared ${type} cache`);
     } else {
       // Clear all
-      setCache({ math: null, science: null, english: null });
-      sessionStorage.removeItem('quizData_math');
-      sessionStorage.removeItem('quizData_science');
-      sessionStorage.removeItem('quizData_english');
+      setCache({ math: null, science: null, english: null, history: null });
+      localStorage.removeItem('quizData_math');
+      localStorage.removeItem('quizData_science');
+      localStorage.removeItem('quizData_english');
+      localStorage.removeItem('quizData_history');
       console.log('[QuizDataCache] Cleared all cache');
     }
   };

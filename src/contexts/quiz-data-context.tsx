@@ -52,7 +52,7 @@ export function getQuizDataSource(): string {
     }
   }
 
-  return 'math'; // Default to math
+  return ''; // Default to math
 }
 
 
@@ -139,6 +139,15 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
         setAppSettings(settingsData);
         setSettings(settingsData);
 
+        const cachedQuestionData = quizDataCache.getQuizData(quizDataType);
+
+        // If no quiz data type, go to the subject selections screen
+        if (!cachedQuestionData && !quizDataType) {
+          setIsLoading(false);
+          setIsReady(true);
+          return;
+        }
+
         setProgress(40);
         await new Promise(resolve => setTimeout(resolve, delay));
 
@@ -152,7 +161,6 @@ export const QuizDataProvider: React.FC<QuizDataProviderProps> = ({ children }) 
 
         // STAGE 3: Load question data JSON (50-90%)
         // Check if question data is cached
-        const cachedQuestionData = quizDataCache.getQuizData(quizDataType);
         let questionsData: any[];
 
         if (cachedQuestionData) {

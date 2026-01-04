@@ -16,7 +16,7 @@ const NoHistory: React.FC = () => {
             <MobileButton
                 variant="primary"
                 size="lg"
-                onClick={() => router.push('/')}
+                onClick={() => router.push('/select')}
                 icon="🎯"
             >
                 Start a Quiz

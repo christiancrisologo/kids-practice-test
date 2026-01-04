@@ -83,10 +83,10 @@ export default function NotFoundPage() {
                                 variant="secondary"
                                 size="md"
                                 fullWidth
-                                onClick={() => router.push('quiz')}
+                                onClick={() => router.push('/select')}
                                 icon="🎯"
                             >
-                                Start Quiz
+                                Configure Quiz
                             </MobileButton>
 
                             <MobileButton

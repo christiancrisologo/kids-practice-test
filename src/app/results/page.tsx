@@ -27,7 +27,7 @@ export default function ResultsPage() {
     //
     useEffect(() => {
         if (questions?.length === 0) {
-            router.push('/');
+            router.push('/select');
         }
     }, [questions, router]);
 
@@ -103,9 +103,9 @@ export default function ResultsPage() {
     const handleRetryQuiz = () => {
         // Regenerate questions with the same settings
         if (!settings.subject || !settings.subjectQuestionTypes) {
-            // If settings are missing, go back to home
+            // If settings are missing, go back to select page
             resetQuiz();
-            router.push('/');
+            router.push('/select');
             return;
         }
 
@@ -135,12 +135,8 @@ export default function ResultsPage() {
     };
 
     const handleNewQuiz = () => {
-        const quizDataType = sessionStorage.getItem('quizDataType');
-        const params = new URLSearchParams();
-        params.set('subject', quizDataType || 'math');
-
         resetQuiz();
-        router.push(`/?${params.toString()}`);
+        router.push(`/select`);
     };
 
     if (questions.length === 0) {

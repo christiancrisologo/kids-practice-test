@@ -323,10 +323,7 @@ export default function HistoryPage() {
                         variant="primary"
                         size="lg"
                         onClick={() => {
-                            const quizDataType = sessionStorage.getItem('quizDataType');
-                            const url = quizDataType ? `/?subject=${quizDataType}` : '/';
-
-                            router.push(url);
+                            router.push('/select');
                         }}
                         icon="🏠"
                     >
