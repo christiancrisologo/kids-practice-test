@@ -19,12 +19,10 @@ export class HistoryQuestionGenerator extends BaseQuestionGenerator {
         return 'general';
       case HistoryQuestionType.WORLD_HISTORY:
         return 'world_history';
-      case HistoryQuestionType.US_HISTORY:
-        return 'us_history';
-      case HistoryQuestionType.ANCIENT_HISTORY:
-        return 'ancient_history';
-      case HistoryQuestionType.MODERN_HISTORY:
-        return 'modern_history';
+      case HistoryQuestionType.AU_HISTORY:
+        return 'australia_history';
+      case HistoryQuestionType.ABORIGINAL_PEOPLE:
+        return 'aborginal_people';
       default:
         return 'all';
     }
@@ -41,10 +39,10 @@ export class HistoryQuestionGenerator extends BaseQuestionGenerator {
         return HistoryQuestionType.GENERAL;
       case 'world_history':
         return HistoryQuestionType.WORLD_HISTORY;
-      case 'us_history':
-        return HistoryQuestionType.US_HISTORY;
-      case 'ancient_history':
-        return HistoryQuestionType.ANCIENT_HISTORY;
+      case 'australia_history':
+        return HistoryQuestionType.AU_HISTORY;
+      case 'aboriginal_people':
+        return HistoryQuestionType.ABORIGINAL_PEOPLE;
       case 'modern_history':
         return HistoryQuestionType.MODERN_HISTORY;
       default:

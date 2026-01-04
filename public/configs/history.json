@@ -1,0 +1,1832 @@
+[
+  {
+    "question": "Which river was essential to the survival of the world_historyian civilization?",
+    "answer": "The Nile",
+    "options": ["The Nile", "The Amazon", "The Tigris", "The Ganges"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is the longest river in Africa.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the primary purpose of the Great Pyramids in Egypt?",
+    "answer": "Tombs for Pharaohs",
+    "options": ["Tombs for Pharaohs", "Grain storage", "Military fortresses", "Temples for the sun god"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They were built to protect the body for the afterlife.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In world_history, what were 'plebeians'?",
+    "answer": "Common citizens",
+    "options": ["Common citizens", "Wealthy landowners", "Slaves", "Military generals"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They were the general body of free Roman citizens.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Greek city-state is famous for its focus on military training and strength?",
+    "answer": "Sparta",
+    "options": ["Sparta", "Athens", "Corinth", "Thebes"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of the movie '300'.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the system of writing used by the world_historyians?",
+    "answer": "Hieroglyphics",
+    "options": ["Hieroglyphics", "Cuneiform", "Alphabet", "Latin"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It uses pictures and symbols.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the first Emperor of China?",
+    "answer": "Qin Shi Huang",
+    "options": ["Qin Shi Huang", "Confucius", "Sun Tzu", "Kublai Khan"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "He started the Great Wall and had the Terracotta Army built.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The 'Dreaming' or 'Dreamtime' is a central part of which culture?",
+    "answer": "Aboriginal and Torres Strait Islander",
+    "options": ["Aboriginal and Torres Strait Islander", "Ancient Greek", "Mayan", "Viking"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The world's oldest living continuous culture.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which structure was built to protect China from northern invaders?",
+    "answer": "The Great Wall",
+    "options": ["The Great Wall", "The Forbidden City", "The Silk Road", "The Summer Palace"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is thousands of kilometers long.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In which country would you find the ruins of the Colosseum?",
+    "answer": "Italy",
+    "options": ["Italy", "Greece", "Egypt", "France"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is in the city of Rome.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the main form of government in Ancient Athens?",
+    "answer": "Democracy",
+    "options": ["Democracy", "Monarchy", "Dictatorship", "Oligarchy"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It means 'rule by the people'.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the 'Silk Road'?",
+    "answer": "A network of trade routes",
+    "options": ["A network of trade routes", "A road made of silk", "A secret tunnel", "A path for the military"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It connected the East and the West.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Roman leader was famously assassinated on the Ides of March?",
+    "answer": "Julius Caesar",
+    "options": ["Julius Caesar", "Augustus", "Nero", "Caligula"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Beware the Ides of March!",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do we call the study of the past using physical remains like pottery and tools?",
+    "answer": "Archaeology",
+    "options": ["Archaeology", "Biology", "Geology", "Astronomy"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of Indiana Jones.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "An object made by a human being in the past is called an...",
+    "answer": "Artifact",
+    "options": ["Artifact", "Fossil", "Ecosystem", "Element"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It starts with the letter 'A'.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is a 'Primary Source'?",
+    "answer": "A first-hand account from the time",
+    "options": ["A first-hand account from the time", "A textbook written today", "A historical movie", "A Wikipedia page"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It was created during the period being studied.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which of these is a Secondary Source?",
+    "answer": "A modern history textbook",
+    "options": ["A modern history textbook", "A diary entry from 1900", "A photograph from a war", "An ancient coin"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is created after the event by someone who wasn't there.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The period of history before writing was invented is called...",
+    "answer": "Prehistory",
+    "options": ["Prehistory", "The Middle Ages", "Modern History", "The Renaissance"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Pre- means 'before'.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What does the abbreviation BC stand for in dating?",
+    "answer": "Before Christ",
+    "options": ["Before Christ", "Before Century", "British Calendar", "Basic Chronology"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is often used alongside AD.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the modern, non-religious alternative to AD?",
+    "answer": "CE",
+    "options": ["CE", "BCE", "AM", "PM"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It stands for 'Common Era'.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the Greek god of the sky and king of the gods?",
+    "answer": "Zeus",
+    "options": ["Zeus", "Poseidon", "Hades", "Apollo"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "He throws thunderbolts.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The Parthenon is a famous temple located in which city?",
+    "answer": "Athens",
+    "options": ["Athens", "Rome", "Cairo", "Beijing"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is the capital of Greece.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the name of the paper-like material used by Egyptians?",
+    "answer": "Papyrus",
+    "options": ["Papyrus", "Parchment", "Vellum", "Cardboard"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It was made from reeds growing along the Nile.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which mythical creature has the body of a lion and the head of a human?",
+    "answer": "Sphinx",
+    "options": ["Sphinx", "Minotaur", "Centaur", "Griffin"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A giant statue of one stands near the pyramids.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the name of the ancient Greek market and meeting place?",
+    "answer": "Agora",
+    "options": ["Agora", "Acropolis", "Forum", "Colosseum"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It starts with an 'A'.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which group of people were at the bottom of the social hierarchy in world_history?",
+    "answer": "Slaves",
+    "options": ["Slaves", "Patricians", "Plebeians", "Knights"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They had no freedom or rights.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which invention from world_history is used for navigation?",
+    "answer": "Compass",
+    "options": ["Compass", "Gunpowder", "Paper", "Printing"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It points North.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the name of the burial place for many Egyptian Pharaohs?",
+    "answer": "Valley of the Kings",
+    "options": ["Valley of the Kings", "The Death Valley", "Mount Sinai", "The Nile Delta"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "King Tut was found here.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the female Pharaoh who dressed like a man to establish authority?",
+    "answer": "Hatshepsut",
+    "options": ["Hatshepsut", "Cleopatra", "Nefertiti", "Isis"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "One of the few successful female pharaohs.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What were the warriors of world_history called?",
+    "answer": "Samurai",
+    "options": ["Samurai", "Ninja", "Knights", "Gladiators"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They followed the code of Bushido.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "How long is a century?",
+    "answer": "100 years",
+    "options": ["100 years", "10 years", "1000 years", "50 years"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Think of the word 'cent'.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "How long is a millennium?",
+    "answer": "1000 years",
+    "options": ["1000 years", "100 years", "10 years", "500 years"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Mill- often means thousand.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who fought as entertainers in the Roman Colosseum?",
+    "answer": "Gladiators",
+    "options": ["Gladiators", "Soldiers", "Actors", "Senators"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Professional fighters, often slaves.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the 'Pax Romana'?",
+    "answer": "A period of Roman peace",
+    "options": ["A period of Roman peace", "A Roman tax", "A Roman war", "A Roman law"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Pax is Latin for peace.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which civilization is credited with the invention of the Olympic Games?",
+    "answer": "world_history",
+    "options": ["world_history", "world_history", "world_history", "world_history"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The first ones were held in Olympia.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is 'Cuneiform'?",
+    "answer": "A type of wedge-shaped writing",
+    "options": ["A type of wedge-shaped writing", "A Roman sword", "A Greek building", "An Egyptian god"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Used in Mesopotamia.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which philosopher was the teacher of Alexander the Great?",
+    "answer": "Aristotle",
+    "options": ["Aristotle", "Plato", "Socrates", "Confucius"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "One of the three great Greek philosophers.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do we call the belief in many gods?",
+    "answer": "Polytheism",
+    "options": ["Polytheism", "Monotheism", "Atheism", "Buddhism"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "'Poly' means many.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do we call the belief in only one god?",
+    "answer": "Monotheism",
+    "options": ["Monotheism", "Polytheism", "Democracy", "Empire"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "'Mono' means one.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In history, what is 'Perspective'?",
+    "answer": "A point of view",
+    "options": ["A point of view", "The truth", "A type of map", "A timeline"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "How different people see the same event.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the Rosetta Stone famous for?",
+    "answer": "Deciphering Egyptian Hieroglyphics",
+    "options": ["Deciphering Egyptian Hieroglyphics", "Building the Great Wall", "Mapping the stars", "Healing the sick"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It helped us read world_historyian.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which city was the center of the Roman Empire?",
+    "answer": "Rome",
+    "options": ["Rome", "Paris", "London", "Athens"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is named after its first king, Romulus.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was a 'Chariot'?",
+    "answer": "A horse-drawn vehicle",
+    "options": ["A horse-drawn vehicle", "A type of food", "A Roman god", "A Greek ship"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Used for racing and battle.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The Terracotta Army was built to protect which leader?",
+    "answer": "Qin Shi Huang",
+    "options": ["Qin Shi Huang", "Julius Caesar", "Alexander the Great", "Tutankhamun"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "He was the first emperor of China.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is 'Chronological Order'?",
+    "answer": "Arranging events by time",
+    "options": ["Arranging events by time", "Sorting by importance", "Listing alphabetically", "Grouping by location"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "From oldest to newest.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What were Roman aqueducts used for?",
+    "answer": "Carrying water",
+    "options": ["Carrying water", "Transporting soldiers", "Defense walls", "Religious rituals"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Aqua means water.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which ancient civilization developed the first form of democracy?",
+    "answer": "world_history",
+    "options": ["world_history", "world_history", "world_history", "world_history"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Specifically in the city of Athens.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What does 'BC' stand for in a historical timeline?",
+    "answer": "Before Christ",
+    "options": ["Before Christ", "Before Counting", "British Colony", "Basic Century"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Years count backwards during this period.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do you call a person who travels from place to place rather than living in one place?",
+    "answer": "Nomad",
+    "options": ["Nomad", "Settler", "Farmer", "Citizen"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Common in early human history.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which of these is an example of a primary source?",
+    "answer": "A soldier's letter from the battlefield",
+    "options": ["A soldier's letter from the battlefield", "A modern documentary", "A history website", "A school textbook"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is an original document.",
+    "topic": "general",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which river was essential to the survival of the Ancient Egyptian civilization?",
+    "answer": "The Nile",
+    "options": ["The Nile", "The Amazon", "The Tigris", "The Ganges"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is the longest river in Africa.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In Aboriginal culture, what term describes the beginning of the world and the creation of the land and people?",
+    "answer": "The Dreaming",
+    "options": ["The Dreaming", "The Awakening", "The Genesis", "The Folklore"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is often also called the Dreamtime.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the captain of the Endeavour who mapped the East Coast of Australia in 1770?",
+    "answer": "James Cook",
+    "options": ["Arthur Phillip", "James Cook", "William Bligh", "Matthew Flinders"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "He was a British explorer and cartographer.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which ancient civilization built the Great Pyramid of Giza?",
+    "answer": "Ancient Egyptians",
+    "options": ["Ancient Romans", "Ancient Greeks", "Ancient Egyptians", "The Aztecs"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They were located in North Africa.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the name of the first settlement established by the British in Australia in 1788?",
+    "answer": "Sydney Cove",
+    "options": ["Botany Bay", "Sydney Cove", "Port Phillip", "Hobart Town"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is located within Sydney Harbour.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What type of technology did Aboriginal people use to catch fish in the Barwon River at Brewarrina?",
+    "answer": "Stone fish traps",
+    "options": ["Metal nets", "Stone fish traps", "Wooden dams", "Glass spears"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "These are some of the oldest man-made structures in the world.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which ancient city-state is known as the birthplace of democracy?",
+    "answer": "Athens",
+    "options": ["Sparta", "Rome", "Athens", "Alexandria"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is the capital of modern-day Greece.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the first Governor of the colony of New South Wales?",
+    "answer": "Arthur Phillip",
+    "options": ["Lachlan Macquarie", "Arthur Phillip", "James Cook", "John Hunter"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "He arrived with the First Fleet.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which traditional practice was used by Aboriginal people to manage the land and encourage new growth?",
+    "answer": "Firestick farming",
+    "options": ["Tilling", "Firestick farming", "Irrigation", "Crop rotation"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It involves controlled burning of the bush.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Roman Emperor famously built a wall across Northern Britain?",
+    "answer": "Hadrian",
+    "options": ["Julius Caesar", "Augustus", "Hadrian", "Nero"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The wall still bears his name today.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What were the human remains found at Lake Mungo called, dating back over 40,000 years?",
+    "answer": "Mungo Man and Mungo Lady",
+    "options": ["The First Humans", "Mungo Man and Mungo Lady", "The Outback Ancestors", "The Desert Spirits"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They are named after the lake where they were discovered.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the main reason the British decided to establish a colony in Australia?",
+    "answer": "To house convicts",
+    "options": ["To find gold", "To house convicts", "To grow spices", "To build a navy base"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "British prisons were overcrowded at the time.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In Ancient Rome, what were the lower class of citizens called?",
+    "answer": "Plebeians",
+    "options": ["Patricians", "Plebeians", "Senators", "Gladiators"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They were the common people, distinct from the wealthy aristocrats.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the wind instrument made from a hollowed-out tree branch used by Aboriginal people?",
+    "answer": "Didgeridoo",
+    "options": ["Clapsticks", "Bullroarer", "Didgeridoo", "Flute"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Its traditional name in the Yolngu language is Yidaki.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did the Chinese build to protect their empire from northern invaders?",
+    "answer": "The Great Wall",
+    "options": ["The Forbidden City", "The Great Wall", "The Silk Road", "The Grand Canal"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is one of the Seven Wonders of the World.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In which year did the First Fleet arrive at Sydney Cove?",
+    "answer": "1788",
+    "options": ["1770", "1788", "1801", "1851"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It was late in the 18th century.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the term for the spiritual connection Aboriginal people have to the land, sea, and sky?",
+    "answer": "Connection to Country",
+    "options": ["Land ownership", "Real estate", "Connection to Country", "Mapping"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It involves a sense of belonging and responsibility.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the system of writing used by the Ancient Sumerians in Mesopotamia?",
+    "answer": "Cuneiform",
+    "options": ["Hieroglyphics", "Cuneiform", "The Alphabet", "Latin"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It involved wedge-shaped marks on clay tablets.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which material was widely used by Aboriginal people to make tools like spearheads and knives?",
+    "answer": "Stone",
+    "options": ["Iron", "Bronze", "Stone", "Steel"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The era before metalworking is named after this material.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the 'Silk Road' primarily used for?",
+    "answer": "Trade",
+    "options": ["Trade", "Military invasion", "Postal service", "Religious pilgrimage"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It connected China with the West.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the first European to circumnavigate Australia?",
+    "answer": "Matthew Flinders",
+    "options": ["James Cook", "Matthew Flinders", "Arthur Phillip", "Dirk Hartog"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "He also popularized the name 'Australia'.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the primary purpose of 'Welcome to Country' ceremonies?",
+    "answer": "To show respect to Traditional Owners",
+    "options": ["To start a party", "To show respect to Traditional Owners", "To sell land", "To elect a leader"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is performed by an Elder or Traditional Owner.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In Ancient Greece, where were the first Olympic Games held?",
+    "answer": "Olympia",
+    "options": ["Athens", "Sparta", "Olympia", "Mount Olympus"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "The name of the event is derived from this location.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the name of the ship Captain Cook used for his first voyage to Australia?",
+    "answer": "HMS Endeavour",
+    "options": ["HMS Beagle", "HMS Endeavour", "The Bounty", "The Discovery"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It means 'to try hard'.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What are the two distinct groups of First Nations people in Australia?",
+    "answer": "Aboriginal and Torres Strait Islander people",
+    "options": ["Aboriginal and Maoris", "Aboriginal and Torres Strait Islander people", "Inuit and Aboriginal", "Malay and Aboriginal"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "One group is from the mainland and one from the islands to the north.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the legendary first Emperor of China?",
+    "answer": "Qin Shi Huang",
+    "options": ["Confucius", "Qin Shi Huang", "Sun Tzu", "Kublai Khan"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "He was buried with the Terracotta Army.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What term is used to describe the era before written records?",
+    "answer": "Prehistory",
+    "options": ["Ancient History", "Prehistory", "Modern History", "Medieval History"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It means 'before history'.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which colony was established as a free settlement (no convicts) in 1836?",
+    "answer": "South Australia",
+    "options": ["New South Wales", "South Australia", "Tasmania", "Queensland"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Its capital is Adelaide.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Aboriginal rock art at Ubirr can be found in which National Park?",
+    "answer": "Kakadu",
+    "options": ["Uluru", "Kakadu", "Blue Mountains", "Daintree"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is located in the Northern Territory.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the main language of the Ancient Roman Empire?",
+    "answer": "Latin",
+    "options": ["Greek", "Latin", "Italian", "English"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Many modern European languages are based on it.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did Bennelong do for Governor Arthur Phillip?",
+    "answer": "Acted as an intermediary and translator",
+    "options": ["Built his house", "Fought him in a war", "Acted as an intermediary and translator", "Sailed him back to England"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "A famous point in Sydney is named after him.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The concept of 'The Mandate of Heaven' belonged to which ancient civilization?",
+    "answer": "China",
+    "options": ["Egypt", "Rome", "Greece", "China"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It was used to justify the rule of the Emperor.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the significance of the Torres Strait Islander flag's green stripes?",
+    "answer": "The land",
+    "options": ["The sea", "The land", "The people", "Peace"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It represents the two mainlands of Australia and Papua New Guinea.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the primary goal of the Spanish Armada in 1588?",
+    "answer": "To invade England",
+    "options": ["To discover Australia", "To trade with India", "To invade England", "To settle in America"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It was sent by King Philip II of Spain.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Australian state was originally named Van Diemen's Land?",
+    "answer": "Tasmania",
+    "options": ["Victoria", "Tasmania", "Queensland", "Western Australia"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is an island state.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the traditional Aboriginal throwing stick used for hunting?",
+    "answer": "Boomerang",
+    "options": ["Spear", "Woomera", "Boomerang", "Shield"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Some types are designed to return to the thrower.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who were the primary builders of the ancient city of Machu Picchu?",
+    "answer": "The Incas",
+    "options": ["The Aztecs", "The Mayans", "The Incas", "The Romans"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They were located in the Andes mountains of South America.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the 'Black Death' that occurred in the 14th century?",
+    "answer": "A plague",
+    "options": ["A war", "A plague", "A famine", "A flood"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It was a disease that killed millions in Europe.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did the Aboriginal people use as a 'Woomera'?",
+    "answer": "A spear thrower",
+    "options": ["A shield", "A spear thrower", "A type of boat", "A musical instrument"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It increases the distance and power of a spear.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In what year did the Australian colonies federate to become a nation?",
+    "answer": "1901",
+    "options": ["1788", "1851", "1901", "1945"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It happened on the first day of the 20th century.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which pharaoh's tomb was discovered nearly intact by Howard Carter in 1922?",
+    "answer": "Tutankhamun",
+    "options": ["Ramesses II", "Tutankhamun", "Akhenaten", "Khufu"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "He is often called the 'Boy King'.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is 'Ochre' used for in Aboriginal culture?",
+    "answer": "Painting and ceremony",
+    "options": ["Cooking", "Painting and ceremony", "Building houses", "Making clothes"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is a natural earth pigment.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The 'Magna Carta' was signed in 1215 in which country?",
+    "answer": "England",
+    "options": ["France", "England", "Italy", "Germany"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It limited the power of King John.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What major event in 1851 caused a massive population increase in Australia?",
+    "answer": "The Gold Rush",
+    "options": ["The arrival of the First Fleet", "The Gold Rush", "World War I", "The Great Depression"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "People came from all over the world to find wealth in the ground.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What are the 'Songlines' in Aboriginal culture?",
+    "answer": "Paths across the land based on creator beings",
+    "options": ["Popular radio hits", "Paths across the land based on creator beings", "Written sheet music", "Border fences"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "They act as oral maps of the Country.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which ancient civilization developed the concept of 'Zero' and the decimal system?",
+    "answer": "Ancient India",
+    "options": ["Ancient Rome", "Ancient India", "Ancient Greece", "The Vikings"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Their mathematicians made huge strides in the Gupta period.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the first woman to be elected to an Australian Parliament?",
+    "answer": "Edith Cowan",
+    "options": ["Catherine Helen Spence", "Edith Cowan", "Julia Gillard", "Enid Lyons"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "She is featured on the Australian $50 note.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What does the dhari (headdress) on the Torres Strait Islander flag represent?",
+    "answer": "The people of the Torres Strait",
+    "options": ["The ocean", "The stars", "The people of the Torres Strait", "The sun"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is a traditional Torres Strait Islander headdress.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the traditional Aboriginal dance that tells stories of the Dreamtime?",
+    "answer": "Corroboree",
+    "options": ["Corroboree", "Bora", "Kakadu", "Uluru"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It is often performed in a circle.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What are the colors of the Aboriginal Flag?",
+    "answer": "Black, Red, and Yellow",
+    "options": ["Black, Red, and Yellow", "Blue, White, and Red", "Green, Yellow, and Blue", "Black, White, and Green"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "The yellow circle represents the sun.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which of these is a famous Australian animal that carries its baby in a pouch?",
+    "answer": "Kangaroo",
+    "options": ["Kangaroo", "Dingo", "Emu", "Crocodile"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is famous for hopping.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Aboriginal people used this tool to make sure a spear flew further and faster. What is it called?",
+    "answer": "Woomera",
+    "options": ["Woomera", "Boomerang", "Shield", "Clapstick"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It acts like a handle or extension for the arm.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do we call the stories that explain how the world was made in Aboriginal culture?",
+    "answer": "Dreaming stories",
+    "options": ["Bedtime stories", "Dreaming stories", "History books", "Fairytales"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "These stories are passed down through generations.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the name of the first group of ships that brought people from England to live in Australia?",
+    "answer": "The First Fleet",
+    "options": ["The First Fleet", "The Gold Ships", "The Endeavour", "The Quick Ships"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "There were 11 ships in total.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the big red rock in the middle of Australia that is sacred to the Anangu people?",
+    "answer": "Uluru",
+    "options": ["The Blue Mountains", "Uluru", "Mount Kosciuszko", "Sydney Rock"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It used to be called Ayers Rock.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is a 'Message Stick' used for in Aboriginal culture?",
+    "answer": "To pass information between groups",
+    "options": ["To play a game", "To pass information between groups", "To start a fire", "To use as a spoon"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It was like an ancient version of a letter or email.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which bird is found on the Australian $1 note (from the past) and is part of the Coat of Arms?",
+    "answer": "Emu",
+    "options": ["Magpie", "Emu", "Kookaburra", "Pelican"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is a large bird that cannot fly.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did Aboriginal people use to paint on bark and rocks?",
+    "answer": "Ochre",
+    "options": ["Oil paint", "Crayons", "Ochre", "Textas"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is a natural clay found in the ground.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the first Governor of the first colony in Australia?",
+    "answer": "Arthur Phillip",
+    "options": ["James Cook", "Arthur Phillip", "Lachlan Macquarie", "John Flynn"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "He led the First Fleet in 1788.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the traditional shelter made by Aboriginal people using bark and branches?",
+    "answer": "Gunya",
+    "options": ["Igloo", "Gunya", "Teepee", "Castle"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is also sometimes called a wiltja or humpy.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Aboriginal people are the 'Traditional _______' of the land.",
+    "answer": "Owners",
+    "options": ["Visitors", "Owners", "Guests", "Builders"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "This word shows they have looked after the land for a long time.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the main reason the British came to Australia in 1788?",
+    "answer": "To start a prison colony",
+    "options": ["To find gold", "To start a prison colony", "To go on holiday", "To buy spices"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "They brought people who had broken laws.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the giant snake in many Dreaming stories?",
+    "answer": "The Rainbow Serpent",
+    "options": ["The Great Python", "The Rainbow Serpent", "The Fire Snake", "The Sand Eel"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is often associated with water and rain.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "On the Australian flag, what is the name of the group of stars on the right side?",
+    "answer": "The Southern Cross",
+    "options": ["The Big Dipper", "The Southern Cross", "The Milky Way", "Orion's Belt"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "These stars are visible in the night sky in Australia.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did Aboriginal people use to make canoes?",
+    "answer": "Tree bark",
+    "options": ["Tree bark", "Plastic", "Steel", "Bricks"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "They took the outer layer off large trees.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is 'Bush Tucker'?",
+    "answer": "Food found in the wild",
+    "options": ["Food from a supermarket", "Food found in the wild", "Pet food", "Cooking toys"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Tucker is an old Australian word for food.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In 1770, Captain James Cook named the land 'New South ____'.",
+    "answer": "Wales",
+    "options": ["York", "Wales", "Ireland", "England"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is named after a place in the United Kingdom.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do Aboriginal people use clapsticks for?",
+    "answer": "Music and rhythm",
+    "options": ["Building houses", "Music and rhythm", "Stirring soup", "Digging holes"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "They are hit together during songs.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which famous Australian nurse helped people in the outback using airplanes?",
+    "answer": "John Flynn",
+    "options": ["John Flynn", "Ned Kelly", "Edith Cowan", "Don Bradman"],
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "He started the Royal Flying Doctor Service.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Aboriginal people used smoke signals to communicate. What was the smoke usually for?",
+    "answer": "To send a message over a distance",
+    "options": ["To cook dinner", "To send a message over a distance", "To scare away birds", "To make it rain"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It was a way of saying 'Hello' or 'Watch out' from far away.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the special holiday on January 26th?",
+    "answer": "Australia Day",
+    "options": ["Christmas", "Australia Day", "Anzac Day", "Easter"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It marks the day the First Fleet arrived in Sydney Cove.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did many Aboriginal people use as blankets or to carry babies?",
+    "answer": "Possum skin cloaks",
+    "options": ["Cotton towels", "Possum skin cloaks", "Woolen jumpers", "Plastic bags"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "They used skins from local animals.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Before schools were built, how did Aboriginal children learn their history?",
+    "answer": "Listening to Elders and stories",
+    "options": ["Reading iPads", "Watching TV", "Listening to Elders and stories", "Going to the library"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Knowledge was passed down through talking and art.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the name of the ship Captain Cook sailed?",
+    "answer": "The Endeavour",
+    "options": ["The Endeavour", "The Titanic", "The Rocket", "The Speed"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It rhymes with 'forever'.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What does the yellow circle on the Aboriginal flag represent?",
+    "answer": "The sun",
+    "options": ["The sun", "The moon", "A gold coin", "A campfire"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It provides light and heat to the land.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What were the people who were sent to Australia as a punishment called?",
+    "answer": "Convicts",
+    "options": ["Sailors", "Convicts", "Explorers", "Tourists"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "They were prisoners from Great Britain.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which animal is on the Australian flag under the Union Jack?",
+    "answer": "None",
+    "options": ["Kangaroo", "Koala", "None", "Emu"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "The flag only has stars and the Union Jack.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do Aboriginal people call the knowledge of the land, plants, and animals passed down by ancestors?",
+    "answer": "Traditional Knowledge",
+    "options": ["Internet", "Traditional Knowledge", "Secret Science", "New News"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is wisdom shared by Elders.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which instrument is made from a branch hollowed out by termites?",
+    "answer": "Didgeridoo",
+    "options": ["Guitar", "Didgeridoo", "Drum", "Recorder"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It makes a deep humming sound.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In 1788, the First Fleet arrived at which place first before moving to Sydney Cove?",
+    "answer": "Botany Bay",
+    "options": ["Botany Bay", "Perth", "Melbourne", "Darwin"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Captain Cook had visited this bay 18 years earlier.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What color is the bottom half of the Aboriginal flag?",
+    "answer": "Red",
+    "options": ["Blue", "Green", "Red", "Black"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It represents the earth and the red desert.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is a 'Coolamon' used for?",
+    "answer": "Carrying water or food",
+    "options": ["A type of hat", "Carrying water or food", "A weapon", "A musical instrument"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "It is a curved wooden dish.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which large flightless bird is on the Australian Coat of Arms?",
+    "answer": "Emu",
+    "options": ["Ostrich", "Emu", "Penguin", "Eagle"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It stands opposite the kangaroo.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "How many ships were in the First Fleet?",
+    "answer": "11",
+    "options": ["3", "11", "50", "100"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "It's more than 10 but less than 12.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do we call a person who has lived in a place from the very beginning?",
+    "answer": "Indigenous",
+    "options": ["Visitor", "Indigenous", "Tourist", "Newcomer"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "Aboriginal people are the _______ people of Australia.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did early settlers use to build their first houses in Sydney?",
+    "answer": "Wood and mud",
+    "options": ["Bricks and steel", "Wood and mud", "Plastic", "Glass"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "They used materials they could find in the bush.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which star pattern on the Australian flag helps people find South at night?",
+    "answer": "The Southern Cross",
+    "options": ["The Milky Way", "The Southern Cross", "The North Star", "The Moon"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It has five stars in the shape of a cross.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the white paint used in Aboriginal ceremonies?",
+    "answer": "Pipeclay",
+    "options": ["Pipeclay", "Toothpaste", "Flour", "Paper"],
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It is a type of white clay.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What food did Aboriginal people find inside tree trunks?",
+    "answer": "Witchetty grubs",
+    "options": ["Apples", "Witchetty grubs", "Bread", "Chocolate"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "They are small, white, and full of protein.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the first person to lead the First Fleet to Australia?",
+    "answer": "Captain Arthur Phillip",
+    "options": ["Captain Cook", "Captain Arthur Phillip", "Ned Kelly", "Christopher Columbus"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "He became the first Governor.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the flag that has a blue background and a white dhari (headdress)?",
+    "answer": "Torres Strait Islander Flag",
+    "options": ["Australian Flag", "Aboriginal Flag", "Torres Strait Islander Flag", "State Flag"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "It represents the people from the islands north of Queensland.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which famous bushman and 'outlaw' wore metal armor in a shootout?",
+    "answer": "Ned Kelly",
+    "options": ["Ned Kelly", "Captain Cook", "Banjo Paterson", "Steve Irwin"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "He is a famous bushranger.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the 'Bush Telephone' or a way of calling out in the Australian bush?",
+    "answer": "Cooee",
+    "options": ["Hello", "Cooee", "Help", "Oi"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is a loud, high-pitched shout.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Aboriginal people used fire to keep the land healthy. What is this called?",
+    "answer": "Firestick farming",
+    "options": ["Firefighting", "Firestick farming", "Campfire cooking", "Bushwalking"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "It involves carefully burning small patches of grass.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did convicts have to do when they arrived in Australia?",
+    "answer": "Work for the colony",
+    "options": ["Go on holiday", "Work for the colony", "Go back home", "Sit in cells all day"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "They helped build roads and buildings.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which color on the Aboriginal flag represents the people?",
+    "answer": "Black",
+    "options": ["Black", "Red", "Yellow", "Blue"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is the top half of the flag.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name for a group of Aboriginal people who share the same language and area?",
+    "answer": "A tribe or nation",
+    "options": ["A team", "A tribe or nation", "A club", "A city"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "There are hundreds of these across Australia.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which city is the capital of Australia?",
+    "answer": "Canberra",
+    "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It was built halfway between Sydney and Melbourne.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What do we call the first day of the year 1901 when Australia became one nation?",
+    "answer": "Federation",
+    "options": ["Birthday", "Federation", "Discovery", "Settlement"],
+    "difficulty": "hard",
+    "level": "primary",
+    "hint": "It's when the six colonies joined together.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What did Aboriginal people use to catch fish in shallow water?",
+    "answer": "Spears or traps",
+    "options": ["Rods and reels", "Spears or traps", "Computers", "Bows and arrows"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "They often made these out of wood or stones.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the ship that is shown on the Australian 20 cent coin?",
+    "answer": "None (it is a Platypus)",
+    "options": ["The Endeavour", "The Sirius", "A Platypus", "A Whale"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "Look closely at the animal on the coin!",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is a 'Yarn' in Australian and Aboriginal culture?",
+    "answer": "A talk or a story",
+    "options": ["A type of food", "A talk or a story", "A piece of clothing", "A weapon"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "People 'have a yarn' together.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which state in Australia is an island?",
+    "answer": "Tasmania",
+    "options": ["Victoria", "Tasmania", "Queensland", "New South Wales"],
+    "difficulty": "easy",
+    "level": "primary",
+    "hint": "It is at the very bottom of the map.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the traditional Aboriginal dance?",
+    "answer": "Corroboree",
+    "options": ["Ballet", "Corroboree", "Disco", "Salsa"],
+    "difficulty": "medium",
+    "level": "primary",
+    "hint": "It is a ceremony with music and storytelling.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which ancient civilization developed the Code of Hammurabi, one of the earliest sets of written laws?",
+    "answer": "The Babylonians",
+    "options": ["The Romans", "The Babylonians", "The Greeks", "The Egyptians"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "They were located in Mesopotamia.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the 'Great South Land' that early European explorers were searching for called in Latin?",
+    "answer": "Terra Australis Incognita",
+    "options": ["Terra Australis Incognita", "Nova Hollandia", "Antarctica", "Oceania"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It means 'Unknown Southern Land'.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the name of the complex system of social rules and family structures in Aboriginal culture?",
+    "answer": "The Kinship system",
+    "options": ["The Kinship system", "The Feudal system", "The Caste system", "The Barter system"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It determines how people relate to one another and the land.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In Ancient Egypt, what was the name of the process used to preserve a body for the afterlife?",
+    "answer": "Mummification",
+    "options": ["Embalming", "Mummification", "Sarcophagy", "Cremation"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It involved wrapping the body in linen strips.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the Dutch explorer who 'discovered' Tasmania and New Zealand in 1642?",
+    "answer": "Abel Tasman",
+    "options": ["Dirk Hartog", "Abel Tasman", "Willem Janszoon", "James Cook"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "The island state of Australia is named after him.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What were the 'Budj Bim' remains in Victoria used for by the Gunditjmara people?",
+    "answer": "Eel traps and farming",
+    "options": ["Eel traps and farming", "Hunting kangaroos", "Building pyramids", "Storing gold"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is one of the world's oldest aquaculture systems.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Roman general famously declared 'Veni, Vidi, Vici' (I came, I saw, I conquered)?",
+    "answer": "Julius Caesar",
+    "options": ["Augustus", "Julius Caesar", "Mark Antony", "Nero"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "He was a key figure in the fall of the Roman Republic.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the name of the 1788 flagship that carried Governor Arthur Phillip?",
+    "answer": "HMS Sirius",
+    "options": ["HMS Sirius", "HMS Endeavour", "The Alexander", "The Supply"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It was the most important ship in the First Fleet.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Aboriginal leader famously led a resistance against British settlers in the Sydney region?",
+    "answer": "Pemulwuy",
+    "options": ["Bennelong", "Pemulwuy", "Windradyne", "Yagan"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "He was a Bidjigal man known as a rainbow warrior.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the primary purpose of the ancient Egyptian 'Book of the Dead'?",
+    "answer": "To guide the soul through the afterlife",
+    "options": ["To record laws", "To guide the soul through the afterlife", "To teach math", "To tell stories to children"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It was buried with the deceased.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In what year did the British Parliament pass the 'Act of Abolition' regarding the slave trade?",
+    "answer": "1807",
+    "options": ["1788", "1807", "1833", "1865"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It happened during the early years of the NSW colony.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The 'Second Fleet' to Australia is often called by what grim nickname due to its high death rate?",
+    "answer": "The Death Fleet",
+    "options": ["The Hunger Fleet", "The Ghost Fleet", "The Death Fleet", "The Dark Fleet"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "Conditions on these ships were much worse than the First Fleet.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is the archaeological significance of the 'Devil's Lair' in Western Australia?",
+    "answer": "Evidence of early human habitation",
+    "options": ["It was a pirate hideout", "Evidence of early human habitation", "It contains dinosaur bones", "It was a gold mine"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "Artifacts there date back nearly 50,000 years.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Ancient Greek philosopher was the teacher of Alexander the Great?",
+    "answer": "Aristotle",
+    "options": ["Socrates", "Plato", "Aristotle", "Pythagoras"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "He was a student of Plato.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was 'New Holland'?",
+    "answer": "The name given to Australia by the Dutch",
+    "options": ["A state in the USA", "A city in Europe", "The name given to Australia by the Dutch", "A type of ship"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It was used before the name 'Australia' was adopted.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What does the term 'Moiety' refer to in Aboriginal social structure?",
+    "answer": "The division of people into two complementary groups",
+    "options": ["A type of tool", "A hunting method", "The division of people into two complementary groups", "A burial ritual"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It comes from the French word for 'half'.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Chinese dynasty began construction of the Great Wall as we mostly see it today?",
+    "answer": "The Ming Dynasty",
+    "options": ["The Han Dynasty", "The Qin Dynasty", "The Ming Dynasty", "The Tang Dynasty"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "This dynasty came after the Mongols (Yuan).",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the French explorer who arrived at Botany Bay just days after the First Fleet?",
+    "answer": "Jean-François de La Pérouse",
+    "options": ["Louis-Antoine de Bougainville", "Jean-François de La Pérouse", "Napoleon Bonaparte", "Jacques Cartier"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "A suburb in Sydney is named after him.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The 'Coldry Fish Traps' in Queensland are an example of which type of technology?",
+    "answer": "Aquaculture",
+    "options": ["Agriculture", "Aquaculture", "Mining", "Irrigation"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It involves managing water to catch food.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the 'Pax Romana'?",
+    "answer": "A long period of relative peace in the Roman Empire",
+    "options": ["A Roman weapon", "A religious ceremony", "A long period of relative peace in the Roman Empire", "A tax system"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It translates to 'Roman Peace'.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "In the Roman Republic, who represented the interests of the Plebeians?",
+    "answer": "Tribunes",
+    "options": ["Consuls", "Senators", "Tribunes", "Dictators"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "They had the power to veto laws.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was 'The Rum Rebellion' of 1808?",
+    "answer": "A coup against Governor William Bligh",
+    "options": ["A party for convicts", "A coup against Governor William Bligh", "A fight between gold miners", "A trade agreement"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It is the only successful armed takeover of government in Australia.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What does the 'Seven Sisters' songline describe?",
+    "answer": "A creation story reflected in the stars",
+    "options": ["The arrival of the First Fleet", "A creation story reflected in the stars", "A battle in the desert", "How to make a boomerang"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "It relates to the Pleiades star cluster.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "The ancient city of Pompeii was destroyed by the eruption of which volcano?",
+    "answer": "Mount Vesuvius",
+    "options": ["Mount Etna", "Mount St. Helens", "Mount Vesuvius", "Mount Fuji"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "It happened in 79 AD.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which explorer was the first to cross the Blue Mountains in 1813?",
+    "answer": "Blaxland, Wentworth, and Lawson",
+    "options": ["Hume and Hovell", "Blaxland, Wentworth, and Lawson", "Burke and Wills", "Matthew Flinders"],
+    "difficulty": "medium",
+    "level": "junior",
+    "hint": "There were three main leaders of this expedition.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What is 'Tjukurpa' in Anangu culture?",
+    "answer": "The foundation of life and law",
+    "options": ["A type of food", "A hunting weapon", "The foundation of life and law", "A traditional dance"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It is often translated as 'The Dreaming'.",
+    "topic": "aboriginal_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Who was the female Pharaoh who expanded Egyptian trade and built the mortuary temple at Deir el-Bahari?",
+    "answer": "Hatshepsut",
+    "options": ["Cleopatra", "Nefertiti", "Hatshepsut", "Isis"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "She often wore a false beard to signify her power.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the main reason for the 'Myall Creek Massacre' of 1838 being historically significant?",
+    "answer": "Settlers were executed for killing Aboriginal people",
+    "options": ["It was the first battle", "Settlers were executed for killing Aboriginal people", "It ended the war", "Gold was discovered there"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "It was a rare case of British law being applied to protect Indigenous people.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "Which Ancient Greek city-state was famous for its military-focused society?",
+    "answer": "Sparta",
+    "options": ["Athens", "Thebes", "Sparta", "Corinth"],
+    "difficulty": "easy",
+    "level": "junior",
+    "hint": "Young boys were trained in the 'Agoge'.",
+    "topic": "world_history",
+    "answertype": ["text", "mcq"]
+  },
+  {
+    "question": "What was the 'Squattocracy' in early Australian history?",
+    "answer": "Wealthy landowners who took large areas of land",
+    "options": ["A group of convicts", "Wealthy landowners who took large areas of land", "The first government", "A type of ship"],
+    "difficulty": "hard",
+    "level": "junior",
+    "hint": "They 'squatted' on land outside of official settlement boundaries.",
+    "topic": "australia_history",
+    "answertype": ["text", "mcq"]
+  }
+]
