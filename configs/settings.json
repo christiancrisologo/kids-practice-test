@@ -123,9 +123,19 @@
             "description": "History questions",
             "topics": [
                 {
-                    "name": "general",
-                    "label": "General History",
-                    "description": "General history questions"
+                    "name": "world_history",
+                    "label": "World Ancient History",
+                    "description": "World ancient history questions"
+                },
+                {
+                    "name": "australia_history",
+                    "label": "Australia History",
+                    "description": "Australia history questions"
+                },
+                {
+                    "name": "aborginal_people",
+                    "label": "Aboriginal Peoples",
+                    "description": "Aboriginal peoples questions"
                 }
             ]
         }
@@ -422,7 +432,8 @@
             "subjects": {
                 "math": ["basic", "currency", "time"],
                 "english": ["vocabulary", "grammar"],
-                "science": ["general", "earth_space", "biology"]
+                "science": ["general", "earth_space", "biology"],
+                "history": ["australia_history", "aborginal_people"]
             }
         },
         {
@@ -446,7 +457,8 @@
             "subjects": {
                 "math": ["basic", "conversion", "currency", "geometry", "time"],
                 "english": ["vocabulary", "grammar", "synonyms", "antonyms", "sentence_completion"],
-                "science": ["general", "biology", "chemistry", "physics", "earth_space"]
+                "science": ["general", "biology", "chemistry", "physics", "earth_space"],
+                "history": ["australia_history", "world_history", "aborginal_people"]
             }
         },
         {
@@ -470,7 +482,8 @@
             "subjects": {
                 "math": ["basic", "conversion", "currency", "geometry", "time"],
                 "english": ["vocabulary", "grammar", "synonyms", "antonyms", "sentence_completion"],
-                "science": ["general", "biology", "chemistry", "physics", "earth_space"]
+                "science": ["general", "biology", "chemistry", "physics", "earth_space"],
+                "history": ["australia_history", "world_history", "aborginal_people"]
             }
         }
     ]
