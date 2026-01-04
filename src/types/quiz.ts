@@ -35,8 +35,8 @@ export enum EnglishQuestionType {
 export enum HistoryQuestionType {
   GENERAL = 'general',
   WORLD_HISTORY = 'world_history',
-  US_HISTORY = 'us_history',
-  ANCIENT_HISTORY = 'ancient_history',
+  AU_HISTORY = 'australia_history',
+  ABORIGINAL_PEOPLE = 'aboriginal_people',
   MODERN_HISTORY = 'modern_history'
 }
 
