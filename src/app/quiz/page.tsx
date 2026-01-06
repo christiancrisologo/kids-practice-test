@@ -525,12 +525,13 @@ export default function QuizPage() {
                                         <input
                                             ref={inputRef}
                                             type="text"
-                                            className="w-full p-4 text-xl rounded-xl border-2 border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
+                                            className="w-full p-4 text-xl rounded-xl border-2 border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 disabled:opacity-50 disabled:cursor-not-allowed"
                                             placeholder="Type your answer..."
                                             value={userInput}
                                             onChange={e => setUserInput(e.target.value)}
                                             onKeyDown={handleKeyPress}
                                             autoFocus
+                                            disabled={showCorrectAnswer}
                                         />
                                     </div>
                                 ) : (
@@ -538,8 +539,9 @@ export default function QuizPage() {
                                         {(currentQuestion.options ?? []).map((option, idx) => (
                                             <button
                                                 key={`${option}-${idx}`}
-                                                className={`w-full p-4 text-xl rounded-xl border-2 font-bold ${selectedOption === idx ? 'bg-blue-500 text-white' : 'bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200'} border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400`}
+                                                className={`w-full p-4 text-xl rounded-xl border-2 font-bold ${selectedOption === idx ? 'bg-blue-500 text-white' : 'bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200'} border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 disabled:opacity-50 disabled:cursor-not-allowed`}
                                                 onClick={() => setSelectedOption(idx)}
+                                                disabled={showCorrectAnswer}
                                             >
                                                 {option}
                                             </button>
@@ -551,7 +553,7 @@ export default function QuizPage() {
                             <div className="space-y-4">
                                 <button
                                     onClick={handleSubmitAnswer}
-                                    disabled={(settings.questionType === 'text'
+                                    disabled={showCorrectAnswer || (settings.questionType === 'text'
                                         ? !userInput.trim()
                                         : selectedOption === null)
                                     }
@@ -563,7 +565,8 @@ export default function QuizPage() {
                                 {(!settings.timerEnabled && (!settings.questionsEnabled || settings.numberOfQuestions === 0)) && (
                                     <button
                                         onClick={() => completeQuiz()}
-                                        className="w-full bg-gradient-to-r from-orange-500 to-red-500 dark:from-orange-600 dark:to-red-600 text-white font-bold py-4 px-6 rounded-xl hover:from-orange-600 hover:to-red-600 dark:hover:from-orange-700 dark:hover:to-red-700 transition-all transform hover:scale-105 shadow-lg"
+                                        disabled={showCorrectAnswer}
+                                        className="w-full bg-gradient-to-r from-orange-500 to-red-500 dark:from-orange-600 dark:to-red-600 text-white font-bold py-4 px-6 rounded-xl hover:from-orange-600 hover:to-red-600 dark:hover:from-orange-700 dark:hover:to-red-700 transition-all transform hover:scale-105 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                                     >
                                         🏁 Finish Quiz
                                     </button>
