@@ -5,7 +5,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "divide the total weight by the weight of each portion",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -17,7 +17,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "divide the distance by the time",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -29,7 +29,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "divide the distance by the speed",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -41,7 +41,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert kilograms to grams first by multiplying by 1000.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -53,7 +53,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Area of a rectangle is length multiplied by width.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -65,7 +65,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "To find the discount, multiply the original price by the percentage (as a decimal).",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -77,7 +77,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert minutes to hours by dividing by 60 before multiplying by speed.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -89,7 +89,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert liters to milliliters (1L = 1000ml) then divide by the leak rate.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -101,7 +101,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "The formula for the area of a triangle is half of base times height.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -113,7 +113,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total cost by the number of items.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -125,7 +125,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the remaining percentage (100 - x) and multiply it by the total distance.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -137,7 +137,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Simply add the increase to the starting temperature.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -149,7 +149,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the number of red marbles by the total number of marbles.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -161,7 +161,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "A square has four equal sides; divide the perimeter by 4.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -173,7 +173,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total amount of sugar by the number of cookies.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -185,7 +185,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Speed is calculated as distance divided by time.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -197,7 +197,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the price of one egg first, then multiply by y.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -209,7 +209,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the number of boys by their ratio part, then multiply by the girls' ratio part.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -221,7 +221,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the hourly drop by 2 and subtract from the current percentage.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -233,7 +233,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the map distance by the scale factor.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -245,7 +245,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Volume of a cube is side length cubed (side * side * side).",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -257,7 +257,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the target amount by the weekly savings.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -269,7 +269,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the number of apples by the total count and multiply by 100.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -281,7 +281,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Interest = Principal * Rate * Time.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -293,7 +293,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Each hour on a clock represents 30 degrees (360/12).",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -305,7 +305,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the length by the interval and add one for the starting post.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -317,7 +317,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the capacity by average weight and round down to the nearest whole number.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -329,7 +329,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the known value from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -341,7 +341,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "The end time in minutes is simply the duration added to the start.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -353,7 +353,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Profit is the selling price minus the cost price.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -365,7 +365,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate total meters in an hour, then divide by 1000 to get kilometers.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -377,7 +377,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the slices eaten from the total and put it over the total slices.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -389,7 +389,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the rate per minute by 60 to get the rate per hour, then multiply by hours.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -401,7 +401,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the departure time from the arrival time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -413,7 +413,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Speed is distance divided by time.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -425,7 +425,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total cups of flour by the number of servings.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -437,7 +437,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the distance by the fuel efficiency.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -449,7 +449,7 @@
     "difficulty": "hard",
     "level": "senior-high",
     "hint": "Calculate the depreciation rate, then apply it for each year.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -461,7 +461,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "There are 100 cm in a meter.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -473,7 +473,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 1000 grams in a kilogram.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -485,7 +485,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 12 months in a year.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -497,7 +497,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 365 days in a year.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -509,7 +509,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 365 days in a year and 24 hours in a day.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -521,7 +521,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "There are 365 days in a year, 24 hours in a day, and 60 minutes in an hour.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -533,7 +533,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "There are 365 days in a year, 24 hours in a day, 60 minutes in an hour, and 60 seconds in a minute.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -545,7 +545,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 100 centimeters in a meter.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -557,7 +557,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 1000 millimeters in a meter.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -569,7 +569,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 1000 grams in a kilogram.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -581,7 +581,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 1000000 milligrams in a kilogram.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -593,7 +593,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 12 months in a year.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -605,7 +605,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "There are 1000 meters in a single kilometer.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -617,7 +617,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Add the length and width together, then double the result to find the perimeter.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -629,7 +629,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the price of the item from the amount of money handed over.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -641,7 +641,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract one hour (60 minutes) from the total duration to see the overflow past the next hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -653,7 +653,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Use multiplication to find the total number of items in equal groups.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -665,7 +665,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "The area of a square is calculated by multiplying the side length by itself.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -677,7 +677,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide your total money by the price per item and ignore the remainder.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -689,7 +689,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the remaining amount first, then divide by the total and multiply by 100.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -701,7 +701,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total distance by the total time taken.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -713,7 +713,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert the total length to centimeters (x 100) before dividing by the number of pieces.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -725,7 +725,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the full hours remaining and add the 45 minutes needed to complete the current hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -737,7 +737,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total pages by daily progress and round up if there is a remainder.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -749,7 +749,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the decrease from the starting value.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -761,7 +761,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "To convert milliliters to liters, divide by 1000.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -773,7 +773,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "An equilateral triangle has three sides of equal length.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -785,7 +785,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert the minutes into a fraction of an hour by dividing by 60 before multiplying by the rate.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -797,7 +797,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the total capacity by the percentage (divided by 100).",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -809,7 +809,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the minutes by 60 and add the remaining seconds.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -821,7 +821,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert the kilograms to grams first so both numbers are in the same unit.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -833,7 +833,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "The area is half of the base multiplied by the height.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -845,7 +845,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the unit price of one pen first, then multiply by the desired quantity.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -857,7 +857,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the perimeter of the square first, then multiply by the price per meter.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -869,7 +869,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Distance is equal to speed multiplied by time.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -881,7 +881,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the profit amount, divide it by the original cost, and multiply by 100.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -893,7 +893,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the length, width, and height together.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -905,7 +905,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "There are 7 days in a week.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -917,7 +917,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total amount by the number of people.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -929,7 +929,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the map measurement by the scale value.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -941,7 +941,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Substitute the value of y into the equation and solve for x.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -953,7 +953,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "The diameter is twice the length of the radius.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -965,7 +965,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the two numbers together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -977,7 +977,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the current age from the target age.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -989,7 +989,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply by 100 because there are 100 cm in 1 meter.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1001,7 +1001,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the price of one bar by the quantity.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1013,7 +1013,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A square has four equal sides. Multiply the side length by 4.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1025,7 +1025,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the first number by the second.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1037,7 +1037,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of hours by 60.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1049,7 +1049,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the cost from the money you gave.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1061,7 +1061,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the pages read from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1073,7 +1073,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 1000 grams in 1 kilogram.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1085,7 +1085,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply length times width.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1097,7 +1097,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of students by the number of classes.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1109,7 +1109,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the duration from the end time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1121,7 +1121,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Each dog has 4 legs.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1133,7 +1133,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total money by the cost of one pen.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1145,7 +1145,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add all three numbers together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1157,7 +1157,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the side length by 3.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1169,7 +1169,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 7 days in a week.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1181,7 +1181,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply by 1000.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1193,7 +1193,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1205,7 +1205,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the ticket price by the number of people.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1217,7 +1217,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the years from the current age.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1229,7 +1229,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total eggs by the box capacity.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1241,7 +1241,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number by 10.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1253,7 +1253,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 10 millimeters in 1 centimeter.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1265,7 +1265,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the tax to the item cost.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1277,7 +1277,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the hours to the starting time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1289,7 +1289,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total candies by the number of friends.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1301,7 +1301,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A pentagon has 5 sides.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1313,7 +1313,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply by 1000.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1325,7 +1325,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply daily savings by the number of days.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1337,7 +1337,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the number by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1349,7 +1349,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the years by 12.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1361,7 +1361,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Perform simple subtraction.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1373,7 +1373,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the perimeter by 4.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1385,7 +1385,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the lost marbles from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1397,7 +1397,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 24 hours in one day.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1409,7 +1409,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the prices together.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1421,7 +1421,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide by 10.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1433,7 +1433,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply wheels per car by the number of cars.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1445,7 +1445,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the two variables and then add 10.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1457,7 +1457,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the number of seconds by 60.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1469,7 +1469,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the price by the quantity.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1481,7 +1481,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Count the corners of a triangle.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -1492,7 +1492,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total slices by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1504,7 +1504,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the distances together.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1516,7 +1516,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply by 7.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1528,7 +1528,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Take the second number away from the first.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1540,7 +1540,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract what you have from the cost.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1552,7 +1552,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number by 10.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1564,7 +1564,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of rows by the plants per row.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1576,7 +1576,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 10 millimeters in every 1 centimeter.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1588,7 +1588,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the price of one cone by the number of cones.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1600,7 +1600,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A square has four equal sides; multiply the side length by 4.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1612,7 +1612,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the number of hours to the current time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1624,7 +1624,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the marbles given away from the starting amount.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1636,7 +1636,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Each spider has 8 legs.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1648,7 +1648,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 100 centimeters in 1 meter.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1660,7 +1660,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the cost of the toy from the amount you paid.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1672,7 +1672,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the three sides together or multiply one side by 3.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1684,7 +1684,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of hours by 60.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1696,7 +1696,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add all three numbers together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1708,7 +1708,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 1000 grams in 1 kilogram.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1720,7 +1720,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total cost by the number of pens.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1732,7 +1732,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the length by the width.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1744,7 +1744,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of weeks by 7.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1756,7 +1756,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total number of cookies by the number of people.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1768,7 +1768,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of liters by 1000.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1780,7 +1780,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the price of the ticket and the popcorn together.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1792,7 +1792,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A cube has 12 edges; multiply the length of one side by 12.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1804,7 +1804,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the travel time to the departure time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1816,7 +1816,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number by 10.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1828,7 +1828,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the kilograms by 1000.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1840,7 +1840,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total cost by the number of apples.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1852,7 +1852,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Each triangle has 3 sides.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1864,7 +1864,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the hours of sleep by the number of days.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1876,7 +1876,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Perform the subtraction to find the difference.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1888,7 +1888,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the number of millimeters by 10.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1900,7 +1900,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the spent amount from your total money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1912,7 +1912,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add length and width together, then multiply by 2.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1924,7 +1924,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of minutes by 60.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1936,7 +1936,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of groups by the number of students per group.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -1948,7 +1948,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 1000 meters in a kilometer.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -1960,7 +1960,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the unit price by the quantity.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -1972,7 +1972,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the side length by itself.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -1984,7 +1984,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of years by 12.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1996,7 +1996,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Find how many times the second number fits into the first.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2008,7 +2008,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the centimeters by 100.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2020,7 +2020,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide your total money by the cost of one bar.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2032,7 +2032,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Count the corners of a 3D box.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2043,7 +2043,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of days by 24.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2055,7 +2055,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Find the sum of the two numbers.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2067,7 +2067,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply by 1000 to convert liters to ml.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2079,7 +2079,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the monthly savings by the number of months.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2091,7 +2091,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Each square has 4 sides.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2103,7 +2103,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the duration to the start time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2115,7 +2115,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2127,7 +2127,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the meters by 100.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2139,7 +2139,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the money you have from the total price of the book.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2151,7 +2151,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A pentagon has 5 sides.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2163,7 +2163,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of shelves by the number of books per shelf.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2175,7 +2175,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the amount per km by the total kilometers run.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2187,7 +2187,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total price by the number of cards in the pack.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2199,7 +2199,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Area is found by multiplying length by width.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2211,7 +2211,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Add 45 minutes to the start time and see how many minutes go into the next hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2223,7 +2223,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the total cookies by the percentage written as a decimal.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2235,7 +2235,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Convert meters to cm first (x 100) then add the extra cm.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2247,7 +2247,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total weight by the number of items.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2259,7 +2259,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the discount from the original price.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2271,7 +2271,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "A hexagon has 6 sides. Multiply the side length by 6.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2283,7 +2283,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide by 60 to find how many whole minutes fit into the seconds.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2295,7 +2295,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total miles by the total gallons used.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2307,7 +2307,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the number of grams by 1000.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2319,7 +2319,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the tip amount to the original bill.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2331,7 +2331,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Volume is calculated by multiplying the base area by the height.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2343,7 +2343,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the days by 24 and add the remaining hours.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2355,7 +2355,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the number of boys and girls together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2367,7 +2367,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert the meters to cm (x 100) before subtracting.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2379,7 +2379,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the price of one stamp first, then multiply by z.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2391,7 +2391,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Add the lengths of all three sides together.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2403,7 +2403,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The end time in minutes is equal to the duration of the lesson.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2415,7 +2415,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Division is the inverse of multiplication.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2427,7 +2427,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Convert the liters to ml (x 1000) and add the remaining ml.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2439,7 +2439,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the daily earnings by 5.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2451,7 +2451,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the side length first (Perimeter / 4), then multiply the side by itself for the area.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2463,7 +2463,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The question asks for the seconds already given.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2475,7 +2475,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the capacity of one bus by the number of buses.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2487,7 +2487,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 1000 meters in a kilometer.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2499,7 +2499,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract your savings from the price of the game.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2511,7 +2511,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "The sum of angles in any triangle is always 180 degrees.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2523,7 +2523,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total days by 7 and ignore the remainder.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2535,7 +2535,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the amount eaten by the total and multiply by 100.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2547,7 +2547,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "There are 1000 millimeters in 1 meter.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2559,7 +2559,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the prize money by the number of people.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2571,7 +2571,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The radius is exactly half of the diameter.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2583,7 +2583,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the daily loss by 7 days.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2595,7 +2595,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Follow the operations from left to right.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2607,7 +2607,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert liters to ml (x 1000) before subtracting the water added.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2619,7 +2619,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the total cost first, then subtract it from the money you have.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2631,7 +2631,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a standard six-sided die.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2642,7 +2642,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply hours by 60 and add the extra minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2654,7 +2654,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "This is also called 'squaring' the number.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2666,7 +2666,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply by 10.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2678,7 +2678,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the original price by 2.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2690,7 +2690,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add all three side lengths together.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2702,7 +2702,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert the hours to minutes and add the remaining minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -2714,7 +2714,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply to find the total apples first, then subtract the amount given away.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -2726,7 +2726,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide by 1000.",
-    "type": "conversion",
+    "topic": "conversion",
     "answertype": [
       "mcq",
       "text"
@@ -2738,7 +2738,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the weekly savings by the number of weeks.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -2750,7 +2750,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the length and the width to find the area.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "mcq",
       "text"
@@ -2762,7 +2762,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The prefix 'penta-' means five.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2773,7 +2773,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of the corner of a square.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2784,7 +2784,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is wider than a right angle.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2795,7 +2795,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is exactly two right angles put together.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2806,7 +2806,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Equi-' means equal, and '-lateral' means sides.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2817,7 +2817,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "No matter the shape of the triangle, the three corners always add up to this.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2828,7 +2828,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A polygon has the same number of vertices as it has sides.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2839,7 +2839,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of train tracks.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2850,7 +2850,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Like an octopus has eight legs.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2861,7 +2861,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of something 'small' and 'cute'.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2872,7 +2872,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The name comes from the word 'parallel'.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2883,7 +2883,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a 'decade', which is 10 years.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2894,7 +2894,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Two sides are the same, and two angles are the same.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2905,7 +2905,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is like the perimeter, but specifically for circles.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2916,7 +2916,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A quadrilateral can be split into two triangles.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2927,7 +2927,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a basketball.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2938,7 +2938,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "They form a perfect 'T' or 'L' shape.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2949,7 +2949,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Like a dice.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2960,7 +2960,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A square is an example of this type of quadrilateral.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2971,7 +2971,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The plural of this word is 'vertices'.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2982,7 +2982,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is also sometimes called a septagon.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -2993,7 +2993,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "One of its corners is a right angle.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3004,7 +3004,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is half the length of the diameter.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3015,7 +3015,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "In the US, it is called a trapezoid.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3026,7 +3026,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "One base plus three triangular sides.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3037,7 +3037,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a diamond shape.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3048,7 +3048,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "It 'flexes' backwards.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3059,7 +3059,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The name starts with 'n', like the number nine.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3070,7 +3070,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "If you spin all the way around, you've turned this many degrees.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3081,7 +3081,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Not to be confused with supplementary.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3092,7 +3092,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "They form a straight line together.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3103,7 +3103,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a soup can.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3114,7 +3114,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "No sides are equal, and no angles are equal.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3125,7 +3125,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Count the lines where the faces meet.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3136,7 +3136,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is twice the length of the radius.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3147,7 +3147,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "'Do-' means two and '-deca' means ten.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3158,7 +3158,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A cube has six of these.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3169,7 +3169,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of an ice cream cone.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3180,7 +3180,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "180 divided by 3.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3191,7 +3191,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is the most 'regular' four-sided shape.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3202,7 +3202,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It measures how tall the object is from its base.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3213,7 +3213,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "They are identical in every way.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3224,7 +3224,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Like the shape of a bow.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3235,7 +3235,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Opposite sides are parallel.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3246,7 +3246,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Tri-' means three.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3257,7 +3257,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Architects use these for floor layouts.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3268,7 +3268,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Four on the base and one at the top.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3279,7 +3279,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is where the edges meet.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3290,7 +3290,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "All squares are rectangles, but not all rectangles are squares.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3301,7 +3301,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It looks like a straight line.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3312,7 +3312,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The prefix 'quad-' means four.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3323,7 +3323,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of the 'x' in 'six' and 'hex'.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3334,7 +3334,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Polygons must be made of straight line segments.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3345,7 +3345,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Adjacent' means next to each other.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3356,7 +3356,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is perfectly round in three dimensions.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3367,7 +3367,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It forms a perfect square corner.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3378,7 +3378,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It looks exactly like a flat line.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3389,7 +3389,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "If one angle is obtuse, the whole triangle is named after it.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3400,7 +3400,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The number of corners is always equal to the number of sides in a polygon.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3411,7 +3411,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a party hat or an ice cream holder.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3422,7 +3422,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It goes through the middle of the shape rather than along the edge.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3433,7 +3433,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a 'decade'.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3444,7 +3444,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Equi-' means equal.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3455,7 +3455,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "It is the highest vertex.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3466,7 +3466,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a standard six-sided die.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3477,7 +3477,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is a flat pattern for a solid.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3488,7 +3488,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "They meet at exactly 90 degrees.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3499,7 +3499,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Also known as a trapezium in some regions.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3510,7 +3510,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a full circle.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3521,7 +3521,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It doesn't necessarily mean the angles are equal (like a rhombus).",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3532,7 +3532,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Everything about this triangle is different.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3543,7 +3543,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a soda can.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3554,7 +3554,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "It is also sometimes called a septagon.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3565,7 +3565,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "It 'flexes' past a straight line.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3576,7 +3576,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a diamond shape.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3587,7 +3587,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "3 on each triangle end and 3 connecting them.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3598,7 +3598,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "If you tear the corners off and line them up, they make a straight line.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3609,7 +3609,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is exactly half of the diameter.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3620,7 +3620,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "The name starts with 'n', like the number nine.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3631,7 +3631,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A rectangle is a quadrilateral with 4 right angles; a square fits this rule.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3642,7 +3642,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of the famous monuments in Egypt.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3653,7 +3653,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Squares are made of 4 right angles.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3664,7 +3664,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Together they form a straight angle.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3675,7 +3675,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "It just 'grazes' the outside edge.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3686,7 +3686,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Each side has an opposite side that is parallel to it.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3697,7 +3697,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of an octopus.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3708,7 +3708,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is a curved segment.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3719,7 +3719,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Rectangles, squares, and rhombuses are all types of this.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3730,7 +3730,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "180 divided by 3.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3741,7 +3741,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Think of 2 (do) + 10 (deca).",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3752,7 +3752,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "A 'regular' triangle is an equilateral triangle.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3763,7 +3763,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "4 on the top and 4 on the bottom.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3774,7 +3774,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Together they form a right angle.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3785,7 +3785,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is the circle's version of perimeter.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3796,7 +3796,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Every interior angle of a rectangle is the same size.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3807,7 +3807,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think: 'A cute little angle'.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3818,7 +3818,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It has two 'eyes' (angles) that are the same.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3829,7 +3829,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Edges are where two flat faces meet.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3840,7 +3840,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Also known as a cuboid.",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3851,7 +3851,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is like putting two triangles together (180 + 180).",
-    "type": "geometry",
+    "topic": "geometry",
     "answertype": [
       "text"
     ]
@@ -3862,7 +3862,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the two numbers of balloons together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -3874,7 +3874,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the cost from the money you handed to the cashier.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -3886,7 +3886,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the stickers in one pack by the number of packs.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -3898,7 +3898,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the eating time to the start time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -3910,7 +3910,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the birds that left from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -3922,7 +3922,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price of one apple by the number of apples.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -3934,7 +3934,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide the total cookies by the number of friends.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -3946,7 +3946,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the duration to the starting hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -3958,7 +3958,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add your old savings and your new savings together.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -3970,7 +3970,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the empty seats from the total number of seats.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -3982,7 +3982,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the prices of the two items.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -3994,7 +3994,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of weeks by 7.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4006,7 +4006,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the pages per day by the number of days.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4018,7 +4018,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the costs together first, then subtract from your total money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4030,7 +4030,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the current hour from the future hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4042,7 +4042,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Take away the number of lost pencils from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4054,7 +4054,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide the total slices by the number of children.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4066,7 +4066,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find the total cost of the erasers first, then subtract from your money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4078,7 +4078,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Convert the PM time to a 24-hour format by adding 12, then subtract the start time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4090,7 +4090,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the number of cows and chickens together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4102,7 +4102,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of boxes by the number of cars in each.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4114,7 +4114,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the spent amount from your original amount.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4126,7 +4126,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of years by 12.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4138,7 +4138,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the points from both halves together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4150,7 +4150,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide your total number of candies by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4162,7 +4162,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the price of the pen and the notebook together.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4174,7 +4174,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the hours from the current time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4186,7 +4186,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the number of boys from the total number of students.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4198,7 +4198,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of bicycles by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4210,7 +4210,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply your weekly savings by the number of weeks.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4222,7 +4222,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "The time past 3:00 is the same as the baking time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4234,7 +4234,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of jars by the marbles in each jar.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4246,7 +4246,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price per ticket by the number of tickets.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4258,7 +4258,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the future years to your current age.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4270,7 +4270,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the colors you gave away from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4282,7 +4282,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Each pair has 2 shoes. Multiply the number of pairs by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4294,7 +4294,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the money you have from the total price of the game.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4306,7 +4306,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of markers per student by the 3 students.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4318,7 +4318,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the minutes you watched from the total length of the show.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4330,7 +4330,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of packs by the price of each pack.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4342,7 +4342,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the flowers you picked from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4354,7 +4354,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the money you received first, then subtract the money you spent.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4366,7 +4366,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of days by 24.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4378,7 +4378,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide the total number of apples by the number of bags.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4390,7 +4390,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price of one sandwich by the number of sandwiches.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4402,7 +4402,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "The time in the evening will be the number of hours after 12:00.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4414,7 +4414,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of stops by the number of people per stop.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4426,7 +4426,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price of one toy by 2.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4438,7 +4438,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the number of original fish to the number of new fish.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4450,7 +4450,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Count the hours from 8:00 to 12:00 (midnight), then add the hours after midnight.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4462,7 +4462,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of boxes by the cupcakes in each box.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4474,7 +4474,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the money you had to the money you found.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4486,7 +4486,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the daily cost by the number of days.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4498,7 +4498,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the start time from the end time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4510,7 +4510,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the eggs per day by the total days.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4522,7 +4522,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Take away the pages you read from the total left.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4534,7 +4534,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide your money by the cost of one ticket.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4546,7 +4546,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the time going there and the time coming back.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4558,7 +4558,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the new kids to the group that was already there.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4570,7 +4570,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the gum per friend by the 2 friends.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4582,7 +4582,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price of one scoop by the number of scoops.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4594,7 +4594,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Change the PM time to 24-hour time by adding 12, then subtract your wake-up time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4606,7 +4606,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the hidden ones and then subtract the ones the bird took.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4618,7 +4618,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of dollars by 4.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4630,7 +4630,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the years by 12.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4642,7 +4642,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the popped balloons from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4654,7 +4654,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price of one box by 3.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4666,7 +4666,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the homework time and the reading time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4678,7 +4678,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of cars by 4.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4690,7 +4690,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the prices of the comic and snack, then subtract that from your money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4702,7 +4702,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the hours per day by the number of days.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4714,7 +4714,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply trays by muffins per tray.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4726,7 +4726,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add both amounts of money together.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4738,7 +4738,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the hours to the current hour (2). The minutes stay the same.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4750,7 +4750,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the absent students from the total students.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4762,7 +4762,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4774,7 +4774,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract what you have from the total price.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4786,7 +4786,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "There are 7 days in 1 week, so multiply by 7.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4798,7 +4798,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide the total stickers by the number per page.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4810,7 +4810,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price by 2, then subtract that from your money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4822,7 +4822,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "The answer is just the number of minutes you slept.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4834,7 +4834,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the stops by the people getting off.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4846,7 +4846,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply price per notebook by the amount you buy.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4858,7 +4858,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the ones you ate, then add the new ones.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4870,7 +4870,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "The minutes past the hour will be the length of the show.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4882,7 +4882,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply 10 by the number of people.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4894,7 +4894,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract your money from the cost of the ball.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4906,7 +4906,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the morning minutes and the night minutes together.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -4918,7 +4918,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of spiders by 8.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4930,7 +4930,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the cost of the snack from your money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4942,7 +4942,7 @@
     "difficulty": "easy",
     "primary": "primary",
     "hint": "Subtract the levels you finished from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4954,7 +4954,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "There are 24 hours in one day. 24 + 24 = 48.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -4965,7 +4965,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the 5 dollars by the number of weeks.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -4977,7 +4977,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply players per team by the number of teams.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -4989,7 +4989,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add 2 hours to 4:00.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -5000,7 +5000,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the apples you gave away.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5012,7 +5012,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide your money by the cost of one pen.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5024,7 +5024,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the minutes per day by 7.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5036,7 +5036,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the number of people from the total cupcakes.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5048,7 +5048,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the money in one bank by 3.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5060,7 +5060,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of markers in one box by the number of boxes.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5072,7 +5072,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the cost from the money you gave.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5084,7 +5084,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the hours of the cartoon to the start time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5096,7 +5096,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Take away the students who left from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5108,7 +5108,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the two amounts of cars together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5120,7 +5120,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price of one eraser by the number you want to buy.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5132,7 +5132,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide the total sweets by the number of people sharing.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5144,7 +5144,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract your arrival time from the start time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5156,7 +5156,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the cost of the chips from your total money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5168,7 +5168,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the fallen petals from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5180,7 +5180,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the cost of one pencil by the number of pencils.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5192,7 +5192,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply 7 by the number of weeks.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5204,7 +5204,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the morning pages and the night pages together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5216,7 +5216,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the price of the book and the sticker together.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5228,7 +5228,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the time passed from the total time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5240,7 +5240,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the used slices from the total slices.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5252,7 +5252,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of players by the number of teams.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5264,7 +5264,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the money you have from the price of the game.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5276,7 +5276,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Double the amount of sleep for one night.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5288,7 +5288,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of trees by the number of apples on each tree.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5300,7 +5300,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the crayons you gave away from your total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5312,7 +5312,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the ticket price by the number of people.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5324,7 +5324,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the two work times together.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5336,7 +5336,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the capacity of one bus by 3.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5348,7 +5348,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the lost coins from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5360,7 +5360,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide your total money by the cost of one candy bar.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5372,7 +5372,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add 3 hours to the current time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5384,7 +5384,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the stickers given to one student by the number of students.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5396,7 +5396,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of pockets by the marbles in each.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5408,7 +5408,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the cost from the money you paid.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5420,7 +5420,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the length of one song by the number of songs.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5432,7 +5432,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the eggs used from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5444,7 +5444,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply your monthly savings by the number of months.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5456,7 +5456,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the length of one quarter by 4.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5468,7 +5468,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the number of slices eaten from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5480,7 +5480,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the cards given to your friend, then subtract the cards given to your brother.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5492,7 +5492,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price of one cupcake by 10.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5504,7 +5504,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the start time from the end time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5516,7 +5516,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of birds by the number of wings each bird has.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -5527,7 +5527,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the cost of lunch from your money, then add the money your dad gave you.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5539,7 +5539,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the reading time and the playing time together.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5551,7 +5551,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of rows by the flowers in each row.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5563,7 +5563,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Subtract the number of lost pencils from 12.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5575,7 +5575,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the movie's duration to the start hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5587,7 +5587,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the price of the toy by 2 to see the total cost for two.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5599,7 +5599,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of groups by the number of apples in each group.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5611,7 +5611,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the amounts spent on both days together.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5623,7 +5623,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Multiply the number of years by 12.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5635,7 +5635,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Divide the total number of sweets by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5647,7 +5647,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Add the price of the book to the change you received.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5659,7 +5659,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply the number of friends by the chocolates each ate, then subtract from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5671,7 +5671,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find the total cost of toys and books first, then subtract from your starting money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5683,7 +5683,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It takes 15 minutes to reach 11:00. Subtract those 15 minutes from the total journey time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5695,7 +5695,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply rows by trees per row, then subtract the trees that died.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5707,7 +5707,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply your monthly savings by 6, then subtract your spending.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5719,7 +5719,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It takes 70 minutes to get from 2:50 to 4:00. Subtract 70 from the total movie length.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5731,7 +5731,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find how many were in each group first, subtract 3, then multiply by the number of groups.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5743,7 +5743,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Calculate the total cost for 10 people, then subtract the money they already have.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5755,7 +5755,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Calculate the full hours and adjust for the minutes before and after the hour mark.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5767,7 +5767,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Subtract the leftover muffins first, then divide the rest by 6.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5779,7 +5779,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find the price of one notebook first, then multiply by 12.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5791,7 +5791,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Convert the total hours to minutes first, then subtract the total minutes used.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5803,7 +5803,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Calculate your friend's marbles first, then add them to your own.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5815,7 +5815,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Subtract the discount from the original price, then multiply by 2.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5827,7 +5827,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Go back 15 minutes to 1:00, then go back the remaining 35 minutes into the previous hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -5838,7 +5838,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply the rows by seats, then subtract the empty ones.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5850,7 +5850,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find the price of one of each fruit, then add them together.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5862,7 +5862,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Convert hours to minutes, and find how many whole minutes are in 150 seconds.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5874,7 +5874,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Subtract the filled pages from the total pages, then multiply by stickers per page.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5886,7 +5886,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add up all your bills first, then subtract that from the price of the bike.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5898,7 +5898,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply the minutes by 60 and add the extra seconds.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -5910,7 +5910,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply the packs he has by the number of bricks in each, then subtract from the total needed.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5922,7 +5922,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add the price of one pen and one eraser, then multiply by the quantity.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5934,7 +5934,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Count the hours and minutes from 9:30 to midnight, then add the time from midnight to 6:15.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -5945,7 +5945,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find the total pencils first, then divide by the number of students.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5957,7 +5957,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Subtract the voucher value from the total price, then divide the rest by 4.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -5969,7 +5969,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Subtract 10 minutes to find the real time (11:55), then subtract 20 more minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -5980,7 +5980,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Subtract both the broken tiles and the leftover tiles from the total.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -5992,7 +5992,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find half of your money first, then subtract the cost of the hat.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6004,7 +6004,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Convert 2 hours to 120 minutes, then divide by the bell interval.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6016,7 +6016,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find the total capacity of all shelves, then subtract your current books.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6028,7 +6028,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find the price of one apple, then multiply by 15.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6040,7 +6040,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Find the total minutes for 10 days, then divide by 60 to get hours.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6052,7 +6052,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Subtract the rows given away from the total rows, then multiply by 8.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6064,7 +6064,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add the price of one car and one doll, then multiply by 2.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6076,7 +6076,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "3:10 PM is 130 minutes past 1:00 PM. Subtract the flight time from 130.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6088,7 +6088,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply your hourly speed by 3, then subtract from the total pages.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6100,7 +6100,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add the cost of one sandwich and one drink, then multiply by 4.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6112,7 +6112,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add the minutes together first, then multiply by 60.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6124,7 +6124,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Divide the red flowers by 2 and add the total yellow flowers.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6136,7 +6136,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add the book price and tax together, then subtract from your money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6148,7 +6148,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add the movie length and the break time, then see how many minutes go past 9:00.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6160,7 +6160,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add the total marbles and subtract 8 (since 4 + 4 = 8).",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6172,7 +6172,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply the deal price by 3, then subtract from the bill you gave.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6184,7 +6184,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Add the two walk times together, then multiply by 5 days.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6196,7 +6196,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply the jugs by their size, then subtract from the total capacity.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6208,7 +6208,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Subtract the Monday spending and then the Tuesday spending.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6220,7 +6220,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It takes 80 minutes to get from 3:40 to 5:00. Subtract 80 from the baking time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6232,7 +6232,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply the rows by 4, then subtract from the total desks.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6244,7 +6244,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Multiply your earnings per room by the number of rooms, then add the extra coin.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6256,7 +6256,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate 120% of the original price first, then subtract the fixed discount.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6268,7 +6268,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the current water from the total capacity, then divide by the fill rate.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6280,7 +6280,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide distance by speed to get hours, then multiply by 60 to convert to minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6292,7 +6292,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "The total is 115% of the original price. Divide the total by 1.15.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6304,7 +6304,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find how many 3-hour blocks are in the total days, multiply by the loss, then convert seconds to minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6316,7 +6316,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "First find the total 'man-hours' (workers x hours), then divide by the new number of workers.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6328,7 +6328,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the interest for one year, multiply by 3, and add it to the starting amount.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6340,7 +6340,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert minutes to hours for both segments, then multiply by the respective speeds.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6352,7 +6352,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find 25% of the total hours, convert to minutes, and add to the start time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6364,7 +6364,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the bill by 1.15 to include the tip, then divide by the number of people.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6376,7 +6376,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the value of one 'part' of the ratio by dividing girls by x, then calculate the boys and add them together.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6388,7 +6388,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Reverse the operations: add y to 50, then divide by 2.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6400,7 +6400,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the total selling price by adding 25% profit, then divide by the number of items.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6412,7 +6412,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Determine how many 40-minute blocks are in the total shift time.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6424,7 +6424,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract 40% of the budget first, then subtract the grocery cost.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6436,7 +6436,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert the total minutes to seconds, then divide by the time per lap.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6448,7 +6448,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the sum by 3 to find the middle integer, then add 1.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "mcq",
       "text"
@@ -6460,7 +6460,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Apply the first discount, then take 90% of that new value.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -6472,7 +6472,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the total flight time, subtract the elapsed time, and convert the remainder to minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6484,7 +6484,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "You use the plus (+) sign for this.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6495,7 +6495,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of a slice of pizza.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6506,7 +6506,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "You use the minus (-) sign for this.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6517,7 +6517,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It has no straight sides and no corners.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6528,7 +6528,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is a straight tool with numbers in inches or centimeters.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6539,7 +6539,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "All of its sides are the exact same length.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6550,7 +6550,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "You use the times (x) sign for this.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6561,7 +6561,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "This unit is used for heavier objects.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6572,7 +6572,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of a basketball or a globe.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6583,7 +6583,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is 1 out of 2 equal pieces.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6594,7 +6594,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "You use the division (÷) sign for this.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6605,7 +6605,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It looks like a stretched-out square.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6616,7 +6616,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "This unit is used for liquids.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6627,7 +6627,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It has two circular flat ends and one curved side.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6638,7 +6638,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It starts with the letter 'S'.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6649,7 +6649,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of the famous building in the USA.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6660,7 +6660,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "You use this unit to measure the length of a room.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6671,7 +6671,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of an ice cube or a die.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6682,7 +6682,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It tells you how much one number 'differs' from another.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6693,7 +6693,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is the same as the number of seconds in a minute.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6704,7 +6704,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of a honeycomb cell.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6715,7 +6715,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is the first two-digit number.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6726,7 +6726,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "The long hand moves faster and tells the minutes.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6737,7 +6737,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It has a circular base and a pointy top.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6748,7 +6748,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It starts with the letter 'P'.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6759,7 +6759,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of a stop sign.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6770,7 +6770,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "People usually buy eggs in this amount.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6781,7 +6781,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It has six faces that are mostly rectangles.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6792,7 +6792,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is the opposite of 'add'.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6803,7 +6803,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It tells us if it is hot or cold outside.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6814,7 +6814,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "A cube has six of these.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6825,7 +6825,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Examples are 1, 3, 5, 7, and 9.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6836,7 +6836,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It starts with Monday and ends with Sunday.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6847,7 +6847,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "In geometry, this is also called a 'vertex'.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6858,7 +6858,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It looks like two flat lines (=).",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6869,7 +6869,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It starts with January and ends with December.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6880,7 +6880,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "'Quad' means four.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6891,7 +6891,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It means 'nothing' or 'none'.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6902,7 +6902,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "One of these equals 1,000 of the other.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6913,7 +6913,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It has four equal sides but is usually tilted.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6924,7 +6924,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It represents an empty set.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6935,7 +6935,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It can be digital or have hands.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6946,7 +6946,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "The corner measures exactly 90 degrees.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6957,7 +6957,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It starts with the letter 'E'.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6968,7 +6968,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "The word 'cent' often means 100.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6979,7 +6979,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of the ancient structures in Egypt.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -6990,7 +6990,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "It starts with the letter 'E'.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -7001,7 +7001,7 @@
     "difficulty": "easy",
     "level": "primary",
     "hint": "These are the tiny lines on a ruler.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -7012,7 +7012,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "Think of the 'horizon' where the sun sets.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -7023,7 +7023,7 @@
     "difficulty": "hard",
     "level": "primary",
     "hint": "It is the opposite of horizontal.",
-    "type": "basic",
+    "topic": "basic",
     "answertype": [
       "text"
     ]
@@ -7034,7 +7034,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the price of one item by the total number of items.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7046,7 +7046,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the duration to the start time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7058,7 +7058,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the amount spent from the starting amount.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7070,7 +7070,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 60 minutes in every 1 hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7082,7 +7082,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply your weekly savings by the number of weeks.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7094,7 +7094,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the cost of the toy from the money you gave the cashier.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7106,7 +7106,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of minutes by 60.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7118,7 +7118,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total price by the number of pens in the pack.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7130,7 +7130,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Adding 30 minutes to a half-hour mark brings you to the next full hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7142,7 +7142,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "To find half of a number, divide it by 2.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7154,7 +7154,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 24 hours in one full day.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7166,7 +7166,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the money you have from the total price of the game.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7178,7 +7178,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide 60 minutes by the time between each ring.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7190,7 +7190,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total bill by the number of people sharing it.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7202,7 +7202,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the minutes you woke up at from 60.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7214,7 +7214,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number of coins by the value of one nickel.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7226,7 +7226,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 7 days in every week.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7238,7 +7238,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the hourly rate by the number of hours worked.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7250,7 +7250,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Each number on a clock face represents 5 minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7261,7 +7261,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the total cost of the items from your starting money.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7273,7 +7273,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the number of hours to the current time.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7285,7 +7285,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide your total money by the price of one candy bar.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7297,7 +7297,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 12 months in one year.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7309,7 +7309,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the value of the five-dollar bills to the value of the one-dollar bills.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7321,7 +7321,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "First calculate the selling price with the 15% profit, then subtract the fee.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7333,7 +7333,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert the seconds passed into minutes before subtracting from the total.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7345,7 +7345,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the hours first, convert them to minutes, and add the extra minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7357,7 +7357,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "6 months is 0.5 years. Calculate the interest and add it to the original amount.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7369,7 +7369,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find total seconds first, then divide by 3600 to get hours.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7381,7 +7381,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the expenses first, then divide the remainder by the original total.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7393,7 +7393,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Each hour mark on a clock represents 30 degrees (360/12).",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7404,7 +7404,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Find the price of one pencil first.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7416,7 +7416,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "There are 1,440 minutes in a full 24-hour day.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7428,7 +7428,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the dollar amount of the discount first.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7440,7 +7440,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the total seconds for the target time and subtract the current seconds.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7452,7 +7452,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find your monthly savings first.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7464,7 +7464,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the individual price by 4 and compare it to the set price.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7476,7 +7476,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find how much liquid is collected in one hour first.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7488,7 +7488,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "The discounted price represents 80% of the original. Divide the price by 0.8.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7500,7 +7500,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the time from 22:45 to midnight, then add the time from midnight to 06:15. Finally, convert it all to minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7511,7 +7511,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide the total Yen by the value of 1 dollar in Yen.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "text"
     ]
@@ -7522,7 +7522,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "142 minutes is 2 hours and 22 minutes. Count back 2 hours from 15:10, then count back 22 minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7533,7 +7533,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the price of 1 kg first, then multiply by 8.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7545,7 +7545,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert 10 minutes to seconds, divide by 12, and add 1 for the start.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7556,7 +7556,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert 42 months into years (3.5 years), then multiply by the interest rate and the principal.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7568,7 +7568,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert 3:00 PM to 15:00 and add 5 hours.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7579,7 +7579,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "For every 3 items, you only pay for 2. Calculate how many groups of 3 you have.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7591,7 +7591,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the shirt cost first, then calculate 1/5 of what is left and subtract that too.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7603,7 +7603,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the number of drips per second by 60 for a minute, and by 60 again for an hour.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7614,7 +7614,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the daily fee and the mileage fee separately, then sum them.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7626,7 +7626,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply 1.5 by 60 to get minutes, then by 60 again to get seconds.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7637,7 +7637,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract 1/2 and 1/3 from the whole to find Friend C's fraction.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7649,7 +7649,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the regular 40-hour pay and the 6-hour overtime pay separately.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7661,7 +7661,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the hours and minutes between sunrise and sunset, then convert to total minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7672,7 +7672,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply by 1.125 to get the total with service charge, then divide by 4.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7684,7 +7684,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the selling price by 12 and subtract the original cost.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7696,7 +7696,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add 65 to the birth year.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7707,7 +7707,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "There are 15 sets of 100 grams in 1.5 kilograms.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7719,7 +7719,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the mark-up first, then take 50% off that new higher price.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7731,7 +7731,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply 365 by 3.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7742,7 +7742,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the monthly savings first, then multiply by 12 months.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7754,7 +7754,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the value of the 4 quarters from the total.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7766,7 +7766,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the 10% increase first, then subtract the fixed dollar amount.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7778,7 +7778,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply 40 minutes by 4, then add that total duration to 09:15.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7789,7 +7789,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert the total time to minutes, then divide by the speed factor.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7800,7 +7800,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total price by the number of slices.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7812,7 +7812,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "85 minutes is 1 hour and 25 minutes. Subtract 1 hour first, then the 25 minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7823,7 +7823,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply 7 days by 24 hours, then by 60 minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7834,7 +7834,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find the total cost of 2 books and divide it by 3.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7846,7 +7846,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Convert both times to total seconds and find the difference.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7857,7 +7857,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "There are 4 quarters in every dollar.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7869,7 +7869,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Subtract the starting amount from the target, then divide by the monthly deposit.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7881,7 +7881,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Each number on a clock represents 5 minutes.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]
@@ -7892,7 +7892,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the total pay by the number of hours.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7904,7 +7904,7 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the amount by 0.15.",
-    "type": "currency",
+    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7916,7 +7916,7 @@
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide 40 by 2.5.",
-    "type": "time",
+    "topic": "time",
     "answertype": [
       "text"
     ]

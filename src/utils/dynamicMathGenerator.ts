@@ -7,7 +7,7 @@ export interface MathQuestionTemplate {
   difficulty: string;
   level: string;
   hint: string;
-  type: string;
+  topic: string;
 }
 
 export interface GeneratedMathQuestion {
@@ -17,7 +17,7 @@ export interface GeneratedMathQuestion {
   difficulty: string;
   level: string;
   hint: string;
-  type: string;
+  topic: string;
   variables: Record<string, number>;
 }
 
@@ -178,7 +178,7 @@ export function generateMathQuestion(
       difficulty: template.difficulty,
       level: template.level,
       hint: template.hint,
-      type: template.type,
+      topic: template.topic,
       variables: {}
     };
   }
@@ -210,7 +210,7 @@ export function generateMathQuestion(
     difficulty: template.difficulty,
     level: template.level,
     hint,
-    type: template.type,
+    topic: template.topic,
     variables: values
   };
 }
@@ -228,22 +228,22 @@ export function getMathTemplates(): MathQuestionTemplate[] {
 export function filterTemplates(
   difficulty?: string,
   level?: string,
-  type?: string
+  topic?: string
 ): MathQuestionTemplate[] {
   let templates = getMathTemplates();
-  
+
   if (difficulty) {
     templates = templates.filter(t => t.difficulty === difficulty);
   }
-  
+
   if (level) {
     templates = templates.filter(t => t.level === level);
   }
-  
-  if (type) {
-    templates = templates.filter(t => t.type === type);
+
+  if (topic) {
+    templates = templates.filter(t => t.topic === topic);
   }
-  
+
   return templates;
 }
 

@@ -95,18 +95,18 @@ export class MathQuestionGenerator implements QuestionGenerator {
         break;
       }
 
-      console.debug('[MathGen] using template', { type: template.type, formula: template.formula ? String(template.formula).slice(0, 60) : null });
+      console.debug('[MathGen] using template', { topic: template.topic, formula: template.formula ? String(template.formula).slice(0, 60) : null });
 
       // Generate question from template (guard against template evaluation errors)
       let generated;
       try {
         generated = generateMathQuestion(template);
       } catch (err) {
-       
+
         skips++;
         if (err instanceof Error) {
           if (err.message) {
-            console.log('[MathGen] generateMathQuestion failed for template', { templateType: template.type, error: err.message });
+            console.log('[MathGen] generateMathQuestion failed for template', { templateTopic: template.topic, error: err.message });
           }
         }
         if (skips > Math.max(50, count * 5)) {
@@ -120,13 +120,13 @@ export class MathQuestionGenerator implements QuestionGenerator {
       const mathQuestion: MathQuestion = {
         id: `math-dynamic-${Date.now()}-${Math.random()}`,
         subject: Subject.MATH,
-        questionType: this.mapTypeToQuestionType(generated.type),
+        questionType: this.mapTopicToQuestionType(generated.topic),
         answerFormat,
         question: generated.question,
         answer: typeof generated.answer === 'number' ? generated.answer.toFixed(2) : generated.answer.toString(),
         difficulty: difficulty as 'easy' | 'medium' | 'hard',
         hint: generated.hint,
-        type: generated.type,
+        topic: generated.topic,
         level: generated.level,
         formula: generated.formula,
         variables: generated.variables
@@ -165,9 +165,9 @@ export class MathQuestionGenerator implements QuestionGenerator {
     return questions;
   }
 
-  private mapTypeToQuestionType(type: string): MathQuestionType {
-    // Map JSON type to MathQuestionType enum
-    switch (type.toLowerCase()) {
+  private mapTopicToQuestionType(topic: string): MathQuestionType {
+    // Map JSON topic to MathQuestionType enum
+    switch (topic.toLowerCase()) {
       case 'basic':
         return MathQuestionType.ADDITION;
       case 'geometry':

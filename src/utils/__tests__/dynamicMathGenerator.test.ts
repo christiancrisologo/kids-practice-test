@@ -23,7 +23,7 @@ describe('Dynamic Math Generator', () => {
       expect(template).toHaveProperty('difficulty');
       expect(template).toHaveProperty('level');
       expect(template).toHaveProperty('hint');
-      expect(template).toHaveProperty('type');
+      expect(template).toHaveProperty('topics');
     });
   });
 
@@ -38,17 +38,17 @@ describe('Dynamic Math Generator', () => {
       expect(juniorTemplates.every(t => t.level === 'junior')).toBe(true);
     });
 
-    it('should filter by type', () => {
+    it('should filter by topic', () => {
       const basicTemplates = filterTemplates(undefined, undefined, 'basic');
-      expect(basicTemplates.every(t => t.type === 'basic')).toBe(true);
+      expect(basicTemplates.every(t => t.topic === 'basic')).toBe(true);
     });
 
     it('should filter by multiple criteria', () => {
       const filtered = filterTemplates('easy', 'junior', 'basic');
-      expect(filtered.every(t => 
-        t.difficulty === 'easy' && 
-        t.level === 'junior' && 
-        t.type === 'basic'
+      expect(filtered.every(t =>
+        t.difficulty === 'easy' &&
+        t.level === 'junior' &&
+        t.topic === 'basic'
       )).toBe(true);
     });
   });
@@ -60,7 +60,7 @@ describe('Dynamic Math Generator', () => {
       difficulty: "easy",
       level: "junior",
       hint: "Add the two numbers together",
-      type: "basic"
+      topic: "basic"
     };
 
     it('should generate a question from template', () => {
@@ -111,7 +111,7 @@ describe('Dynamic Math Generator', () => {
         difficulty: "medium",
         level: "junior",
         hint: "Convert kg to g first",
-        type: "conversion"
+        topic: "conversion"
       };
       
       const generated = generateMathQuestion(complexTemplate);

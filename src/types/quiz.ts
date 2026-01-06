@@ -81,7 +81,7 @@ export interface MathQuestion extends BaseQuestion {
   operator?: string;
   showWork?: boolean;
   hint?: string;
-  type?: string;
+  topic?: string;
   level?: string;
   formula?: string;
   variables?: Record<string, number>;
