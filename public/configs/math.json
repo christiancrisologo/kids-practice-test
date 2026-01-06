@@ -4063,7 +4063,7 @@
   {
     "question": "An eraser costs ${{x}}. If you buy {{y}} erasers, how much change do you get from ${{z}}?",
     "formula": "{{z}} - ({{x}} * {{y}})",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "level": "primary",
     "hint": "Find the total cost of the erasers first, then subtract from your money.",
     "type": "currency",

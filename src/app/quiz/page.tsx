@@ -49,6 +49,7 @@ export default function QuizPage() {
     const [showCountdown, setShowCountdown] = useState(true);
     const countdownNumbers = [3, 2, 1];
     const [countdownIdx, setCountdownIdx] = useState(0);
+    const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
 
     // Refs for auto-focus
     const inputRef = useRef<HTMLInputElement>(null);
@@ -72,8 +73,16 @@ export default function QuizPage() {
         }
     }, [questions, isQuizActive, isQuizCompleted, startQuiz]);
 
-    // Show countdown at the start of every question
+    // Show countdown at the start of every question (if enabled in settings)
     useEffect(() => {
+        // Check if countdown is enabled in settings
+        const showCountdownEnabled = globalSettings?.system?.quiz?.showCountdownAfterQuizStart ?? true;
+
+        if (!showCountdownEnabled) {
+            setShowCountdown(false);
+            return;
+        }
+
         setShowCountdown(true);
         setCountdownIdx(0);
         if (isQuizActive && currentQuestion) {
@@ -89,7 +98,7 @@ export default function QuizPage() {
             }, 700);
             return () => clearInterval(interval);
         }
-    }, [currentQuestionIndex, isQuizActive, currentQuestion, countdownNumbers.length]);
+    }, [currentQuestionIndex, isQuizActive, currentQuestion, countdownNumbers.length, globalSettings]);
 
     // Clear all inputs and selections when question changes
     useEffect(() => {
@@ -98,6 +107,7 @@ export default function QuizPage() {
         setShowHint(false);
         setHintContent('');
         setFlashResult(null);
+        setShowCorrectAnswer(false);
     }, [currentQuestionIndex]);
 
     // Flash result state
@@ -287,15 +297,35 @@ export default function QuizPage() {
         // Submit empty/null answer when time runs out
         submitAnswer(''); // Submit empty string for timeout on fraction multiple choice
 
+        // Play incorrect sound and vibrate
+        playSound('incorrect', systemSettings);
+        vibrate(200, systemSettings);
+        setFlashResult('incorrect');
+
+        // Show correct answer if enabled in settings
+        const showCorrectAnswerEnabled = globalSettings?.system?.quiz?.showCorrectAnswerAfterQuestion ?? true;
+        const correctAnswerDuration = (globalSettings?.system?.quiz?.correctAnswerDisplayDuration ?? 2) * 1000;
+
+        if (showCorrectAnswerEnabled) {
+            setShowCorrectAnswer(true);
+        }
 
         // Clear all inputs
         setUserInput('');
         setSelectedOption(null);
 
+        // Remove flash after 600ms
+        setTimeout(() => setFlashResult(null), 600);
+
         if (currentQuestionIndex >= questions.length - 1) {
-            completeQuiz();
+            setTimeout(() => {
+                completeQuiz();
+            }, showCorrectAnswerEnabled ? correctAnswerDuration + 1000 : 1000);
         } else {
-            nextQuestion();
+            setTimeout(() => {
+                setShowCorrectAnswer(false);
+                nextQuestion();
+            }, showCorrectAnswerEnabled ? correctAnswerDuration + 1000 : 1000);
         }
     };
 
@@ -327,6 +357,12 @@ export default function QuizPage() {
                     playSound('incorrect', systemSettings);
                     vibrate(200, systemSettings);
                     setFlashResult('incorrect');
+
+                    // Show correct answer if enabled in settings
+                    const showCorrectAnswerEnabled = globalSettings?.system?.quiz?.showCorrectAnswerAfterQuestion ?? true;
+                    if (showCorrectAnswerEnabled) {
+                        setShowCorrectAnswer(true);
+                    }
                 }
                 // Remove flash after 600ms
                 setTimeout(() => setFlashResult(null), 600);
@@ -337,21 +373,46 @@ export default function QuizPage() {
         setUserInput('');
         setSelectedOption(null);
 
+        // Get correct answer display duration from settings (default 2 seconds)
+        const correctAnswerDuration = (globalSettings?.system?.quiz?.correctAnswerDisplayDuration ?? 2) * 1000;
+        const showCorrectAnswerEnabled = globalSettings?.system?.quiz?.showCorrectAnswerAfterQuestion ?? true;
+
+        // Calculate delay before moving to next question
+        // If answer is wrong and showing correct answer is enabled, wait for the display duration
+        const delayBeforeNext = 1000; // Base delay for feedback
+
         if (currentQuestionIndex >= questions.length - 1) {
             setTimeout(() => {
                 playSound('completion', systemSettings);
                 completeQuiz();
-            }, 1000);
+            }, delayBeforeNext);
         } else {
             setTimeout(() => {
-                nextQuestion();
-                // Auto-focus after moving to next question
-                setTimeout(() => {
-                    if (settings.questionType === 'text') {
-                        if (inputRef.current) inputRef.current.focus();
-                    }
-                }, 100);
-            }, 1000);
+                const question = useQuizStore.getState().questions[currentQuestionIndex];
+                const wasCorrect = question?.isCorrect || false;
+
+                // If answer was wrong and we're showing correct answer, add extra delay
+                if (!wasCorrect && showCorrectAnswerEnabled) {
+                    setTimeout(() => {
+                        setShowCorrectAnswer(false);
+                        nextQuestion();
+                        // Auto-focus after moving to next question
+                        setTimeout(() => {
+                            if (settings.questionType === 'text') {
+                                if (inputRef.current) inputRef.current.focus();
+                            }
+                        }, 100);
+                    }, correctAnswerDuration);
+                } else {
+                    nextQuestion();
+                    // Auto-focus after moving to next question
+                    setTimeout(() => {
+                        if (settings.questionType === 'text') {
+                            if (inputRef.current) inputRef.current.focus();
+                        }
+                    }, 100);
+                }
+            }, delayBeforeNext);
         }
     };
 
@@ -441,6 +502,20 @@ export default function QuizPage() {
                                 {showHint && (
                                     <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 rounded text-yellow-900 dark:text-yellow-100 text-sm">{hintContent}</div>
                                 )}
+
+                                {/* Show correct answer after wrong answer */}
+                                {showCorrectAnswer && (
+                                    <div className="mt-4 p-4 bg-green-50 dark:bg-green-900/20 border-2 border-green-500 dark:border-green-600 rounded-lg animate-pulse">
+                                        <div className="text-center">
+                                            <div className="text-lg font-bold text-green-700 dark:text-green-300 mb-2">
+                                                ✓ Correct Answer:
+                                            </div>
+                                            <div className="text-2xl font-extrabold text-green-800 dark:text-green-200">
+                                                {currentQuestion.answer}
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                             {/* Answer Input */}
                             <div className={`mb-8 ${getBlockingOverlayClasses(isUserInteractionBlocked)}`}>
@@ -462,7 +537,7 @@ export default function QuizPage() {
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                         {(currentQuestion.options ?? []).map((option, idx) => (
                                             <button
-                                                key={option}
+                                                key={`${option}-${idx}`}
                                                 className={`w-full p-4 text-xl rounded-xl border-2 font-bold ${selectedOption === idx ? 'bg-blue-500 text-white' : 'bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200'} border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400`}
                                                 onClick={() => setSelectedOption(idx)}
                                             >

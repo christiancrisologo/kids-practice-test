@@ -23,11 +23,18 @@ export interface StorageSettings {
   maxHistoryRecords: number;
 }
 
+export interface QuizSettings {
+  showCountdownAfterQuizStart: boolean;
+  showCorrectAnswerAfterQuestion: boolean;
+  correctAnswerDisplayDuration: number; // Duration in seconds
+}
+
 export interface SystemSettings {
   theme: ThemeSettings;
   supabase: SupabaseSettings;
   storage: StorageSettings;
   hint: HintSettings;
+  quiz: QuizSettings;
 }
 
 export interface ChallengeSettings {

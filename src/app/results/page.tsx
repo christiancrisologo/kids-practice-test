@@ -283,7 +283,7 @@ export default function ResultsPage() {
                         <div className={`space-y-3 ${isMobile ? 'max-h-64' : 'max-h-96'} overflow-y-auto`}>
                             {questions.map((question, index) => (
                                 <div
-                                    key={question.id}
+                                    key={`${question.id}-${index}`}
                                     className={`rounded-lg border-2 ${question.isCorrect
                                         ? 'border-green-300 dark:border-green-600 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20'
                                         : 'border-red-300 dark:border-red-600 bg-gradient-to-r from-red-50 to-pink-50 dark:from-red-900/20 dark:to-pink-900/20'
@@ -359,7 +359,7 @@ export default function ResultsPage() {
                             <div className={`grid gap-3 ${isMobile ? 'grid-cols-1' : 'grid-cols-2'}`}>
                                 {achievements.map((achievement, index) => (
                                     <div
-                                        key={achievement.id}
+                                        key={`${achievement.id}-${index}`}
                                         className={`bg-gradient-to-r from-yellow-100 to-orange-100 dark:from-yellow-900/30 dark:to-orange-900/30 rounded-lg p-3 text-center border-2 border-yellow-300 dark:border-yellow-600 ${animationClasses.bounceGentle(systemSettings)}`}
                                         style={{ animationDelay: `${index * 0.2}s` }}
                                     >
