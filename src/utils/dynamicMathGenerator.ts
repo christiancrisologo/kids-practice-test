@@ -8,6 +8,7 @@ export interface MathQuestionTemplate {
   level: string;
   hint: string;
   topic: string;
+  options?: string[]; // Optional predefined options for MCQ
 }
 
 export interface GeneratedMathQuestion {
@@ -19,6 +20,7 @@ export interface GeneratedMathQuestion {
   hint: string;
   topic: string;
   variables: Record<string, number>;
+  options?: string[]; // Optional predefined options from template
 }
 
 /**
@@ -179,7 +181,8 @@ export function generateMathQuestion(
       level: template.level,
       hint: template.hint,
       topic: template.topic,
-      variables: {}
+      variables: {},
+      options: template.options // Pass through predefined options if available
     };
   }
 
@@ -211,7 +214,8 @@ export function generateMathQuestion(
     level: template.level,
     hint,
     topic: template.topic,
-    variables: values
+    variables: values,
+    options: template.options // Pass through predefined options if available
   };
 }
 

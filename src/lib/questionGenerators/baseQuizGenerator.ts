@@ -24,10 +24,37 @@ export abstract class BaseQuestionGenerator implements QuestionGenerator {
    * Generate questions from templates
    */
   protected generateFromTemplates(options: QuestionGeneratorOptions): Question[] {
-    const { count, difficulty, questionType, answerFormat } = options;
+    const { count, difficulty, questionType, answerFormat, topics } = options;
     const questions: Question[] = [];
 
-    // Map questionType to topic string
+    // If topics are specified, generate questions for each topic
+    if (topics && topics.length > 0) {
+      console.log(`[${this.subject}Gen] Generating questions for specific topics:`, topics);
+
+      const questionsPerTopic = Math.ceil(count / topics.length);
+      const answerType = answerFormat === AnswerFormat.MCQ ? 'mcq' : 'text';
+
+      topics.forEach(topicName => {
+        const templates = getRandomTemplates(
+          this.subject,
+          questionsPerTopic,
+          difficulty,
+          topicName,
+          answerType
+        );
+
+        templates.forEach((template, index) => {
+          const question = this.createQuestionFromTemplate(template, answerFormat, index);
+          questions.push(question);
+        });
+      });
+
+      // Shuffle and limit to requested count
+      const shuffled = questions.sort(() => Math.random() - 0.5);
+      return shuffled.slice(0, count);
+    }
+
+    // Original behavior: use questionType to determine topic
     const topic = this.mapQuestionTypeToTopic(questionType);
     const answerType = answerFormat === AnswerFormat.MCQ ? 'mcq' : 'text';
 

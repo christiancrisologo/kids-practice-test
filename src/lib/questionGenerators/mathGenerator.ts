@@ -34,14 +34,23 @@ export class MathQuestionGenerator implements QuestionGenerator {
   }
 
   private generateFromJSON(options: QuestionGeneratorOptions): Question[] {
-    const { count, difficulty, answerFormat } = options;
+    const { count, difficulty, answerFormat, topics } = options;
     const questions: Question[] = [];
 
     // Get all templates from JSON
     const allTemplates = getMathTemplates();
 
     // Filter by difficulty
-    const filteredTemplates = filterTemplates(difficulty);
+    let filteredTemplates = filterTemplates(difficulty);
+
+    // Filter by topics if specified
+    if (topics && topics.length > 0) {
+      console.log('[MathGen] Filtering by topics:', topics);
+      filteredTemplates = filteredTemplates.filter(t =>
+        t && t.topic && topics.includes(t.topic)
+      );
+      console.log('[MathGen] Templates after topic filter:', filteredTemplates.length);
+    }
 
     // Further filter by answertype property in templates if present
     const desiredAnswerType = answerFormat === AnswerFormat.MCQ ? 'mcq' : 'text';
@@ -117,13 +126,18 @@ export class MathQuestionGenerator implements QuestionGenerator {
       }
 
       // Convert to MathQuestion format
+      // Format answer: only show decimals if the computed answer has decimals
+      const formattedAnswer = typeof generated.answer === 'number'
+        ? this.formatNumber(generated.answer)
+        : generated.answer.toString();
+
       const mathQuestion: MathQuestion = {
         id: `math-dynamic-${Date.now()}-${Math.random()}`,
         subject: Subject.MATH,
         questionType: this.mapTopicToQuestionType(generated.topic),
         answerFormat,
         question: generated.question,
-        answer: typeof generated.answer === 'number' ? generated.answer.toFixed(2) : generated.answer.toString(),
+        answer: formattedAnswer,
         difficulty: difficulty as 'easy' | 'medium' | 'hard',
         hint: generated.hint,
         topic: generated.topic,
@@ -134,16 +148,23 @@ export class MathQuestionGenerator implements QuestionGenerator {
 
       // Add multiple choice options if needed
       if (answerFormat === AnswerFormat.MCQ) {
-        // Convert answer to number if possible, otherwise use text-based options
-        const answerNum = typeof generated.answer === 'number'
-          ? generated.answer
-          : parseFloat(generated.answer);
-
-        if (!isNaN(answerNum)) {
-          mathQuestion.options = this.generateOptions(answerNum, 4);
+        // Check if template has predefined options (e.g., for algebra questions)
+        if (generated.options && generated.options.length > 0) {
+          // Use predefined options from template
+          mathQuestion.options = generated.options;
         } else {
-          // For text-based answers, create simple options with the correct answer
-          mathQuestion.options = this.generateTextOptions(generated.answer.toString(), 4);
+          // Generate options dynamically
+          // Convert answer to number if possible, otherwise use text-based options
+          const answerNum = typeof generated.answer === 'number'
+            ? generated.answer
+            : parseFloat(generated.answer);
+
+          if (!isNaN(answerNum)) {
+            mathQuestion.options = this.generateOptions(answerNum, 4);
+          } else {
+            // For text-based answers, create simple options with the correct answer
+            mathQuestion.options = this.generateTextOptions(generated.answer.toString(), 4);
+          }
         }
       }
 
@@ -178,6 +199,8 @@ export class MathQuestionGenerator implements QuestionGenerator {
         return MathQuestionType.ALGEBRAIC;
       case 'conversion':
         return MathQuestionType.MULTIPLICATION;
+      case 'algebra':
+        return MathQuestionType.ALGEBRA;
       default:
         return MathQuestionType.ADDITION;
     }
@@ -216,7 +239,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.ADDITION,
       answerFormat,
       question: `${a} + ${b} = ?`,
-      answer: answer.toFixed(2),
+      answer: this.formatNumber(answer),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [a, b],
       operator: '+'
@@ -244,7 +267,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.SUBTRACTION,
       answerFormat,
       question: `${a} - ${b} = ?`,
-      answer: answer.toFixed(2),
+      answer: this.formatNumber(answer),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [a, b],
       operator: '-'
@@ -272,7 +295,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.MULTIPLICATION,
       answerFormat,
       question: `${a} × ${b} = ?`,
-      answer: answer.toFixed(2),
+      answer: this.formatNumber(answer),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [a, b],
       operator: '×'
@@ -300,7 +323,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.DIVISION,
       answerFormat,
       question: `${dividend} ÷ ${divisor} = ?`,
-      answer: quotient.toFixed(2),
+      answer: this.formatNumber(quotient),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [dividend, divisor],
       operator: '÷'
@@ -320,7 +343,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
     const range = this.getRange(difficulty);
     const numerator = this.randomInt(1, range.max);
     const denominator = this.randomInt(2, 10);
-    const answer = (numerator / denominator).toFixed(2);
+    const answer = this.formatNumber(numerator / denominator);
 
     const base: MathQuestion = {
       id: `math-frac-${Date.now()}-${Math.random()}`,
@@ -357,7 +380,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       questionType: MathQuestionType.ALGEBRAIC,
       answerFormat,
       question: `If ${coefficient}x + ${constant} = ${result}, what is x?`,
-      answer: x.toFixed(2),
+      answer: this.formatNumber(x),
       difficulty: difficulty as 'easy' | 'medium' | 'hard',
       operands: [coefficient, constant, result],
       operator: 'algebraic'
@@ -418,8 +441,18 @@ export class MathQuestionGenerator implements QuestionGenerator {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
+  /**
+   * Format a number for display: whole numbers stay whole, decimals get 2 decimal places
+   */
+  private formatNumber(num: number): string {
+    if (Number.isInteger(num)) {
+      return num.toString();
+    }
+    return num.toFixed(2);
+  }
+
   private generateOptions(correctAnswer: number, count: number): string[] {
-    const options = new Set<string>([correctAnswer.toFixed(2)]);
+    const options = new Set<string>([this.formatNumber(correctAnswer)]);
 
     console.log('[MathGen] generateOptions start', { correctAnswer, count, options });
 
@@ -428,7 +461,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
       if (offset !== 0) {
         const wrongAnswer = correctAnswer + offset;
         if (wrongAnswer !== correctAnswer) {
-          options.add(wrongAnswer.toFixed(2));
+          options.add(this.formatNumber(wrongAnswer));
         }
       }
     }
@@ -442,9 +475,9 @@ export class MathQuestionGenerator implements QuestionGenerator {
     const options = new Set<string>([]);
     const correctNum = parseFloat(correctAnswer);
 
-    // If the correct answer is a number, generate numeric options formatted to 2 decimals
+    // If the correct answer is a number, generate numeric options
     if (!isNaN(correctNum)) {
-      options.add(correctNum.toFixed(2));
+      options.add(this.formatNumber(correctNum));
       while (options.size < count) {
         const offset = this.randomInt(-5, 5);
         console.log('[MathGen] generateTextOptions offset', offset);
@@ -452,7 +485,7 @@ export class MathQuestionGenerator implements QuestionGenerator {
           const wrongAnswer = correctNum + offset;
           console.log('[MathGen] generateTextOptions wrongAnswer', wrongAnswer);
           if (wrongAnswer > 0) {
-            options.add(wrongAnswer.toFixed(2));
+            options.add(this.formatNumber(wrongAnswer));
           }
         }
       }
@@ -466,13 +499,13 @@ export class MathQuestionGenerator implements QuestionGenerator {
   }
 
   private generateDecimalOptions(correctAnswer: number, count: number): string[] {
-    const options = new Set<string>([correctAnswer.toFixed(2)]);
+    const options = new Set<string>([this.formatNumber(correctAnswer)]);
 
     while (options.size < count) {
       const offset = (Math.random() - 0.5) * 2;
       const wrongAnswer = correctAnswer + offset;
       if (wrongAnswer > 0) {
-        options.add(wrongAnswer.toFixed(2));
+        options.add(this.formatNumber(wrongAnswer));
       }
     }
 

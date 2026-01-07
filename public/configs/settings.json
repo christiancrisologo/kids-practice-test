@@ -55,6 +55,11 @@
                     "name": "time",
                     "label": "Time",
                     "description": "Time questions"
+                },
+                {
+                    "name": "algebra",
+                    "label": "Algebra",
+                    "description": "Algebra questions"
                 }
             ]
         },
@@ -460,7 +465,7 @@
             "overallTimerEnabled": false,
             "overallTimerDuration": 30000,
             "subjects": {
-                "math": ["basic", "conversion", "currency", "geometry", "time"],
+                "math": ["basic", "conversion", "currency", "geometry", "time", "algebra"],
                 "english": ["vocabulary", "grammar", "synonyms", "antonyms", "sentence_completion"],
                 "science": ["general", "biology", "chemistry", "physics", "earth_space"],
                 "history": ["australia_history", "world_history", "aborginal_people"]
@@ -485,7 +490,7 @@
             "overallTimerEnabled": false,
             "overallTimerDuration": 60000,
             "subjects": {
-                "math": ["basic", "conversion", "currency", "geometry", "time"],
+                "math": ["basic", "conversion", "currency", "geometry", "time", "algebra"],
                 "english": ["vocabulary", "grammar", "synonyms", "antonyms", "sentence_completion"],
                 "science": ["general", "biology", "chemistry", "physics", "earth_space"],
                 "history": ["australia_history", "world_history", "aborginal_people"]

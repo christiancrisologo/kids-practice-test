@@ -35,7 +35,7 @@ interface QuizConfigProps {
 }
 
 // Math question types from math.json
-const MATH_QUESTION_TYPES = ['basic', 'conversion', 'currency', 'geometry', 'time'];
+const MATH_QUESTION_TYPES = ['basic', 'conversion', 'currency', 'geometry', 'time', 'algebra'];
 
 export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConfigProps) {
   const isMobile = useIsMobile();
@@ -407,6 +407,7 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                     if (lowerName === 'currency') return '💰';
                     if (lowerName === 'geometry') return '🔳';
                     if (lowerName === 'time') return '⏰';
+                    if (lowerName === 'algebra') return '🧮';
                     // English icons
                     if (lowerName === 'vocabulary') return '📖';
                     if (lowerName === 'grammar') return '✍️';
