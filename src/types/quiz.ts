@@ -13,7 +13,8 @@ export enum MathQuestionType {
   MULTIPLICATION = 'multiplication',
   DIVISION = 'division',
   FRACTIONS = 'fractions',
-  ALGEBRAIC = 'algebraic'
+  ALGEBRAIC = 'algebraic',
+  ALGEBRA = 'algebra'
 }
 
 export enum ScienceQuestionType {
@@ -81,7 +82,7 @@ export interface MathQuestion extends BaseQuestion {
   operator?: string;
   showWork?: boolean;
   hint?: string;
-  type?: string;
+  topic?: string;
   level?: string;
   formula?: string;
   variables?: Record<string, number>;
@@ -134,6 +135,7 @@ export interface QuestionGeneratorOptions {
   difficulty: 'easy' | 'medium' | 'hard';
   questionType: SubjectQuestionType;
   answerFormat: AnswerFormat;
+  topics?: string[]; // Optional array of topics to filter by (e.g., ['basic', 'algebra'])
 }
 
 export interface QuestionGenerator {

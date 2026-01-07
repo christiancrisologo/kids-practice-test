@@ -38,16 +38,22 @@ export default function SelectPage() {
     // Generate questions
     const generator = getQuestionGenerator(config.subject);
     const allQuestions: Question[] = [];
-    const questionsPerType = Math.ceil(config.numberOfQuestions / config.questionTypes.length);
 
-    config.questionTypes.forEach(type => {
-      const typeQuestions = generator.generate({
-        count: questionsPerType,
+    // config.questionTypes contains the selected topics (e.g., ['basic', 'algebra', 'geometry'])
+    const selectedTopics = config.questionTypes;
+    const questionsPerTopic = Math.ceil(config.numberOfQuestions / selectedTopics.length);
+
+    // Generate questions for each selected topic
+    selectedTopics.forEach(topic => {
+      const topicQuestions = generator.generate({
+        count: questionsPerTopic,
         difficulty: config.difficulty,
-        questionType: type as SubjectQuestionType,
-        answerFormat: config.answerFormat
-      });
-      allQuestions.push(...typeQuestions);
+        questionType: topic as SubjectQuestionType,
+        answerFormat: config.answerFormat,
+        topics: [topic] // Pass the topic filter to the generator
+      } as any);
+
+      allQuestions.push(...topicQuestions);
     });
 
     // Shuffle and limit to requested number

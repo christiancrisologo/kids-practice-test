@@ -78,14 +78,14 @@ function generateQuestion(template) {
   const question = replaceVariables(template.question, values);
   const answer = evaluateFormula(template.formula, values);
   const hint = replaceVariables(template.hint, values);
-  
+
   return {
     question,
     answer,
     hint,
     variables,
     difficulty: template.difficulty,
-    type: template.type,
+    topic: template.topic,
     level: template.level
   };
 }
@@ -103,13 +103,13 @@ const byDifficulty = mathData.reduce((acc, t) => {
   return acc;
 }, {});
 
-const byType = mathData.reduce((acc, t) => {
-  acc[t.type] = (acc[t.type] || 0) + 1;
+const byTopic = mathData.reduce((acc, t) => {
+  acc[t.topic] = (acc[t.topic] || 0) + 1;
   return acc;
 }, {});
 
 console.log(`By difficulty:`, byDifficulty);
-console.log(`By type:`, byType);
+console.log(`By topic:`, byTopic);
 
 // Generate sample questions
 console.log('\n' + '='.repeat(60));
@@ -122,9 +122,9 @@ difficulties.forEach(difficulty => {
   if (templates.length > 0) {
     const template = templates[Math.floor(Math.random() * templates.length)];
     const generated = generateQuestion(template);
-    
+
     console.log(`\n${difficulty.toUpperCase()} Question:`);
-    console.log(`  Type: ${generated.type}`);
+    console.log(`  Topic: ${generated.topic}`);
     console.log(`  Level: ${generated.level}`);
     console.log(`  Question: ${generated.question}`);
     console.log(`  Answer: ${generated.answer}`);
