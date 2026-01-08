@@ -2,4001 +2,4915 @@
   {
     "question": "Which word is a synonym for 'happy'?",
     "answer": "joyful",
-    "options": ["sad", "angry", "joyful", "tired"],
+    "options": [
+      "sad",
+      "angry",
+      "joyful",
+      "tired"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a word that means feeling great pleasure.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'brave'?",
     "answer": "cowardly",
-    "options": ["strong", "cowardly", "fearless", "smart"],
+    "options": [
+      "strong",
+      "cowardly",
+      "fearless",
+      "smart"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "It is the opposite of having courage.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word best completes this sentence: 'The cat ___ on the mat yesterday'?",
     "answer": "sat",
-    "options": ["sit", "sits", "sat", "sitting"],
+    "options": [
+      "sit",
+      "sits",
+      "sat",
+      "sitting"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The sentence is in the past tense.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the word that means 'to look at something closely'.",
     "answer": "examine",
-    "options": ["ignore", "examine", "blink", "hide"],
+    "options": [
+      "ignore",
+      "examine",
+      "blink",
+      "hide"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Detectives do this to clues.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The sky was clear, so we could see the ____.'",
     "answer": "stars",
-    "options": ["rain", "stars", "mud", "thunder"],
+    "options": [
+      "rain",
+      "stars",
+      "mud",
+      "thunder"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "What do you see at night when there are no clouds?",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'large'?",
     "answer": "huge",
-    "options": ["tiny", "huge", "narrow", "short"],
+    "options": [
+      "tiny",
+      "huge",
+      "narrow",
+      "short"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of something very big.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the noun in this sentence: 'The blue bird sang loudly.'",
     "answer": "bird",
-    "options": ["blue", "bird", "sang", "loudly"],
+    "options": [
+      "blue",
+      "bird",
+      "sang",
+      "loudly"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A noun is a person, place, or thing.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'difficult'?",
     "answer": "easy",
-    "options": ["hard", "easy", "rough", "simple"],
+    "options": [
+      "hard",
+      "easy",
+      "rough",
+      "simple"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "When something is not hard to do, it is...",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word describes someone who tells the truth?",
     "answer": "honest",
-    "options": ["greedy", "honest", "sneaky", "lazy"],
+    "options": [
+      "greedy",
+      "honest",
+      "sneaky",
+      "lazy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "This is a positive character trait.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I forgot to bring my ____ to school, so I couldn't take notes.'",
     "answer": "pen",
-    "options": ["lunch", "shoes", "pen", "hat"],
+    "options": [
+      "lunch",
+      "shoes",
+      "pen",
+      "hat"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "You use this tool for writing.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'fast'?",
     "answer": "quick",
-    "options": ["slow", "quick", "heavy", "steady"],
+    "options": [
+      "slow",
+      "quick",
+      "heavy",
+      "steady"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Another word for rapid movement.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the correct verb: 'They ____ going to the park.'",
     "answer": "are",
-    "options": ["is", "am", "are", "was"],
+    "options": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'They' is a plural pronoun.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'noisy'?",
     "answer": "quiet",
-    "options": ["loud", "quiet", "busy", "wild"],
+    "options": [
+      "loud",
+      "quiet",
+      "busy",
+      "wild"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a library environment.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to start'?",
     "answer": "begin",
-    "options": ["finish", "begin", "stop", "pause"],
+    "options": [
+      "finish",
+      "begin",
+      "stop",
+      "pause"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The opposite of 'end'.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'She felt ____ after winning the first place prize.'",
     "answer": "proud",
-    "options": ["proud", "upset", "scared", "bored"],
+    "options": [
+      "proud",
+      "upset",
+      "scared",
+      "bored"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "How do you feel when you achieve something great?",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'angry'?",
     "answer": "furious",
-    "options": ["calm", "furious", "happy", "sleepy"],
+    "options": [
+      "calm",
+      "furious",
+      "happy",
+      "sleepy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Very, very mad.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which of these is an adjective?",
     "answer": "beautiful",
-    "options": ["run", "beautiful", "quickly", "table"],
+    "options": [
+      "run",
+      "beautiful",
+      "quickly",
+      "table"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Adjectives describe nouns.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'hot'?",
     "answer": "cold",
-    "options": ["warm", "boiling", "cold", "sunny"],
+    "options": [
+      "warm",
+      "boiling",
+      "cold",
+      "sunny"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of ice.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word refers to a person who writes books?",
     "answer": "author",
-    "options": ["painter", "author", "pilot", "chef"],
+    "options": [
+      "painter",
+      "author",
+      "pilot",
+      "chef"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Someone who creates stories in print.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The sun ____ in the east.'",
     "answer": "rises",
-    "options": ["falls", "rises", "sets", "runs"],
+    "options": [
+      "falls",
+      "rises",
+      "sets",
+      "runs"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "What the sun does every morning.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'smart'?",
     "answer": "intelligent",
-    "options": ["dumb", "intelligent", "lazy", "funny"],
+    "options": [
+      "dumb",
+      "intelligent",
+      "lazy",
+      "funny"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Someone who learns quickly.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the plural form of 'child'.",
     "answer": "children",
-    "options": ["childs", "childrens", "childes", "children"],
+    "options": [
+      "childs",
+      "childrens",
+      "childes",
+      "children"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "This is an irregular plural.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'early'?",
     "answer": "late",
-    "options": ["soon", "late", "first", "fast"],
+    "options": [
+      "soon",
+      "late",
+      "first",
+      "fast"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The opposite of being on time or ahead of time.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a very tall building'?",
     "answer": "skyscraper",
-    "options": ["cottage", "skyscraper", "tent", "shed"],
+    "options": [
+      "cottage",
+      "skyscraper",
+      "tent",
+      "shed"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "You see these in big cities like New York.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'He was so ____ that he ate three sandwiches.'",
     "answer": "hungry",
-    "options": ["thirsty", "tired", "hungry", "sad"],
+    "options": [
+      "thirsty",
+      "tired",
+      "hungry",
+      "sad"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A feeling you get when you need food.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'small'?",
     "answer": "tiny",
-    "options": ["huge", "tiny", "wide", "long"],
+    "options": [
+      "huge",
+      "tiny",
+      "wide",
+      "long"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Something that is little.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the verb in this sentence: 'The dog barked at the mailman.'",
     "answer": "barked",
-    "options": ["dog", "barked", "mailman", "at"],
+    "options": [
+      "dog",
+      "barked",
+      "mailman",
+      "at"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A verb is an action word.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'wet'?",
     "answer": "dry",
-    "options": ["damp", "dry", "soaked", "watery"],
+    "options": [
+      "damp",
+      "dry",
+      "soaked",
+      "watery"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a desert.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'the person in charge of a school'?",
     "answer": "principal",
-    "options": ["student", "janitor", "principal", "librarian"],
+    "options": [
+      "student",
+      "janitor",
+      "principal",
+      "librarian"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The head of the school staff.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Please turn off the ____ before you go to sleep.'",
     "answer": "lights",
-    "options": ["bed", "lights", "pillow", "floor"],
+    "options": [
+      "bed",
+      "lights",
+      "pillow",
+      "floor"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "You do this to make the room dark.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'scared'?",
     "answer": "frightened",
-    "options": ["brave", "frightened", "calm", "happy"],
+    "options": [
+      "brave",
+      "frightened",
+      "calm",
+      "happy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "How you feel during a scary movie.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is an adverb?",
     "answer": "slowly",
-    "options": ["slowly", "table", "green", "jump"],
+    "options": [
+      "slowly",
+      "table",
+      "green",
+      "jump"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Adverbs often end in '-ly'.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'strong'?",
     "answer": "weak",
-    "options": ["tough", "weak", "powerless", "heavy"],
+    "options": [
+      "tough",
+      "weak",
+      "powerless",
+      "heavy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Lacking physical power.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a period of 100 years'?",
     "answer": "century",
-    "options": ["decade", "century", "week", "month"],
+    "options": [
+      "decade",
+      "century",
+      "week",
+      "month"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Ten decades make one of these.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The flowers need ____ to grow.'",
     "answer": "water",
-    "options": ["sand", "water", "paint", "rocks"],
+    "options": [
+      "sand",
+      "water",
+      "paint",
+      "rocks"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Plants get thirsty too.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'simple'?",
     "answer": "easy",
-    "options": ["hard", "easy", "complex", "messy"],
+    "options": [
+      "hard",
+      "easy",
+      "complex",
+      "messy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Not complicated.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the correct pronoun: 'Mary is my friend; ___ is very kind.'",
     "answer": "she",
-    "options": ["he", "she", "it", "they"],
+    "options": [
+      "he",
+      "she",
+      "it",
+      "they"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Use a pronoun for a female person.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'expensive'?",
     "answer": "cheap",
-    "options": ["costly", "cheap", "fancy", "new"],
+    "options": [
+      "costly",
+      "cheap",
+      "fancy",
+      "new"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Costs very little money.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'not having any mistakes'?",
     "answer": "perfect",
-    "options": ["wrong", "perfect", "messy", "broken"],
+    "options": [
+      "wrong",
+      "perfect",
+      "messy",
+      "broken"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A score of 100/100 is this.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Birds use their ____ to fly.'",
     "answer": "wings",
-    "options": ["feet", "beaks", "wings", "tails"],
+    "options": [
+      "feet",
+      "beaks",
+      "wings",
+      "tails"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The body part used for flight.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'unhappy'?",
     "answer": "sad",
-    "options": ["glad", "sad", "angry", "surprised"],
+    "options": [
+      "glad",
+      "sad",
+      "angry",
+      "surprised"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Feeling low or sorrowful.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What punctuation mark is used at the end of a question?",
     "answer": "question mark",
-    "options": ["comma", "period", "question mark", "exclamation point"],
+    "options": [
+      "comma",
+      "period",
+      "question mark",
+      "exclamation point"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "It looks like a hook with a dot.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'old'?",
     "answer": "new",
-    "options": ["ancient", "new", "used", "heavy"],
+    "options": [
+      "ancient",
+      "new",
+      "used",
+      "heavy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Fresh from the store.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'the science of plants'?",
     "answer": "botany",
-    "options": ["biology", "botany", "zoology", "physics"],
+    "options": [
+      "biology",
+      "botany",
+      "zoology",
+      "physics"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "It starts with the letter 'B'.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'My brother is taller ____ me.'",
     "answer": "than",
-    "options": ["then", "than", "that", "from"],
+    "options": [
+      "then",
+      "than",
+      "that",
+      "from"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Used when making a comparison.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'gift'?",
     "answer": "present",
-    "options": ["box", "present", "card", "toy"],
+    "options": [
+      "box",
+      "present",
+      "card",
+      "toy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "You get these on your birthday.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a proper noun?",
     "answer": "London",
-    "options": ["city", "building", "London", "street"],
+    "options": [
+      "city",
+      "building",
+      "London",
+      "street"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Proper nouns name specific places and start with a capital letter.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'fast'?",
     "answer": "slow",
-    "options": ["quick", "slow", "heavy", "stuck"],
+    "options": [
+      "quick",
+      "slow",
+      "heavy",
+      "stuck"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Like a turtle or a snail.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to journey to a place'?",
     "answer": "travel",
-    "options": ["stay", "travel", "sleep", "wait"],
+    "options": [
+      "stay",
+      "travel",
+      "sleep",
+      "wait"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Going on a vacation.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I am so ____ that I could sleep for ten hours.'",
     "answer": "tired",
-    "options": ["excited", "tired", "happy", "hungry"],
+    "options": [
+      "excited",
+      "tired",
+      "happy",
+      "hungry"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "How you feel at the end of a long day.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'neat'?",
     "answer": "tidy",
-    "options": ["messy", "tidy", "dirty", "old"],
+    "options": [
+      "messy",
+      "tidy",
+      "dirty",
+      "old"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Everything is in its place.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the conjunction: 'I like apples and oranges.'",
     "answer": "and",
-    "options": ["I", "apples", "and", "oranges"],
+    "options": [
+      "I",
+      "apples",
+      "and",
+      "oranges"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Conjunctions connect words or phrases.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'empty'?",
     "answer": "full",
-    "options": ["blank", "full", "clear", "heavy"],
+    "options": [
+      "blank",
+      "full",
+      "clear",
+      "heavy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A glass with plenty of water.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a person who treats sick people'?",
     "answer": "doctor",
-    "options": ["teacher", "doctor", "builder", "driver"],
+    "options": [
+      "teacher",
+      "doctor",
+      "builder",
+      "driver"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "You visit them at a hospital.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Wash your hands ____ you eat.'",
     "answer": "before",
-    "options": ["after", "before", "while", "during"],
+    "options": [
+      "after",
+      "before",
+      "while",
+      "during"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A rule for good hygiene.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'speak'?",
     "answer": "talk",
-    "options": ["listen", "talk", "run", "write"],
+    "options": [
+      "listen",
+      "talk",
+      "run",
+      "write"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "To communicate with your voice.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a preposition?",
     "answer": "under",
-    "options": ["under", "jump", "blue", "house"],
+    "options": [
+      "under",
+      "jump",
+      "blue",
+      "house"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Prepositions show position.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'win'?",
     "answer": "lose",
-    "options": ["gain", "lose", "play", "find"],
+    "options": [
+      "gain",
+      "lose",
+      "play",
+      "find"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The outcome for the second team.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'very cold'?",
     "answer": "freezing",
-    "options": ["chilly", "freezing", "cool", "tepid"],
+    "options": [
+      "chilly",
+      "freezing",
+      "cool",
+      "tepid"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "What water does at 0 degrees.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The ____ is the largest land animal.'",
     "answer": "elephant",
-    "options": ["lion", "elephant", "giraffe", "horse"],
+    "options": [
+      "lion",
+      "elephant",
+      "giraffe",
+      "horse"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "It has a long trunk.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'ill'?",
     "answer": "sick",
-    "options": ["well", "sick", "fit", "strong"],
+    "options": [
+      "well",
+      "sick",
+      "fit",
+      "strong"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Not feeling healthy.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which sentence is written correctly?",
     "answer": "I have two dogs.",
-    "options": ["I have too dogs.", "I have two dogs.", "I have to dogs.", "I has two dogs."],
+    "options": [
+      "I have too dogs.",
+      "I have two dogs.",
+      "I have to dogs.",
+      "I has two dogs."
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Choose the correct spelling of the number 2.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'dark'?",
     "answer": "light",
-    "options": ["black", "heavy", "light", "dim"],
+    "options": [
+      "black",
+      "heavy",
+      "light",
+      "dim"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The opposite of night time.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a story about a person's life'?",
     "answer": "biography",
-    "options": ["biography", "dictionary", "atlas", "novel"],
+    "options": [
+      "biography",
+      "dictionary",
+      "atlas",
+      "novel"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Bio- means life.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The ____ rang at the end of the lesson.'",
     "answer": "bell",
-    "options": ["phone", "bell", "drum", "clock"],
+    "options": [
+      "phone",
+      "bell",
+      "drum",
+      "clock"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "It tells students when to move classes.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'tasty'?",
     "answer": "delicious",
-    "options": ["bitter", "sour", "delicious", "plain"],
+    "options": [
+      "bitter",
+      "sour",
+      "delicious",
+      "plain"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Food that tastes very good.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the subject in: 'The teacher wrote on the board.'",
     "answer": "teacher",
-    "options": ["teacher", "wrote", "board", "on"],
+    "options": [
+      "teacher",
+      "wrote",
+      "board",
+      "on"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The subject is who or what the sentence is about.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'true'?",
     "answer": "false",
-    "options": ["right", "false", "real", "clear"],
+    "options": [
+      "right",
+      "false",
+      "real",
+      "clear"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Like a lie or a mistake.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to protect'?",
     "answer": "defend",
-    "options": ["attack", "defend", "leave", "hurt"],
+    "options": [
+      "attack",
+      "defend",
+      "leave",
+      "hurt"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "To keep safe from harm.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'An ____ a day keeps the doctor away.'",
     "answer": "apple",
-    "options": ["orange", "apple", "banana", "egg"],
+    "options": [
+      "orange",
+      "apple",
+      "banana",
+      "egg"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A famous healthy-eating proverb.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'correct'?",
     "answer": "right",
-    "options": ["wrong", "right", "bad", "false"],
+    "options": [
+      "wrong",
+      "right",
+      "bad",
+      "false"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The opposite of incorrect.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is the verb in: 'The sun shines brightly.'",
     "answer": "shines",
-    "options": ["sun", "shines", "brightly", "the"],
+    "options": [
+      "sun",
+      "shines",
+      "brightly",
+      "the"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Look for the action.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'soft'?",
     "answer": "hard",
-    "options": ["fluffy", "hard", "smooth", "light"],
+    "options": [
+      "fluffy",
+      "hard",
+      "smooth",
+      "light"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a rock compared to a pillow.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a collection of maps'?",
     "answer": "atlas",
-    "options": ["dictionary", "atlas", "encyclopedia", "novel"],
+    "options": [
+      "dictionary",
+      "atlas",
+      "encyclopedia",
+      "novel"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A book used for geography.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'We use an ____ when it rains.'",
     "answer": "umbrella",
-    "options": ["hat", "umbrella", "coat", "fan"],
+    "options": [
+      "hat",
+      "umbrella",
+      "coat",
+      "fan"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "It keeps you dry from above.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'begin'?",
     "answer": "start",
-    "options": ["end", "stop", "start", "pause"],
+    "options": [
+      "end",
+      "stop",
+      "start",
+      "pause"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "To commence something.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the plural of 'mouse' (the animal)?",
     "answer": "mice",
-    "options": ["mouses", "mices", "mice", "mouse"],
+    "options": [
+      "mouses",
+      "mices",
+      "mice",
+      "mouse"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Another irregular plural.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'rough'?",
     "answer": "smooth",
-    "options": ["hard", "smooth", "sharp", "bumpy"],
+    "options": [
+      "hard",
+      "smooth",
+      "sharp",
+      "bumpy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of the surface of a mirror.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to happen again'?",
     "answer": "repeat",
-    "options": ["repeat", "stop", "finish", "change"],
+    "options": [
+      "repeat",
+      "stop",
+      "finish",
+      "change"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Doing something a second time.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Honey is made by ____.'",
     "answer": "bees",
-    "options": ["ants", "bees", "flies", "spiders"],
+    "options": [
+      "ants",
+      "bees",
+      "flies",
+      "spiders"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Yellow and black stinging insects.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word is a synonym for 'happy'?",
-    "answer": "joyful",
-    "options": ["sad", "angry", "joyful", "tired"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think of a word that describes feeling great pleasure.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'brave'?",
-    "answer": "cowardly",
-    "options": ["strong", "cowardly", "fearless", "smart"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It is the opposite of having courage.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word best completes this sentence: 'The cat ___ on the mat yesterday'?",
-    "answer": "sat",
-    "options": ["sit", "sits", "sat", "sitting"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The sentence is in the past tense.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Choose the word that means 'to look at something closely'.",
-    "answer": "examine",
-    "options": ["ignore", "examine", "blink", "hide"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Detectives do this to clues.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'The sky was clear, so we could see the ____.'",
-    "answer": "stars",
-    "options": ["rain", "stars", "mud", "thunder"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "What do you see at night when there are no clouds?",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'large'?",
-    "answer": "huge",
-    "options": ["tiny", "huge", "narrow", "short"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think of something very big.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Identify the noun in this sentence: 'The blue bird sang loudly.'",
-    "answer": "bird",
-    "options": ["blue", "bird", "sang", "loudly"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "A noun is a person, place, or thing.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'difficult'?",
-    "answer": "easy",
-    "options": ["hard", "easy", "rough", "simple"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "When something is not hard to do, it is...",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word describes someone who tells the truth?",
-    "answer": "honest",
-    "options": ["greedy", "honest", "sneaky", "lazy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "This is a positive character trait.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I forgot my ____ at school, so I couldn't take notes.'",
     "answer": "pen",
-    "options": ["lunch", "shoes", "pen", "hat"],
+    "options": [
+      "lunch",
+      "shoes",
+      "pen",
+      "hat"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "You use this tool for writing.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'fast'?",
-    "answer": "quick",
-    "options": ["slow", "quick", "heavy", "steady"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Another word for rapid movement.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Choose the correct verb: 'They ____ going to the park.'",
-    "answer": "are",
-    "options": ["is", "am", "are", "was"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "'They' is a plural pronoun.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'noisy'?",
-    "answer": "quiet",
-    "options": ["loud", "quiet", "busy", "wild"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think of a library environment.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'to start'?",
-    "answer": "begin",
-    "options": ["finish", "begin", "stop", "pause"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The opposite of 'end'.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'She felt ____ after winning the first place prize.'",
-    "answer": "proud",
-    "options": ["proud", "upset", "scared", "bored"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "How do you feel when you achieve something great?",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'angry'?",
-    "answer": "furious",
-    "options": ["calm", "furious", "happy", "sleepy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Very, very mad.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which of these is an adjective?",
-    "answer": "beautiful",
-    "options": ["run", "beautiful", "quickly", "table"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Adjectives describe nouns.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'hot'?",
-    "answer": "cold",
-    "options": ["warm", "boiling", "cold", "sunny"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think of ice.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word refers to a person who writes books?",
-    "answer": "author",
-    "options": ["painter", "author", "pilot", "chef"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Someone who creates stories in print.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'The sun ____ in the east.'",
-    "answer": "rises",
-    "options": ["falls", "rises", "sets", "runs"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "What the sun does every morning.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'smart'?",
-    "answer": "intelligent",
-    "options": ["dumb", "intelligent", "lazy", "funny"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Someone who learns quickly.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Choose the plural form of 'child'.",
-    "answer": "children",
-    "options": ["childs", "childrens", "childes", "children"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "This is an irregular plural.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'early'?",
-    "answer": "late",
-    "options": ["soon", "late", "first", "fast"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The opposite of being on time or ahead of time.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'a very tall building'?",
-    "answer": "skyscraper",
-    "options": ["cottage", "skyscraper", "tent", "shed"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "You see these in big cities.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'He was so ____ that he ate three sandwiches.'",
-    "answer": "hungry",
-    "options": ["thirsty", "tired", "hungry", "sad"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "A feeling you get when you need food.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'small'?",
-    "answer": "tiny",
-    "options": ["huge", "tiny", "wide", "long"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Something that is little.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Identify the verb in this sentence: 'The dog barked at the mailman.'",
-    "answer": "barked",
-    "options": ["dog", "barked", "mailman", "at"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "A verb is an action word.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'wet'?",
-    "answer": "dry",
-    "options": ["damp", "dry", "soaked", "watery"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think of a desert.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'the person in charge of a school'?",
-    "answer": "principal",
-    "options": ["student", "janitor", "principal", "librarian"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The head of the school staff.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'Please turn off the ____ before you go to sleep.'",
-    "answer": "lights",
-    "options": ["bed", "lights", "pillow", "floor"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "You do this to make the room dark.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'scared'?",
-    "answer": "frightened",
-    "options": ["brave", "frightened", "calm", "happy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "How you feel during a scary movie.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word is an adverb?",
-    "answer": "slowly",
-    "options": ["slowly", "table", "green", "jump"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Adverbs often end in '-ly'.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'strong'?",
-    "answer": "weak",
-    "options": ["tough", "weak", "powerless", "heavy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Lacking physical power.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'a period of 100 years'?",
-    "answer": "century",
-    "options": ["decade", "century", "week", "month"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Ten decades make one of these.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'The flowers need ____ to grow.'",
-    "answer": "water",
-    "options": ["sand", "water", "paint", "rocks"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Plants get thirsty too.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'simple'?",
-    "answer": "easy",
-    "options": ["hard", "easy", "complex", "messy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Not complicated.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Choose the correct pronoun: 'Mary is my friend; ___ is very kind.'",
-    "answer": "she",
-    "options": ["he", "she", "it", "they"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Use a pronoun for a female person.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'expensive'?",
-    "answer": "cheap",
-    "options": ["costly", "cheap", "fancy", "new"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Costs very little money.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'not having any mistakes'?",
-    "answer": "perfect",
-    "options": ["wrong", "perfect", "messy", "broken"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "A score of 100/100 is this.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'Birds use their ____ to fly.'",
-    "answer": "wings",
-    "options": ["feet", "beaks", "wings", "tails"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The body part used for flight.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'unhappy'?",
-    "answer": "sad",
-    "options": ["glad", "sad", "angry", "surprised"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Feeling low or sorrowful.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What punctuation mark is used at the end of a question?",
-    "answer": "question mark",
-    "options": ["comma", "period", "question mark", "exclamation point"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It looks like a hook with a dot.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'old'?",
-    "answer": "new",
-    "options": ["ancient", "new", "used", "heavy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Fresh from the store.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'the science of plants'?",
-    "answer": "botany",
-    "options": ["biology", "botany", "zoology", "physics"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It starts with the letter 'B'.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'My brother is taller ____ me.'",
-    "answer": "than",
-    "options": ["then", "than", "that", "from"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Used when making a comparison.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'gift'?",
-    "answer": "present",
-    "options": ["box", "present", "card", "toy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "You get these on your birthday.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word is a proper noun?",
-    "answer": "London",
-    "options": ["city", "building", "London", "street"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Proper nouns name specific places and start with a capital letter.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'fast'?",
-    "answer": "slow",
-    "options": ["quick", "slow", "heavy", "stuck"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Like a turtle or a snail.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'to journey to a place'?",
-    "answer": "travel",
-    "options": ["stay", "travel", "sleep", "wait"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Going on a vacation.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'I am so ____ that I could sleep for ten hours.'",
-    "answer": "tired",
-    "options": ["excited", "tired", "happy", "hungry"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "How you feel at the end of a long day.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'neat'?",
-    "answer": "tidy",
-    "options": ["messy", "tidy", "dirty", "old"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Everything is in its place.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Identify the conjunction: 'I like apples and oranges.'",
-    "answer": "and",
-    "options": ["I", "apples", "and", "oranges"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Conjunctions connect words or phrases.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'empty'?",
-    "answer": "full",
-    "options": ["blank", "full", "clear", "heavy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "A glass with plenty of water.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'a person who treats sick people'?",
-    "answer": "doctor",
-    "options": ["teacher", "doctor", "builder", "driver"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "You visit them at a hospital.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'Wash your hands ____ you eat.'",
-    "answer": "before",
-    "options": ["after", "before", "while", "during"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "A rule for good hygiene.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'speak'?",
-    "answer": "talk",
-    "options": ["listen", "talk", "run", "write"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "To communicate with your voice.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word is a preposition?",
-    "answer": "under",
-    "options": ["under", "jump", "blue", "house"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Prepositions show position.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'win'?",
-    "answer": "lose",
-    "options": ["gain", "lose", "play", "find"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The outcome for the second team.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'very cold'?",
-    "answer": "freezing",
-    "options": ["chilly", "freezing", "cool", "tepid"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "What water does at 0 degrees.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'The ____ is the largest land animal.'",
-    "answer": "elephant",
-    "options": ["lion", "elephant", "giraffe", "horse"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It has a long trunk.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'ill'?",
-    "answer": "sick",
-    "options": ["well", "sick", "fit", "strong"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Not feeling healthy.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which sentence is written correctly?",
-    "answer": "I have two dogs.",
-    "options": ["I have too dogs.", "I have two dogs.", "I have to dogs.", "I has two dogs."],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Choose the correct spelling of the number 2.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'dark'?",
-    "answer": "light",
-    "options": ["black", "heavy", "light", "dim"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The opposite of night time.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'a story about a person's life'?",
-    "answer": "biography",
-    "options": ["biography", "dictionary", "atlas", "novel"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Bio- means life.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'The ____ rang at the end of the lesson.'",
-    "answer": "bell",
-    "options": ["phone", "bell", "drum", "clock"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It tells students when to move classes.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'tasty'?",
-    "answer": "delicious",
-    "options": ["bitter", "sour", "delicious", "plain"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Food that tastes very good.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Identify the subject in: 'The teacher wrote on the board.'",
-    "answer": "teacher",
-    "options": ["teacher", "wrote", "board", "on"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The subject is who or what the sentence is about.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'true'?",
-    "answer": "false",
-    "options": ["right", "false", "real", "clear"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Like a lie or a mistake.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'to protect'?",
-    "answer": "defend",
-    "options": ["attack", "defend", "leave", "hurt"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "To keep safe from harm.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'An ____ a day keeps the doctor away.'",
-    "answer": "apple",
-    "options": ["orange", "apple", "banana", "egg"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "A famous healthy-eating proverb.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'correct'?",
-    "answer": "right",
-    "options": ["wrong", "right", "bad", "false"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "The opposite of incorrect.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word is the verb in: 'The sun shines brightly.'",
-    "answer": "shines",
-    "options": ["sun", "shines", "brightly", "the"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Look for the action.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'soft'?",
-    "answer": "hard",
-    "options": ["fluffy", "hard", "smooth", "light"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think of a rock compared to a pillow.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'a collection of maps'?",
-    "answer": "atlas",
-    "options": ["dictionary", "atlas", "encyclopedia", "novel"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "A book used for geography.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'We use an ____ when it rains.'",
-    "answer": "umbrella",
-    "options": ["hat", "umbrella", "coat", "fan"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It keeps you dry from above.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'begin'?",
-    "answer": "start",
-    "options": ["end", "stop", "start", "pause"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "To commence something.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the plural of 'mouse' (the animal)?",
-    "answer": "mice",
-    "options": ["mouses", "mices", "mice", "mouse"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Another irregular plural.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'rough'?",
-    "answer": "smooth",
-    "options": ["hard", "smooth", "sharp", "bumpy"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think of the surface of a mirror.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'to happen again'?",
-    "answer": "repeat",
-    "options": ["repeat", "stop", "finish", "change"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Doing something a second time.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'Honey is made by ____.'",
-    "answer": "bees",
-    "options": ["ants", "bees", "flies", "spiders"],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Yellow and black stinging insects.",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a synonym for 'small'?",
     "answer": "little",
-    "options": ["big", "little", "fast", "blue"],
+    "options": [
+      "big",
+      "little",
+      "fast",
+      "blue"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of a word that describes a tiny kitten.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'up'?",
     "answer": "down",
-    "options": ["left", "right", "down", "high"],
+    "options": [
+      "left",
+      "right",
+      "down",
+      "high"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "The opposite of going towards the sky.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The dog ____ at the cat.'",
     "answer": "barked",
-    "options": ["barked", "sang", "flew", "ate"],
+    "options": [
+      "barked",
+      "sang",
+      "flew",
+      "ate"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "What noise does a dog make?",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a noun (a thing)?",
     "answer": "apple",
-    "options": ["run", "apple", "happy", "quickly"],
+    "options": [
+      "run",
+      "apple",
+      "happy",
+      "quickly"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is something you can eat.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means a place where you go to learn?",
     "answer": "school",
-    "options": ["park", "store", "school", "beach"],
+    "options": [
+      "park",
+      "store",
+      "school",
+      "beach"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You go there every Monday to Friday.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'glad'?",
     "answer": "happy",
-    "options": ["sad", "mad", "happy", "tired"],
+    "options": [
+      "sad",
+      "mad",
+      "happy",
+      "tired"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "How do you feel when you get a gift?",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'hot'?",
-    "answer": "cold",
-    "options": ["warm", "cold", "sunny", "burning"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Think of an ice cube.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the correct word: 'I ____ a red balloon.'",
     "answer": "have",
-    "options": ["has", "have", "is", "am"],
+    "options": [
+      "has",
+      "have",
+      "is",
+      "am"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Use the word that goes with 'I'.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I wear a ____ on my head.'",
     "answer": "hat",
-    "options": ["shoe", "glove", "hat", "sock"],
+    "options": [
+      "shoe",
+      "glove",
+      "hat",
+      "sock"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "This keeps the sun off your face.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What does the word 'huge' mean?",
     "answer": "very big",
-    "options": ["very small", "very big", "very fast", "very old"],
+    "options": [
+      "very small",
+      "very big",
+      "very fast",
+      "very old"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Think of an elephant.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'fast'?",
-    "answer": "quick",
-    "options": ["slow", "quick", "heavy", "sleepy"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "A rabbit is very ____.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'dry'?",
     "answer": "wet",
-    "options": ["dusty", "wet", "hot", "hard"],
+    "options": [
+      "dusty",
+      "wet",
+      "hot",
+      "hard"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "How you feel after a bath.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the verb (action word): 'The boy jumps high.'",
     "answer": "jumps",
-    "options": ["boy", "high", "jumps", "the"],
+    "options": [
+      "boy",
+      "high",
+      "jumps",
+      "the"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Which word is something you do?",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The sun is very ____.'",
     "answer": "bright",
-    "options": ["dark", "cold", "bright", "blue"],
+    "options": [
+      "dark",
+      "cold",
+      "bright",
+      "blue"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It makes you squint your eyes.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'the day after today'?",
     "answer": "tomorrow",
-    "options": ["yesterday", "today", "tomorrow", "tonight"],
+    "options": [
+      "yesterday",
+      "today",
+      "tomorrow",
+      "tonight"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It hasn't happened yet, but it's next.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'quiet'?",
     "answer": "silent",
-    "options": ["loud", "noisy", "silent", "rough"],
+    "options": [
+      "loud",
+      "noisy",
+      "silent",
+      "rough"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "No sound at all.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'sad'?",
     "answer": "happy",
-    "options": ["unhappy", "angry", "happy", "sleepy"],
+    "options": [
+      "unhappy",
+      "angry",
+      "happy",
+      "sleepy"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "The opposite of crying.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which of these should start with a capital letter?",
     "answer": "monday",
-    "options": ["monday", "apple", "jump", "green"],
+    "options": [
+      "monday",
+      "apple",
+      "jump",
+      "green"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Days of the week are special names.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Fish swim in the ____.'",
     "answer": "water",
-    "options": ["grass", "water", "sky", "tree"],
+    "options": [
+      "grass",
+      "water",
+      "sky",
+      "tree"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Where do fish live?",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a fruit?",
     "answer": "banana",
-    "options": ["carrot", "banana", "potato", "bread"],
+    "options": [
+      "carrot",
+      "banana",
+      "potato",
+      "bread"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is yellow and long.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'begin'?",
-    "answer": "start",
-    "options": ["end", "stop", "start", "wait"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "To do something for the first time.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'clean'?",
     "answer": "dirty",
-    "options": ["tidy", "dirty", "shiny", "neat"],
+    "options": [
+      "tidy",
+      "dirty",
+      "shiny",
+      "neat"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "If you play in the mud, you get...",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the plural word (more than one):",
     "answer": "cats",
-    "options": ["cat", "cats", "boy", "dog"],
+    "options": [
+      "cat",
+      "cats",
+      "boy",
+      "dog"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Look for the 's' at the end.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I use a ____ to eat my soup.'",
     "answer": "spoon",
-    "options": ["fork", "knife", "spoon", "plate"],
+    "options": [
+      "fork",
+      "knife",
+      "spoon",
+      "plate"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A round tool for liquid food.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a very tall hill'?",
     "answer": "mountain",
-    "options": ["valley", "mountain", "river", "forest"],
+    "options": [
+      "valley",
+      "mountain",
+      "river",
+      "forest"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It can have snow on top.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'scared'?",
     "answer": "afraid",
-    "options": ["brave", "happy", "afraid", "bored"],
+    "options": [
+      "brave",
+      "happy",
+      "afraid",
+      "bored"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "How you feel in the dark.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'fast'?",
-    "answer": "slow",
-    "options": ["quick", "fast", "slow", "high"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Like a snail.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the adjective (describing word): 'The red car.'",
     "answer": "red",
-    "options": ["the", "red", "car", "is"],
+    "options": [
+      "the",
+      "red",
+      "car",
+      "is"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Which word tells us the color?",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The bird flew to its ____.'",
     "answer": "nest",
-    "options": ["cave", "house", "nest", "ocean"],
+    "options": [
+      "cave",
+      "house",
+      "nest",
+      "ocean"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A bird's home made of twigs.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to move through water'?",
     "answer": "swim",
-    "options": ["fly", "run", "swim", "jump"],
+    "options": [
+      "fly",
+      "run",
+      "swim",
+      "jump"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Dolphins do this.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'neat'?",
-    "answer": "tidy",
-    "options": ["messy", "tidy", "dirty", "old"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "When your room is organized.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'hard'?",
     "answer": "soft",
-    "options": ["rock", "solid", "soft", "heavy"],
+    "options": [
+      "rock",
+      "solid",
+      "soft",
+      "heavy"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Like a pillow or a teddy bear.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the correct word: 'The birds ____ singing.'",
     "answer": "are",
-    "options": ["is", "are", "am", "was"],
+    "options": [
+      "is",
+      "are",
+      "am",
+      "was"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Use the plural word for more than one bird.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I write with a ____.'",
     "answer": "pencil",
-    "options": ["book", "eraser", "pencil", "ruler"],
+    "options": [
+      "book",
+      "eraser",
+      "pencil",
+      "ruler"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You sharpen it when it gets dull.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'someone who flies a plane'?",
     "answer": "pilot",
-    "options": ["driver", "pilot", "doctor", "chef"],
+    "options": [
+      "driver",
+      "pilot",
+      "doctor",
+      "chef"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "They work in a cockpit.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'look'?",
     "answer": "watch",
-    "options": ["listen", "watch", "hear", "smell"],
+    "options": [
+      "listen",
+      "watch",
+      "hear",
+      "smell"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "To use your eyes.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'early'?",
-    "answer": "late",
-    "options": ["soon", "now", "late", "first"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "If you miss the bus, you are...",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which is a proper noun (specific name)?",
     "answer": "London",
-    "options": ["city", "country", "London", "street"],
+    "options": [
+      "city",
+      "country",
+      "London",
+      "street"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It starts with a capital letter.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'A ____ has four legs and barks.'",
     "answer": "dog",
-    "options": ["cat", "bird", "dog", "fish"],
+    "options": [
+      "cat",
+      "bird",
+      "dog",
+      "fish"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A common pet.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'very tasty'?",
     "answer": "delicious",
-    "options": ["yucky", "cold", "delicious", "hard"],
+    "options": [
+      "yucky",
+      "cold",
+      "delicious",
+      "hard"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "How your favorite cake tastes.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'end'?",
     "answer": "finish",
-    "options": ["start", "begin", "finish", "open"],
+    "options": [
+      "start",
+      "begin",
+      "finish",
+      "open"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "When the race is over.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'strong'?",
-    "answer": "weak",
-    "options": ["heavy", "weak", "brave", "big"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Someone who cannot lift heavy things.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a pronoun?",
     "answer": "she",
-    "options": ["apple", "she", "red", "jump"],
+    "options": [
+      "apple",
+      "she",
+      "red",
+      "jump"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A word used instead of a girl's name.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The moon shines at ____.'",
     "answer": "night",
-    "options": ["morning", "afternoon", "night", "noon"],
+    "options": [
+      "morning",
+      "afternoon",
+      "night",
+      "noon"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "When it is dark outside.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a story book'?",
     "answer": "novel",
-    "options": ["novel", "paper", "pen", "desk"],
+    "options": [
+      "novel",
+      "paper",
+      "pen",
+      "desk"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You read this for fun.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'tiny'?",
     "answer": "small",
-    "options": ["huge", "small", "wide", "tall"],
+    "options": [
+      "huge",
+      "small",
+      "wide",
+      "tall"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Very, very little.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'near'?",
     "answer": "far",
-    "options": ["close", "far", "here", "next"],
+    "options": [
+      "close",
+      "far",
+      "here",
+      "next"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A long way away.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which sentence is correct?",
     "answer": "I am eight years old.",
-    "options": ["I am eight years old.", "I are eight years old.", "I is eight years old.", "Me am eight years old."],
+    "options": [
+      "I am eight years old.",
+      "I are eight years old.",
+      "I is eight years old.",
+      "Me am eight years old."
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Use 'am' with 'I'.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I use an ____ when it rains.'",
     "answer": "umbrella",
-    "options": ["umbrella", "hat", "coat", "bag"],
+    "options": [
+      "umbrella",
+      "hat",
+      "coat",
+      "bag"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It keeps you dry.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a person who helps sick animals'?",
     "answer": "vet",
-    "options": ["doctor", "vet", "nurse", "teacher"],
+    "options": [
+      "doctor",
+      "vet",
+      "nurse",
+      "teacher"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Short for veterinarian.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'smart'?",
     "answer": "clever",
-    "options": ["slow", "clever", "silly", "sad"],
+    "options": [
+      "slow",
+      "clever",
+      "silly",
+      "sad"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Someone who knows a lot.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'empty'?",
-    "answer": "full",
-    "options": ["blank", "clear", "full", "heavy"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "A glass with lots of milk in it.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which of these is a preposition?",
     "answer": "under",
-    "options": ["under", "run", "blue", "boy"],
+    "options": [
+      "under",
+      "run",
+      "blue",
+      "boy"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It tells you where something is.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The cat ____ the mouse.'",
     "answer": "chased",
-    "options": ["sang", "chased", "talked", "flew"],
+    "options": [
+      "sang",
+      "chased",
+      "talked",
+      "flew"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Running after something.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a season?",
     "answer": "winter",
-    "options": ["monday", "winter", "january", "morning"],
+    "options": [
+      "monday",
+      "winter",
+      "january",
+      "morning"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "The coldest time of the year.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'toss'?",
     "answer": "throw",
-    "options": ["catch", "throw", "keep", "find"],
+    "options": [
+      "catch",
+      "throw",
+      "keep",
+      "find"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "To send something through the air.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'loud'?",
     "answer": "quiet",
-    "options": ["noisy", "quiet", "big", "fast"],
+    "options": [
+      "noisy",
+      "quiet",
+      "big",
+      "fast"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Inside a library, it is...",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is the subject: 'The teacher smiled.'",
     "answer": "teacher",
-    "options": ["teacher", "smiled", "the", "at"],
+    "options": [
+      "teacher",
+      "smiled",
+      "the",
+      "at"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Who is the sentence about?",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I brush my ____ every morning.'",
     "answer": "teeth",
-    "options": ["feet", "teeth", "hands", "ears"],
+    "options": [
+      "feet",
+      "teeth",
+      "hands",
+      "ears"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You use a toothbrush for this.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a baby cat'?",
     "answer": "kitten",
-    "options": ["puppy", "kitten", "cub", "chick"],
+    "options": [
+      "puppy",
+      "kitten",
+      "cub",
+      "chick"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It says 'meow'.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'speak'?",
-    "answer": "talk",
-    "options": ["hear", "listen", "talk", "run"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "To use words.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'heavy'?",
     "answer": "light",
-    "options": ["big", "light", "hard", "small"],
+    "options": [
+      "big",
+      "light",
+      "hard",
+      "small"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A feather is very ____.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the correct past tense: 'Yesterday, I ____ to the park.'",
     "answer": "went",
-    "options": ["go", "goes", "went", "going"],
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "going"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Something that already happened.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Bees make ____.'",
     "answer": "honey",
-    "options": ["milk", "honey", "water", "juice"],
+    "options": [
+      "milk",
+      "honey",
+      "water",
+      "juice"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A sweet, sticky food.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a very large boat'?",
     "answer": "ship",
-    "options": ["ship", "car", "plane", "bike"],
+    "options": [
+      "ship",
+      "car",
+      "plane",
+      "bike"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It sails on the ocean.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'stuck'?",
     "answer": "trapped",
-    "options": ["free", "trapped", "fast", "lost"],
+    "options": [
+      "free",
+      "trapped",
+      "fast",
+      "lost"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "When you cannot move.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'new'?",
     "answer": "old",
-    "options": ["fresh", "old", "new", "shiny"],
+    "options": [
+      "fresh",
+      "old",
+      "new",
+      "shiny"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Something that has been used for a long time.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the conjunction: 'I like apples and bananas.'",
     "answer": "and",
-    "options": ["I", "apples", "and", "bananas"],
+    "options": [
+      "I",
+      "apples",
+      "and",
+      "bananas"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A word that joins two things together.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'A spider has eight ____.'",
     "answer": "legs",
-    "options": ["eyes", "wings", "legs", "arms"],
+    "options": [
+      "eyes",
+      "wings",
+      "legs",
+      "arms"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It uses them to walk on its web.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'the person who lives next door'?",
     "answer": "neighbor",
-    "options": ["teacher", "neighbor", "doctor", "cousin"],
+    "options": [
+      "teacher",
+      "neighbor",
+      "doctor",
+      "cousin"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "They live in the house beside yours.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'unhappy'?",
-    "answer": "sad",
-    "options": ["glad", "sad", "angry", "tired"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Not feeling good.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'dark'?",
-    "answer": "light",
-    "options": ["black", "heavy", "light", "dim"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "When the sun comes out.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word should have a capital letter?",
     "answer": "sunday",
-    "options": ["desk", "sunday", "pencil", "paper"],
+    "options": [
+      "desk",
+      "sunday",
+      "pencil",
+      "paper"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A day of the week.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The grass is ____.'",
     "answer": "green",
-    "options": ["blue", "green", "red", "purple"],
+    "options": [
+      "blue",
+      "green",
+      "red",
+      "purple"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "The usual color of plants.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to listen to music'?",
     "answer": "hear",
-    "options": ["hear", "see", "smell", "taste"],
+    "options": [
+      "hear",
+      "see",
+      "smell",
+      "taste"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You use your ears.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'trip'?",
     "answer": "fall",
-    "options": ["run", "jump", "fall", "skip"],
+    "options": [
+      "run",
+      "jump",
+      "fall",
+      "skip"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "To lose your balance.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'laugh'?",
     "answer": "cry",
-    "options": ["smile", "giggle", "cry", "shout"],
+    "options": [
+      "smile",
+      "giggle",
+      "cry",
+      "shout"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "What you do when you are very sad.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the right word: 'He ____ a book.'",
     "answer": "reads",
-    "options": ["read", "reads", "reading", "are"],
+    "options": [
+      "read",
+      "reads",
+      "reading",
+      "are"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Use the word that goes with 'he'.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I like to eat ____ with my cereal.'",
     "answer": "milk",
-    "options": ["water", "juice", "milk", "tea"],
+    "options": [
+      "water",
+      "juice",
+      "milk",
+      "tea"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A white drink from cows.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is an animal?",
     "answer": "zebra",
-    "options": ["table", "zebra", "shirt", "spoon"],
+    "options": [
+      "table",
+      "zebra",
+      "shirt",
+      "spoon"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It has black and white stripes.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word is a synonym for 'small'?",
-    "answer": "little",
-    "options": ["big", "little", "fast", "blue"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Think of a word that describes a tiny kitten.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'up'?",
-    "answer": "down",
-    "options": ["left", "right", "down", "high"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "The opposite of going towards the sky.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Complete the sentence: 'The dog ____ at the cat.'",
-    "answer": "barked",
-    "options": ["barked", "sang", "flew", "ate"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "What noise does a dog make?",
-    "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a noun (a person, place, or thing)?",
     "answer": "apple",
-    "options": ["run", "apple", "happy", "quickly"],
+    "options": [
+      "run",
+      "apple",
+      "happy",
+      "quickly"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is something you can eat.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means a place where you go to learn?",
-    "answer": "school",
-    "options": ["park", "store", "school", "beach"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "You go there every Monday to Friday.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'glad'?",
-    "answer": "happy",
-    "options": ["sad", "mad", "happy", "tired"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "How do you feel when you get a gift?",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'hot'?",
-    "answer": "cold",
-    "options": ["warm", "cold", "sunny", "burning"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Think of an ice cube.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Choose the correct word: 'I ____ a red balloon.'",
-    "answer": "have",
-    "options": ["has", "have", "is", "am"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Use the word that goes with 'I'.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I wear a ____ on my head to stay warm.'",
     "answer": "hat",
-    "options": ["shoe", "glove", "hat", "sock"],
+    "options": [
+      "shoe",
+      "glove",
+      "hat",
+      "sock"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "This keeps the sun or cold off your head.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What does the word 'huge' mean?",
-    "answer": "very big",
-    "options": ["very small", "very big", "very fast", "very old"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Think of an elephant or a giant.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'fast'?",
-    "answer": "quick",
-    "options": ["slow", "quick", "heavy", "sleepy"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "A rabbit is very ____.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'dry'?",
-    "answer": "wet",
-    "options": ["dusty", "wet", "hot", "hard"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "How you feel after jumping in a pool.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Identify the verb (action word): 'The boy jumps high.'",
-    "answer": "jumps",
-    "options": ["boy", "high", "jumps", "the"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Which word is something you can do?",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The sun is very ____ today.'",
     "answer": "bright",
-    "options": ["dark", "cold", "bright", "blue"],
+    "options": [
+      "dark",
+      "cold",
+      "bright",
+      "blue"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It makes you squint your eyes.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'the day after today'?",
-    "answer": "tomorrow",
-    "options": ["yesterday", "today", "tomorrow", "tonight"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "It hasn't happened yet, but it's the next day.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'quiet'?",
-    "answer": "silent",
-    "options": ["loud", "noisy", "silent", "rough"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "When there is no sound at all.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'sad'?",
-    "answer": "happy",
-    "options": ["unhappy", "angry", "happy", "sleepy"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "The opposite of feeling down.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which of these should always start with a capital letter?",
     "answer": "Monday",
-    "options": ["Monday", "apple", "jump", "green"],
+    "options": [
+      "Monday",
+      "apple",
+      "jump",
+      "green"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Days of the week are special names.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Fish like to swim in the ____.'",
     "answer": "water",
-    "options": ["grass", "water", "sky", "tree"],
+    "options": [
+      "grass",
+      "water",
+      "sky",
+      "tree"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Where do fish live?",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a yellow fruit?",
     "answer": "banana",
-    "options": ["carrot", "banana", "potato", "bread"],
+    "options": [
+      "carrot",
+      "banana",
+      "potato",
+      "bread"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Monkeys love to eat this.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'begin'?",
-    "answer": "start",
-    "options": ["end", "stop", "start", "wait"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "To do something for the first time.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'clean'?",
-    "answer": "dirty",
-    "options": ["tidy", "dirty", "shiny", "neat"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "If you play in the mud, your clothes get...",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the plural word (meaning more than one):",
     "answer": "cats",
-    "options": ["cat", "cats", "boy", "dog"],
+    "options": [
+      "cat",
+      "cats",
+      "boy",
+      "dog"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Look for the letter 's' at the end.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I use a ____ to eat my cereal.'",
     "answer": "spoon",
-    "options": ["fork", "knife", "spoon", "plate"],
+    "options": [
+      "fork",
+      "knife",
+      "spoon",
+      "plate"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A round tool for scooping food.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a very tall landform'?",
     "answer": "mountain",
-    "options": ["valley", "mountain", "river", "forest"],
+    "options": [
+      "valley",
+      "mountain",
+      "river",
+      "forest"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is much higher than a hill.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'scared'?",
-    "answer": "afraid",
-    "options": ["brave", "happy", "afraid", "bored"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "How you feel when you see a big spider.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'fast'?",
-    "answer": "slow",
-    "options": ["quick", "fast", "slow", "high"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Turtles move this way.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the adjective (describing word): 'The blue bird.'",
     "answer": "blue",
-    "options": ["the", "blue", "bird", "flew"],
+    "options": [
+      "the",
+      "blue",
+      "bird",
+      "flew"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Which word tells us the color?",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The bird built a ____ in the tree.'",
     "answer": "nest",
-    "options": ["cave", "house", "nest", "ocean"],
+    "options": [
+      "cave",
+      "house",
+      "nest",
+      "ocean"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A bird's home made of twigs.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to move through water using your body'?",
     "answer": "swim",
-    "options": ["fly", "run", "swim", "jump"],
+    "options": [
+      "fly",
+      "run",
+      "swim",
+      "jump"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You do this at the pool.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'neat'?",
-    "answer": "tidy",
-    "options": ["messy", "tidy", "dirty", "old"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "When your toys are put away properly.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'hard'?",
-    "answer": "soft",
-    "options": ["rock", "solid", "soft", "heavy"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "A pillow is very ____.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the correct word: 'The children ____ playing.'",
     "answer": "are",
-    "options": ["is", "are", "am", "was"],
+    "options": [
+      "is",
+      "are",
+      "am",
+      "was"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Children is plural (more than one).",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I used a ____ to draw a picture.'",
     "answer": "pencil",
-    "options": ["book", "eraser", "pencil", "ruler"],
+    "options": [
+      "book",
+      "eraser",
+      "pencil",
+      "ruler"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It has lead inside that makes marks.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'someone who flies an airplane'?",
     "answer": "pilot",
-    "options": ["driver", "pilot", "doctor", "chef"],
+    "options": [
+      "driver",
+      "pilot",
+      "doctor",
+      "chef"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "They work high in the sky.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'look'?",
-    "answer": "watch",
-    "options": ["listen", "watch", "hear", "smell"],
-    "difficulty": "easy",
-    "primary": "primary",
-    "hint": "To use your eyes to see something.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'early'?",
-    "answer": "late",
-    "options": ["soon", "now", "late", "first"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "If you arrive after the start time, you are...",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which is a proper noun (a special name)?",
     "answer": "London",
-    "options": ["city", "country", "London", "street"],
+    "options": [
+      "city",
+      "country",
+      "London",
+      "street"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is the name of a specific city.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'A ____ is a pet that says meow.'",
     "answer": "cat",
-    "options": ["cat", "bird", "dog", "fish"],
+    "options": [
+      "cat",
+      "bird",
+      "dog",
+      "fish"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It loves to chase mice.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'tasting very good'?",
     "answer": "delicious",
-    "options": ["yucky", "cold", "delicious", "hard"],
+    "options": [
+      "yucky",
+      "cold",
+      "delicious",
+      "hard"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Another word for yummy.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'end'?",
-    "answer": "finish",
-    "options": ["start", "begin", "finish", "open"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "When something is completed.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'strong'?",
-    "answer": "weak",
-    "options": ["heavy", "weak", "brave", "big"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Lacking physical power.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word is a pronoun?",
-    "answer": "she",
-    "options": ["apple", "she", "red", "jump"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "A word used instead of a name.",
-    "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Stars shine in the sky at ____.'",
     "answer": "night",
-    "options": ["morning", "afternoon", "night", "noon"],
+    "options": [
+      "morning",
+      "afternoon",
+      "night",
+      "noon"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "When the sun goes down.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a book of maps'?",
     "answer": "atlas",
-    "options": ["atlas", "dictionary", "novel", "desk"],
+    "options": [
+      "atlas",
+      "dictionary",
+      "novel",
+      "desk"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You use it to find countries.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'tiny'?",
-    "answer": "small",
-    "options": ["huge", "small", "wide", "tall"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "The opposite of large.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'near'?",
-    "answer": "far",
-    "options": ["close", "far", "here", "next"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Not close at all.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which sentence is written correctly?",
     "answer": "I am eight years old.",
-    "options": ["I am eight years old.", "I are eight years old.", "I is eight years old.", "Me am eight years old."],
+    "options": [
+      "I am eight years old.",
+      "I are eight years old.",
+      "I is eight years old.",
+      "Me am eight years old."
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Remember to use 'am' with 'I'.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'It is raining, so I need my ____.'",
     "answer": "umbrella",
-    "options": ["umbrella", "hat", "coat", "bag"],
+    "options": [
+      "umbrella",
+      "hat",
+      "coat",
+      "bag"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It opens up to keep you dry.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'a person who helps sick animals'?",
-    "answer": "vet",
-    "options": ["doctor", "vet", "nurse", "teacher"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Short for veterinarian.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'smart'?",
-    "answer": "clever",
-    "options": ["slow", "clever", "silly", "sad"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Someone who learns quickly.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'empty'?",
-    "answer": "full",
-    "options": ["blank", "clear", "full", "heavy"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "When something cannot hold any more.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a preposition (tells us where)?",
     "answer": "under",
-    "options": ["under", "run", "blue", "boy"],
+    "options": [
+      "under",
+      "run",
+      "blue",
+      "boy"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "The cat is ____ the table.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The hunter ____ the rabbit.'",
     "answer": "chased",
-    "options": ["sang", "chased", "talked", "flew"],
+    "options": [
+      "sang",
+      "chased",
+      "talked",
+      "flew"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "To run after something.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a cold season?",
     "answer": "winter",
-    "options": ["Monday", "winter", "January", "morning"],
+    "options": [
+      "Monday",
+      "winter",
+      "January",
+      "morning"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Snow often falls during this time.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'toss'?",
-    "answer": "throw",
-    "options": ["catch", "throw", "keep", "find"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "To send something through the air with your hand.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'loud'?",
-    "answer": "quiet",
-    "options": ["noisy", "quiet", "big", "fast"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Think of a library or a whisper.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is the subject: 'The teacher laughed.'",
     "answer": "teacher",
-    "options": ["teacher", "laughed", "the", "happily"],
+    "options": [
+      "teacher",
+      "laughed",
+      "the",
+      "happily"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "The subject is who did the action.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'I used a toothbrush to clean my ____.'",
     "answer": "teeth",
-    "options": ["feet", "teeth", "hands", "ears"],
+    "options": [
+      "feet",
+      "teeth",
+      "hands",
+      "ears"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You should do this twice a day.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "Which word means 'a baby cat'?",
-    "answer": "kitten",
-    "options": ["puppy", "kitten", "cub", "chick"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "It is small and furry.",
-    "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'speak'?",
-    "answer": "talk",
-    "options": ["hear", "listen", "talk", "run"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "To communicate with your voice.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'heavy'?",
-    "answer": "light",
-    "options": ["big", "light", "hard", "small"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "A feather is easy to lift because it is ____.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the right past tense: 'Yesterday, she ____ a song.'",
     "answer": "sang",
-    "options": ["sing", "sings", "sang", "singing"],
+    "options": [
+      "sing",
+      "sings",
+      "sang",
+      "singing"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It happened in the past.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Bees make sweet ____.'",
     "answer": "honey",
-    "options": ["milk", "honey", "water", "juice"],
+    "options": [
+      "milk",
+      "honey",
+      "water",
+      "juice"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is sticky and comes from a hive.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a large boat that sails on the ocean'?",
     "answer": "ship",
-    "options": ["ship", "car", "plane", "bike"],
+    "options": [
+      "ship",
+      "car",
+      "plane",
+      "bike"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is much bigger than a rowboat.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'unwell'?",
     "answer": "sick",
-    "options": ["happy", "sick", "strong", "fast"],
+    "options": [
+      "happy",
+      "sick",
+      "strong",
+      "fast"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "When you have a cold.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is the antonym of 'new'?",
-    "answer": "old",
-    "options": ["fresh", "old", "new", "shiny"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Something that has been around for many years.",
-    "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the conjunction: 'I like cake but I like pie too.'",
     "answer": "but",
-    "options": ["I", "cake", "but", "pie"],
+    "options": [
+      "I",
+      "cake",
+      "but",
+      "pie"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "A word that connects two thoughts.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'An octopus has eight ____.'",
     "answer": "arms",
-    "options": ["legs", "wings", "arms", "ears"],
+    "options": [
+      "legs",
+      "wings",
+      "arms",
+      "ears"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It uses them to swim and catch food.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'the person who lives in the house next to you'?",
     "answer": "neighbor",
-    "options": ["teacher", "neighbor", "doctor", "cousin"],
+    "options": [
+      "teacher",
+      "neighbor",
+      "doctor",
+      "cousin"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "They are the people on your street.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
-  },
-  {
-    "question": "What is a synonym for 'scared'?",
-    "answer": "frightened",
-    "options": ["brave", "frightened", "glad", "tired"],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Another word for afraid.",
-    "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'dark'?",
     "answer": "bright",
-    "options": ["black", "heavy", "bright", "dim"],
+    "options": [
+      "black",
+      "heavy",
+      "bright",
+      "dim"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "The opposite of a dark room.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a verb?",
     "answer": "run",
-    "options": ["desk", "run", "pencil", "paper"],
+    "options": [
+      "desk",
+      "run",
+      "pencil",
+      "paper"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is something you can do with your legs.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The ocean is ____.'",
     "answer": "blue",
-    "options": ["green", "yellow", "blue", "red"],
+    "options": [
+      "green",
+      "yellow",
+      "blue",
+      "red"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "The color of the deep sea.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to see something with your eyes'?",
     "answer": "look",
-    "options": ["look", "hear", "smell", "taste"],
+    "options": [
+      "look",
+      "hear",
+      "smell",
+      "taste"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "You do this when you watch a movie.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'leap'?",
     "answer": "jump",
-    "options": ["walk", "sit", "jump", "sleep"],
+    "options": [
+      "walk",
+      "sit",
+      "jump",
+      "sleep"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "To spring off the ground.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'day'?",
     "answer": "night",
-    "options": ["morning", "evening", "night", "noon"],
+    "options": [
+      "morning",
+      "evening",
+      "night",
+      "noon"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "When the sun goes away and we sleep.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the right word: 'They ____ at school.'",
     "answer": "are",
-    "options": ["is", "am", "are", "was"],
+    "options": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "Use the plural word for 'they'.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'A ____ has a long trunk and big ears.'",
     "answer": "elephant",
-    "options": ["lion", "elephant", "giraffe", "monkey"],
+    "options": [
+      "lion",
+      "elephant",
+      "giraffe",
+      "monkey"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It is the largest animal on land.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a farm animal?",
     "answer": "cow",
-    "options": ["lion", "tiger", "cow", "shark"],
+    "options": [
+      "lion",
+      "tiger",
+      "cow",
+      "shark"
+    ],
     "difficulty": "easy",
     "level": "primary",
     "hint": "It provides us with milk and says 'moo'.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a synonym for 'meticulous'?",
     "answer": "thorough",
-    "options": ["careless", "thorough", "fast", "sloppy"],
+    "options": [
+      "careless",
+      "thorough",
+      "fast",
+      "sloppy"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Think of someone who pays extreme attention to tiny details.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'benevolent'?",
     "answer": "malevolent",
-    "options": ["kind", "generous", "malevolent", "friendly"],
+    "options": [
+      "kind",
+      "generous",
+      "malevolent",
+      "friendly"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The prefix 'ben-' means good; the prefix 'mal-' means bad.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the 'subordinating conjunction' in this sentence: 'We will go to the museum unless it rains.'",
     "answer": "unless",
-    "options": ["will", "to", "unless", "rains"],
+    "options": [
+      "will",
+      "to",
+      "unless",
+      "rains"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "This word introduces a condition that could change the outcome.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the word that means 'to infer or suggest without stating directly'.",
     "answer": "imply",
-    "options": ["infer", "imply", "explain", "describe"],
+    "options": [
+      "infer",
+      "imply",
+      "explain",
+      "describe"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The speaker does this; the listener 'infers' the meaning.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The scientist's theory was so ____ that few people could understand its complexity.'",
     "answer": "abstruse",
-    "options": ["simple", "abstruse", "vivid", "redundant"],
+    "options": [
+      "simple",
+      "abstruse",
+      "vivid",
+      "redundant"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Look for a word that means difficult to understand or obscure.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a synonym for 'venerable'?",
     "answer": "respected",
-    "options": ["youthful", "respected", "dangerous", "forgotten"],
+    "options": [
+      "youthful",
+      "respected",
+      "dangerous",
+      "forgotten"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Often used to describe someone old and wise.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'fragile'?",
     "answer": "resilient",
-    "options": ["brittle", "delicate", "resilient", "broken"],
+    "options": [
+      "brittle",
+      "delicate",
+      "resilient",
+      "broken"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Think of something that can recover quickly from difficult conditions.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the 'appositive' in this sentence: 'Mr. Smith, my favorite teacher, is retiring.'",
     "answer": "my favorite teacher",
-    "options": ["Mr. Smith", "my favorite teacher", "is retiring", "teacher"],
+    "options": [
+      "Mr. Smith",
+      "my favorite teacher",
+      "is retiring",
+      "teacher"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "An appositive is a noun phrase that renames the noun next to it.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the meaning of the word 'redundant'?",
     "answer": "unnecessarily repetitive",
-    "options": ["very important", "unnecessarily repetitive", "extremely rare", "broken"],
+    "options": [
+      "very important",
+      "unnecessarily repetitive",
+      "extremely rare",
+      "broken"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Think of a 'backup' that is no longer needed.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'Due to the ____ nature of the evidence, the jury found it difficult to reach a verdict.'",
     "answer": "ambiguous",
-    "options": ["clear", "ambiguous", "truthful", "brief"],
+    "options": [
+      "clear",
+      "ambiguous",
+      "truthful",
+      "brief"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "This word describes something that has more than one possible meaning.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a synonym for 'eloquent'?",
     "answer": "articulate",
-    "options": ["silent", "confused", "articulate", "clumsy"],
+    "options": [
+      "silent",
+      "confused",
+      "articulate",
+      "clumsy"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Describes someone who speaks fluently and persuasively.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'ephemeral'?",
     "answer": "permanent",
-    "options": ["short-lived", "fading", "permanent", "quick"],
+    "options": [
+      "short-lived",
+      "fading",
+      "permanent",
+      "quick"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Ephemeral means lasting for a very short time.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Choose the correct form: 'The team, along with their coach, ____ arriving at noon.'",
     "answer": "is",
-    "options": ["are", "is", "am", "were"],
+    "options": [
+      "are",
+      "is",
+      "am",
+      "were"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The subject is 'The team' (singular), not the coach.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the definition of 'adversity'?",
     "answer": "difficulties or misfortune",
-    "options": ["success", "difficulties or misfortune", "friendship", "travel"],
+    "options": [
+      "success",
+      "difficulties or misfortune",
+      "friendship",
+      "travel"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Overcoming this makes a person stronger.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The explorer’s ____ journey took him across three continents over five years.'",
     "answer": "arduous",
-    "options": ["easy", "arduous", "brief", "pleasant"],
+    "options": [
+      "easy",
+      "arduous",
+      "brief",
+      "pleasant"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "A word for something involving great exertion or difficulty.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word is a synonym for 'pragmatic'?",
     "answer": "practical",
-    "options": ["dreamy", "practical", "idealistic", "unwise"],
+    "options": [
+      "dreamy",
+      "practical",
+      "idealistic",
+      "unwise"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Focusing on what is sensible rather than what is theoretical.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'obscure'?",
     "answer": "obvious",
-    "options": ["hidden", "vague", "obvious", "dark"],
+    "options": [
+      "hidden",
+      "vague",
+      "obvious",
+      "dark"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Obscure means not discovered or unknown.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which sentence contains a 'split infinitive'?",
     "answer": "To boldly go where no one has gone before.",
-    "options": ["To go boldly into the woods.", "To boldly go where no one has gone before.", "He wanted to go quickly.", "She tried to sing."],
+    "options": [
+      "To go boldly into the woods.",
+      "To boldly go where no one has gone before.",
+      "He wanted to go quickly.",
+      "She tried to sing."
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Look for an adverb placed between 'to' and the verb.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'to avoid work or duty'?",
     "answer": "shirk",
-    "options": ["shirk", "embrace", "delegate", "pursue"],
+    "options": [
+      "shirk",
+      "embrace",
+      "delegate",
+      "pursue"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "It rhymes with 'work'.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The lawyer's ____ argument convinced the jury of the defendant's innocence.'",
     "answer": "cogent",
-    "options": ["weak", "cogent", "lengthy", "vague"],
+    "options": [
+      "weak",
+      "cogent",
+      "lengthy",
+      "vague"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Means clear, logical, and convincing.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'fortuitous'?",
     "answer": "accidental",
-    "options": ["planned", "accidental", "unfortunate", "scary"],
+    "options": [
+      "planned",
+      "accidental",
+      "unfortunate",
+      "scary"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Something happening by lucky chance.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'diligent'?",
     "answer": "indolent",
-    "options": ["hardworking", "indolent", "careful", "active"],
+    "options": [
+      "hardworking",
+      "indolent",
+      "careful",
+      "active"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "A fancy word for lazy.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the 'mood' of the verb in: 'If I were you, I would study.'?",
     "answer": "subjunctive",
-    "options": ["indicative", "imperative", "subjunctive", "interrogative"],
+    "options": [
+      "indicative",
+      "imperative",
+      "subjunctive",
+      "interrogative"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Used for hypothetical or 'contrary to fact' situations.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word describes a story with a hidden moral or political meaning?",
     "answer": "allegory",
-    "options": ["fable", "allegory", "biography", "cliché"],
+    "options": [
+      "fable",
+      "allegory",
+      "biography",
+      "cliché"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Think of 'Animal Farm'.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The candidate’s ____ remarks during the debate damaged his reputation.'",
     "answer": "disparaging",
-    "options": ["complimentary", "disparaging", "polite", "thoughtful"],
+    "options": [
+      "complimentary",
+      "disparaging",
+      "polite",
+      "thoughtful"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "To belittle or represent as being of little worth.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'superfluous'?",
     "answer": "unnecessary",
-    "options": ["essential", "unnecessary", "large", "helpful"],
+    "options": [
+      "essential",
+      "unnecessary",
+      "large",
+      "helpful"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "More than is needed; extra.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'gregarious'?",
     "answer": "unsociable",
-    "options": ["friendly", "outgoing", "unsociable", "talkative"],
+    "options": [
+      "friendly",
+      "outgoing",
+      "unsociable",
+      "talkative"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Gregarious people love being in crowds.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which of these is an example of 'passive voice'?",
     "answer": "The window was broken by the ball.",
-    "options": ["The boy broke the window.", "The ball hit the glass.", "The window was broken by the ball.", "The window shattered."],
+    "options": [
+      "The boy broke the window.",
+      "The ball hit the glass.",
+      "The window was broken by the ball.",
+      "The window shattered."
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The subject receives the action rather than doing it.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word refers to 'the use of words to convey a meaning that is the opposite of its literal meaning'?",
     "answer": "irony",
-    "options": ["metaphor", "irony", "simile", "hyperbole"],
+    "options": [
+      "metaphor",
+      "irony",
+      "simile",
+      "hyperbole"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "A pilot who is afraid of heights is an example of this.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The ____ smell of the rotting trash filled the alleyway.'",
     "answer": "pungent",
-    "options": ["sweet", "faint", "pungent", "pleasant"],
+    "options": [
+      "sweet",
+      "faint",
+      "pungent",
+      "pleasant"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Having a sharply strong taste or smell.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'resilient'?",
     "answer": "tough",
-    "options": ["weak", "tough", "brittle", "soft"],
+    "options": [
+      "weak",
+      "tough",
+      "brittle",
+      "soft"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Able to withstand or recover quickly from difficult conditions.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'profound'?",
     "answer": "superficial",
-    "options": ["deep", "wise", "superficial", "intense"],
+    "options": [
+      "deep",
+      "wise",
+      "superficial",
+      "intense"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Profound means showing great knowledge or insight.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which part of speech is 'extremely' in the sentence: 'She ran extremely fast.'?",
     "answer": "adverb",
-    "options": ["adjective", "noun", "adverb", "preposition"],
+    "options": [
+      "adjective",
+      "noun",
+      "adverb",
+      "preposition"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "It modifies an adjective or another adverb.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What does 'precarious' mean?",
     "answer": "dangerously unstable",
-    "options": ["very safe", "dangerously unstable", "extremely expensive", "calm"],
+    "options": [
+      "very safe",
+      "dangerously unstable",
+      "extremely expensive",
+      "calm"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Think of a ladder leaning at a bad angle.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The judge was known for being ____, never showing favor to either side.'",
     "answer": "impartial",
-    "options": ["biased", "impartial", "angry", "hasty"],
+    "options": [
+      "biased",
+      "impartial",
+      "angry",
+      "hasty"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "To be fair and just.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'revere'?",
     "answer": "admire",
-    "options": ["hate", "ignore", "admire", "mock"],
+    "options": [
+      "hate",
+      "ignore",
+      "admire",
+      "mock"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "To feel deep respect or admiration for something.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'clandestine'?",
     "answer": "public",
-    "options": ["secret", "hidden", "public", "private"],
+    "options": [
+      "secret",
+      "hidden",
+      "public",
+      "private"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Clandestine means kept secret or done surreptitiously.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which sentence contains a 'correlative conjunction'?",
     "answer": "Neither the teacher nor the students were ready.",
-    "options": ["The teacher and the students were ready.", "Neither the teacher nor the students were ready.", "Because it was late, we left.", "I like tea but she likes coffee."],
+    "options": [
+      "The teacher and the students were ready.",
+      "Neither the teacher nor the students were ready.",
+      "Because it was late, we left.",
+      "I like tea but she likes coffee."
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "These conjunctions work in pairs (like 'either/or').",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is 'onomatopoeia'?",
     "answer": "words that mimic sounds",
-    "options": ["rhyming words", "words that mimic sounds", "repeated vowel sounds", "extreme exaggeration"],
+    "options": [
+      "rhyming words",
+      "words that mimic sounds",
+      "repeated vowel sounds",
+      "extreme exaggeration"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Words like 'buzz', 'hiss', or 'bang'.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'After the marathon, the runner felt ____, having used every ounce of energy.'",
     "answer": "depleted",
-    "options": ["energized", "depleted", "cheerful", "relaxed"],
+    "options": [
+      "energized",
+      "depleted",
+      "cheerful",
+      "relaxed"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "To use up the supply or resources of.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'amiable'?",
     "answer": "friendly",
-    "options": ["hostile", "friendly", "quiet", "greedy"],
+    "options": [
+      "hostile",
+      "friendly",
+      "quiet",
+      "greedy"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Having or displaying a friendly and pleasant manner.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'scarcity'?",
     "answer": "abundance",
-    "options": ["shortage", "poverty", "abundance", "lack"],
+    "options": [
+      "shortage",
+      "poverty",
+      "abundance",
+      "lack"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Scarcity means there is very little of something.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the 'gerund' in: 'Swimming is my favorite hobby.'",
     "answer": "Swimming",
-    "options": ["Swimming", "favorite", "hobby", "is"],
+    "options": [
+      "Swimming",
+      "favorite",
+      "hobby",
+      "is"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "A verb ending in '-ing' that acts as a noun.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word means 'a speech given by one person to express their thoughts aloud'?",
     "answer": "soliloquy",
-    "options": ["dialogue", "soliloquy", "prologue", "epilogue"],
+    "options": [
+      "dialogue",
+      "soliloquy",
+      "prologue",
+      "epilogue"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Often found in Shakespearean plays.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The ruins of the ancient city were a ____ reminder of the empire's former glory.'",
     "answer": "poignant",
-    "options": ["joyful", "poignant", "noisy", "forgotten"],
+    "options": [
+      "joyful",
+      "poignant",
+      "noisy",
+      "forgotten"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Evoking a keen sense of sadness or regret.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'mitigate'?",
     "answer": "reduce",
-    "options": ["increase", "ignore", "reduce", "create"],
+    "options": [
+      "increase",
+      "ignore",
+      "reduce",
+      "create"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "To make something bad less severe, serious, or painful.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'vague'?",
     "answer": "explicit",
-    "options": ["unclear", "explicit", "shadowy", "confusing"],
+    "options": [
+      "unclear",
+      "explicit",
+      "shadowy",
+      "confusing"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Vague means uncertain or indefinite.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the 'prepositional phrase' in: 'The keys are on the kitchen table.'",
     "answer": "on the kitchen table",
-    "options": ["The keys", "are", "on the kitchen table", "kitchen table"],
+    "options": [
+      "The keys",
+      "are",
+      "on the kitchen table",
+      "kitchen table"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "It begins with a preposition and ends with a noun.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word describes a person who can use both hands equally well?",
     "answer": "ambidextrous",
-    "options": ["ambiguous", "ambivalent", "ambidextrous", "dexterous"],
+    "options": [
+      "ambiguous",
+      "ambivalent",
+      "ambidextrous",
+      "dexterous"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Root 'ambi-' means both.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The ____ kitten refused to come out from under the sofa.'",
     "answer": "timid",
-    "options": ["bold", "timid", "fierce", "large"],
+    "options": [
+      "bold",
+      "timid",
+      "fierce",
+      "large"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Showing a lack of courage or confidence; easily frightened.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'superficial'?",
     "answer": "shallow",
-    "options": ["deep", "shallow", "wise", "serious"],
+    "options": [
+      "deep",
+      "shallow",
+      "wise",
+      "serious"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Only concerned with what is on the surface.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'audacious'?",
     "answer": "timid",
-    "options": ["bold", "daring", "timid", "brave"],
+    "options": [
+      "bold",
+      "daring",
+      "timid",
+      "brave"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Audacious means showing a willingness to take surprisingly bold risks.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which of these is a 'complex sentence'?",
     "answer": "When the bell rang, the students left.",
-    "options": ["The students left.", "The bell rang and the students left.", "When the bell rang, the students left.", "The students ran quickly."],
+    "options": [
+      "The students left.",
+      "The bell rang and the students left.",
+      "When the bell rang, the students left.",
+      "The students ran quickly."
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Contains one independent clause and at least one dependent clause.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the meaning of the word 'apathetic'?",
     "answer": "showing no interest",
-    "options": ["very excited", "showing no interest", "extremely angry", "deeply sad"],
+    "options": [
+      "very excited",
+      "showing no interest",
+      "extremely angry",
+      "deeply sad"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Someone who just doesn't care either way.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The heavy fog made the mountain peaks ____ to the climbers.'",
     "answer": "imperceptible",
-    "options": ["clear", "imperceptible", "beautiful", "near"],
+    "options": [
+      "clear",
+      "imperceptible",
+      "beautiful",
+      "near"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Impossible to perceive or see.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'exacerbate'?",
     "answer": "worsen",
-    "options": ["improve", "worsen", "fix", "ignore"],
+    "options": [
+      "improve",
+      "worsen",
+      "fix",
+      "ignore"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "To make a problem or bad situation even worse.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'lethargic'?",
     "answer": "energetic",
-    "options": ["tired", "lazy", "energetic", "slow"],
+    "options": [
+      "tired",
+      "lazy",
+      "energetic",
+      "slow"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Lethargic means affected by lethargy; sluggish.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the 'antecedent' of the pronoun 'it' in: 'The car hit the tree and it was damaged.'?",
     "answer": "The car",
-    "options": ["The car", "The tree", "damaged", "hit"],
+    "options": [
+      "The car",
+      "The tree",
+      "damaged",
+      "hit"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The noun that the pronoun refers back to.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word describes the 'main character' of a story?",
     "answer": "protagonist",
-    "options": ["antagonist", "protagonist", "narrator", "villain"],
+    "options": [
+      "antagonist",
+      "protagonist",
+      "narrator",
+      "villain"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The leading character or one of the major characters.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'His ____ behavior at the party made everyone feel uncomfortable.'",
     "answer": "erratic",
-    "options": ["predictable", "erratic", "calm", "polite"],
+    "options": [
+      "predictable",
+      "erratic",
+      "calm",
+      "polite"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Not even or regular in pattern or movement; unpredictable.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'capricious'?",
     "answer": "unpredictable",
-    "options": ["steady", "unpredictable", "slow", "kind"],
+    "options": [
+      "steady",
+      "unpredictable",
+      "slow",
+      "kind"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Given to sudden and unaccountable changes of mood or behavior.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'rigid'?",
     "answer": "flexible",
-    "options": ["stiff", "firm", "flexible", "hard"],
+    "options": [
+      "stiff",
+      "firm",
+      "flexible",
+      "hard"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Rigid means unable to bend or be forced out of shape.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which of these is an 'interjection'?",
     "answer": "Alas!",
-    "options": ["Quickly", "Because", "Alas!", "Under"],
+    "options": [
+      "Quickly",
+      "Because",
+      "Alas!",
+      "Under"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "An abrupt remark used as an exclamation.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is 'alliteration'?",
     "answer": "repetition of initial consonant sounds",
-    "options": ["repetition of vowel sounds", "repetition of initial consonant sounds", "rhyming at the end of lines", "using like or as"],
+    "options": [
+      "repetition of vowel sounds",
+      "repetition of initial consonant sounds",
+      "rhyming at the end of lines",
+      "using like or as"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Think of 'Peter Piper picked a peck...'",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The ____ speaker held the audience's attention for over an hour.'",
     "answer": "charismatic",
-    "options": ["boring", "charismatic", "quiet", "dull"],
+    "options": [
+      "boring",
+      "charismatic",
+      "quiet",
+      "dull"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Exercising a compelling charm which inspires devotion in others.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'formidable'?",
     "answer": "intimidating",
-    "options": ["easy", "weak", "intimidating", "friendly"],
+    "options": [
+      "easy",
+      "weak",
+      "intimidating",
+      "friendly"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Inspiring fear or respect through being impressively large or powerful.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'obscurity'?",
     "answer": "fame",
-    "options": ["darkness", "fame", "hiding", "mystery"],
+    "options": [
+      "darkness",
+      "fame",
+      "hiding",
+      "mystery"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Obscurity is the state of being unknown or inconspicuous.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the 'transitive verb' in: 'She threw the ball.'",
     "answer": "threw",
-    "options": ["She", "threw", "ball", "the"],
+    "options": [
+      "She",
+      "threw",
+      "ball",
+      "the"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "A verb that requires an object to receive the action.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word refers to 'a word that is spelled and pronounced like another word but has a different meaning'?",
     "answer": "homonym",
-    "options": ["synonym", "antonym", "homonym", "acronym"],
+    "options": [
+      "synonym",
+      "antonym",
+      "homonym",
+      "acronym"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "For example: 'bear' (the animal) and 'bear' (to carry).",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The artist used ____ colors to create a sense of peace in the painting.'",
     "answer": "subdued",
-    "options": ["vibrant", "subdued", "harsh", "bright"],
+    "options": [
+      "vibrant",
+      "subdued",
+      "harsh",
+      "bright"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Quiet and rather reflective or depressed; soft and restrained.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'fastidious'?",
     "answer": "demanding",
-    "options": ["relaxed", "demanding", "messy", "easy-going"],
+    "options": [
+      "relaxed",
+      "demanding",
+      "messy",
+      "easy-going"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Very attentive to and concerned about accuracy and detail.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'optimistic'?",
     "answer": "pessimistic",
-    "options": ["hopeful", "cheerful", "pessimistic", "positive"],
+    "options": [
+      "hopeful",
+      "cheerful",
+      "pessimistic",
+      "positive"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Seeing the worst side of things; no hope.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which sentence contains a 'modal verb'?",
     "answer": "You must finish your homework.",
-    "options": ["You finished your homework.", "You are finishing your homework.", "You must finish your homework.", "You finish your homework."],
+    "options": [
+      "You finished your homework.",
+      "You are finishing your homework.",
+      "You must finish your homework.",
+      "You finish your homework."
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "These verbs express necessity or possibility (e.g., must, could, should).",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is an 'oxymoron'?",
     "answer": "a figure of speech in which apparently contradictory terms appear in conjunction",
-    "options": ["a comparison using like or as", "an extreme exaggeration", "contradictory terms used together", "repetition of sounds"],
+    "options": [
+      "a comparison using like or as",
+      "an extreme exaggeration",
+      "contradictory terms used together",
+      "repetition of sounds"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Examples include 'deafening silence' or 'bittersweet'.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The ____ mountain air made the hikers feel refreshed.'",
     "answer": "bracing",
-    "options": ["heavy", "stuffy", "bracing", "hot"],
+    "options": [
+      "heavy",
+      "stuffy",
+      "bracing",
+      "hot"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Fresh and invigorating.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is a synonym for 'indigenous'?",
     "answer": "native",
-    "options": ["foreign", "native", "new", "traveling"],
+    "options": [
+      "foreign",
+      "native",
+      "new",
+      "traveling"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Originating or occurring naturally in a particular place.",
     "topic": "synonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "What is the antonym of 'complex'?",
     "answer": "elementary",
-    "options": ["difficult", "elementary", "intricate", "winding"],
+    "options": [
+      "difficult",
+      "elementary",
+      "intricate",
+      "winding"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Complex means consisting of many different and connected parts.",
     "topic": "antonyms",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Identify the 'auxiliary verb' in: 'He has been working all day.'",
     "answer": "has been",
-    "options": ["has been", "working", "all day", "He"],
+    "options": [
+      "has been",
+      "working",
+      "all day",
+      "He"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "A helping verb that adds functional or grammatical meaning.",
     "topic": "grammar",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Which word refers to 'the time and place in which a story happens'?",
     "answer": "setting",
-    "options": ["plot", "setting", "theme", "climax"],
+    "options": [
+      "plot",
+      "setting",
+      "theme",
+      "climax"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "It provides the backdrop for the action.",
     "topic": "vocabulary",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   },
   {
     "question": "Complete the sentence: 'The team’s ____ effort led to their eventual victory in the championship.'",
     "answer": "concerted",
-    "options": ["lazy", "concerted", "brief", "solo"],
+    "options": [
+      "lazy",
+      "concerted",
+      "brief",
+      "solo"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Jointly arranged or carried out; coordinated.",
     "topic": "sentence_completion",
-    "answertype": ["text", "mcq"]
+    "answertype": [
+      "text",
+      "mcq"
+    ]
   }
 ]
