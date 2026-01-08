@@ -588,18 +588,6 @@
     ]
   },
   {
-    "question": "A person's age is {{x}} years. What is their age in months?",
-    "formula": "{{x}} * 12",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "There are 12 months in a year.",
-    "topic": "conversion",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
     "question": "A runner completes a {{x}} km race. How many meters did they run?",
     "formula": "{{x}} * 1000",
     "difficulty": "hard",
@@ -1679,18 +1667,6 @@
     ]
   },
   {
-    "question": "How many minutes are in {{x}} hours?",
-    "formula": "{{x}} * 60",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Multiply the number of hours by 60.",
-    "topic": "time",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
     "question": "What is the total of {{x}}, {{y}}, and {{z}}?",
     "formula": "{{x}} + {{y}} + {{z}}",
     "difficulty": "easy",
@@ -1733,18 +1709,6 @@
     "level": "junior",
     "hint": "Multiply the length by the width.",
     "topic": "geometry",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
-    "question": "How many days are in {{x}} weeks?",
-    "formula": "{{x}} * 7",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Multiply the number of weeks by 7.",
-    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -1871,18 +1835,6 @@
     ]
   },
   {
-    "question": "Subtract {{y}} from {{x}}.",
-    "formula": "{{x}} - {{y}}",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Perform the subtraction to find the difference.",
-    "topic": "basic",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
     "question": "How many centimeters are in {{x}} millimeters?",
     "formula": "{{x}} / 10",
     "difficulty": "easy",
@@ -1979,18 +1931,6 @@
     ]
   },
   {
-    "question": "How many months are in {{x}} years?",
-    "formula": "{{x}} * 12",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Multiply the number of years by 12.",
-    "topic": "time",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
     "question": "Divide {{x}} by {{y}}.",
     "formula": "{{x}} / {{y}}",
     "difficulty": "easy",
@@ -2034,18 +1974,6 @@
     "hint": "Count the corners of a 3D box.",
     "topic": "geometry",
     "answertype": [
-      "text"
-    ]
-  },
-  {
-    "question": "How many hours are in {{x}} days?",
-    "formula": "{{x}} * 24",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Multiply the number of days by 24.",
-    "topic": "time",
-    "answertype": [
-      "mcq",
       "text"
     ]
   },
@@ -3461,17 +3389,6 @@
     ]
   },
   {
-    "question": "How many faces does a cube have?",
-    "formula": "6",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think of a standard six-sided die.",
-    "topic": "geometry",
-    "answertype": [
-      "text"
-    ]
-  },
-  {
     "question": "What is the term for a 2D shape that can be folded to create a 3D object?",
     "formula": "Net",
     "difficulty": "easy",
@@ -3543,17 +3460,6 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of a soda can.",
-    "topic": "geometry",
-    "answertype": [
-      "text"
-    ]
-  },
-  {
-    "question": "How many sides does a heptagon have?",
-    "formula": "7",
-    "difficulty": "hard",
-    "level": "junior",
-    "hint": "It is also sometimes called a septagon.",
     "topic": "geometry",
     "answertype": [
       "text"
@@ -3714,28 +3620,6 @@
     ]
   },
   {
-    "question": "A quadrilateral with two pairs of parallel sides is called a ____.",
-    "formula": "Parallelogram",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Rectangles, squares, and rhombuses are all types of this.",
-    "topic": "geometry",
-    "answertype": [
-      "text"
-    ]
-  },
-  {
-    "question": "How many degrees are in each angle of an equilateral triangle?",
-    "formula": "60",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "180 divided by 3.",
-    "topic": "geometry",
-    "answertype": [
-      "text"
-    ]
-  },
-  {
     "question": "What is the name of a 12-sided polygon?",
     "formula": "Dodecagon",
     "difficulty": "hard",
@@ -3796,28 +3680,6 @@
     "difficulty": "easy",
     "level": "junior",
     "hint": "Every interior angle of a rectangle is the same size.",
-    "topic": "geometry",
-    "answertype": [
-      "text"
-    ]
-  },
-  {
-    "question": "What do you call an angle that is less than 90 degrees?",
-    "formula": "Acute",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Think: 'A cute little angle'.",
-    "topic": "geometry",
-    "answertype": [
-      "text"
-    ]
-  },
-  {
-    "question": "A triangle with at least two equal sides is called an ____ triangle.",
-    "formula": "Isosceles",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It has two 'eyes' (angles) that are the same.",
     "topic": "geometry",
     "answertype": [
       "text"
@@ -4781,18 +4643,6 @@
     ]
   },
   {
-    "question": "How many days are in {{x}} weeks?",
-    "formula": "{{x}} * 7",
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "There are 7 days in 1 week, so multiply by 7.",
-    "topic": "time",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
     "question": "If you have {{x}} stickers and you put {{y}} on each page of your notebook, how many pages can you fill?",
     "formula": "floor({{x}} / {{y}})",
     "difficulty": "easy",
@@ -5612,18 +5462,6 @@
     "level": "primary",
     "hint": "Add the amounts spent on both days together.",
     "topic": "currency",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
-    "question": "How many months are in {{x}} years?",
-    "formula": "{{x}} * 12",
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Multiply the number of years by 12.",
-    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -6567,17 +6405,6 @@
     ]
   },
   {
-    "question": "What is the name of a 3D shape that looks like a ball?",
-    "formula": "Sphere",
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Think of a basketball or a globe.",
-    "topic": "basic",
-    "answertype": [
-      "text"
-    ]
-  },
-  {
     "question": "If you split a cookie into two equal parts, what is each part called?",
     "formula": "Half",
     "difficulty": "easy",
@@ -7065,18 +6892,6 @@
     ]
   },
   {
-    "question": "How many minutes are in {{x}} hours?",
-    "formula": "{{x}} * 60",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "There are 60 minutes in every 1 hour.",
-    "topic": "time",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
     "question": "If you save ${{x}} every week, how much will you have after {{y}} weeks?",
     "formula": "{{x}} * {{y}}",
     "difficulty": "easy",
@@ -7101,18 +6916,6 @@
     ]
   },
   {
-    "question": "How many seconds are in {{x}} minutes?",
-    "formula": "{{x}} * 60",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "Multiply the number of minutes by 60.",
-    "topic": "time",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
     "question": "If a pack of {{x}} pens costs ${{y}}, what is the cost of one pen?",
     "formula": "{{y}} / {{x}}",
     "difficulty": "easy",
@@ -7131,18 +6934,6 @@
     "level": "junior",
     "hint": "Adding 30 minutes to a half-hour mark brings you to the next full hour.",
     "topic": "time",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
-    "question": "A shirt is on sale for half price. If the original price was ${{x}}, what is the sale price?",
-    "formula": "{{x}} / 2",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "To find half of a number, divide it by 2.",
-    "topic": "currency",
     "answertype": [
       "mcq",
       "text"
@@ -7221,18 +7012,6 @@
     ]
   },
   {
-    "question": "How many days are in {{x}} weeks?",
-    "formula": "{{x}} * 7",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "There are 7 days in every week.",
-    "topic": "time",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
     "question": "If you earn ${{x}} per hour and work for {{y}} hours, what is your total pay?",
     "formula": "{{x}} * {{y}}",
     "difficulty": "easy",
@@ -7286,18 +7065,6 @@
     "level": "junior",
     "hint": "Divide your total money by the price of one candy bar.",
     "topic": "currency",
-    "answertype": [
-      "mcq",
-      "text"
-    ]
-  },
-  {
-    "question": "How many months are in {{x}} years?",
-    "formula": "{{x}} * 12",
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "There are 12 months in one year.",
-    "topic": "time",
     "answertype": [
       "mcq",
       "text"
@@ -7924,1501 +7691,2701 @@
   {
     "question": "Simplify the expression: a + a + a + a",
     "formula": "4a",
-    "options": ["a4", "4a", "a+4", "4+a"],
+    "options": [
+      "a4",
+      "4a",
+      "a+4",
+      "4+a"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Count how many times 'a' is being added together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 10, what is the value of x + 5?",
     "formula": "15",
-    "options": ["5", "10", "15", "50"],
+    "options": [
+      "5",
+      "10",
+      "15",
+      "50"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Replace the letter x with the number 10.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Which of the following represents '5 times y'?",
     "formula": "5y",
-    "options": ["5+y", "y-5", "5y", "y/5"],
+    "options": [
+      "5+y",
+      "y-5",
+      "5y",
+      "y/5"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "In algebra, we write a number and letter side-by-side to show multiplication.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "In the expression 7m + 3, what is the 'coefficient'?",
     "formula": "7",
-    "options": ["7", "m", "3", "7m"],
+    "options": [
+      "7",
+      "m",
+      "3",
+      "7m"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The coefficient is the number multiplied by the variable.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 3x + 4x",
     "formula": "7x",
-    "options": ["12x", "7x", "x7", "7"],
+    "options": [
+      "12x",
+      "7x",
+      "x7",
+      "7"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the numbers together and keep the variable the same.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for '8 less than k'.",
     "formula": "k - 8",
-    "options": ["8 - k", "k - 8", "8k", "k + 8"],
+    "options": [
+      "8 - k",
+      "k - 8",
+      "8k",
+      "k + 8"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Start with k and take 8 away from it.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If b = 4, what is the value of 3b?",
     "formula": "12",
-    "options": ["7", "34", "12", "1"],
+    "options": [
+      "7",
+      "34",
+      "12",
+      "1"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "3b means 3 multiplied by the value of b.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 10y - 3y",
     "formula": "7y",
-    "options": ["13y", "7y", "7", "30y"],
+    "options": [
+      "13y",
+      "7y",
+      "7",
+      "30y"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the coefficients (10 - 3).",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "How many terms are in the expression 2a + 4b - 5?",
     "formula": "3",
-    "options": ["1", "2", "3", "4"],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Terms are separated by + or - signs.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'the sum of x and 12'.",
     "formula": "x + 12",
-    "options": ["12x", "x - 12", "x + 12", "12 - x"],
+    "options": [
+      "12x",
+      "x - 12",
+      "x + 12",
+      "12 - x"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Sum' means you need to use addition.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If p = 2 and q = 3, what is p + q?",
     "formula": "5",
-    "options": ["1", "5", "6", "23"],
+    "options": [
+      "1",
+      "5",
+      "6",
+      "23"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the two numbers together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: m + m + n + n + n",
     "formula": "2m + 3n",
-    "options": ["5mn", "2m + 3n", "m2 + n3", "m + n"],
+    "options": [
+      "5mn",
+      "2m + 3n",
+      "m2 + n3",
+      "m + n"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Group the 'm's together and the 'n's together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "What is the value of 20 / x if x = 5?",
     "formula": "4",
-    "options": ["100", "15", "4", "25"],
+    "options": [
+      "100",
+      "15",
+      "4",
+      "25"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide 20 by 5.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'twice the value of w'.",
     "formula": "2w",
-    "options": ["w + 2", "w - 2", "2w", "w/2"],
+    "options": [
+      "w + 2",
+      "w - 2",
+      "2w",
+      "w/2"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Twice' means to multiply by 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 5g * 2",
     "formula": "10g",
-    "options": ["7g", "10g", "5g2", "25g"],
+    "options": [
+      "7g",
+      "10g",
+      "5g2",
+      "25g"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the numbers together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "In the expression 4h - 9, which part is the constant?",
     "formula": "-9",
-    "options": ["4", "h", "4h", "-9"],
+    "options": [
+      "4",
+      "h",
+      "4h",
+      "-9"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The constant is the number that stands alone without a letter.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: x + x - x",
     "formula": "x",
-    "options": ["0", "x", "2x", "3x"],
+    "options": [
+      "0",
+      "x",
+      "2x",
+      "3x"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "1 + 1 - 1 = ?",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If y = 7, what is 2y + 1?",
     "formula": "15",
-    "options": ["15", "10", "16", "14"],
+    "options": [
+      "15",
+      "10",
+      "16",
+      "14"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply 2 by 7 first, then add 1.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression: 'Divide p by 4'.",
     "formula": "p/4",
-    "options": ["4p", "p - 4", "p/4", "4/p"],
+    "options": [
+      "4p",
+      "p - 4",
+      "p/4",
+      "4/p"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "You can show division using a fraction bar.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 6k + k",
     "formula": "7k",
-    "options": ["6k", "7k", "6", "k6"],
+    "options": [
+      "6k",
+      "7k",
+      "6",
+      "k6"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Remember that 'k' is the same as '1k'.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If a = 3 and b = 10, what is b - a?",
     "formula": "7",
-    "options": ["13", "7", "30", "3"],
+    "options": [
+      "13",
+      "7",
+      "30",
+      "3"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract 3 from 10.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "What is the variable in the expression 5z + 2?",
     "formula": "z",
-    "options": ["5", "z", "2", "5z"],
+    "options": [
+      "5",
+      "z",
+      "2",
+      "5z"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The variable is the letter representing an unknown number.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 8r / 2",
     "formula": "4r",
-    "options": ["16r", "6r", "4r", "4"],
+    "options": [
+      "16r",
+      "6r",
+      "4r",
+      "4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the number 8 by 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for '3 more than double x'.",
     "formula": "2x + 3",
-    "options": ["3x + 2", "2x + 3", "x/2 + 3", "3 - 2x"],
+    "options": [
+      "3x + 2",
+      "2x + 3",
+      "x/2 + 3",
+      "3 - 2x"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Double x' is 2x, then add 3.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If n = 5, what is n squared (n²)?",
     "formula": "25",
-    "options": ["10", "25", "15", "5"],
+    "options": [
+      "10",
+      "25",
+      "15",
+      "5"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number by itself.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 4c + 2d - c",
     "formula": "3c + 2d",
-    "options": ["5c + 2d", "3c + 2d", "6cd", "4c + d"],
+    "options": [
+      "5c + 2d",
+      "3c + 2d",
+      "6cd",
+      "4c + d"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Only combine terms with the same letter.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write 'y decreased by 6' as an expression.",
     "formula": "y - 6",
-    "options": ["6 - y", "y + 6", "y - 6", "6y"],
+    "options": [
+      "6 - y",
+      "y + 6",
+      "y - 6",
+      "6y"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Decreased' means to subtract.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 2, what is 10 - 2x?",
     "formula": "6",
-    "options": ["8", "16", "6", "4"],
+    "options": [
+      "8",
+      "16",
+      "6",
+      "4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply 2 by 2 first, then subtract from 10.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 0 * p",
     "formula": "0",
-    "options": ["p", "0", "1p", "0p"],
+    "options": [
+      "p",
+      "0",
+      "1p",
+      "0p"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Anything multiplied by zero is zero.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "How do you write 'x multiplied by y' in algebra?",
     "formula": "xy",
-    "options": ["x + y", "xy", "x/y", "x-y"],
+    "options": [
+      "x + y",
+      "xy",
+      "x/y",
+      "x-y"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "We remove the multiplication sign between variables.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If h = 12, what is h/3?",
     "formula": "4",
-    "options": ["36", "4", "9", "15"],
+    "options": [
+      "36",
+      "4",
+      "9",
+      "15"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide 12 by 3.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 5a + 5b - 2a",
     "formula": "3a + 5b",
-    "options": ["8a + 5b", "3a + 5b", "10ab", "3ab"],
+    "options": [
+      "8a + 5b",
+      "3a + 5b",
+      "10ab",
+      "3ab"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract 2a from 5a.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'the product of 7 and m'.",
     "formula": "7m",
-    "options": ["7 + m", "m - 7", "7m", "m/7"],
+    "options": [
+      "7 + m",
+      "m - 7",
+      "7m",
+      "m/7"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Product' means multiplication.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If k = 1, what is 5k + 5?",
     "formula": "10",
-    "options": ["10", "5", "6", "11"],
+    "options": [
+      "10",
+      "5",
+      "6",
+      "11"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply 5 by 1, then add 5.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 12w / 12",
     "formula": "w",
-    "options": ["1", "w", "12", "0"],
+    "options": [
+      "1",
+      "w",
+      "12",
+      "0"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Any number divided by itself is 1.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'half of z'.",
     "formula": "z/2",
-    "options": ["2z", "z-2", "z/2", "z+2"],
+    "options": [
+      "2z",
+      "z-2",
+      "z/2",
+      "z+2"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Half' means dividing by 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "In the expression x + y + 7, how many variables are there?",
     "formula": "2",
-    "options": ["1", "2", "3", "0"],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Variables are the letters.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If g = 6, what is g - 6?",
     "formula": "0",
-    "options": ["6", "12", "0", "1"],
+    "options": [
+      "6",
+      "12",
+      "0",
+      "1"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the number from itself.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 3 * 4y",
     "formula": "12y",
-    "options": ["7y", "12y", "34y", "y12"],
+    "options": [
+      "7y",
+      "12y",
+      "34y",
+      "y12"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the coefficients together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write '10 more than q' as an expression.",
     "formula": "q + 10",
-    "options": ["10q", "q - 10", "q + 10", "10 - q"],
+    "options": [
+      "10q",
+      "q - 10",
+      "q + 10",
+      "10 - q"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'More than' indicates addition.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 8, what is x / 2?",
     "formula": "4",
-    "options": ["16", "4", "10", "6"],
+    "options": [
+      "16",
+      "4",
+      "10",
+      "6"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide 8 by 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: a + b + a",
     "formula": "2a + b",
-    "options": ["3ab", "2a + b", "a2 + b", "2ab"],
+    "options": [
+      "3ab",
+      "2a + b",
+      "a2 + b",
+      "2ab"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Combine the identical letters.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "What is the value of 1x if x = 45?",
     "formula": "45",
-    "options": ["1", "45", "46", "44"],
+    "options": [
+      "1",
+      "45",
+      "46",
+      "44"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "1 multiplied by any number is just that number.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'the difference between 20 and x'.",
     "formula": "20 - x",
-    "options": ["20 + x", "20x", "20 - x", "x - 20"],
+    "options": [
+      "20 + x",
+      "20x",
+      "20 - x",
+      "x - 20"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Difference' means subtraction.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 9z - z",
     "formula": "8z",
-    "options": ["9", "8", "8z", "9z"],
+    "options": [
+      "9",
+      "8",
+      "8z",
+      "9z"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of it as 9z minus 1z.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If m = 3, what is m + m + m?",
     "formula": "9",
-    "options": ["3", "6", "9", "27"],
+    "options": [
+      "3",
+      "6",
+      "9",
+      "27"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "This is the same as 3 times m.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Identify the coefficient in the term 'x'.",
     "formula": "1",
-    "options": ["0", "1", "x", "none"],
+    "options": [
+      "0",
+      "1",
+      "x",
+      "none"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "If no number is written before a letter, the coefficient is 1.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 2 * 2 * k",
     "formula": "4k",
-    "options": ["22k", "4k", "2k", "k4"],
+    "options": [
+      "22k",
+      "4k",
+      "2k",
+      "k4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the numbers first.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If f = 5 and g = 2, what is f * g?",
     "formula": "10",
-    "options": ["7", "3", "10", "52"],
+    "options": [
+      "7",
+      "3",
+      "10",
+      "52"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the two values together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'y divided by 10'.",
     "formula": "y/10",
-    "options": ["10y", "y - 10", "y/10", "10/y"],
+    "options": [
+      "10y",
+      "y - 10",
+      "y/10",
+      "10/y"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Division can be written as a fraction.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify the expression: k + k + k",
     "formula": "3k",
-    "options": ["k3", "3k", "3+k", "k+3"],
+    "options": [
+      "k3",
+      "3k",
+      "3+k",
+      "k+3"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Addition of the same variable is represented by multiplication.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 12, what is the value of x - 4?",
     "formula": "8",
-    "options": ["16", "8", "12", "4"],
+    "options": [
+      "16",
+      "8",
+      "12",
+      "4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Replace x with 12 and subtract.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Which expression represents 'the product of 3 and x'?",
     "formula": "3x",
-    "options": ["3+x", "x-3", "3x", "x/3"],
+    "options": [
+      "3+x",
+      "x-3",
+      "3x",
+      "x/3"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Product' is the result of multiplication.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Identify the constant in the expression: 4x + 9",
     "formula": "9",
-    "options": ["4", "x", "4x", "9"],
+    "options": [
+      "4",
+      "x",
+      "4x",
+      "9"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A constant is a number that doesn't have a variable attached.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 5y + 2y + y",
     "formula": "8y",
-    "options": ["7y", "8y", "10y", "y8"],
+    "options": [
+      "7y",
+      "8y",
+      "10y",
+      "y8"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Remember that 'y' is the same as '1y'.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for '7 more than m'.",
     "formula": "m + 7",
-    "options": ["7m", "m - 7", "m + 7", "7 - m"],
+    "options": [
+      "7m",
+      "m - 7",
+      "m + 7",
+      "7 - m"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'More than' indicates addition.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If a = 5, what is the value of 10a?",
     "formula": "50",
-    "options": ["15", "50", "105", "2"],
+    "options": [
+      "15",
+      "50",
+      "105",
+      "2"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "When a number and letter are together, multiply them.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 12p - 4p",
     "formula": "8p",
-    "options": ["16p", "8p", "8", "48p"],
+    "options": [
+      "16p",
+      "8p",
+      "8",
+      "48p"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract the numbers and keep the variable.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "How many terms are in the expression: 5x + 2y?",
     "formula": "2",
-    "options": ["1", "2", "3", "7"],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "7"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Terms are the 'chunks' separated by plus or minus signs.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'x divided by 2'.",
     "formula": "x/2",
-    "options": ["2x", "x-2", "x/2", "2/x"],
+    "options": [
+      "2x",
+      "x-2",
+      "x/2",
+      "2/x"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "In algebra, division is often written like a fraction.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If p = 3 and q = 4, what is p * q?",
     "formula": "12",
-    "options": ["7", "12", "34", "1"],
+    "options": [
+      "7",
+      "12",
+      "34",
+      "1"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the values of p and q together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: b + b + c + c",
     "formula": "2b + 2c",
-    "options": ["4bc", "2b + 2c", "bc2", "b2 + c2"],
+    "options": [
+      "4bc",
+      "2b + 2c",
+      "bc2",
+      "b2 + c2"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "You can only add 'like' terms together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "What is the value of x/3 if x = 18?",
     "formula": "6",
-    "options": ["54", "15", "6", "21"],
+    "options": [
+      "54",
+      "15",
+      "6",
+      "21"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide 18 by 3.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for '10 less than y'.",
     "formula": "y - 10",
-    "options": ["10 - y", "y - 10", "10y", "y + 10"],
+    "options": [
+      "10 - y",
+      "y - 10",
+      "10y",
+      "y + 10"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Less than' means you take it away from the variable.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 4 * 3h",
     "formula": "12h",
-    "options": ["7h", "12h", "12", "h12"],
+    "options": [
+      "7h",
+      "12h",
+      "12",
+      "h12"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the numbers together and keep the letter.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "In the term 15k, what is the coefficient?",
     "formula": "15",
-    "options": ["k", "15k", "15", "1"],
+    "options": [
+      "k",
+      "15k",
+      "15",
+      "1"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The coefficient is the numerical part of the term.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: a + a + a - a",
     "formula": "2a",
-    "options": ["a", "2a", "3a", "0"],
+    "options": [
+      "a",
+      "2a",
+      "3a",
+      "0"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add the first three, then subtract one.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If y = 2, what is the value of 5y - 3?",
     "formula": "7",
-    "options": ["7", "10", "13", "4"],
+    "options": [
+      "7",
+      "10",
+      "13",
+      "4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply 5 by 2 first, then subtract 3.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'double x plus 5'.",
     "formula": "2x + 5",
-    "options": ["x + 10", "2x + 5", "5x + 2", "x/2 + 5"],
+    "options": [
+      "x + 10",
+      "2x + 5",
+      "5x + 2",
+      "x/2 + 5"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Double' means multiply by 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 7m + m",
     "formula": "8m",
-    "options": ["7", "7m", "8m", "m7"],
+    "options": [
+      "7",
+      "7m",
+      "8m",
+      "m7"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Think of m as 1m.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If n = 10, what is n / 5?",
     "formula": "2",
-    "options": ["50", "2", "15", "5"],
+    "options": [
+      "50",
+      "2",
+      "15",
+      "5"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the value of n by 5.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "What is the variable in the expression 8p - 4?",
     "formula": "p",
-    "options": ["8", "p", "4", "8p"],
+    "options": [
+      "8",
+      "p",
+      "4",
+      "8p"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The variable is the letter representing an unknown number.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 10r / 5",
     "formula": "2r",
-    "options": ["50r", "5r", "2r", "2"],
+    "options": [
+      "50r",
+      "5r",
+      "2r",
+      "2"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the coefficient by 5.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for '3 times the sum of x and 2'.",
     "formula": "3(x + 2)",
-    "options": ["3x + 2", "3(x + 2)", "x + 6", "3x + 6"],
+    "options": [
+      "3x + 2",
+      "3(x + 2)",
+      "x + 6",
+      "3x + 6"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Use brackets to show the sum is multiplied as a whole.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 4, what is x squared (x²)?",
     "formula": "16",
-    "options": ["8", "12", "16", "4"],
+    "options": [
+      "8",
+      "12",
+      "16",
+      "4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the number by itself (4 times 4).",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 3a + 4b + 2a",
     "formula": "5a + 4b",
-    "options": ["9ab", "5a + 4b", "3a + 6b", "7ab"],
+    "options": [
+      "9ab",
+      "5a + 4b",
+      "3a + 6b",
+      "7ab"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Only combine the 'a' terms together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write 'y increased by 15' as an expression.",
     "formula": "y + 15",
-    "options": ["15y", "y - 15", "y + 15", "15 - y"],
+    "options": [
+      "15y",
+      "y - 15",
+      "y + 15",
+      "15 - y"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "'Increased' means use addition.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If g = 3, what is 4g + 2?",
     "formula": "14",
-    "options": ["14", "24", "9", "12"],
+    "options": [
+      "14",
+      "24",
+      "9",
+      "12"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply 4 by 3, then add 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 1 * x",
     "formula": "x",
-    "options": ["1", "x", "1x", "0"],
+    "options": [
+      "1",
+      "x",
+      "1x",
+      "0"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Any number or variable multiplied by 1 stays the same.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "How do you write 'a divided by b' in algebra?",
     "formula": "a/b",
-    "options": ["ab", "a+b", "a/b", "a-b"],
+    "options": [
+      "ab",
+      "a+b",
+      "a/b",
+      "a-b"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Use the fraction format for division.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If h = 20, what is h/4?",
     "formula": "5",
-    "options": ["80", "5", "16", "24"],
+    "options": [
+      "80",
+      "5",
+      "16",
+      "24"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "How many times does 4 go into 20?",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 8x - 3x + 2x",
     "formula": "7x",
-    "options": ["5x", "7x", "13x", "7"],
+    "options": [
+      "5x",
+      "7x",
+      "13x",
+      "7"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Work from left to right with the coefficients.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'the product of 9 and k'.",
     "formula": "9k",
-    "options": ["9+k", "k-9", "9k", "k/9"],
+    "options": [
+      "9+k",
+      "k-9",
+      "9k",
+      "k/9"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Remove the multiplication sign.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If m = 1, what is 10 - m?",
     "formula": "9",
-    "options": ["10", "9", "11", "1"],
+    "options": [
+      "10",
+      "9",
+      "11",
+      "1"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Subtract 1 from 10.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 20z / 20",
     "formula": "z",
-    "options": ["1", "z", "20", "0"],
+    "options": [
+      "1",
+      "z",
+      "20",
+      "0"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Any term divided by its coefficient becomes just the variable.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'a third of x'.",
     "formula": "x/3",
-    "options": ["3x", "x-3", "x/3", "3/x"],
+    "options": [
+      "3x",
+      "x-3",
+      "x/3",
+      "3/x"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "A 'third' means divide by 3.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "In the expression 2a + 3b + 4c, how many variables are there?",
     "formula": "3",
-    "options": ["1", "2", "3", "9"],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "9"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Count the different letters.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 0, what is 12x + 5?",
     "formula": "5",
-    "options": ["0", "12", "5", "17"],
+    "options": [
+      "0",
+      "12",
+      "5",
+      "17"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "0 times anything is 0.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 2 * 5p",
     "formula": "10p",
-    "options": ["7p", "10p", "25p", "p10"],
+    "options": [
+      "7p",
+      "10p",
+      "25p",
+      "p10"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply the numbers together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write '50 decreased by n' as an expression.",
     "formula": "50 - n",
-    "options": ["n - 50", "50n", "50 + n", "50 - n"],
+    "options": [
+      "n - 50",
+      "50n",
+      "50 + n",
+      "50 - n"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Start with 50 and take n away.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If y = 6, what is y / 2?",
     "formula": "3",
-    "options": ["12", "3", "8", "4"],
+    "options": [
+      "12",
+      "3",
+      "8",
+      "4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Divide the value of y by 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: x + y + x + y",
     "formula": "2x + 2y",
-    "options": ["4xy", "2x + 2y", "x2 + y2", "xyxy"],
+    "options": [
+      "4xy",
+      "2x + 2y",
+      "x2 + y2",
+      "xyxy"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Group the x's and the y's separately.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "What is 2x if x = 1.5?",
     "formula": "3",
-    "options": ["2.5", "3", "3.5", "4"],
+    "options": [
+      "2.5",
+      "3",
+      "3.5",
+      "4"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Double 1.5.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'the difference between x and 10'.",
     "formula": "x - 10",
-    "options": ["10 - x", "x + 10", "10x", "x - 10"],
+    "options": [
+      "10 - x",
+      "x + 10",
+      "10x",
+      "x - 10"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Difference means subtract.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 100k - k",
     "formula": "99k",
-    "options": ["100", "99k", "101k", "99"],
+    "options": [
+      "100",
+      "99k",
+      "101k",
+      "99"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "100 minus 1.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If n = 4, what is n + n + 2?",
     "formula": "10",
-    "options": ["8", "10", "12", "14"],
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Add 4 and 4 and 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Identify the coefficient in the term '12y'.",
     "formula": "12",
-    "options": ["12", "y", "12y", "none"],
+    "options": [
+      "12",
+      "y",
+      "12y",
+      "none"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "The coefficient is the number.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 5 * 2 * m",
     "formula": "10m",
-    "options": ["7m", "52m", "10m", "m10"],
+    "options": [
+      "7m",
+      "52m",
+      "10m",
+      "m10"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Multiply 5 and 2 together first.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If a = 2 and b = 5, what is a + 2b?",
     "formula": "12",
-    "options": ["12", "9", "7", "14"],
+    "options": [
+      "12",
+      "9",
+      "7",
+      "14"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Double b, then add a.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'y divided by 5'.",
     "formula": "y/5",
-    "options": ["5y", "y-5", "y/5", "5/y"],
+    "options": [
+      "5y",
+      "y-5",
+      "y/5",
+      "5/y"
+    ],
     "difficulty": "easy",
     "level": "junior",
     "hint": "Use the fraction bar to show division.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Expand and simplify: 3(x + 4) + 2(x - 1)",
     "formula": "5x + 10",
-    "options": ["5x + 10", "5x + 11", "5x + 3", "6x + 10"],
+    "options": [
+      "5x + 10",
+      "5x + 11",
+      "5x + 3",
+      "6x + 10"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the number outside the bracket by everything inside, then collect like terms.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If a = 3 and b = -2, find the value of a² + 2b.",
     "formula": "5",
-    "options": ["13", "5", "7", "1"],
+    "options": [
+      "13",
+      "5",
+      "7",
+      "1"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Remember that a squared is 3 * 3, and adding a negative is like subtracting.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify the expression: 4x² + 3x - x² + 5x",
     "formula": "3x² + 8x",
-    "options": ["3x² + 8x", "5x² + 8x", "11x", "3x² - 2x"],
+    "options": [
+      "3x² + 8x",
+      "5x² + 8x",
+      "11x",
+      "3x² - 2x"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Group the x² terms together and the x terms together. They cannot be mixed!",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "A taxi charges a flat fee of $5 plus $m per kilometer. Write an expression for the total cost of a journey that is 'k' kilometers long.",
     "formula": "5 + mk",
-    "options": ["5mk", "5 + m + k", "5 + mk", "m(5 + k)"],
+    "options": [
+      "5mk",
+      "5 + m + k",
+      "5 + mk",
+      "m(5 + k)"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the rate per km by the distance, then add the starting fee.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 10a - (3a + 2)",
     "formula": "7a - 2",
-    "options": ["7a + 2", "13a + 2", "7a - 2", "5a"],
+    "options": [
+      "7a + 2",
+      "13a + 2",
+      "7a - 2",
+      "5a"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The minus sign outside the bracket changes the sign of everything inside.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 5, calculate the value of 2x² - 10.",
     "formula": "40",
-    "options": ["40", "90", "20", "0"],
+    "options": [
+      "40",
+      "90",
+      "20",
+      "0"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Squaring comes before multiplication in the order of operations.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Find an expression for the perimeter of a rectangle with length 2x and width x + 3.",
     "formula": "6x + 6",
-    "options": ["3x + 3", "6x + 6", "2x² + 6x", "4x + 6"],
+    "options": [
+      "3x + 3",
+      "6x + 6",
+      "2x² + 6x",
+      "4x + 6"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Perimeter = 2 * (length + width).",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: (12y + 8) / 4",
     "formula": "3y + 2",
-    "options": ["3y + 8", "12y + 2", "3y + 2", "5y"],
+    "options": [
+      "3y + 8",
+      "12y + 2",
+      "3y + 2",
+      "5y"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide both terms in the numerator by 4.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Translate to algebra: 'The sum of x and 5, all multiplied by 3'.",
     "formula": "3(x + 5)",
-    "options": ["3x + 5", "3(x + 5)", "x + 15", "x/3 + 5"],
+    "options": [
+      "3x + 5",
+      "3(x + 5)",
+      "x + 15",
+      "x/3 + 5"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The words 'all multiplied by' suggest you need brackets.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify the expression: xy + 2x + 3xy - x",
     "formula": "4xy + x",
-    "options": ["4xy + x", "5xy", "4xy + 3x", "4x²y²"],
+    "options": [
+      "4xy + x",
+      "5xy",
+      "4xy + 3x",
+      "4x²y²"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "xy and x are different types of terms.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Evaluate 3n - 2m when n = 4 and m = 6.",
     "formula": "0",
-    "options": ["12", "0", "24", "-2"],
+    "options": [
+      "12",
+      "0",
+      "24",
+      "-2"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply 3 by 4 and 2 by 6, then find the difference.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Expand: -2(y - 5)",
     "formula": "-2y + 10",
-    "options": ["-2y - 10", "-2y + 5", "-2y + 10", "2y - 10"],
+    "options": [
+      "-2y - 10",
+      "-2y + 5",
+      "-2y + 10",
+      "2y - 10"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "A negative times a negative equals a positive.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Which of these is equivalent to 6k + 9?",
     "formula": "3(2k + 3)",
-    "options": ["3(2k + 9)", "3(2k + 3)", "6(k + 3)", "2(3k + 7)"],
+    "options": [
+      "3(2k + 9)",
+      "3(2k + 3)",
+      "6(k + 3)",
+      "2(3k + 7)"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Look for a common factor you can divide out.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: p * p * p + p + p",
     "formula": "p³ + 2p",
-    "options": ["p³ + 2p", "3p + 2p", "5p", "p³ + p²"],
+    "options": [
+      "p³ + 2p",
+      "3p + 2p",
+      "5p",
+      "p³ + p²"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Repeated multiplication gives powers; repeated addition gives coefficients.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If h = 10, find the value of (h + 5) / (h - 5).",
     "formula": "3",
-    "options": ["1", "3", "15", "5"],
+    "options": [
+      "1",
+      "3",
+      "15",
+      "5"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Calculate the top and bottom separately before dividing.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for 'the square of the sum of a and b'.",
     "formula": "(a + b)²",
-    "options": ["a² + b²", "(a + b)²", "2(a + b)", "a + b²"],
+    "options": [
+      "a² + b²",
+      "(a + b)²",
+      "2(a + b)",
+      "a + b²"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The sum happens first, then the whole thing is squared.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 5x + 2(x + 3)",
     "formula": "7x + 6",
-    "options": ["7x + 3", "7x + 6", "10x + 6", "5x + 2x + 3"],
+    "options": [
+      "7x + 3",
+      "7x + 6",
+      "10x + 6",
+      "5x + 2x + 3"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Expand the bracket first.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "What is the value of 4(2 + 3x) when x = 2?",
     "formula": "32",
-    "options": ["32", "20", "40", "24"],
+    "options": [
+      "32",
+      "20",
+      "40",
+      "24"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Solve inside the brackets first.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 3ab - 2a + 4ba",
     "formula": "7ab - 2a",
-    "options": ["7ab - 2a", "5ab", "9ab", "7a²b - 2a"],
+    "options": [
+      "7ab - 2a",
+      "5ab",
+      "9ab",
+      "7a²b - 2a"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "ab and ba are the same thing (commutative law).",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If y = x/2 + 7, find y when x = 12.",
     "formula": "13",
-    "options": ["13", "19", "6", "10"],
+    "options": [
+      "13",
+      "19",
+      "6",
+      "10"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide x by 2 before adding 7.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Expand: x(x + 4)",
     "formula": "x² + 4x",
-    "options": ["x² + 4", "2x + 4", "x² + 4x", "4x²"],
+    "options": [
+      "x² + 4",
+      "2x + 4",
+      "x² + 4x",
+      "4x²"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "x times x is x squared.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression: 'Take a number n, double it, and then subtract the whole thing from 20'.",
     "formula": "20 - 2n",
-    "options": ["2n - 20", "20 - 2n", "2(20 - n)", "20 - n²"],
+    "options": [
+      "2n - 20",
+      "20 - 2n",
+      "2(20 - n)",
+      "20 - n²"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The '20' comes first because you are subtracting FROM it.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 1/2(4x + 10)",
     "formula": "2x + 5",
-    "options": ["2x + 10", "4x + 5", "2x + 5", "x + 5"],
+    "options": [
+      "2x + 10",
+      "4x + 5",
+      "2x + 5",
+      "x + 5"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Find half of each term inside the bracket.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If m = 10 and n = 2, find the value of m² / n.",
     "formula": "50",
-    "options": ["25", "50", "10", "100"],
+    "options": [
+      "25",
+      "50",
+      "10",
+      "100"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Square m first, then divide by n.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Identify the like terms in: 3x, 3y, 2x, 5",
     "formula": "3x and 2x",
-    "options": ["3x and 3y", "3x and 2x", "2x and 5", "All are like terms"],
+    "options": [
+      "3x and 3y",
+      "3x and 2x",
+      "2x and 5",
+      "All are like terms"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Like terms must have the exact same variable part.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 4a + 3b - 2a + b",
     "formula": "2a + 4b",
-    "options": ["6a + 4b", "2a + 4b", "2a + 2b", "4ab"],
+    "options": [
+      "6a + 4b",
+      "2a + 4b",
+      "2a + 2b",
+      "4ab"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Collect the a's together and the b's together.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Evaluate 5 + 2x² when x = 3.",
     "formula": "23",
-    "options": ["23", "41", "17", "21"],
+    "options": [
+      "23",
+      "41",
+      "17",
+      "21"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Square the 3 first, then multiply by 2, then add 5.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 3(x + 2) - x",
     "formula": "2x + 6",
-    "options": ["3x + 6", "2x + 6", "2x + 2", "3x + 5"],
+    "options": [
+      "3x + 6",
+      "2x + 6",
+      "2x + 2",
+      "3x + 5"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Expand first, then subtract the x.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Find the expression for the area of a rectangle with length 'L' and width 'L - 4'.",
     "formula": "L(L - 4)",
-    "options": ["2L - 4", "L² - 4L", "L² - 4", "4L"],
+    "options": [
+      "2L - 4",
+      "L² - 4L",
+      "L² - 4",
+      "4L"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Area = Length * Width.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: (x + x + x) / 3",
     "formula": "x",
-    "options": ["3x", "x", "1", "x/3"],
+    "options": [
+      "3x",
+      "x",
+      "1",
+      "x/3"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Simplify the top first (x+x+x = 3x).",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If k = -5, what is k + 10?",
     "formula": "5",
-    "options": ["-15", "15", "5", "-5"],
+    "options": [
+      "-15",
+      "15",
+      "5",
+      "-5"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Think of a number line starting at -5 and moving 10 spaces right.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Expand and simplify: 5(2a + 1) - 3a",
     "formula": "7a + 5",
-    "options": ["10a + 5", "7a + 5", "7a + 1", "13a + 5"],
+    "options": [
+      "10a + 5",
+      "7a + 5",
+      "7a + 1",
+      "13a + 5"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Expand the bracket, then combine the 'a' terms.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression: 'A number x divided by 3, then add 10'.",
     "formula": "x/3 + 10",
-    "options": ["(x + 10)/3", "x/3 + 10", "3/x + 10", "3x + 10"],
+    "options": [
+      "(x + 10)/3",
+      "x/3 + 10",
+      "3/x + 10",
+      "3x + 10"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The division only applies to x.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 2x² + 3x²",
     "formula": "5x²",
-    "options": ["5x⁴", "6x²", "5x²", "23x²"],
+    "options": [
+      "5x⁴",
+      "6x²",
+      "5x²",
+      "23x²"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Add the coefficients, but the power stays the same.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 2 and y = 3, find the value of 3x²y.",
     "formula": "36",
-    "options": ["18", "36", "54", "12"],
+    "options": [
+      "18",
+      "36",
+      "54",
+      "12"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "3 * (x * x) * y.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 7x - 2(x - 3)",
     "formula": "5x + 6",
-    "options": ["5x - 6", "5x + 6", "9x - 6", "5x + 3"],
+    "options": [
+      "5x - 6",
+      "5x + 6",
+      "9x - 6",
+      "5x + 3"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Be careful multiplying -2 by -3.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Which of these is the same as x + x + y + y + y?",
     "formula": "2x + 3y",
-    "options": ["x²y³", "5xy", "2x + 3y", "xy⁵"],
+    "options": [
+      "x²y³",
+      "5xy",
+      "2x + 3y",
+      "xy⁵"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Count the number of x's and y's separately.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If x = 10, find the value of √(x + 15).",
     "formula": "5",
-    "options": ["25", "5", "10", "50"],
+    "options": [
+      "25",
+      "5",
+      "10",
+      "50"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Add the numbers inside the square root first.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: (4ab) / (2a)",
     "formula": "2b",
-    "options": ["2b", "2ab", "4b", "2"],
+    "options": [
+      "2b",
+      "2ab",
+      "4b",
+      "2"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "The 'a' on top and bottom will cancel each other out.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Write an expression for the total cost of 'p' pencils at 50c each and 'b' books at $2 each (in cents).",
     "formula": "50p + 200b",
-    "options": ["50p + 2b", "50p + 200b", "52pb", "p/50 + b/200"],
+    "options": [
+      "50p + 2b",
+      "50p + 200b",
+      "52pb",
+      "p/50 + b/200"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Make sure all units are in cents ($2 = 200c).",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 12x - 4x * 2",
     "formula": "4x",
-    "options": ["16x", "4x", "8x", "24x"],
+    "options": [
+      "16x",
+      "4x",
+      "8x",
+      "24x"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Follow BOMDAS: Multiply 4x by 2 before subtracting.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If z = 4, what is (z² + 4) / 2?",
     "formula": "10",
-    "options": ["10", "8", "12", "16"],
+    "options": [
+      "10",
+      "8",
+      "12",
+      "16"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Square 4, add 4, then divide by 2.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Expand: 4(3x - 2y + 1)",
     "formula": "12x - 8y + 4",
-    "options": ["12x - 2y + 4", "7x - 6y + 5", "12x - 8y + 4", "12x + 8y + 4"],
+    "options": [
+      "12x - 2y + 4",
+      "7x - 6y + 5",
+      "12x - 8y + 4",
+      "12x + 8y + 4"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the 4 by every term inside the bracket.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: m² + m + m²",
     "formula": "2m² + m",
-    "options": ["3m²", "2m² + m", "m⁴ + m", "2m⁴"],
+    "options": [
+      "3m²",
+      "2m² + m",
+      "m⁴ + m",
+      "2m⁴"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "m² and m are NOT like terms.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Find the value of 10 - (x + 3) when x = 4.",
     "formula": "3",
-    "options": ["11", "3", "9", "7"],
+    "options": [
+      "11",
+      "3",
+      "9",
+      "7"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Solve the bracket (4 + 3) first.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "What is the result of 3x * 2x?",
     "formula": "6x²",
-    "options": ["5x", "6x", "6x²", "5x²"],
+    "options": [
+      "5x",
+      "6x",
+      "6x²",
+      "5x²"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Multiply the numbers AND multiply the variables.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: 15x / 5 + 2x",
     "formula": "5x",
-    "options": ["3x + 2", "5x", "17x/5", "7x"],
+    "options": [
+      "3x + 2",
+      "5x",
+      "17x/5",
+      "7x"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide 15x by 5 first.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "If a = 1, b = 2, and c = 3, find the value of abc + 10.",
     "formula": "16",
-    "options": ["16", "15", "6", "11"],
+    "options": [
+      "16",
+      "15",
+      "6",
+      "11"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "abc means a * b * c.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Which of these expressions is factored correctly for 10x - 5?",
     "formula": "5(2x - 1)",
-    "options": ["5(2x - 5)", "2(5x - 5)", "5(2x - 1)", "10(x - 5)"],
+    "options": [
+      "5(2x - 5)",
+      "2(5x - 5)",
+      "5(2x - 1)",
+      "10(x - 5)"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Divide both 10x and 5 by the common factor 5.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   },
   {
     "question": "Simplify: (x + 2) + (x + 3) + (x + 4)",
     "formula": "3x + 9",
-    "options": ["x + 9", "3x + 9", "3x + 234", "x³ + 9"],
+    "options": [
+      "x + 9",
+      "3x + 9",
+      "3x + 234",
+      "x³ + 9"
+    ],
     "difficulty": "hard",
     "level": "junior",
     "hint": "Add all the x's and then add all the numbers.",
     "topic": "algebra",
-    "answertype": ["mcq", "text"]
+    "answertype": [
+      "mcq",
+      "text"
+    ]
   }
 ]
