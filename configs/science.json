@@ -1188,24 +1188,6 @@
     ]
   },
   {
-    "question": "What type of energy is stored in a battery?",
-    "answer": "Chemical Energy",
-    "options": [
-      "Light Energy",
-      "Sound Energy",
-      "Chemical Energy",
-      "Kinetic Energy"
-    ],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It is potential energy released during a reaction.",
-    "topic": "physics",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
     "question": "What is the largest organ of the human body?",
     "answer": "Skin",
     "options": [
@@ -3510,24 +3492,6 @@
     ]
   },
   {
-    "question": "Which of these is a source of light?",
-    "answer": "The Sun",
-    "options": [
-      "The Moon",
-      "A Mirror",
-      "The Sun",
-      "A Metal Spoon"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "It is the big star that shines during the day.",
-    "topic": "physics",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
     "question": "What part of a plant grows underground?",
     "answer": "Roots",
     "options": [
@@ -4338,24 +4302,6 @@
     ]
   },
   {
-    "question": "Which of these is a liquid?",
-    "answer": "Orange juice",
-    "options": [
-      "A book",
-      "Orange juice",
-      "An apple",
-      "A toy car"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "It is something you can pour into a cup.",
-    "topic": "chemistry",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
     "question": "What force pulls a ball down to the ground?",
     "answer": "Gravity",
     "options": [
@@ -4572,24 +4518,6 @@
     ]
   },
   {
-    "question": "Which of these is a source of light?",
-    "answer": "A flashlight",
-    "options": [
-      "A pillow",
-      "A rock",
-      "A flashlight",
-      "A book"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "You turn it on when it is dark.",
-    "topic": "physics",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
     "question": "What is the center of our solar system?",
     "answer": "The Sun",
     "options": [
@@ -4602,24 +4530,6 @@
     "level": "primary",
     "hint": "All the planets travel around it.",
     "topic": "earth_space",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
-    "question": "Which of these is a gas?",
-    "answer": "Air",
-    "options": [
-      "Milk",
-      "Wood",
-      "Air",
-      "Stone"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "It is all around you but you can't see it.",
-    "topic": "chemistry",
     "answertype": [
       "text",
       "mcq"
@@ -4872,24 +4782,6 @@
     "level": "primary",
     "hint": "It happens when the seed gets water and warmth.",
     "topic": "biology",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
-    "question": "Which of these can be attracted to a magnet?",
-    "answer": "An iron nail",
-    "options": [
-      "A plastic toy",
-      "An iron nail",
-      "A piece of paper",
-      "A wooden stick"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "It must be made of metal.",
-    "topic": "physics",
     "answertype": [
       "text",
       "mcq"
@@ -8244,24 +8136,6 @@
     ]
   },
   {
-    "question": "What type of energy is stored in a battery?",
-    "answer": "Chemical potential energy",
-    "options": [
-      "Kinetic energy",
-      "Thermal energy",
-      "Chemical potential energy",
-      "Nuclear energy"
-    ],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It is released when a circuit is completed.",
-    "topic": "physics",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
     "question": "In a pea plant, purple flowers (P) are dominant over white flowers (p). If two heterozygous plants are crossed, what is the probability of the offspring being white?",
     "answer": "25%",
     "options": [
@@ -10116,24 +9990,6 @@
     ]
   },
   {
-    "question": "What is a habitat?",
-    "answer": "The place where an organism lives",
-    "options": [
-      "A type of animal",
-      "A type of plant",
-      "The place where an organism lives",
-      "A weather pattern"
-    ],
-    "difficulty": "easy",
-    "level": "junior",
-    "hint": "It provides food, water, and shelter.",
-    "topic": "biology",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
     "question": "Which force makes it difficult to slide a heavy box across the floor?",
     "answer": "Friction",
     "options": [
@@ -11430,24 +11286,6 @@
     ]
   },
   {
-    "question": "What causes day and night?",
-    "answer": "The Earth spinning",
-    "options": [
-      "The Sun moving",
-      "The Moon blocking light",
-      "The Earth spinning",
-      "The stars blinking"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Earth rotates on its axis once every 24 hours.",
-    "topic": "Earth and Space",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
     "question": "Where do polar bears live?",
     "answer": "The Arctic",
     "options": [
@@ -12022,24 +11860,6 @@
     ]
   },
   {
-    "question": "Which of these is a liquid?",
-    "answer": "Water",
-    "options": [
-      "Ice",
-      "Water",
-      "Steam",
-      "Rock"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "It flows and takes the shape of its container.",
-    "topic": "general",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
     "question": "What do we call the Sun and the objects that orbit it?",
     "answer": "Solar System",
     "options": [
@@ -12466,24 +12286,6 @@
     "level": "primary",
     "hint": "They use light to grow.",
     "topic": "Biology",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
-    "question": "Which of these objects is magnetic?",
-    "answer": "A metal paperclip",
-    "options": [
-      "A plastic ruler",
-      "A rubber band",
-      "A wooden block",
-      "A metal paperclip"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "Magnets stick to some metals.",
-    "topic": "general",
     "answertype": [
       "text",
       "mcq"
@@ -13076,24 +12878,6 @@
     "level": "primary",
     "hint": "Earth has one, but Jupiter has many.",
     "topic": "Earth and Space",
-    "answertype": [
-      "text",
-      "mcq"
-    ]
-  },
-  {
-    "question": "Which of these animals lives in a hive?",
-    "answer": "Honeybee",
-    "options": [
-      "Bird",
-      "Ant",
-      "Honeybee",
-      "Rabbit"
-    ],
-    "difficulty": "easy",
-    "level": "primary",
-    "hint": "They make wax and honey there.",
-    "topic": "Biology",
     "answertype": [
       "text",
       "mcq"
