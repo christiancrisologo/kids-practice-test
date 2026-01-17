@@ -32,7 +32,12 @@ interface QuizConfigType {
 
 export default function SelectPage() {
   const router = useRouter();
-  const { updateSettings, setQuestions: setStoreQuestions } = useQuizStore();
+  const { updateSettings, setQuestions: setStoreQuestions, resetQuiz } = useQuizStore();
+
+  // Reset quiz state when navigating to select page
+  useEffect(() => {
+    resetQuiz();
+  }, []);
 
   const handleConfigComplete = (config: QuizConfigType) => {
     // Generate questions
