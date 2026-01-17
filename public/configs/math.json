@@ -4394,7 +4394,7 @@
     "question": "A movie ticket is ${{x}}. If you have ${{y}}, how many tickets can you buy?",
     "formula": "floor({{y}} / {{x}})",
     "difficulty": "easy",
-    "level": "primary",
+    "level": "junior",
     "hint": "Divide your money by the cost of one ticket.",
     "topic": "currency",
     "answertype": [
@@ -4454,7 +4454,7 @@
     "question": "If you wake up at {{x}}:00 AM and go to bed at {{y}}:00 PM, how many hours are you awake?",
     "formula": "({{y}} + 12) - {{x}}",
     "difficulty": "easy",
-    "level": "primary",
+    "level": "junior",
     "hint": "Change the PM time to 24-hour time by adding 12, then subtract your wake-up time.",
     "topic": "time",
     "answertype": [
@@ -4646,7 +4646,7 @@
     "question": "If you have {{x}} stickers and you put {{y}} on each page of your notebook, how many pages can you fill?",
     "formula": "floor({{x}} / {{y}})",
     "difficulty": "easy",
-    "level": "primary",
+    "level": "junior",
     "hint": "Divide the total stickers by the number per page.",
     "topic": "basic",
     "answertype": [
