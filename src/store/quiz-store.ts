@@ -290,6 +290,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
       isQuizActive: false,
       isQuizCompleted: false,
       currentStreak: 0,
+      bestStreak: 0,
       correctAnswersCount: 0,
       incorrectAnswersCount: 0,
       quizStartTime: null,
