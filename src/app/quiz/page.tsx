@@ -463,7 +463,7 @@ export default function QuizPage() {
             {/* Header: mobile and desktop differ, rest is unified */}
             {isMobile && (<div className="bg-white dark:bg-slate-800 shadow-lg p-4 sticky top-0 z-10">{headerContent}</div>)}
             {/* Unified Content for both mobile and desktop */}
-            <div className={`flex items-center justify-center p-4 min-h-screen`}>
+            <div className={`flex items-start justify-center p-4 min-h-screen`}>
                 <div className="bg-white dark:bg-slate-800 rounded-xl shadow-2xl p-8 w-full max-w-2xl relative">
                     {!isMobile && (<div className="text-center mb-8">{headerContent}</div>)}
                     {/* Countdown Animation */}

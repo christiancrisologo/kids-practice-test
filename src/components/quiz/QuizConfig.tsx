@@ -226,17 +226,17 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 flex items-center justify-center p-4">
-      <div className={`w-full ${isMobile ? 'max-w-2xl' : 'max-w-3xl'} bg-slate-800/90 rounded-3xl shadow-2xl p-8 space-y-5`}>
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 flex items-center justify-center p-3 sm:p-4">
+      <div className={`w-full ${isMobile ? 'max-w-2xl' : 'max-w-3xl'} bg-slate-800/90 rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 md:p-8 space-y-4 sm:space-y-5`}>
         {/* Header */}
-        <div className="text-center mb-6">
-          <h1 className="text-5xl font-bold text-white">{currentSubjectConfig?.label || 'Kids Practice Test'}</h1>
+        <div className="text-center mb-4 sm:mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white px-2">{currentSubjectConfig?.label || 'Kids Practice Test'}</h1>
         </div>
 
         {/* Username Input */}
-        <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
+        <div className="bg-slate-900/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-700/50">
           <h3 className="text-gray-300 text-sm font-medium mb-3">Your Name</h3>
-          <div className="flex gap-3">
+          <div className="flex flex-col sm:flex-row gap-3">
             <input
               type="text"
               value={username}
@@ -245,7 +245,7 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
               className="flex-1 p-3 rounded-lg bg-slate-700/50 text-white border border-slate-600 focus:border-blue-500 focus:outline-none transition-all placeholder-gray-500"
               autoFocus
             />
-            <button className="px-5 py-3 rounded-lg bg-slate-700/50 text-white border border-yellow-500/70 hover:bg-slate-600/50 transition-all flex items-center gap-2">
+            <button className="px-5 py-3 rounded-lg bg-slate-700/50 text-white border border-yellow-500/70 hover:bg-slate-600/50 transition-all flex items-center justify-center gap-2 whitespace-nowrap">
               🔄 Reset
             </button>
           </div>
@@ -253,16 +253,16 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
         </div>
 
         {/* Year Level Selection */}
-        <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
-          <h3 className="text-white font-medium mb-4 flex items-center gap-2">
+        <div className="bg-slate-900/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-700/50">
+          <h3 className="text-white font-medium mb-4 flex items-center gap-2 text-sm sm:text-base">
             🎓 Select Your Year Level
           </h3>
-          <div className="grid grid-cols-3 gap-3">
+          <div className="flex flex-col sm:grid sm:grid-cols-3 gap-3">
             {appSettings?.yearLevel?.map((yl: any) => (
               <button
                 key={yl.name}
                 onClick={() => setYearLevel(yl.name)}
-                className={`p-5 rounded-xl border-2 transition-all ${yearLevel === yl.name
+                className={`p-4 sm:p-5 rounded-xl border-2 transition-all ${yearLevel === yl.name
                   ? 'border-blue-500 bg-slate-700/60'
                   : 'border-slate-600/50 bg-slate-800/40'
                   }`}
@@ -282,14 +282,14 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
         </div>
 
         {/* Challenge Mode */}
-        <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
-          <h3 className="text-white font-medium mb-4 flex items-center gap-2">
+        <div className="bg-slate-900/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-700/50">
+          <h3 className="text-white font-medium mb-4 flex items-center gap-2 text-sm sm:text-base">
             🏆 Challenge Mode
           </h3>
           <select
             value={selectedChallenge}
             onChange={(e) => handleChallengeChange(e.target.value)}
-            className="w-full p-3 rounded-lg bg-slate-700/50 text-gray-300 border border-slate-600 focus:border-blue-500 focus:outline-none transition-all"
+            className="w-full p-3 rounded-lg bg-slate-700/50 text-gray-300 border border-slate-600 focus:border-blue-500 focus:outline-none transition-all text-sm sm:text-base"
           >
             {CHALLENGES.map((challenge) => (
               <option key={challenge.name} value={challenge.name}>
@@ -307,40 +307,40 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
         {/* Quiz Settings Toggle Button */}
         <button
           onClick={() => setShowQuizSettings(!showQuizSettings)}
-          className="w-full p-4 rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 transition-all flex items-center justify-center gap-2 text-white font-semibold shadow-lg"
+          className="w-full p-3 sm:p-4 rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 transition-all flex items-center justify-center gap-2 text-white font-semibold shadow-lg text-sm sm:text-base"
         >
           ⚙️ Quiz Settings
         </button>
 
         {/* Collapsible Quiz Settings */}
         {showQuizSettings && (
-          <div className="space-y-5">
+          <div className="space-y-4 sm:space-y-5">
             {/* Answer Format Selection */}
-            <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
-              <h3 className="text-white font-medium mb-4 flex items-center gap-2">
+            <div className="bg-slate-900/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-700/50">
+              <h3 className="text-white font-medium mb-4 flex items-center gap-2 text-sm sm:text-base">
                 🎯 Question Type
               </h3>
               <div className="grid grid-cols-2 gap-3">
                 <button
                   onClick={() => setAnswerFormat(AnswerFormat.TEXT)}
-                  className={`p-5 rounded-xl border-2 transition-all ${answerFormat === AnswerFormat.TEXT
+                  className={`p-4 sm:p-5 rounded-xl border-2 transition-all ${answerFormat === AnswerFormat.TEXT
                     ? 'border-blue-500 bg-slate-700/60'
                     : 'border-slate-600/50 bg-slate-800/40'
                     }`}
                 >
                   <div className="text-2xl mb-2">📝</div>
-                  <div className="text-white font-semibold text-sm mb-1">Text input</div>
+                  <div className="text-white font-semibold text-xs sm:text-sm mb-1">Text input</div>
                   <div className="text-xs text-gray-400">Type in the answer</div>
                 </button>
                 <button
                   onClick={() => setAnswerFormat(AnswerFormat.MCQ)}
-                  className={`p-5 rounded-xl border-2 transition-all ${answerFormat === AnswerFormat.MCQ
+                  className={`p-4 sm:p-5 rounded-xl border-2 transition-all ${answerFormat === AnswerFormat.MCQ
                     ? 'border-blue-500 bg-slate-700/60'
                     : 'border-slate-600/50 bg-slate-800/40'
                     }`}
                 >
                   <div className="text-2xl mb-2">🎯</div>
-                  <div className="text-white font-semibold text-sm mb-1">Multiple Choice</div>
+                  <div className="text-white font-semibold text-xs sm:text-sm mb-1">Multiple Choice</div>
                   <div className="text-xs text-gray-400">Select from the options</div>
                 </button>
               </div>
@@ -350,29 +350,29 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
             </div>
 
             {/* Difficulty Selection */}
-            <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
-              <h3 className="text-white font-medium mb-4 flex items-center gap-2">🎚️ Difficulty</h3>
+            <div className="bg-slate-900/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-700/50">
+              <h3 className="text-white font-medium mb-4 flex items-center gap-2 text-sm sm:text-base">🎚️ Difficulty</h3>
               <div className="grid grid-cols-2 gap-3">
                 <button
                   onClick={() => setDifficulty('easy')}
-                  className={`p-5 rounded-xl border-2 transition-all ${difficulty === 'easy'
+                  className={`p-4 sm:p-5 rounded-xl border-2 transition-all ${difficulty === 'easy'
                     ? 'border-blue-500 bg-slate-700/60'
                     : 'border-slate-600/50 bg-slate-800/40'
                     }`}
                 >
                   <div className="text-2xl mb-2">🟢</div>
-                  <div className="text-white font-semibold text-sm mb-1">Easy</div>
+                  <div className="text-white font-semibold text-xs sm:text-sm mb-1">Easy</div>
                   <div className="text-xs text-gray-400">Basic and common questions</div>
                 </button>
                 <button
                   onClick={() => setDifficulty('hard')}
-                  className={`p-5 rounded-xl border-2 transition-all ${difficulty === 'hard'
+                  className={`p-4 sm:p-5 rounded-xl border-2 transition-all ${difficulty === 'hard'
                     ? 'border-blue-500 bg-slate-700/60'
                     : 'border-slate-600/50 bg-slate-800/40'
                     }`}
                 >
                   <div className="text-2xl mb-2">🔴</div>
-                  <div className="text-white font-semibold text-sm mb-1">Hard</div>
+                  <div className="text-white font-semibold text-xs sm:text-sm mb-1">Hard</div>
                   <div className="text-xs text-gray-400">Complex and advance questions</div>
                 </button>
               </div>
@@ -380,13 +380,13 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
             </div>
 
             {/* Topics (Question Types) */}
-            <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
-              <h3 className="text-white font-medium mb-4 flex items-center gap-2">
+            <div className="bg-slate-900/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-700/50">
+              <h3 className="text-white font-medium mb-4 flex items-center gap-2 text-sm sm:text-base">
                 {subjectName === 'science' ? '🔬 Topics (Select Multiple)' :
                   subjectName === 'english' ? '📚 Topics (Select Multiple)' :
                     '🔢 Number Types (Select Multiple)'}
               </h3>
-              <div className="grid grid-cols-3 gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {availableTopics.map((topic: any) => {
                   const topicName = topic.name || topic;
                   const topicLabel = topic.label || formatLabel(topicName);
@@ -421,15 +421,15 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                     <button
                       key={topicName}
                       onClick={() => handleTypeToggle(topicName)}
-                      className={`p-4 rounded-xl border-2 transition-all ${selectedTypes.includes(topicName)
+                      className={`p-3 sm:p-4 rounded-xl border-2 transition-all ${selectedTypes.includes(topicName)
                         ? 'border-blue-500 bg-slate-700/60'
                         : 'border-slate-600/50 bg-slate-800/40'
                         }`}
                     >
-                      <div className="text-2xl mb-2">{getTopicIcon(topicName)}</div>
-                      <div className="text-white font-semibold text-sm mb-1">{topicLabel}</div>
+                      <div className="text-xl sm:text-2xl mb-2">{getTopicIcon(topicName)}</div>
+                      <div className="text-white font-semibold text-xs sm:text-sm mb-1">{topicLabel}</div>
                       {topicDescription && (
-                        <div className="text-xs text-gray-400">{topicDescription}</div>
+                        <div className="text-xs text-gray-400 line-clamp-2">{topicDescription}</div>
                       )}
                     </button>
                   );
@@ -444,27 +444,27 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
             </div>
 
             {/* Game Mechanics */}
-            <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
-              <h3 className="text-white font-medium mb-4 flex items-center gap-2">
+            <div className="bg-slate-900/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-700/50">
+              <h3 className="text-white font-medium mb-4 flex items-center gap-2 text-sm sm:text-base">
                 🎮 Game Mechanics
               </h3>
 
               {/* Timer Settings Header */}
               <div className="flex items-center gap-2 mb-4">
                 <span className="text-red-500">🔴</span>
-                <span className="text-white font-medium">Timer Settings</span>
+                <span className="text-white font-medium text-sm sm:text-base">Timer Settings</span>
               </div>
 
               {/* Number of Questions */}
               <div className="mb-4">
-                <div className="flex items-center justify-between mb-2">
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-400">📊</span>
-                    <span className="text-white text-sm">Number of Questions</span>
+                <div className="flex items-center justify-between mb-2 gap-2">
+                  <div className="flex items-center gap-2 flex-1 min-w-0">
+                    <span className="text-green-400 flex-shrink-0">📊</span>
+                    <span className="text-white text-xs sm:text-sm truncate">Number of Questions</span>
                   </div>
                   <button
                     onClick={() => setQuestionsEnabled(!questionsEnabled)}
-                    className={`w-12 h-6 rounded-full transition-all ${questionsEnabled ? 'bg-blue-500' : 'bg-gray-600'
+                    className={`w-12 h-6 rounded-full transition-all flex-shrink-0 ${questionsEnabled ? 'bg-blue-500' : 'bg-gray-600'
                       }`}
                   >
                     <div className={`w-5 h-5 bg-white rounded-full transition-all ${questionsEnabled ? 'ml-6' : 'ml-1'
@@ -481,21 +481,21 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                     }}
                     min="5"
                     max="50"
-                    className="w-full p-3 rounded-lg bg-slate-700/50 text-white border border-slate-600 focus:border-blue-500 focus:outline-none"
+                    className="w-full p-3 rounded-lg bg-slate-700/50 text-white border border-slate-600 focus:border-blue-500 focus:outline-none text-sm sm:text-base"
                   />
                 )}
               </div>
 
               {/* Timer per Question */}
               <div className="mb-4">
-                <div className="flex items-center justify-between mb-2">
-                  <div className="flex items-center gap-2">
-                    <span className="text-red-500">🔴</span>
-                    <span className="text-white text-sm">Timer per Question</span>
+                <div className="flex items-center justify-between mb-2 gap-2">
+                  <div className="flex items-center gap-2 flex-1 min-w-0">
+                    <span className="text-red-500 flex-shrink-0">🔴</span>
+                    <span className="text-white text-xs sm:text-sm truncate">Timer per Question</span>
                   </div>
                   <button
                     onClick={() => setTimerEnabled(!timerEnabled)}
-                    className={`w-12 h-6 rounded-full transition-all ${timerEnabled ? 'bg-blue-500' : 'bg-gray-600'
+                    className={`w-12 h-6 rounded-full transition-all flex-shrink-0 ${timerEnabled ? 'bg-blue-500' : 'bg-gray-600'
                       }`}
                   >
                     <div className={`w-5 h-5 bg-white rounded-full transition-all ${timerEnabled ? 'ml-6' : 'ml-1'
@@ -512,24 +512,24 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                     }}
                     min="5"
                     max="120"
-                    className="w-full p-3 rounded-lg bg-slate-700/50 text-white border border-slate-600 focus:border-blue-500 focus:outline-none"
+                    className="w-full p-3 rounded-lg bg-slate-700/50 text-white border border-slate-600 focus:border-blue-500 focus:outline-none text-sm sm:text-base"
                   />
                 )}
               </div>
 
               {/* Overall Game Timer */}
               <div className="mb-4">
-                <div className="flex items-center justify-between mb-2">
-                  <div className="flex-1">
+                <div className="flex items-center justify-between mb-2 gap-2">
+                  <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-red-500">🔴</span>
-                      <span className="text-white text-sm">Overall Game Timer</span>
+                      <span className="text-red-500 flex-shrink-0">🔴</span>
+                      <span className="text-white text-xs sm:text-sm">Overall Game Timer</span>
                     </div>
                     <p className="text-xs text-gray-400">Set a time limit for the entire quiz</p>
                   </div>
                   <button
                     onClick={() => setOverallTimerEnabled(!overallTimerEnabled)}
-                    className={`w-12 h-6 rounded-full transition-all ${overallTimerEnabled ? 'bg-blue-500' : 'bg-gray-600'
+                    className={`w-12 h-6 rounded-full transition-all flex-shrink-0 ${overallTimerEnabled ? 'bg-blue-500' : 'bg-gray-600'
                       }`}
                   >
                     <div className={`w-5 h-5 bg-white rounded-full transition-all ${overallTimerEnabled ? 'ml-6' : 'ml-1'
@@ -538,23 +538,23 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
                 </div>
               </div>
 
-              <p className="text-xs text-blue-400 mb-4 flex items-center gap-1">
+              <p className="text-xs text-blue-400 mb-4 flex items-center gap-1 flex-wrap">
                 💡 🔴 Primary School settings: 5 questions, 12s per question
               </p>
 
               {/* Correct Answers Goal */}
-              <div className="bg-slate-800/50 rounded-xl p-4 mb-3">
-                <div className="flex items-center justify-between">
-                  <div className="flex-1">
+              <div className="bg-slate-800/50 rounded-xl p-3 sm:p-4 mb-3">
+                <div className="flex items-center justify-between gap-2">
+                  <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-green-400">✅</span>
-                      <span className="text-white text-sm font-medium">Correct Answers Goal</span>
+                      <span className="text-green-400 flex-shrink-0">✅</span>
+                      <span className="text-white text-xs sm:text-sm font-medium">Correct Answers Goal</span>
                     </div>
                     <p className="text-xs text-gray-400">End quiz when reaching this range of correct answers</p>
                   </div>
                   <button
                     onClick={() => setCorrectAnswersEnabled(!correctAnswersEnabled)}
-                    className={`w-12 h-6 rounded-full transition-all ${correctAnswersEnabled ? 'bg-blue-500' : 'bg-gray-600'
+                    className={`w-12 h-6 rounded-full transition-all flex-shrink-0 ${correctAnswersEnabled ? 'bg-blue-500' : 'bg-gray-600'
                       }`}
                   >
                     <div className={`w-5 h-5 bg-white rounded-full transition-all ${correctAnswersEnabled ? 'ml-6' : 'ml-1'
@@ -567,18 +567,18 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
               </div>
 
               {/* Incorrect Answers Limit */}
-              <div className="bg-slate-800/50 rounded-xl p-4">
-                <div className="flex items-center justify-between">
-                  <div className="flex-1">
+              <div className="bg-slate-800/50 rounded-xl p-3 sm:p-4">
+                <div className="flex items-center justify-between gap-2">
+                  <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-red-400">❌</span>
-                      <span className="text-white text-sm font-medium">Incorrect Answers Limit</span>
+                      <span className="text-red-400 flex-shrink-0">❌</span>
+                      <span className="text-white text-xs sm:text-sm font-medium">Incorrect Answers Limit</span>
                     </div>
                     <p className="text-xs text-gray-400">End quiz when reaching this range of incorrect answers</p>
                   </div>
                   <button
                     onClick={() => setIncorrectAnswersEnabled(!incorrectAnswersEnabled)}
-                    className={`w-12 h-6 rounded-full transition-all ${incorrectAnswersEnabled ? 'bg-blue-500' : 'bg-gray-600'
+                    className={`w-12 h-6 rounded-full transition-all flex-shrink-0 ${incorrectAnswersEnabled ? 'bg-blue-500' : 'bg-gray-600'
                       }`}
                   >
                     <div className={`w-5 h-5 bg-white rounded-full transition-all ${incorrectAnswersEnabled ? 'ml-6' : 'ml-1'
@@ -592,28 +592,28 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
             </div>
 
             {/* System Settings */}
-            <div className="bg-slate-900/50 rounded-2xl p-5 border border-slate-700/50">
-              <h3 className="text-white font-medium mb-4 flex items-center gap-2">
+            <div className="bg-slate-900/50 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-slate-700/50">
+              <h3 className="text-white font-medium mb-4 flex items-center gap-2 text-sm sm:text-base">
                 ⚙️ System Settings
               </h3>
-              <div className="grid grid-cols-3 gap-3">
-                <button className="p-4 rounded-xl border-2 border-slate-600/50 bg-slate-800/40 transition-all">
-                  <div className="text-2xl mb-2">🖥️</div>
-                  <div className="text-white font-semibold text-sm mb-1">System theme</div>
+              <div className="flex flex-col sm:grid sm:grid-cols-3 gap-3">
+                <button className="p-3 sm:p-4 rounded-xl border-2 border-slate-600/50 bg-slate-800/40 transition-all">
+                  <div className="text-xl sm:text-2xl mb-2">🖥️</div>
+                  <div className="text-white font-semibold text-xs sm:text-sm mb-1">System theme</div>
                   <div className="text-xs text-gray-400">Tap to cycle themes</div>
                 </button>
-                <button className="p-4 rounded-xl border-2 border-blue-500 bg-slate-700/60 transition-all">
-                  <div className="text-2xl mb-2">✨</div>
-                  <div className="text-white font-semibold text-sm mb-1">Animations ON</div>
+                <button className="p-3 sm:p-4 rounded-xl border-2 border-blue-500 bg-slate-700/60 transition-all">
+                  <div className="text-xl sm:text-2xl mb-2">✨</div>
+                  <div className="text-white font-semibold text-xs sm:text-sm mb-1">Animations ON</div>
                   <div className="text-xs text-gray-400">Tap to turn off</div>
                 </button>
-                <button className="p-4 rounded-xl border-2 border-blue-500 bg-slate-700/60 transition-all">
-                  <div className="text-2xl mb-2">🔊</div>
-                  <div className="text-white font-semibold text-sm mb-1">Sounds ON</div>
+                <button className="p-3 sm:p-4 rounded-xl border-2 border-blue-500 bg-slate-700/60 transition-all">
+                  <div className="text-xl sm:text-2xl mb-2">🔊</div>
+                  <div className="text-white font-semibold text-xs sm:text-sm mb-1">Sounds ON</div>
                   <div className="text-xs text-gray-400">Tap to turn off</div>
                 </button>
               </div>
-              <p className="text-xs text-yellow-400 mt-3 flex items-center gap-1">
+              <p className="text-xs text-yellow-400 mt-3 flex items-center gap-1 flex-wrap">
                 💡 Settings are saved automatically and persist across sessions
               </p>
             </div>
@@ -625,7 +625,7 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
           onClick={handleSubmit}
           variant="primary"
           size="lg"
-          className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-5 rounded-xl shadow-lg text-lg"
+          className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 sm:py-5 rounded-xl shadow-lg text-base sm:text-lg"
           disabled={!username.trim()}
         >
           🚀 Start Quiz!
@@ -635,7 +635,7 @@ export function QuizConfig({ subject: routeSubject, onConfigComplete }: QuizConf
         {hasHistory && (
           <button
             onClick={() => window.location.href = '/history'}
-            className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold py-4 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg"
+            className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold py-3 sm:py-4 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg text-sm sm:text-base"
           >
             📊 View History
           </button>
